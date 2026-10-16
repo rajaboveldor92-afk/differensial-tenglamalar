@@ -11,8 +11,32 @@
 //   RATE_PER_MIN        default 6 requests per minute per client IP
 //   RATE_PER_DAY        default 120 requests per day per client IP
 //   DAILY_REQUEST_CAP   default 2000 requests per day for the whole server (cost guard)
+//   TRUST_PROXY         set to 1 only behind a trusted proxy that overwrites X-Forwarded-For
 import http from 'node:http';
+import { readFileSync } from 'node:fs';
 import Anthropic from '@anthropic-ai/sdk';
+
+/* ---------- local development environment ---------- */
+// Node does not read .env files automatically when started as `node server.js`.
+// Load backend/.env for local use, while keeping real host environment variables authoritative.
+function loadLocalEnv() {
+  if (process.env.DT_SKIP_ENV_FILE === '1') return;
+  try {
+    const text = readFileSync(new URL('.env', import.meta.url), 'utf8');
+    for (const raw of text.split(/\r?\n/)) {
+      const line = raw.trim();
+      if (!line || line.startsWith('#')) continue;
+      const m = line.match(/^([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)$/);
+      if (!m || process.env[m[1]] !== undefined) continue;
+      let value = m[2].trim();
+      if (value.length >= 2 && ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'")))) value = value.slice(1, -1);
+      process.env[m[1]] = value;
+    }
+  } catch (e) {
+    if (!e || e.code !== 'ENOENT') console.warn('Could not read backend/.env:', e && e.message ? e.message : e);
+  }
+}
+loadLocalEnv();
 
 const PORT = +(process.env.PORT || 8787);
 const MODEL = process.env.AI_MODEL || 'claude-opus-5-5';
@@ -21,7 +45,9 @@ const APP_TOKEN = process.env.APP_TOKEN || '';
 const RATE_PER_MIN = +(process.env.RATE_PER_MIN || 6);
 const RATE_PER_DAY = +(process.env.RATE_PER_DAY || 120);
 const DAILY_CAP = +(process.env.DAILY_REQUEST_CAP || 2000);
-const MAX_BODY = 16 * 1024;
+const TRUST_PROXY = /^(1|true|yes)$/i.test(process.env.TRUST_PROXY || '');
+// The app can legitimately send ~20 KB when lesson context, a solution and short history are all present.
+const MAX_BODY = 32 * 1024;
 const LANGS = { uz: 'Uzbek (Latin script)', ru: 'Russian', en: 'English' };
 const MODES = ['explain', 'hint', 'check', 'ask'];
 
@@ -42,6 +68,14 @@ function allow(ip) {
   if (r.day >= RATE_PER_DAY) return 'rate_day';
   r.min.push(now); r.day++; perIp.set(ip, r); dayCount++;
   return null;
+}
+
+function clientIp(req) {
+  if (TRUST_PROXY) {
+    const forwarded = String(req.headers['x-forwarded-for'] || '').split(',')[0].trim();
+    if (forwarded) return forwarded;
+  }
+  return req.socket.remoteAddress || '?';
 }
 
 /* ---------- prompt ---------- */
@@ -122,14 +156,23 @@ const server = http.createServer((req, res) => {
   if (req.method === 'GET' && url.pathname === '/health') return send(res, 200, { ok: true, configured: hasKey, model: hasKey ? MODEL : null });
   if (req.method !== 'POST' || url.pathname !== '/api/ai') return send(res, 404, { ok: false, error: 'not_found' });
   if (APP_TOKEN && req.headers['x-app-token'] !== APP_TOKEN) return send(res, 401, { ok: false, error: 'token' });
-  if (!hasKey) return send(res, 503, { ok: false, error: 'not_configured' });
-  let size = 0; const chunks = [];
-  req.on('data', c => { size += c.length; if (size > MAX_BODY) { req.destroy(); } else chunks.push(c); });
+
+  let size = 0; const chunks = []; let tooLarge = false;
+  req.on('data', c => {
+    if (tooLarge) return;
+    size += c.length;
+    if (size > MAX_BODY) { tooLarge = true; chunks.length = 0; }
+    else chunks.push(c);
+  });
   req.on('end', async () => {
-    let b; try { b = JSON.parse(Buffer.concat(chunks).toString('utf8')); } catch { return send(res, 400, { ok: false, error: 'bad_json' }); }
+    if (tooLarge) return send(res, 413, { ok: false, error: 'body_too_large' });
+    let b;
+    try { b = JSON.parse(Buffer.concat(chunks).toString('utf8')); }
+    catch { return send(res, 400, { ok: false, error: 'bad_json' }); }
+    if (!b || typeof b !== 'object' || Array.isArray(b)) return send(res, 400, { ok: false, error: 'bad_body' });
     if (!MODES.includes(b.mode)) return send(res, 400, { ok: false, error: 'bad_mode' });
-    const ip = (req.headers['x-forwarded-for'] || '').split(',')[0].trim() || req.socket.remoteAddress || '?';
-    const lim = allow(ip); if (lim) return send(res, 429, { ok: false, error: lim });
+    if (!hasKey) return send(res, 503, { ok: false, error: 'not_configured' });
+    const lim = allow(clientIp(req)); if (lim) return send(res, 429, { ok: false, error: lim });
     try {
       const out = await callModel(b);
       // no content logging: only an anonymous counter line
