@@ -14,7 +14,9 @@ sudo apt install android-sdk-platform-23 aapt2 dalvik-exchange zipalign apksigne
 ```
 
 - Android Studio bilan ishlasangiz ham bo‘ladi. Buning uchun `android/` dagi manifest, `res/` va `src/` fayllarini oddiy Gradle loyihasiga ko‘chiring, keyin `web/` ni `app/src/main/assets/web` ga joylang. Bu yo‘l sinab ko‘rilmagan.
-- Kod API 23 sarlavhalariga qarab kompilyatsiya qilinadi. `minSdk` 24 (Android 7.0), `targetSdk` 34.
+- Kod API 23 sarlavhalariga qarab kompilyatsiya qilinadi. `minSdk` 24 (Android 7.0), hozirgi test build `targetSdk` 34.
+
+> **Google Play uchun muhim:** 2026-yil 31-avgustdan yangi Android ilovalari va yangilanishlari Google Play'ga topshirilishi uchun Android 16 / API 36 yoki undan yuqorini target qilishi kerak. Shuning uchun hozirgi `targetSdk 34` test APK sifatida ishlatiladi, lekin Play relizi oldidan API 36 ga migratsiya, AAB build va haqiqiy qurilma sinovi alohida bajarilishi kerak. Rasmiy talab: <https://developer.android.com/google/play/requirements/target-sdk>.
 
 ## 2. Test APK
 
@@ -37,6 +39,7 @@ KEYSTORE=~/keys/dt-release.jks KEY_ALIAS=dt KEYSTORE_PASS='...' KEY_PASS='...' a
 - Kalitni yo‘qotsangiz, ilovani yangilab bo‘lmaydi. Shuning uchun zaxira nusxasini xavfsiz joyda saqlang.
 - Versiyani oshirish uchun `android/AndroidManifest.xml` dagi `versionCode` va `versionName` ni o‘zgartiring.
 - Google Play AAB formatini talab qiladi. Buning uchun Android Studio/Gradle kerak bo‘ladi, chunki bu skript faqat APK yig‘adi.
+- Hozirgi `targetSdk 34` bilan Google Play'ga yangi reliz yubormang; avval API 36 migratsiyasini bajaring va Android 16 xatti-harakat o‘zgarishlarini tekshiring.
 
 ## 4. Brauzerda sinash (APK'siz)
 
@@ -52,6 +55,8 @@ node tools/validate.js web/content/t*.js        # kontent: sxema, 3 til, KaTeX, 
 node tools/qa.js 390x844 uz light md            # 186 ekran: JS xatolari, gorizontal toshib chiqish, KaTeX xatolari, bo‘sh ekranlar
 node tools/source-map.js                        # docs/SOURCE_MAP.md ni qayta yaratadi
 ```
+
+Pull request va pushlarda `.github/workflows/ci.yml` backend testlari, hisoblash yadrosi testlari va kontent validatorini avtomatik ishga tushiradi. Playwright UI sinovi va Android APK build hozircha CI'ga kiritilmagan.
 
 ## 5. Video darslar
 
@@ -74,7 +79,7 @@ Jarayon bosqichlari:
 `--bundle t01` buyrug‘i 1-mavzuning 480p fayllarini APK ichiga qo‘shadi. Qolgan mavzularning paketlari APK'dan tashqarida turadi va ikki yo‘l bilan olinadi:
 
 - **Server orqali.** `dist/video/` dagi barcha fayllarni (tekis, papkasiz) istalgan HTTPS statik hostingga yuklang, keyin ilovada **Sozlamalar → Video server** maydoniga manzilni kiriting. Ilova `<manzil>/<fayl>` ni yuklaydi. Uzilib qolgan yuklash davom ettiriladi (HTTP Range) va har bir fayl SHA-256 bilan tekshiriladi. Shu manzil orqali videoni yuklamasdan ham tomosha qilish mumkin (480p).
-- **Zip import.** `python3 tools/video/zip_packs.py` har bir paket uchun alohida zip yaratadi (`dist/video-zips/<paket>.zip`). Zip faylini telefonga ko‘chiring, keyin **Video darslar → Paketni fayldan import qilish** tugmasini bosing. Ilova zip ichidagi fayllar manifestdagi paketga to‘liq mos kelishini (o‘lcham va SHA-256) tekshiradi.
+- **Zip import.** `python3 tools/video/zip_packs.py` har bir paket uchun alohida zip yaratadi (`dist/video-zips/<paket>.zip`). Zip faylini telefonga ko‘chiring, keyin **Video darslar → Paketni fayldan import qilish** tugmasini bosing. Ilova zip ichidagi fayllar manifestdagi paketga to‘liq mos kelishini (nomi, o‘lchami va SHA-256) tekshiradi. Noma’lum/takroriy fayl yoki manifestdan kattaroq fayl rad etiladi.
 
 ## 6. AI yordamchi serveri (`backend/`)
 
@@ -85,11 +90,13 @@ Xavfsizlik va xarajat bo‘yicha qoidalar:
 
 ```bash
 cd backend
-npm install
+npm ci
 cp .env.example .env      # ANTHROPIC_API_KEY ni kiriting; .env ni hech qachon commit qilmang
 node test.js              # tarmoqsiz testlar
-node server.js            # http://localhost:8787/health
+node server.js            # backend/.env avtomatik o‘qiladi; http://localhost:8787/health
 ```
+
+`backend/.env` faqat lokal ishga tushirish uchun avtomatik o‘qiladi. Hostingdagi haqiqiy environment/secrets qiymatlari `.env` dagi qiymatlardan ustun turadi. Reverse proxy ishlatsangiz `TRUST_PROXY=1` ni faqat proxy `X-Forwarded-For` sarlavhasini o‘zi ishonchli qayta yozadigan holatda yoqing; aks holda `0` qoldiring.
 
 Ilovani serverga ulash:
 
