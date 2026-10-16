@@ -1,0 +1,66 @@
+name: Rebuild revised video lessons
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - chatgpt/video-content-audit-2026-10-16
+    paths:
+      - '.github/workflows/rebuild-revised-videos.yml'
+
+jobs:
+  build:
+    name: build-${{ matrix.topic }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        topic: [t01, t02, t03, t04, t12, t13, t14]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install render dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng
+          sudo npm install --prefix /opt/node-tools playwright
+          sudo /opt/node-tools/node_modules/.bin/playwright install-deps chromium
+          /opt/node-tools/node_modules/.bin/playwright install chromium
+      - name: Start lesson server
+        run: |
+          python3 -m http.server 8765 -d web >/tmp/dt-video-http.log 2>&1 &
+          echo $! > /tmp/dt-video-http.pid
+          for i in {1..30}; do
+            if curl -fsS http://localhost:8765/slide.html >/dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/dt-video-http.log
+          exit 1
+      - name: Render ${{ matrix.topic }} in uz ru en, 480p and 720p
+        run: |
+          python3 tools/video/build.py \
+            --topics '${{ matrix.topic }}' \
+            --bundle '' \
+            --out 'dist/revised/${{ matrix.topic }}' \
+            --quals 480,720 \
+            --langs uz,ru,en
+      - name: Verify outputs
+        run: |
+          set -euo pipefail
+          count_mp4=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*.mp4' | wc -l)
+          count_vtt=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*.vtt' | wc -l)
+          count_txt=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*-transcript.txt' | wc -l)
+          echo "mp4=$count_mp4 vtt=$count_vtt transcript=$count_txt"
+          test "$count_mp4" -eq 12
+          test "$count_vtt" -eq 18
+          test "$count_txt" -eq 6
+          first_mp4=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*-720.mp4' | head -n 1)
+          ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height -of default=nw=1 "$first_mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: revised-${{ matrix.topic }}-all-languages-480-720
+          path: dist/revised/${{ matrix.topic }}/
+          if-no-files-found: error
+          retention-days: 7
