@@ -1,0 +1,22 @@
+# Yig'ish natijalari (APK, video paketlar, zip'lar)
+dist/
+*.apk
+*.aab
+*.zip
+*.idsig
+
+# Kalitlar va sirlar
+.env
+*.jks
+*.keystore
+.dt-test-key/
+
+# Node / Python
+node_modules/
+__pycache__/
+*.pyc
+
+# Muharrir va OS
+.DS_Store
+.idea/
+.vscode/

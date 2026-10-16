@@ -1,0 +1,6 @@
+free damped motion: x(30) = -0.0025, envelope e^(-0.2*30) = 0.0025
+forced at w=w0: numeric amplitude ~ 1.2464, theory 1.2500
+zeta=0.05  peak at w=1.995, A_max=2.503
+zeta=0.1   peak at w=1.980, A_max=1.256
+zeta=0.25  peak at w=1.871, A_max=0.516
+zeta=0.5   peak at w=1.414, A_max=0.289

@@ -1,0 +1,5 @@
+Separable: Eq(y(x), -2/(C1 + x**2))
+check: (True, 0)
+y=0 check: (True, 0)
+Linear IVP: Eq(y(x), exp(x)/3 + 2*exp(-2*x)/3)
+check: (True, 0)

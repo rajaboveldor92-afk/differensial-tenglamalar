@@ -1,0 +1,11 @@
+{
+  "name": "dt-ai-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secured AI helper backend for the 'Differensial tenglamalar' study app. Holds the API key; the app never sees it.",
+  "type": "module",
+  "main": "server.js",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.js", "test": "node test.js" },
+  "dependencies": { "@anthropic-ai/sdk": "^0.135.0" }
+}

@@ -1,0 +1,6 @@
+logistic: max |numeric - exact| = 8.24e-06
+logistic: P(15) = 999.39
+R0 = beta/gamma = 5.0
+peak of infection: day 15.3, I = 0.480
+never infected at the end: S(100) = 0.007
+S+I+R at t=100: 1.000000
