@@ -19,6 +19,7 @@ import java.nio.charset.StandardCharsets;
 
 /** Methods the web app calls as window.Android.* — all small, all local except pack downloads. */
 public class NativeBridge {
+    private static final int MAX_STATE_BYTES = 5 * 1024 * 1024;
     private final MainActivity act;
     private final PackManager packs;
     volatile boolean isDark;
@@ -39,8 +40,9 @@ public class NativeBridge {
 
     @JavascriptInterface
     public String restore() {
-        try { return new String(readAll(new java.io.FileInputStream(new File(act.getFilesDir(), "state.json"))), StandardCharsets.UTF_8); }
-        catch (Exception e) { return ""; }
+        try (InputStream in = new java.io.FileInputStream(new File(act.getFilesDir(), "state.json"))) {
+            return new String(readAll(in, MAX_STATE_BYTES), StandardCharsets.UTF_8);
+        } catch (Exception e) { return ""; }
     }
 
     @JavascriptInterface
@@ -101,8 +103,8 @@ public class NativeBridge {
     void onOpenResult(Uri uri) {
         if (uri == null) return;
         try (InputStream in = act.getContentResolver().openInputStream(uri)) {
-            byte[] b = readAll(in);
-            if (b.length > 5 * 1024 * 1024) throw new Exception("too big");
+            // Enforce the cap while reading so a huge selected file cannot first exhaust memory.
+            byte[] b = readAll(in, MAX_STATE_BYTES);
             String text = new String(b, StandardCharsets.UTF_8);
             act.js("DT.onNativeFile(" + JSONObject.quote(pendingOpenPurpose) + "," + JSONObject.quote(text) + ")");
         } catch (Exception e) {
@@ -138,14 +140,18 @@ public class NativeBridge {
     void onPackResult(Uri uri) {
         if (uri == null || pendingPacksJson == null) return;
         final String pj = pendingPacksJson;
+        pendingPacksJson = null;
         packs.importZip(uri, pj);
     }
 
-    static byte[] readAll(InputStream in) throws java.io.IOException {
+    static byte[] readAll(InputStream in, int maxBytes) throws java.io.IOException {
         ByteArrayOutputStream bo = new ByteArrayOutputStream();
-        byte[] buf = new byte[16384]; int n;
-        while ((n = in.read(buf)) > 0) bo.write(buf, 0, n);
-        in.close();
+        byte[] buf = new byte[16384]; int n, total = 0;
+        while ((n = in.read(buf)) > 0) {
+            total += n;
+            if (total > maxBytes) throw new java.io.IOException("input too large");
+            bo.write(buf, 0, n);
+        }
         return bo.toByteArray();
     }
 }
