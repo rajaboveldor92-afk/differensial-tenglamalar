@@ -39,6 +39,14 @@ public class MainActivity extends Activity {
         root.addView(web, new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         setContentView(root);
 
+        // Android 15+ enforces edge-to-edge for modern targets; Android 16 removes the opt-out.
+        // Keep the WebView outside system bars/cutouts and above the IME while letting the root background fill the window.
+        if (Build.VERSION.SDK_INT >= 35) Api30Ui.enableEdgeToEdge(this, root);
+        applyBars(false);
+
+        // targetSdk 36 no longer dispatches the legacy Back key callback on Android 16.
+        if (Build.VERSION.SDK_INT >= 33) Api33Back.register(this);
+
         WebSettings s = web.getSettings();
         s.setJavaScriptEnabled(true);
         s.setDomStorageEnabled(true);
@@ -55,7 +63,7 @@ public class MainActivity extends Activity {
         bridge = new NativeBridge(this);
         web.addJavascriptInterface(bridge, "Android");
         web.setWebViewClient(new WebViewClient() {
-            // API 24+ variant (overrides at runtime; compiled against API 23 headers)
+            @Override
             public boolean shouldOverrideUrlLoading(WebView v, WebResourceRequest req) {
                 return openExternal(req.getUrl());
             }
@@ -92,10 +100,15 @@ public class MainActivity extends Activity {
         if (customView != null) { cb.onCustomViewHidden(); return; }
         customView = view; customCallback = cb;
         savedOrientation = getRequestedOrientation();
+        root.setPadding(0, 0, 0, 0);
         root.addView(view, new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         web.setVisibility(View.GONE);
-        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
+        if (Build.VERSION.SDK_INT >= 30) {
+            Api30Ui.hideSystemBars(getWindow());
+        } else {
+            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                    | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
+        }
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE);
     }
 
@@ -104,30 +117,51 @@ public class MainActivity extends Activity {
         root.removeView(customView);
         customView = null;
         web.setVisibility(View.VISIBLE);
-        getWindow().getDecorView().setSystemUiVisibility(bridge.isDark ? 0 : View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        if (Build.VERSION.SDK_INT >= 30) Api30Ui.showSystemBars(getWindow());
         setRequestedOrientation(savedOrientation);
         if (customCallback != null) customCallback.onCustomViewHidden();
         customCallback = null;
+        applyBars(bridge != null && bridge.isDark);
+        root.requestApplyInsets();
     }
 
-    /** Status/navigation bar colours follow the app theme. */
+    /** Status/navigation bar appearance follows the app theme. */
     void applyBars(boolean dark) {
         Window w = getWindow();
         int c = dark ? Color.parseColor("#14191C") : Color.parseColor("#F6F2E9");
-        w.setStatusBarColor(c);
-        w.setNavigationBarColor(c);
-        if (customView == null) w.getDecorView().setSystemUiVisibility(dark ? 0 : View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-        web.setBackgroundColor(c);
+        if (root != null) root.setBackgroundColor(c);
+        if (Build.VERSION.SDK_INT >= 35) {
+            // With enforced edge-to-edge the window background, not an opaque system-bar color, supplies the backdrop.
+            w.setStatusBarColor(Color.TRANSPARENT);
+            w.setNavigationBarColor(Color.TRANSPARENT);
+        } else {
+            w.setStatusBarColor(c);
+            w.setNavigationBarColor(c);
+        }
+        if (customView == null) {
+            if (Build.VERSION.SDK_INT >= 30) Api30Ui.setLightSystemBars(w, !dark);
+            else w.getDecorView().setSystemUiVisibility(dark ? 0 : View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        }
+        if (web != null) web.setBackgroundColor(c);
+    }
+
+    /** Shared back-navigation path for legacy and Android 13+ predictive-back dispatch. */
+    private void handleBack() {
+        if (customView != null) { exitFullscreen(); return; }
+        web.evaluateJavascript("(window.DT && DT.onBack) ? String(DT.onBack()) : 'false'", new android.webkit.ValueCallback<String>() {
+            public void onReceiveValue(String value) {
+                if (value == null || !value.contains("true")) finishAfterBack();
+            }
+        });
     }
 
     @SuppressWarnings("deprecation")
     @Override
     public void onBackPressed() {
-        if (customView != null) { exitFullscreen(); return; }
-        web.evaluateJavascript("(window.DT && DT.onBack) ? String(DT.onBack()) : 'false'", new android.webkit.ValueCallback<String>() { public void onReceiveValue(String value) {
-            if (value == null || !value.contains("true")) finishAfterBack();
-        }});
+        // Kept for Android 12L and older. Android 13+ uses Api33Back below.
+        handleBack();
     }
+
     private void finishAfterBack() { moveTaskToBack(true); }
 
     @Override
@@ -161,4 +195,57 @@ public class MainActivity extends Activity {
     }
 
     static boolean atLeast(int api) { return Build.VERSION.SDK_INT >= api; }
+
+    /** API 33 symbols are isolated so this activity still loads safely on minSdk 24. */
+    private static final class Api33Back {
+        static void register(final MainActivity activity) {
+            activity.getOnBackInvokedDispatcher().registerOnBackInvokedCallback(
+                    android.window.OnBackInvokedDispatcher.PRIORITY_DEFAULT,
+                    new android.window.OnBackInvokedCallback() {
+                        @Override public void onBackInvoked() { activity.handleBack(); }
+                    });
+        }
+    }
+
+    /** Modern system-bar and inset APIs, called only on API 30+ (edge-to-edge setup only on API 35+). */
+    private static final class Api30Ui {
+        static void enableEdgeToEdge(final MainActivity activity, final View root) {
+            activity.getWindow().setDecorFitsSystemWindows(false);
+            root.setOnApplyWindowInsetsListener(new View.OnApplyWindowInsetsListener() {
+                @Override
+                public android.view.WindowInsets onApplyWindowInsets(View v, android.view.WindowInsets insets) {
+                    if (activity.customView != null) {
+                        v.setPadding(0, 0, 0, 0);
+                        return insets;
+                    }
+                    android.graphics.Insets bars = insets.getInsets(
+                            android.view.WindowInsets.Type.systemBars() | android.view.WindowInsets.Type.displayCutout());
+                    android.graphics.Insets ime = insets.getInsets(android.view.WindowInsets.Type.ime());
+                    v.setPadding(bars.left, bars.top, bars.right, Math.max(bars.bottom, ime.bottom));
+                    return insets;
+                }
+            });
+            root.requestApplyInsets();
+        }
+
+        static void setLightSystemBars(Window window, boolean light) {
+            android.view.WindowInsetsController controller = window.getInsetsController();
+            if (controller == null) return;
+            int mask = android.view.WindowInsetsController.APPEARANCE_LIGHT_STATUS_BARS
+                    | android.view.WindowInsetsController.APPEARANCE_LIGHT_NAVIGATION_BARS;
+            controller.setSystemBarsAppearance(light ? mask : 0, mask);
+        }
+
+        static void hideSystemBars(Window window) {
+            android.view.WindowInsetsController controller = window.getInsetsController();
+            if (controller == null) return;
+            controller.setSystemBarsBehavior(android.view.WindowInsetsController.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE);
+            controller.hide(android.view.WindowInsets.Type.systemBars());
+        }
+
+        static void showSystemBars(Window window) {
+            android.view.WindowInsetsController controller = window.getInsetsController();
+            if (controller != null) controller.show(android.view.WindowInsets.Type.systemBars());
+        }
+    }
 }
