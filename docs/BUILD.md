@@ -5,18 +5,27 @@ Ilova ikki qismdan iborat:
 - **Android qobig‘i** (`android/`): Java WebView, taxminan 600 qator kod.
 - **Oflayn veb-ilova** (`web/`): darslar, testlar, laboratoriyalar va videopleyer. U APK ichida `assets/web` sifatida joylashadi.
 
-Ilova uchun Gradle shart emas. `android/build.sh` APK'ni Android buyruq qatori vositalari bilan yig‘adi. Bu usul shu ish muhitida haqiqatan sinab ko‘rilgan.
+Ilova uchun Gradle shart emas. `android/build.sh` APK'ni Android buyruq qatori vositalari bilan yig‘adi. Android 16 migratsiyasidan so‘ng skript API 36 platformasi, Build Tools 36.0.0 va zamonaviy D8 dex kompilyatoridan foydalanadi.
 
-## 1. Talablar (Ubuntu/Debian)
+## 1. Talablar (Ubuntu/Debian/macOS)
+
+JDK 17+ va Android SDK Command-line Tools o‘rnating, so‘ng:
 
 ```bash
-sudo apt install android-sdk-platform-23 aapt2 dalvik-exchange zipalign apksigner openjdk-17-jdk zip
+sdkmanager "platforms;android-36" "build-tools;36.0.0"
 ```
 
-- Android Studio bilan ishlasangiz ham bo‘ladi. Buning uchun `android/` dagi manifest, `res/` va `src/` fayllarini oddiy Gradle loyihasiga ko‘chiring, keyin `web/` ni `app/src/main/assets/web` ga joylang. Bu yo‘l sinab ko‘rilmagan.
-- Kod API 23 sarlavhalariga qarab kompilyatsiya qilinadi. `minSdk` 24 (Android 7.0), hozirgi test build `targetSdk` 34.
+`ANDROID_SDK_ROOT` yoki `ANDROID_HOME` SDK papkasiga ko‘rsatilgan bo‘lishi kerak. Zarur bo‘lsa:
 
-> **Google Play uchun muhim:** 2026-yil 31-avgustdan yangi Android ilovalari va yangilanishlari Google Play'ga topshirilishi uchun Android 16 / API 36 yoki undan yuqorini target qilishi kerak. Shuning uchun hozirgi `targetSdk 34` test APK sifatida ishlatiladi, lekin Play relizi oldidan API 36 ga migratsiya, AAB build va haqiqiy qurilma sinovi alohida bajarilishi kerak. Rasmiy talab: <https://developer.android.com/google/play/requirements/target-sdk>.
+```bash
+export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
+```
+
+- Android Studio bilan ishlasangiz ham bo‘ladi. Buning uchun `android/` dagi manifest, `res/` va `src/` fayllarini oddiy Gradle loyihasiga ko‘chiring, keyin `web/` ni `app/src/main/assets/web` ga joylang.
+- Kod Android 16 / **API 36** sarlavhalariga qarab kompilyatsiya qilinadi. `minSdk` 24 (Android 7.0), `targetSdk` 36.
+- Android 16 uchun enforced edge-to-edge insets va predictive back callback Android qobig‘ida qo‘llab-quvvatlanadi. API 24–32 qurilmalarda eski back yo‘li saqlanadi.
+
+> **Google Play uchun muhim:** 2026-yil 31-avgustdan yangi Android ilovalari va ilova yangilanishlari Google Play'ga yuborilishi uchun Android 16 / API 36 yoki undan yuqorini target qilishi kerak. Ushbu loyiha endi `targetSdk 36` bilan yig‘iladi. Play relizi oldidan haqiqiy Android 15/16 telefon yoki emulyatorda UI, klaviatura, back gesture, video fullscreen va fayl import/eksportini sinash tavsiya etiladi. Rasmiy talab: <https://support.google.com/googleplay/android-developer/answer/11926878>.
 
 ## 2. Test APK
 
@@ -26,7 +35,8 @@ android/build.sh
 ```
 
 - Birinchi ishga tushirishda `~/.dt-test-key/` papkasida **test kaliti** yaratiladi. Bu papka repozitoriydan tashqarida turadi.
-- Test kaliti bilan imzolangan APK'ni telefonga o‘rnatish mumkin. Lekin uni Google Play'ga yuklab bo‘lmaydi va keyingi yangilanishlar ham shu kalit bilan imzolanishi kerak.
+- Test kaliti bilan imzolangan APK'ni telefonga o‘rnatish mumkin. Lekin uni Google Play'ga yuklab bo‘lmaydi va keyingi lokal yangilanishlar ham shu kalit bilan imzolanishi kerak.
+- Skript Android SDK'dagi `aapt2`, `d8`, `zipalign` va `apksigner` vositalarini ishlatadi va yakunda APK imzosini tekshiradi.
 
 ## 3. Reliz APK (o‘z kalitingiz bilan)
 
@@ -36,10 +46,10 @@ KEYSTORE=~/keys/dt-release.jks KEY_ALIAS=dt KEYSTORE_PASS='...' KEY_PASS='...' a
 ```
 
 - Kalit faylini va parolni **hech qachon** repozitoriyga qo‘shmang.
-- Kalitni yo‘qotsangiz, ilovani yangilab bo‘lmaydi. Shuning uchun zaxira nusxasini xavfsiz joyda saqlang.
+- Kalitni yo‘qotsangiz, ilovani yangilash qiyinlashadi. Shuning uchun zaxira nusxasini xavfsiz joyda saqlang.
 - Versiyani oshirish uchun `android/AndroidManifest.xml` dagi `versionCode` va `versionName` ni o‘zgartiring.
-- Google Play AAB formatini talab qiladi. Buning uchun Android Studio/Gradle kerak bo‘ladi, chunki bu skript faqat APK yig‘adi.
-- Hozirgi `targetSdk 34` bilan Google Play'ga yangi reliz yubormang; avval API 36 migratsiyasini bajaring va Android 16 xatti-harakat o‘zgarishlarini tekshiring.
+- Ushbu skript **APK** yig‘adi. Google Play relizi uchun **AAB** (`.aab`) paketini Android Studio/Gradle yoki boshqa mos bundle build jarayoni orqali tayyorlash kerak.
+- `targetSdk 36` talabi bajarilgan bo‘lsa ham, Play relizi oldidan Data safety, content rating, signing va haqiqiy qurilma testlari alohida tekshiriladi.
 
 ## 4. Brauzerda sinash (APK'siz)
 
@@ -56,7 +66,12 @@ node tools/qa.js 390x844 uz light md            # 186 ekran: JS xatolari, gorizo
 node tools/source-map.js                        # docs/SOURCE_MAP.md ni qayta yaratadi
 ```
 
-Pull request va pushlarda `.github/workflows/ci.yml` backend testlari, hisoblash yadrosi testlari va kontent validatorini avtomatik ishga tushiradi. Playwright UI sinovi va Android APK build hozircha CI'ga kiritilmagan.
+Pull request va pushlarda `.github/workflows/ci.yml` quyidagilarni avtomatik tekshiradi:
+
+- backend testlari;
+- ODE/ifoda hisoblash yadrosi va kontent validatorlari;
+- Android API 36 SDK bilan test APK yig‘ilishi;
+- APK ichidagi `targetSdkVersion:'36'` va imzo verifikatsiyasi.
 
 ## 5. Video darslar
 
