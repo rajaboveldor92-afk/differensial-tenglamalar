@@ -33,3 +33,27 @@ jobs:
       - run: node tools/test-ode.js
       - run: node tools/test-expr.js
       - run: node tools/validate.js web/content/t*.js
+
+  android-api36:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - name: Install Android 16 SDK
+        run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
+      - name: Build signed test APK
+        env:
+          ANDROID_PLATFORM_API: '36'
+          ANDROID_BUILD_TOOLS_VERSION: '36.0.0'
+        run: bash android/build.sh test
+      - name: Verify target SDK and signature
+        run: |
+          set -euo pipefail
+          APK="$(find dist -maxdepth 1 -name '*-test.apk' -print -quit)"
+          test -n "$APK"
+          "$ANDROID_SDK_ROOT/build-tools/36.0.0/aapt" dump badging "$APK" | grep -F "targetSdkVersion:'36'"
+          "$ANDROID_SDK_ROOT/build-tools/36.0.0/apksigner" verify --verbose "$APK"
