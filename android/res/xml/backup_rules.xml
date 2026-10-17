@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Back up the learning progress copy; never the downloaded video packs. -->
-<full-backup-content>
-  <include domain="file" path="state.json"/>
-  <exclude domain="file" path="packs/"/>
-</full-backup-content>

@@ -28,6 +28,7 @@ import java.util.zip.ZipInputStream;
  * and a pack is marked complete only after all files verify. Deleting a pack never touches learning progress.
  */
 class PackManager {
+    private static final long MAX_IMPORT_BYTES = 128L * 1024 * 1024;
     private final MainActivity act;
     private final File dir;
     private final ExecutorService pool = Executors.newSingleThreadExecutor();
@@ -64,17 +65,21 @@ class PackManager {
                 File d = new File(dir, id); d.mkdirs();
                 new File(d, ".complete").delete();
                 long total = 0, done = 0;
-                for (int i = 0; i < files.length(); i++) total += files.getJSONObject(i).getLong("bytes");
+                for (int i = 0; i < files.length(); i++) {
+                    JSONObject f = files.getJSONObject(i);
+                    validateFileSpec(f);
+                    total = Math.addExact(total, f.getLong("bytes"));
+                }
                 for (int i = 0; i < files.length(); i++) {
                     JSONObject f = files.getJSONObject(i);
                     String name = f.getString("name");
-                    if (!safeName(name)) throw new Exception("bad name");
+                    long expected = f.getLong("bytes");
                     File out = new File(d, name);
-                    if (out.exists() && out.length() == f.getLong("bytes") && sha256(out).equals(f.getString("sha256"))) { done += out.length(); continue; }
+                    if (out.exists() && out.length() == expected && sha256(out).equalsIgnoreCase(f.getString("sha256"))) { done += out.length(); continue; }
                     File part = new File(d, name + ".part");
-                    done = fetch(baseUrl + "/" + name, part, f.getLong("bytes"), id, done, total);
+                    done = fetch(baseUrl + "/" + name, part, expected, id, done, total);
                     progress(id, done, total, "verify", null);
-                    if (!sha256(part).equals(f.getString("sha256"))) { part.delete(); throw new Exception("checksum"); }
+                    if (part.length() != expected || !sha256(part).equalsIgnoreCase(f.getString("sha256"))) { part.delete(); throw new Exception("checksum or size"); }
                     if (!part.renameTo(out)) throw new Exception("rename");
                 }
                 new FileOutputStream(new File(d, ".complete")).close();
@@ -99,15 +104,18 @@ class PackManager {
         boolean append = code == 206;
         if (code != 200 && code != 206) throw new Exception("http " + code);
         if (!append) have = 0;
-        long done = doneBefore + have, last = 0;
+        long current = have, done = doneBefore + have, last = 0;
         try (InputStream in = c.getInputStream(); OutputStream o = new FileOutputStream(part, append)) {
             byte[] buf = new byte[65536]; int n;
             while ((n = in.read(buf)) > 0) {
+                current += n;
+                if (current > expected) throw new Exception("download larger than manifest");
                 o.write(buf, 0, n); done += n;
                 long now = System.currentTimeMillis();
                 if (now - last > 400) { last = now; progress(id, done, total, "run", null); }
             }
         } finally { c.disconnect(); }
+        if (current != expected) throw new Exception("download size mismatch");
         return done;
     }
 
@@ -117,32 +125,53 @@ class PackManager {
             File tmp = new File(dir, ".import"); deleteDir(tmp); tmp.mkdirs();
             try {
                 JSONArray packs = new JSONArray(packsJson);
-                Map<String, JSONObject> byName = new HashMap<>();
-                Map<String, String> packOf = new HashMap<>();
+                Map<String, Long> maxBytesByName = new HashMap<>();
                 for (int i = 0; i < packs.length(); i++) {
-                    JSONObject p = packs.getJSONObject(i); JSONArray fs = p.getJSONArray("files");
-                    for (int k = 0; k < fs.length(); k++) { byName.put(p.getString("id") + "/" + fs.getJSONObject(k).getString("name"), fs.getJSONObject(k)); }
+                    JSONObject p = packs.getJSONObject(i);
+                    String packId = p.getString("id");
+                    if (!safeId(packId)) throw new Exception("bad pack id");
+                    JSONArray fs = p.getJSONArray("files");
+                    for (int k = 0; k < fs.length(); k++) {
+                        JSONObject f = fs.getJSONObject(k);
+                        validateFileSpec(f);
+                        String name = f.getString("name"); long bytes = f.getLong("bytes");
+                        Long old = maxBytesByName.get(name);
+                        if (old == null || bytes > old) maxBytesByName.put(name, bytes);
+                    }
                 }
-                String found = null;
+
+                Set<String> seen = new HashSet<>();
+                long imported = 0;
                 try (ZipInputStream z = new ZipInputStream(act.getContentResolver().openInputStream(uri))) {
                     ZipEntry e;
                     while ((e = z.getNextEntry()) != null) {
                         if (e.isDirectory()) continue;
                         String n = e.getName(); n = n.substring(n.lastIndexOf('/') + 1);
-                        if (!safeName(n)) continue;
-                        try (OutputStream o = new FileOutputStream(new File(tmp, n))) { byte[] b = new byte[65536]; int r; while ((r = z.read(b)) > 0) o.write(b, 0, r); }
+                        if (!safeName(n) || !maxBytesByName.containsKey(n)) throw new Exception("unexpected file");
+                        if (!seen.add(n)) throw new Exception("duplicate file");
+                        long expectedMax = maxBytesByName.get(n), written = 0;
+                        try (OutputStream o = new FileOutputStream(new File(tmp, n))) {
+                            byte[] b = new byte[65536]; int r;
+                            while ((r = z.read(b)) > 0) {
+                                written += r; imported += r;
+                                if (written > expectedMax || imported > MAX_IMPORT_BYTES) throw new Exception("zip too large");
+                                o.write(b, 0, r);
+                            }
+                        }
                     }
                 }
-                // find the pack all of whose files are present and valid
+
+                // Find the pack all of whose files are present and valid. Extra/unknown files were rejected above.
+                String found = null;
                 for (int i = 0; i < packs.length() && found == null; i++) {
                     JSONObject p = packs.getJSONObject(i); JSONArray fs = p.getJSONArray("files"); boolean all = true;
                     for (int k = 0; k < fs.length() && all; k++) {
                         JSONObject f = fs.getJSONObject(k); File x = new File(tmp, f.getString("name"));
-                        all = x.exists() && x.length() == f.getLong("bytes") && sha256(x).equals(f.getString("sha256"));
+                        all = x.exists() && x.length() == f.getLong("bytes") && sha256(x).equalsIgnoreCase(f.getString("sha256"));
                     }
                     if (all) found = p.getString("id");
                 }
-                if (found == null) throw new Exception("no matching pack");
+                if (found == null || !safeId(found)) throw new Exception("no matching pack");
                 File d = new File(dir, found); deleteDir(d);
                 if (!tmp.renameTo(d)) throw new Exception("rename");
                 new FileOutputStream(new File(d, ".complete")).close();
@@ -152,6 +181,13 @@ class PackManager {
                 act.js("DT.onPackImported(false)");
             }
         }});
+    }
+
+    private static void validateFileSpec(JSONObject f) throws Exception {
+        String name = f.getString("name");
+        long bytes = f.getLong("bytes");
+        String hash = f.getString("sha256");
+        if (!safeName(name) || bytes < 0 || bytes > MAX_IMPORT_BYTES || hash == null || !hash.matches("(?i)[0-9a-f]{64}")) throw new Exception("bad manifest file");
     }
 
     private void progress(String id, long done, long total, String state, String msg) {
