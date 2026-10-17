@@ -1,0 +1,97 @@
+name: Video content QA
+
+on:
+  push:
+    branches:
+      - chatgpt/video-content-audit-2026-10-16
+    paths:
+      - 'web/content/video/**'
+      - 'tools/video/**'
+      - '.github/workflows/video-content-qa.yml'
+  pull_request:
+    paths:
+      - 'web/content/video/**'
+      - 'tools/video/**'
+      - '.github/workflows/video-content-qa.yml'
+
+jobs:
+  scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript syntax
+        run: |
+          set -euo pipefail
+          for f in web/content/video/*.js tools/video/dump.js; do
+            node --check "$f"
+          done
+      - name: Load all video scripts
+        run: |
+          node tools/video/dump.js > /tmp/video-scripts.json
+          node - <<'NODE'
+          const fs = require('fs');
+          const v = JSON.parse(fs.readFileSync('/tmp/video-scripts.json','utf8'));
+          const topics = Object.keys(v).sort();
+          if (topics.length !== 16) throw new Error(`expected 16 topics, got ${topics.length}: ${topics.join(', ')}`);
+          let parts = 0, segments = 0;
+          for (const [topic, data] of Object.entries(v)) {
+            if (!Array.isArray(data.parts) || data.parts.length !== 2) throw new Error(`${topic}: expected 2 video parts`);
+            for (const part of data.parts) {
+              parts++;
+              if (!part.title?.uz || !part.title?.ru || !part.title?.en) throw new Error(`${part.id}: missing translated title`);
+              if (!Array.isArray(part.segments) || !part.segments.length) throw new Error(`${part.id}: no segments`);
+              for (const seg of part.segments) {
+                segments++;
+                if (!seg.say?.uz || !seg.say?.ru || !seg.say?.en) throw new Error(`${part.id}: segment missing uz/ru/en narration`);
+              }
+            }
+          }
+          if (parts !== 32) throw new Error(`expected 32 parts, got ${parts}`);
+          console.log(`OK: ${topics.length} topics, ${parts} video parts, ${segments} narrated segments`);
+          NODE
+
+  render-smoke:
+    runs-on: ubuntu-latest
+    needs: scripts
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install video build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng
+          sudo npm install --prefix /opt/node-tools playwright
+          sudo /opt/node-tools/node_modules/.bin/playwright install-deps chromium
+          /opt/node-tools/node_modules/.bin/playwright install chromium
+      - name: Start local lesson server
+        run: |
+          python3 -m http.server 8765 -d web >/tmp/dt-video-http.log 2>&1 &
+          echo $! > /tmp/dt-video-http.pid
+          for i in {1..30}; do
+            if curl -fsS http://localhost:8765/slide.html >/dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/dt-video-http.log
+          exit 1
+      - name: Render one revised lesson
+        run: |
+          python3 tools/video/build.py --topics t01 --bundle '' --out dist/video-smoke --quals 480 --langs uz
+      - name: Verify generated media
+        run: |
+          set -euo pipefail
+          test -s dist/video-smoke/v01a-uz-480.mp4
+          test -s dist/video-smoke/v01b-uz-480.mp4
+          test -s dist/video-smoke/v01a-uz-sub-uz.vtt
+          test -s dist/video-smoke/v01a-uz-transcript.txt
+          ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height -of default=nw=1 dist/video-smoke/v01a-uz-480.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: revised-video-smoke-t01-uz-480
+          path: dist/video-smoke/
+          if-no-files-found: error
+          retention-days: 7
