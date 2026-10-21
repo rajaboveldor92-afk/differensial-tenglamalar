@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.666
+Uzun arqonni bir joyidan tortib qo‘yib yuborsak, do‘mboq ikkiga bo‘linib, ikki tomonga yuguradi.
+
+2
+00:00:06.666 --> 00:00:09.373
+Bugun buni formula bilan tushuntiramiz.
+
+3
+00:00:09.373 --> 00:00:19.094
+Darsdan so‘ng siz cheksiz tor uchun Koshi masalasini Dalamber formulasi yordamida yecha olasiz va javobni tenglamaga qo‘yib tekshira olasiz.
+
+4
+00:00:19.344 --> 00:00:24.485
+Masala: u t t teng a kvadrat u x x, butun son o‘qida.
+
+5
+00:00:24.485 --> 00:00:32.147
+Boshlang‘ich shakl u x nol teng fi x, boshlang‘ich tezlik u t x nol teng psi x.
+
+6
+00:00:32.147 --> 00:00:39.809
+Oldingi mavzudan bilamiz: umumiy yechim f x ayiruv a t qo‘shuv g x qo‘shuv a t.
+
+7
+00:00:39.809 --> 00:00:44.174
+Ikki boshlang‘ich shartdan f va g ni topamiz.
+
+8
+00:00:44.424 --> 00:00:52.662
+Natija — Dalamber formulasi: u teng fi x ayiruv a t va fi x qo‘shuv a t ning o‘rtachasi,
+
+9
+00:00:52.662 --> 00:01:01.182
+qo‘shuv bir bo‘lingan ikki a karra psi ning x ayiruv a t dan x qo‘shuv a t gacha integrali.
+
+10
+00:01:01.182 --> 00:01:06.518
+Diqqat: integral oldida bir bo‘lingan ikki a, yarim emas.
+
+11
+00:01:06.768 --> 00:01:13.927
+Misol: u t t teng to‘qqiz u x x, boshlang‘ich shakl x kvadrat, boshlang‘ich tezlik x.
+
+12
+00:01:13.927 --> 00:01:15.611
+Bu yerda a teng uch.
+
+13
+00:01:15.611 --> 00:01:22.517
+Birinchi qism: x ayiruv uch t kvadrati va x qo‘shuv uch t kvadratining o‘rtachasi,
+
+14
+00:01:22.517 --> 00:01:26.054
+ya’ni x kvadrat qo‘shuv to‘qqiz t kvadrat.
+
+15
+00:01:26.304 --> 00:01:33.719
+Ikkinchi qism: bir oltidan karra s ning x ayiruv uch t dan x qo‘shuv uch t gacha integrali.
+
+16
+00:01:33.719 --> 00:01:41.378
+Bu bir o‘n ikkidan karra kvadratlar ayirmasi, ya’ni o‘n ikki x t bo‘lingan o‘n ikki, teng x t.
+
+17
+00:01:41.378 --> 00:01:46.430
+Javob: u teng x kvadrat qo‘shuv to‘qqiz t kvadrat qo‘shuv x t.
+
+18
+00:01:46.680 --> 00:01:48.002
+Tekshiramiz.
+
+19
+00:01:48.002 --> 00:01:50.425
+u t t teng o‘n sakkiz.
+
+20
+00:01:50.425 --> 00:01:59.567
+To‘qqiz karra u x x teng to‘qqiz karra ikki, ya’ni o‘n sakkiz: tenglama bajariladi.
+
+21
+00:01:59.567 --> 00:02:02.871
+t teng nolda u teng x kvadrat.
+
+22
+00:02:02.871 --> 00:02:08.488
+u t teng o‘n sakkiz t qo‘shuv x, t nolda x ga teng.
+
+23
+00:02:08.488 --> 00:02:11.462
+Uchala shart ham bajarildi.
+
+24
+00:02:11.712 --> 00:02:19.361
+Grafikda boshlang‘ich impuls bir bo‘lingan bir qo‘shuv x kvadrat va uning t teng uch paytdagi holati.
+
+25
+00:02:19.361 --> 00:02:27.767
+Impuls balandligi yarim bo‘lgan ikki bo‘lakka bo‘lingan va ular x teng plyus-minus uch nuqtalarga yetib kelgan.
+
+26
+00:02:27.767 --> 00:02:31.478
+Shakl o‘zgarmaydi, faqat a tezlik bilan siljiydi.
+
+27
+00:02:31.728 --> 00:02:37.445
+Savol: boshlang‘ich shakl sinus x, tezlik nol, a teng bir.
+
+28
+00:02:37.445 --> 00:02:38.824
+Yechim qanday?
+
+29
+00:02:38.824 --> 00:02:46.118
+Ikki yuguruvchi sinusoidaning yig‘indisini ko‘paytmaga aylantirib ko‘ring.

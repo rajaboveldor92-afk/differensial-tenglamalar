@@ -1,0 +1,18 @@
+Cheksiz tor: Dalamber formulasi
+
+[0:00] Uzun arqonni bir joyidan tortib qo‘yib yuborsak, do‘mboq ikkiga bo‘linib, ikki tomonga yuguradi. Bugun buni formula bilan tushuntiramiz. Darsdan so‘ng siz cheksiz tor uchun Koshi masalasini Dalamber formulasi yordamida yecha olasiz va javobni tenglamaga qo‘yib tekshira olasiz.
+
+[0:21] Masala: u t t teng a kvadrat u x x, butun son o‘qida. Boshlang‘ich shakl u x nol teng fi x, boshlang‘ich tezlik u t x nol teng psi x. Oldingi mavzudan bilamiz: umumiy yechim f x ayiruv a t qo‘shuv g x qo‘shuv a t. Ikki boshlang‘ich shartdan f va g ni topamiz.
+
+[0:44] Natija — Dalamber formulasi: u teng fi x ayiruv a t va fi x qo‘shuv a t ning o‘rtachasi, qo‘shuv bir bo‘lingan ikki a karra psi ning x ayiruv a t dan x qo‘shuv a t gacha integrali. Diqqat: integral oldida bir bo‘lingan ikki a, yarim emas.
+
+[1:05] Misol: u t t teng to‘qqiz u x x, boshlang‘ich shakl x kvadrat, boshlang‘ich tezlik x. Bu yerda a teng uch. Birinchi qism: x ayiruv uch t kvadrati va x qo‘shuv uch t kvadratining o‘rtachasi, ya’ni x kvadrat qo‘shuv to‘qqiz t kvadrat.
+
+[1:26] Ikkinchi qism: bir oltidan karra s ning x ayiruv uch t dan x qo‘shuv uch t gacha integrali. Bu bir o‘n ikkidan karra kvadratlar ayirmasi, ya’ni o‘n ikki x t bo‘lingan o‘n ikki, teng x t. Javob: u teng x kvadrat qo‘shuv to‘qqiz t kvadrat qo‘shuv x t.
+
+[1:47] Tekshiramiz. u t t teng o‘n sakkiz. To‘qqiz karra u x x teng to‘qqiz karra ikki, ya’ni o‘n sakkiz: tenglama bajariladi. t teng nolda u teng x kvadrat. u t teng o‘n sakkiz t qo‘shuv x, t nolda x ga teng. Uchala shart ham bajarildi.
+
+[2:10] Grafikda boshlang‘ich impuls bir bo‘lingan bir qo‘shuv x kvadrat va uning t teng uch paytdagi holati. Impuls balandligi yarim bo‘lgan ikki bo‘lakka bo‘lingan va ular x teng plyus-minus uch nuqtalarga yetib kelgan. Shakl o‘zgarmaydi, faqat a tezlik bilan siljiydi.
+
+[2:30] Savol: boshlang‘ich shakl sinus x, tezlik nol, a teng bir. Yechim qanday? Ikki yuguruvchi sinusoidaning yig‘indisini ko‘paytmaga aylantirib ko‘ring.
+

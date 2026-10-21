@@ -1,0 +1,16 @@
+Hoyn, RK4 va barqarorlik
+
+[0:00] Eyler usuli sodda, lekin aniqligi past. Bu qismda og‘ishni bir necha nuqtada olib, o‘rtachasini ishlatadigan usullarni ko‘ramiz: takomillashtirilgan Eyler, ya’ni Hoyn usuli, va klassik Runge–Kutta usuli. Keyin katta qadam nima uchun xavfli ekanini bilib olamiz.
+
+[0:23] Hoyn usulida avval Eyler bilan bashorat qilamiz, so‘ng qadam oxiridagi og‘ishni hisoblaymiz va ikki og‘ishning o‘rtachasi bilan qadam qo‘yamiz. RK4 to‘rtta og‘ishni oladi: boshida, ikki marta o‘rtada va oxirida, va ularni bir, ikki, ikki, bir vaznlari bilan o‘rtachalaydi.
+
+[0:46] Yana y shtrix teng x plyus y, y nolda bir, h nol butun o‘ndan bir. RK4 da k bir teng bir. k ikki — o‘rta nuqtada: x nol butun yuzdan besh, y bir butun yuzdan besh, demak k ikki teng bir butun o‘ndan bir.
+
+[1:06] k uch ham o‘rta nuqtada, lekin k ikki bilan hisoblanadi: bir butun mingdan bir yuz besh. k to‘rt qadam oxirida: bir butun o‘n mingdan ikki ming bir yuz besh. Vaznli o‘rtacha bilan y bir taxminan bir butun mingdan bir yuz o‘n chiqadi, aniq qiymatdan farqi esa o‘n milliondan ikki atrofida.
+
+[1:30] Uchala usulni x nol butun beshda solishtiramiz. Qadam ikki marta kamayganda Eyler xatosi ikki, Hoyn xatosi to‘rt, RK4 xatosi o‘n olti marta kamayadi. Demak tartiblar bir, ikki va to‘rt.
+
+[1:46] Endi barqarorlik. y shtrix teng minus lambda y uchun Eyler har qadamda y ni bir minus h lambda ga ko‘paytiradi. Agar h ikki bo‘lingan lambda dan katta bo‘lsa, bu ko‘paytuvchi moduli birdan katta va sonli yechim ishorasini almashtirib o‘sadi, garchi grafikdagi aniq yechim nolga so‘nsa ham. SciPy dagi solve ivp qadamni avtomatik tanlaydi.
+
+[2:16] Savol: y shtrix teng minus yigirma y uchun oshkor Eyler usuli qaysi qadamda barqaror? Videoni to‘xtating, javobni o‘zingiz tanlang, so‘ng izohni o‘qing va kerak bo‘lsa darsning tegishli qismiga qayting.
+

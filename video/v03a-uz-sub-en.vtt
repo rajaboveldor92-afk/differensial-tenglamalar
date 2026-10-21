@@ -1,0 +1,113 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.580
+Hello.
+
+2
+00:00:00.580 --> 00:00:09.186
+Some equations do not separate at once, but one clever substitution makes them separable.
+
+3
+00:00:09.186 --> 00:00:14.407
+Today we meet one such kind, the homogeneous equation.
+
+4
+00:00:14.407 --> 00:00:21.756
+Its signature: if you zoom the picture, the direction field does not change.
+
+5
+00:00:21.756 --> 00:00:28.718
+By the end you will confidently use the substitution y equals u times x.
+
+6
+00:00:28.968 --> 00:00:36.301
+If multiplying x and y by the same number t leaves the right side unchanged,
+
+7
+00:00:36.301 --> 00:00:40.450
+the function is homogeneous of degree zero.
+
+8
+00:00:40.450 --> 00:00:45.757
+Then the right side depends only on the ratio y over x.
+
+9
+00:00:45.757 --> 00:00:47.976
+Put y equals u times x.
+
+10
+00:00:47.976 --> 00:00:53.572
+By the product rule y prime equals u prime times x plus u.
+
+11
+00:00:53.572 --> 00:01:00.230
+We get x times u prime equals phi of u minus u, a separable equation.
+
+12
+00:01:00.480 --> 00:01:06.405
+Example: y prime equals x squared plus y squared over x times y.
+
+13
+00:01:06.405 --> 00:01:13.718
+Numerator and denominator both have degree two, so the equation is homogeneous.
+
+14
+00:01:13.718 --> 00:01:20.846
+Dividing top and bottom by x squared gives phi of u equals one over u plus u.
+
+15
+00:01:21.096 --> 00:01:29.165
+Substitute y equals u times x: u prime times x plus u equals one over u plus u.
+
+16
+00:01:29.165 --> 00:01:35.497
+The u terms cancel, leaving x times u prime equals one over u.
+
+17
+00:01:35.497 --> 00:01:41.421
+This is never zero, so there is no straight-line solution.
+
+18
+00:01:41.421 --> 00:01:44.894
+Separate: u d u equals d x over x.
+
+19
+00:01:45.144 --> 00:01:52.902
+Integrate: one half of u squared equals the natural logarithm of the absolute value of x plus C one.
+
+20
+00:01:52.902 --> 00:01:56.549
+Put back u equals y over x and multiply by two.
+
+21
+00:01:56.549 --> 00:02:06.868
+The answer is y squared equals x squared times the entire quantity in parentheses: two natural log of the absolute value of x plus C.
+
+22
+00:02:06.868 --> 00:02:10.669
+The parentheses and absolute value are essential.
+
+23
+00:02:10.669 --> 00:02:15.014
+Always write the final answer in the original variables.
+
+24
+00:02:15.264 --> 00:02:24.167
+Look at the direction field: along every ray from the origin the segments have the same slope.
+
+25
+00:02:24.167 --> 00:02:28.429
+That is the geometric meaning of homogeneity.
+
+26
+00:02:28.429 --> 00:02:37.142
+So stretching or shrinking one integral curve about the origin gives another integral curve.
+
+27
+00:02:37.392 --> 00:02:43.757
+Check question: if y equals u times x, what is y prime?
+
+28
+00:02:43.757 --> 00:02:46.766
+Remember the product rule.

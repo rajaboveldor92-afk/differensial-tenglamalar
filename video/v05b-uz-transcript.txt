@@ -1,0 +1,16 @@
+Lagranj, Klero va maxsus yechimlar
+
+[0:00] Bu qismda ikki mashhur tenglama — Lagranj va Klero tenglamalarini ko‘ramiz. Klero tenglamasida to‘g‘ri chiziqlar oilasi va bitta maxsus egri chiziq paydo bo‘ladi. Shuningdek, nomzodni maxsus yechim deb atashdan oldin nimani tekshirish kerakligini bilib olasiz.
+
+[0:20] Lagranj tenglamasi: y teng x ko‘paytirilgan fi p dan, qo‘shuv psi p dan. Uni differensiallasak, x ning p ga bog‘liqligi uchun chiziqli tenglama chiqadi. Agar fi p teng p bo‘lsa, Klero tenglamasini olamiz: y teng x p qo‘shuv psi p.
+
+[0:40] Misol: y teng x y shtrix minus y shtrix kvadrat. Differensiallaymiz: p teng p qo‘shuv, x minus ikki p, ko‘paytirilgan p shtrix. Demak, x minus ikki p ko‘paytirilgan p shtrix nolga teng. Ikki holat bor.
+
+[0:59] Birinchi holat: p shtrix nol, ya’ni p teng C. Umumiy yechim — to‘g‘ri chiziqlar: y teng C x minus C kvadrat. Ikkinchi holat: x teng ikki p, ya’ni p teng x ning yarmi. Qo‘ysak, y teng x kvadratning to‘rtdan biri chiqadi. Bu maxsus yechim.
+
+[1:22] Grafikda parabola y teng x kvadratning to‘rtdan biri va C ning bir nechta qiymatidagi to‘g‘ri chiziqlar ko‘rsatilgan. Har bir chiziq parabolaga x teng ikki C nuqtada urinadi. Parabola — chiziqlar oilasining o‘ramasi. Uning har bir nuqtasidan ikki yechim bir xil og‘ish bilan o‘tadi, shuning uchun yagonalik buziladi.
+
+[1:47] Maxsus yechim har doim p-diskriminant chiziqda yotadi: F nolga va F ning p bo‘yicha hosilasi nolga teng. Lekin teskarisi noto‘g‘ri! Masalan, y teng ikki x y shtrix minus y shtrix kvadrat uchun diskriminant chiziq y teng x kvadrat, ammo u umuman yechim emas. Shuning uchun har doim tekshiring: bu yechimmi, va uning har bir nuqtasida yagonalik buziladimi.
+
+[2:18] O‘zingizni tekshiring: p-diskriminant chiziq haqida qaysi gap to‘g‘ri?
+

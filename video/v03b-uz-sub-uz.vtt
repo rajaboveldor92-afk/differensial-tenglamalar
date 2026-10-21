@@ -1,0 +1,101 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.712
+Fara lampasi bitta nuqtada, lekin yorug‘lik parallel dasta bo‘lib chiqadi.
+
+2
+00:00:05.712 --> 00:00:11.328
+Sun’iy yo‘ldosh antennasi esa parallel signalni bitta nuqtaga yig‘adi.
+
+3
+00:00:11.328 --> 00:00:17.208
+Bu qismda shunday ko‘zgu shaklini differensial tenglama yordamida topamiz.
+
+4
+00:00:17.208 --> 00:00:21.470
+Natija juda chiroyli: bu parabola bo‘ladi.
+
+5
+00:00:21.720 --> 00:00:24.552
+Manba koordinata boshida.
+
+6
+00:00:24.552 --> 00:00:29.328
+Ko‘zgudagi M nuqtadagi urinma Ox o‘qini T nuqtada kesadi.
+
+7
+00:00:29.328 --> 00:00:34.176
+Qaytish qonuniga ko‘ra tushish burchagi qaytish burchagiga teng.
+
+8
+00:00:34.176 --> 00:00:41.856
+Qaytgan nur Ox ga parallel bo‘lgani uchun O M T uchburchak teng yonli bo‘ladi: O T masofa O M ga,
+
+9
+00:00:41.856 --> 00:00:46.982
+ya’ni x kvadrat plyus y kvadratdan ildizga teng.
+
+10
+00:00:47.232 --> 00:00:54.336
+T nuqta O dan chapda yotadi, shuning uchun O T teng y bo‘lingan y shtrix minus x.
+
+11
+00:00:54.336 --> 00:01:04.800
+Buni ildizga tenglaymiz va y shtrixni topamiz: y shtrix teng y bo‘lingan x plyus ildiz x kvadrat plyus y kvadratga.
+
+12
+00:01:04.800 --> 00:01:11.774
+x va y ni bir xil songa ko‘paytirsak, kasr o‘zgarmaydi — tenglama bir jinsli.
+
+13
+00:01:12.024 --> 00:01:16.776
+Bu yerda x ni y ning funksiyasi deb olish qulayroq.
+
+14
+00:01:16.776 --> 00:01:25.056
+x teng v karra y almashtirishdan keyin y karra v shtrix teng ildiz bir plyus v kvadrat hosil bo‘ladi.
+
+15
+00:01:25.056 --> 00:01:34.286
+Ajratib integrallaymiz: v plyus ildiz bir plyus v kvadratning logarifmi y bo‘lingan C ning logarifmiga teng.
+
+16
+00:01:34.536 --> 00:01:43.008
+Potensirlab, v ni x bo‘lingan y bilan almashtiramiz: x plyus ildiz teng y kvadrat bo‘lingan C.
+
+17
+00:01:43.008 --> 00:01:49.440
+Ildizni yolg‘iz qoldirib, kvadratga ko‘taramiz va y kvadratga qisqartiramiz.
+
+18
+00:01:49.440 --> 00:01:54.384
+Javob: y kvadrat teng ikki C x plyus C kvadrat.
+
+19
+00:01:54.384 --> 00:02:00.974
+Bu fokusi koordinata boshida bo‘lgan parabola, ko‘zgu esa aylanish paraboloidi.
+
+20
+00:02:01.224 --> 00:02:06.336
+Grafikda C bir va C ikki bo‘lgan ikkita parabola ko‘rsatilgan.
+
+21
+00:02:06.336 --> 00:02:11.520
+Ularning barchasining fokusi bitta nuqtada — koordinata boshida.
+
+22
+00:02:11.520 --> 00:02:15.984
+Parametr C faqat ko‘zguning kengligini o‘zgartiradi.
+
+23
+00:02:15.984 --> 00:02:23.366
+Antenna loyihalashda aynan shu parametr tanlanadi, qabul qilgich esa doim fokusga qo‘yiladi.
+
+24
+00:02:23.616 --> 00:02:29.712
+Tekshiruv savoli: ko‘zgu masalasida hosil bo‘lgan tenglama qaysi turga kiradi?
+
+25
+00:02:29.712 --> 00:02:33.254
+Uni o‘ng tomoniga qarab aniqlang.

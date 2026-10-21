@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.181
+Assalomu alaykum.
+
+2
+00:00:01.181 --> 00:00:08.750
+Ba’zi tenglamalar o‘zgaruvchilari ajralmaydi, lekin bitta aqlli almashtirishdan keyin ajraladiganga aylanadi.
+
+3
+00:00:08.750 --> 00:00:13.819
+Bugun shunday tenglamalardan biri — bir jinsli tenglama bilan tanishamiz.
+
+4
+00:00:13.819 --> 00:00:18.611
+Uning belgisi: rasmni kattalashtirsak, yo‘nalish maydoni o‘zgarmaydi.
+
+5
+00:00:18.611 --> 00:00:23.750
+Dars oxirida siz y teng u karra x almashtirishni ishonch bilan qo‘llaysiz.
+
+6
+00:00:24.000 --> 00:00:30.261
+Agar o‘ng tomonda x va y ni bir xil t songa ko‘paytirsak va natija o‘zgarmasa,
+
+7
+00:00:30.261 --> 00:00:34.034
+funksiya nolinchi darajali bir jinsli deyiladi.
+
+8
+00:00:34.034 --> 00:00:38.208
+Unda o‘ng tomon faqat y ning x ga nisbatiga bog‘liq.
+
+9
+00:00:38.208 --> 00:00:40.135
+y teng u karra x deymiz.
+
+10
+00:00:40.135 --> 00:00:45.834
+Ko‘paytmaning hosilasi bo‘yicha y shtrix teng u shtrix karra x plyus u.
+
+11
+00:00:45.834 --> 00:00:51.614
+Natijada x karra u shtrix teng phi dan u minus u — ajraladigan tenglama.
+
+12
+00:00:51.864 --> 00:00:57.304
+Misol: y shtrix teng x kvadrat plyus y kvadrat bo‘lingan x karra y ga.
+
+13
+00:00:57.304 --> 00:01:02.512
+Surat ham, maxraj ham ikkinchi darajali, demak tenglama bir jinsli.
+
+14
+00:01:02.512 --> 00:01:09.662
+Surat va maxrajni x kvadratga bo‘lsak, phi dan u teng bir bo‘lingan u plyus u hosil bo‘ladi.
+
+15
+00:01:09.912 --> 00:01:16.378
+y teng u karra x ni qo‘yamiz: u shtrix karra x plyus u teng bir bo‘lingan u plyus u.
+
+16
+00:01:16.378 --> 00:01:21.304
+u lar qisqaradi va x karra u shtrix teng bir bo‘lingan u qoladi.
+
+17
+00:01:21.304 --> 00:01:27.539
+Bu ifoda hech qachon nolga teng emas, shuning uchun to‘g‘ri chiziqli yechim yo‘q.
+
+18
+00:01:27.539 --> 00:01:30.926
+Ajratamiz: u karra d u teng d x bo‘lingan x.
+
+19
+00:01:31.176 --> 00:01:38.731
+Integrallaymiz: u kvadratning yarmi teng x modulining natural logarifmi plyus C bir.
+
+20
+00:01:38.731 --> 00:01:44.306
+u o‘rniga y bo‘lingan x ni qaytaramiz va ikkiga ko‘paytiramiz.
+
+21
+00:01:44.306 --> 00:01:53.030
+Javob: y kvadrat teng x kvadrat ko‘paytirilgan qavs ichida ikki natural logarifm modul x plyus C.
+
+22
+00:01:53.030 --> 00:01:55.548
+Qavs va modul belgisi muhim.
+
+23
+00:01:55.548 --> 00:02:01.574
+Oxirgi qadamni unutmang: javobni doim eski o‘zgaruvchilarda yozing.
+
+24
+00:02:01.824 --> 00:02:08.279
+Yo‘nalish maydoniga qarang: koordinata boshidan chiqadigan har bir nur bo‘ylab kesmalar bir xil qiyalikka ega.
+
+25
+00:02:08.279 --> 00:02:10.567
+Bu bir jinslilikning geometrik ma’nosi.
+
+26
+00:02:10.567 --> 00:02:15.672
+Shuning uchun bitta integral chiziqni koordinata boshiga nisbatan cho‘zsak yoki siqsak,
+
+27
+00:02:15.672 --> 00:02:17.726
+yana integral chiziq hosil bo‘ladi.
+
+28
+00:02:17.976 --> 00:02:23.169
+Tekshiruv savoli: y teng u karra x bo‘lsa, y shtrix nimaga teng?
+
+29
+00:02:23.169 --> 00:02:25.766
+Ko‘paytmaning hosilasini eslang.

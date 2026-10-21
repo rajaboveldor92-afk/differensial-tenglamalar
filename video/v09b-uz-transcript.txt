@@ -1,0 +1,16 @@
+Darajali qatorlar bilan yechish
+
+[0:00] Ba’zi tenglamalar o‘zgaruvchan koeffitsiyentli va ularning yechimi elementar funksiyalar bilan yozilmaydi. Masalan, Eyri tenglamasi y ikki shtrix teng iks y. Bunday hollarda yechimni cheksiz darajali qator ko‘rinishida izlaymiz va koeffitsiyentlarni birin-ketin hisoblaymiz. Bu kompyuterda ham oson dasturlanadi.
+
+[0:25] Tenglamani y ikki shtrix plyus p y shtrix plyus q y teng nol ko‘rinishida yozamiz. Agar p va q nuqta iks nolda analitik bo‘lsa, bu nuqta oddiy nuqta deyiladi. Shunda har bir yechim qatorga yoyiladi, birinchi ikki koeffitsiyent ixtiyoriy, qolganlari rekurrent formula bilan topiladi.
+
+[0:49] Eyri tenglamasini olamiz. Qatorni ikki marta differensiallaymiz va indeksni ikkiga siljitamiz: y ikki shtrix teng yig‘indi n plyus ikki marta n plyus bir marta a n plyus ikki marta iks daraja n. O‘ng tomonda iks y, ya’ni yig‘indi a n minus bir iks daraja n, bu n teng birdan boshlanadi.
+
+[1:12] Iks daraja nol oldidagi koeffitsiyentlarni tenglashtiramiz: ikki a ikki teng nol, demak a ikki nol. n birdan katta yoki teng bo‘lganda rekurrent formula: a n plyus ikki teng a n minus bir bo‘lingan n plyus ikki marta n plyus birga. Qadam uchga teng: koeffitsiyentlar uchtadan bog‘langan.
+
+[1:35] Hisoblaymiz: a uch teng a nol bo‘lingan oltiga, a olti teng a nol bo‘lingan bir yuz saksonga. a to‘rt teng a bir bo‘lingan o‘n ikkiga, a yetti teng a bir bo‘lingan besh yuz to‘rtga. Ikki qator fundamental sistemani beradi va ular butun son o‘qida yaqinlashadi.
+
+[1:56] Grafikda a nol bir, a bir nol bo‘lgan yechimning qisman yig‘indisi ko‘rsatilgan, iks daraja o‘n ikkigacha. Manfiy iks da yechim tebranadi, chunki u yerda tenglama y ikki shtrix plyus musbat son marta y kabi. Musbat iks da esa yechim tez o‘sadi. Bitta tenglama ikki xil xulq.
+
+[2:19] Savol: y ikki shtrix minus iks y shtrix minus y teng nol tenglamaning rekurrent formulasi qanday? Hosilalarni qatorga qo‘ying va iks daraja n oldidagi koeffitsiyentni yozing. Videoni to‘xtatib, javobni tanlang.
+

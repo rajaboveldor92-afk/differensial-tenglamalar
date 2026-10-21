@@ -1,0 +1,89 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.094
+In this part we look at the geometric meaning of a first order equation,
+
+2
+00:00:06.094 --> 00:00:11.510
+solve a Cauchy problem and find out when the solution is unique.
+
+3
+00:00:11.760 --> 00:00:20.328
+The equation y prime equals f of x and y gives, at each point, the slope of the tangent to a solution graph.
+
+4
+00:00:20.328 --> 00:00:24.929
+Short segments with these slopes form the direction field.
+
+5
+00:00:24.929 --> 00:00:30.086
+An integral curve is tangent to the field segment at every point.
+
+6
+00:00:30.336 --> 00:00:34.505
+To sketch the field by hand we use isoclines.
+
+7
+00:00:34.505 --> 00:00:39.787
+An isocline is a curve along which the slope is the same.
+
+8
+00:00:39.787 --> 00:00:45.902
+For this equation the isoclines are circles centred at the origin.
+
+9
+00:00:46.152 --> 00:00:54.038
+A Cauchy problem: y prime equals two y, with the initial condition y of zero equals three.
+
+10
+00:00:54.038 --> 00:00:57.631
+The general solution is C e to the two x.
+
+11
+00:00:57.631 --> 00:01:02.012
+At x equal to zero, y equals C, so C equals three.
+
+12
+00:01:02.012 --> 00:01:05.342
+Answer: y equals three e to the two x.
+
+13
+00:01:05.592 --> 00:01:15.893
+Picard’s theorem: if f and its partial derivative with respect to y are continuous in a rectangle around the initial point,
+
+14
+00:01:15.893 --> 00:01:20.164
+the Cauchy problem has a solution and it is unique.
+
+15
+00:01:20.164 --> 00:01:25.022
+Note that the guarantee holds only near the initial point.
+
+16
+00:01:25.272 --> 00:01:27.764
+What if the condition fails?
+
+17
+00:01:27.764 --> 00:01:34.527
+Take y prime equals three y to the two thirds, with y of zero equal to zero.
+
+18
+00:01:34.527 --> 00:01:39.243
+The derivative with respect to y is infinite at zero.
+
+19
+00:01:39.243 --> 00:01:47.341
+As a result, both y identically zero and a cubic starting at any later point are solutions.
+
+20
+00:01:47.341 --> 00:01:48.854
+Uniqueness fails.
+
+21
+00:01:49.104 --> 00:01:50.692
+Check yourself.
+
+22
+00:01:50.692 --> 00:01:56.726
+Read the question and choose your answer below the video.

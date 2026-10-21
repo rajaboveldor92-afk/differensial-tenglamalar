@@ -1,0 +1,16 @@
+Solving with power series
+
+[0:00] Some equations have variable coefficients and their solutions cannot be written with elementary functions. For example Airy’s equation, y double prime equals x y. In such cases we look for the solution as an infinite power series and compute the coefficients one after another. This is also easy to program.
+
+[0:22] Write the equation as y double prime plus p y prime plus q y equals zero. If p and q are analytic at the point x zero, the point is called ordinary. Then every solution expands in a series; the first two coefficients are arbitrary and the rest follow from a recurrence relation.
+
+[0:43] Take Airy’s equation. Differentiate the series twice and shift the index by two: y double prime is the sum of n plus two times n plus one times a n plus two times x to the n. On the right is x y, the sum of a n minus one times x to the n, which starts at n equal to one.
+
+[1:05] Match the coefficients of x to the zero: two a two equals zero, so a two is zero. For n at least one we get the recurrence: a n plus two equals a n minus one divided by n plus two times n plus one. The step is three: coefficients are linked three apart.
+
+[1:25] Compute: a three is a zero over six, a six is a zero over one hundred eighty. a four is a one over twelve, and a seven is a one over five hundred four. The two series form a fundamental set and converge on the whole real line.
+
+[1:43] The graph shows a partial sum of the solution with a zero equal to one and a one equal to zero, up to x to the twelfth. For negative x the solution oscillates, because there the equation looks like y double prime plus a positive number times y. For positive x it grows quickly. One equation, two behaviours.
+
+[2:07] Question: what is the recurrence for y double prime minus x y prime minus y equals zero? Substitute the series and write the coefficient of x to the n. Pause the video and choose your answer.
+

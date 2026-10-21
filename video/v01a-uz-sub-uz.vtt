@@ -1,0 +1,109 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.872
+Salom.
+
+2
+00:00:01.872 --> 00:00:06.528
+Bu darsda differensial tenglama nima ekanini ko‘ramiz.
+
+3
+00:00:06.528 --> 00:00:15.302
+Oxirida siz tenglamaning tartibini aniqlay olasiz va berilgan funksiya yechim ekanini o‘rniga qo‘yib tekshira olasiz.
+
+4
+00:00:15.552 --> 00:00:18.768
+Stakandagi choy xonada soviydi.
+
+5
+00:00:18.768 --> 00:00:22.656
+Choy qancha issiq bo‘lsa, shuncha tez soviydi.
+
+6
+00:00:22.656 --> 00:00:29.448
+Sovish tezligi, ya’ni harorat hosilasi, choy va xona harorati farqiga proporsional.
+
+7
+00:00:29.448 --> 00:00:35.198
+Noma’lum narsa son emas, balki vaqtga bog‘liq harorat funksiyasi.
+
+8
+00:00:35.448 --> 00:00:37.776
+Erkli o‘zgaruvchi,
+
+9
+00:00:37.776 --> 00:00:45.096
+noma’lum funksiya va uning hosilalarini bog‘lovchi tenglama oddiy differensial tenglama deyiladi.
+
+10
+00:00:45.096 --> 00:00:51.312
+Tenglamada qatnashgan eng yuqori hosilaning tartibi tenglamaning tartibi bo‘ladi.
+
+11
+00:00:51.312 --> 00:00:54.240
+Tartibni darajadan farqlang.
+
+12
+00:00:54.240 --> 00:01:04.512
+Daraja faqat tenglama hosilalarga nisbatan ko‘phad ko‘rinishiga keltirilganda aniqlanadi; shunda u eng yuqori tartibli hosilaning darajasidir.
+
+13
+00:01:04.512 --> 00:01:12.710
+Masalan, ildiz ostidagi yoki sinus ichidagi hosila bo‘lsa, odatdagi ma’noda daraja aniqlanmaydi.
+
+14
+00:01:12.960 --> 00:01:19.896
+Misol: ikkinchi hosilaning kubi qo‘shuv x ko‘paytirilgan birinchi hosila teng sinus x.
+
+15
+00:01:19.896 --> 00:01:24.096
+Eng yuqori hosila ikkinchi, demak tartib ikki.
+
+16
+00:01:24.096 --> 00:01:31.406
+Tenglama hosilalarga nisbatan ko‘phad va eng yuqori hosila kub darajada, demak daraja uch.
+
+17
+00:01:31.656 --> 00:01:34.488
+Endi yechimni tekshiramiz.
+
+18
+00:01:34.488 --> 00:01:42.552
+y teng C ko‘paytirilgan e daraja ikki x funksiyasi y shtrix teng ikki y tenglamaning yechimimi?
+
+19
+00:01:42.552 --> 00:01:46.680
+Hosilasini olamiz: ikki C e daraja ikki x.
+
+20
+00:01:46.680 --> 00:01:50.472
+Uni o‘rniga qo‘yamiz: ayirma nolga teng.
+
+21
+00:01:50.472 --> 00:01:54.086
+Demak, istalgan C da bu yechim.
+
+22
+00:01:54.336 --> 00:01:59.328
+Grafikda C ning turli qiymatlari uchun yechimlar ko‘rsatilgan.
+
+23
+00:01:59.328 --> 00:02:03.312
+Har bir egri chiziq integral chiziq deyiladi.
+
+24
+00:02:03.312 --> 00:02:06.384
+Ular bir-birini kesib o‘tmaydi.
+
+25
+00:02:06.384 --> 00:02:11.966
+C nolga teng bo‘lganda y aynan nol bo‘ladi, bu ham yechim.
+
+26
+00:02:12.216 --> 00:02:15.048
+Endi o‘zingizni tekshiring.
+
+27
+00:02:15.048 --> 00:02:21.950
+Ekrandagi savolga javob bering, keyin videodan pastdagi savolda javobingizni belgilang.

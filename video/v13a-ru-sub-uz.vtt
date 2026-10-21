@@ -1,0 +1,153 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.482
+Salom!
+
+2
+00:00:00.482 --> 00:00:05.866
+Bugun oddiy differensial tenglamalardan bir qadam oldinga chiqamiz.
+
+3
+00:00:05.866 --> 00:00:13.259
+Noma’lum funksiya endi bir emas, ikki o‘zgaruvchiga bog‘liq bo‘ladi: masalan, joy va vaqtga.
+
+4
+00:00:13.259 --> 00:00:24.830
+Darsdan so‘ng siz xususiy hosilali tenglamaning tartibi va chiziqliligini aniqlaysiz va matematik fizikaning uchta asosiy tenglamasini taniysiz.
+
+5
+00:00:25.080 --> 00:00:29.534
+Protsessor radiatorining ingichka qovurg‘asini olaylik.
+
+6
+00:00:29.534 --> 00:00:33.422
+Uning harorati u, x nuqtaga va t vaqtga bog‘liq.
+
+7
+00:00:33.422 --> 00:00:40.468
+Eng sodda model: u ning t bo‘yicha hosilasi u ning x bo‘yicha ikkinchi hosilasiga teng.
+
+8
+00:00:40.468 --> 00:00:48.081
+Bunday, xususiy hosilalar qatnashgan tenglama xususiy hosilali differensial tenglama deyiladi.
+
+9
+00:00:48.081 --> 00:00:51.806
+Eng yuqori hosila tartibi tenglama tartibidir.
+
+10
+00:00:52.056 --> 00:00:58.125
+Tenglama chiziqli, agar u va uning hosilalari birinchi darajada qatnashsa,
+
+11
+00:00:58.125 --> 00:01:04.851
+bir-biriga ko‘paytirilmasa va u ga bog‘liq bo‘lmagan koeffitsiyentlar bilan kelsa.
+
+12
+00:01:04.851 --> 00:01:13.873
+Bu koeffitsiyentlar faqat mustaqil o‘zgaruvchilarga — masalan x va t yoki x va y ga — bog‘liq bo‘lishi mumkin.
+
+13
+00:01:13.873 --> 00:01:19.615
+O‘ng tomon nol bo‘lsa, tenglama bir jinsli va superpozitsiya ishlaydi.
+
+14
+00:01:19.615 --> 00:01:24.782
+Masalan, u karra u x hadi tenglamani chiziqli bo‘lmagan qiladi.
+
+15
+00:01:25.032 --> 00:01:29.501
+Misol: u x y teng nol tenglamani yechamiz.
+
+16
+00:01:29.501 --> 00:01:35.461
+Bu degani, u ning x bo‘yicha hosilasi y ga bog‘liq emas.
+
+17
+00:01:35.461 --> 00:01:39.504
+Demak u x teng qandaydir h x funksiya.
+
+18
+00:01:39.504 --> 00:01:45.038
+Diqqat: bu o‘zgarmas emas, balki ixtiyoriy funksiya!
+
+19
+00:01:45.288 --> 00:01:48.166
+Endi x bo‘yicha integrallaymiz.
+
+20
+00:01:48.166 --> 00:01:54.385
+Integrallash “o‘zgarmasi” endi y ning ixtiyoriy funksiyasi bo‘ladi.
+
+21
+00:01:54.385 --> 00:01:57.170
+Javob: u teng f x qo‘shuv g y.
+
+22
+00:01:57.170 --> 00:02:03.761
+Tekshiramiz: x bo‘yicha hosila f shtrix x, keyin y bo‘yicha hosila nol.
+
+23
+00:02:03.761 --> 00:02:11.558
+Demak, xususiy hosilali tenglamaning umumiy yechimi ixtiyoriy funksiyalarga bog‘liq.
+
+24
+00:02:11.808 --> 00:02:13.767
+Uchta asosiy tenglama.
+
+25
+00:02:13.767 --> 00:02:22.226
+Tor tebranishi: u ning t bo‘yicha ikkinchi hosilasi a kvadrat karra x bo‘yicha ikkinchi hosila,
+
+26
+00:02:22.226 --> 00:02:26.767
+bu yerda a kvadrat taranglikning zichlikka nisbati.
+
+27
+00:02:26.767 --> 00:02:30.773
+Sterjendagi issiqlik: birinchi vaqt hosilasi.
+
+28
+00:02:30.773 --> 00:02:33.088
+Ikki o‘lchovli statsionar,
+
+29
+00:02:33.088 --> 00:02:41.102
+manbasiz holatda esa Laplas tenglamasi: x va y bo‘yicha ikkinchi hosilalar yig‘indisi nol.
+
+30
+00:02:41.352 --> 00:02:49.253
+Grafikda e daraja minus t karra sinus x yechimi uch paytda ko‘rsatilgan: t teng nol, yarim va bir.
+
+31
+00:02:49.253 --> 00:02:54.493
+Profil shaklini saqlaydi, lekin balandligi eksponensial kamayadi.
+
+32
+00:02:54.493 --> 00:03:01.023
+Bu bitta xos moda uchun issiqlik tenglamasining xulqini ko‘rsatadi: moda so‘nadi.
+
+33
+00:03:01.023 --> 00:03:06.021
+Umumiy boshlang‘ich profil esa ko‘p modalar yig‘indisi bo‘lib,
+
+34
+00:03:06.021 --> 00:03:11.665
+yuqori chastotali notekisliklar tezroq so‘nadi va profil silliqlanadi.
+
+35
+00:03:11.665 --> 00:03:16.502
+Torda esa ideal manbasiz modelda modalar so‘nmay, tebranadi.
+
+36
+00:03:16.752 --> 00:03:19.210
+Endi o‘zingizni tekshiring.
+
+37
+00:03:19.210 --> 00:03:24.309
+Ekrandagi savolga javob bering: qaysi tenglama chiziqli?
+
+38
+00:03:24.309 --> 00:03:31.046
+Esda tuting, o‘ng tomondagi x va y ning funksiyasi chiziqlilikni buzmaydi.

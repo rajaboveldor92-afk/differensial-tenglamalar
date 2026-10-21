@@ -1,0 +1,16 @@
+The linear operator, superposition and the interval of existence
+
+[0:00] Hello! If a circuit without an external source admits two modes of oscillation, their sum is also a possible mode. This is the key property of linear equations, superposition. Today we state it precisely and learn to find the interval on which a solution exists.
+
+[0:19] Write a linear equation as L of y equals f, where L is the n-th derivative plus lower derivatives with coefficients depending on x. L is linear: acting on a combination of two functions it gives the same combination of the results. When f is zero the equation is called homogeneous, a different meaning of that word.
+
+[0:43] Example: x squared y double prime minus two y equals zero, for positive x. x squared is a solution: two x squared minus two x squared is zero. One over x is a solution too: x squared times two over x cubed, minus two over x, is zero. By superposition, C one x squared plus C two over x is also a solution.
+
+[1:10] Now impose y of one equals one and y prime of one equals five. C one plus C two equals one, and two C one minus C two equals five. Adding, three C one equals six, so C one is two and C two is minus one. Answer: y equals two x squared minus one over x. The determinant of the system is minus three, the value of the Wronskian.
+
+[1:38] A key result for linear equations: if the coefficients and the right side are continuous on an interval, the solution of the Cauchy problem exists and is unique on that whole interval. So first divide by the leading coefficient and find the points of discontinuity. For instance, with x squared minus four in front of y double prime, the dangerous points are x equals two and minus two.
+
+[2:06] The graph shows the two fundamental solutions, x squared and one over x, and the solution we found, two x squared minus one over x. The third curve is a linear combination of the first two; at x equals one its value is one and its slope is five.
+
+[2:25] Check yourself: for which equations does superposition hold? Choose an answer and read the explanation.
+

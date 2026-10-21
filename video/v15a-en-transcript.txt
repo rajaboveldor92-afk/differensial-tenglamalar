@@ -1,0 +1,18 @@
+The infinite string: d’Alembert’s formula
+
+[0:00] If you pull a long rope at one spot and let go, the bump splits in two and runs both ways. Today we explain this with a formula. After the lesson you will solve the Cauchy problem for an infinite string with d’Alembert’s formula and check the answer by substitution.
+
+[0:18] The problem: u t t equals a squared u x x on the whole line. The initial shape u at x and zero is phi of x, and the initial velocity u t at x and zero is psi of x. From the last topic the general solution is f of x minus a t plus g of x plus a t. The two initial conditions determine f and g.
+
+[0:42] The result is d’Alembert’s formula: u equals the average of phi at x minus a t and phi at x plus a t, plus one over two a times the integral of psi from x minus a t to x plus a t. Careful: the factor is one over two a, not one half.
+
+[1:02] Example: u t t equals nine u x x, initial shape x squared, initial velocity x. Here a equals three. The first part is the average of x minus three t squared and x plus three t squared, which is x squared plus nine t squared.
+
+[1:23] Second part: one sixth times the integral of s from x minus three t to x plus three t. That is one twelfth of a difference of squares, twelve x t over twelve, which equals x t. Answer: u equals x squared plus nine t squared plus x t.
+
+[1:43] Check. u t t equals eighteen. Nine times u x x is nine times two, which is eighteen: the equation holds. At t equals zero, u equals x squared. u t equals eighteen t plus x, which is x at t equals zero. All three conditions hold.
+
+[2:07] The graph shows the initial pulse one over one plus x squared and its state at time three. The pulse has split into two halves of half the height, which have reached x equals plus and minus three. The shape does not change, it only moves with speed a.
+
+[2:24] Question: the initial shape is sine x, the velocity is zero, and a equals one. What is the solution? Try turning the sum of two travelling sine waves into a product.
+

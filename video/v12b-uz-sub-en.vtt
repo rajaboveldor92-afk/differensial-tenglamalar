@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.425
+Now we look at a system from another side.
+
+2
+00:00:03.425 --> 00:00:13.457
+We seek solutions of the form vector times e to the lambda t and learn to read the picture of solutions in the phase plane,
+
+3
+00:00:13.457 --> 00:00:15.006
+the phase portrait.
+
+4
+00:00:15.006 --> 00:00:18.758
+At the end we linearise a predator–prey model.
+
+5
+00:00:19.008 --> 00:00:27.404
+If v is an eigenvector of A for the eigenvalue lambda, then v times e to the lambda t is a solution.
+
+6
+00:00:27.404 --> 00:00:35.884
+In two dimensions lambda solves lambda squared minus trace times lambda plus determinant equals zero.
+
+7
+00:00:35.884 --> 00:00:40.334
+The roots can be real distinct, complex, or repeated.
+
+8
+00:00:40.584 --> 00:00:46.965
+The matrix has first row minus one, minus four and second row one, minus one.
+
+9
+00:00:46.965 --> 00:00:50.695
+The trace is minus two, the determinant five.
+
+10
+00:00:50.695 --> 00:00:54.341
+The roots are minus one plus or minus two i.
+
+11
+00:00:54.341 --> 00:00:58.982
+In the complex case we take an eigenvector for one root.
+
+12
+00:00:59.232 --> 00:01:04.795
+For lambda equal to minus one plus two i the eigenvector is two i and one.
+
+13
+00:01:04.795 --> 00:01:09.832
+It gives the real and imaginary parts of v times e to the lambda t.
+
+14
+00:01:09.832 --> 00:01:15.772
+For example, the second solution is x equals two e to the minus t cosine two t,
+
+15
+00:01:15.772 --> 00:01:18.854
+and y equals e to the minus t sine two t.
+
+16
+00:01:19.104 --> 00:01:23.139
+Classification rule: a negative determinant gives a saddle.
+
+17
+00:01:23.139 --> 00:01:24.917
+With positive determinant,
+
+18
+00:01:24.917 --> 00:01:31.620
+trace squared greater than four times the determinant gives a node with distinct real eigenvalues,
+
+19
+00:01:31.620 --> 00:01:35.791
+while a smaller value gives a focus with complex eigenvalues.
+
+20
+00:01:35.791 --> 00:01:39.758
+Equality, trace squared equals four times the determinant,
+
+21
+00:01:39.758 --> 00:01:47.144
+is the repeated-real-eigenvalue case and must be checked separately according to the number of eigenvectors.
+
+22
+00:01:47.144 --> 00:01:49.401
+When the determinant is positive,
+
+23
+00:01:49.401 --> 00:01:58.976
+negative trace gives asymptotic stability and positive trace gives instability; zero trace with purely imaginary eigenvalues gives a centre.
+
+24
+00:01:58.976 --> 00:02:02.601
+Here the determinant is five, the trace is minus two,
+
+25
+00:02:02.601 --> 00:02:08.414
+and trace squared is less than four times the determinant, so we have a stable focus.
+
+26
+00:02:08.664 --> 00:02:13.412
+The graph shows x and y in time: damped oscillations.
+
+27
+00:02:13.412 --> 00:02:19.593
+In the phase plane the point traces a spiral winding into the origin.
+
+28
+00:02:19.593 --> 00:02:28.015
+Linearising the predator–prey model gives zero trace, a centre; but that is a borderline case,
+
+29
+00:02:28.015 --> 00:02:31.598
+which linearisation alone cannot settle.
+
+30
+00:02:31.848 --> 00:02:39.387
+Question: if the trace is minus three and the determinant minus two, what type is the equilibrium?
+
+31
+00:02:39.387 --> 00:02:42.157
+Pause the video, choose your answer,
+
+32
+00:02:42.157 --> 00:02:48.542
+then read the explanation and go back to the relevant part of the lesson if needed.

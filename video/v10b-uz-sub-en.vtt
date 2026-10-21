@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.001
+Variation of parameters needs two homogeneous solutions.
+
+2
+00:00:05.001 --> 00:00:09.287
+For variable coefficients they are hard to find.
+
+3
+00:00:09.287 --> 00:00:14.913
+But if one is known, the second can be obtained from a formula.
+
+4
+00:00:14.913 --> 00:00:21.878
+The key is the Ostrogradsky and Liouville formula, also called Abel’s formula.
+
+5
+00:00:22.128 --> 00:00:31.093
+Differentiate the Wronskian: W prime equals y one times y two double prime minus y one double prime times y two.
+
+6
+00:00:31.093 --> 00:00:38.377
+Substituting the second derivatives from the equation gives W prime equals minus p times W.
+
+7
+00:00:38.377 --> 00:00:46.382
+This is a first-order linear equation, solved by W equals W zero times e to the minus integral of p.
+
+8
+00:00:46.632 --> 00:00:55.599
+An important consequence: for solutions of one equation the Wronskian is either identically zero or never zero.
+
+9
+00:00:55.599 --> 00:01:06.747
+But this is false for arbitrary functions: x squared and x times the absolute value of x have zero Wronskian yet are linearly independent.
+
+10
+00:01:06.747 --> 00:01:10.382
+They cannot be solutions of such an equation.
+
+11
+00:01:10.632 --> 00:01:19.311
+The second-solution formula: y two equals y one times the integral of e to the minus integral of p,
+
+12
+00:01:19.311 --> 00:01:20.977
+over y one squared.
+
+13
+00:01:20.977 --> 00:01:29.042
+Example: x squared y double prime minus three x y prime plus four y equals zero, x positive,
+
+14
+00:01:29.042 --> 00:01:32.198
+with y one equal to x squared known.
+
+15
+00:01:32.448 --> 00:01:39.040
+First normalise: dividing by x squared gives p equal to minus three over x.
+
+16
+00:01:39.040 --> 00:01:45.280
+Minus the integral of p is three log x, and its exponential is x cubed.
+
+17
+00:01:45.280 --> 00:01:51.960
+Under the integral we get x cubed over x to the fourth, which is one over x.
+
+18
+00:01:51.960 --> 00:01:53.894
+Its integral is log x.
+
+19
+00:01:54.144 --> 00:02:03.982
+So y two equals x squared log x, and the general solution is C one x squared plus C two x squared log x.
+
+20
+00:02:03.982 --> 00:02:08.239
+Check: substituting the derivatives of y two,
+
+21
+00:02:08.239 --> 00:02:15.902
+the x squared log x terms and the remaining terms cancel separately, giving zero.
+
+22
+00:02:16.152 --> 00:02:21.731
+The graph shows two solutions: x squared and x squared log x.
+
+23
+00:02:21.731 --> 00:02:28.773
+At x equal to one the second one vanishes, but they are nowhere proportional.
+
+24
+00:02:28.773 --> 00:02:36.638
+Their Wronskian is x cubed, non-zero for positive x, in agreement with Abel’s formula.
+
+25
+00:02:36.888 --> 00:02:44.680
+Question: for two solutions of x y double prime plus y prime plus x y equals zero,
+
+26
+00:02:44.680 --> 00:02:47.910
+the Wronskian at one equals three.
+
+27
+00:02:47.910 --> 00:02:49.621
+What is it at two?
+
+28
+00:02:49.621 --> 00:02:52.756
+Do not forget to normalise first.
+
+29
+00:02:52.756 --> 00:02:56.462
+Pause the video and choose your answer.

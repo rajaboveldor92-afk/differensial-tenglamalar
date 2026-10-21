@@ -1,0 +1,18 @@
+Xususiy hosilali tenglama va asosiy tenglamalar
+
+[0:00] Salom! Bugun oddiy differensial tenglamalardan bir qadam oldinga chiqamiz. Noma’lum funksiya endi bir emas, ikki o‘zgaruvchiga bog‘liq bo‘ladi: masalan, joy va vaqtga. Darsdan so‘ng siz xususiy hosilali tenglamaning tartibi va chiziqliligini aniqlaysiz va matematik fizikaning uchta asosiy tenglamasini taniysiz.
+
+[0:25] Protsessor radiatorining ingichka qovurg‘asini olaylik. Uning harorati u, x nuqtaga va t vaqtga bog‘liq. Eng sodda model: u ning t bo‘yicha hosilasi u ning x bo‘yicha ikkinchi hosilasiga teng. Bunday, xususiy hosilalar qatnashgan tenglama xususiy hosilali differensial tenglama deyiladi. Eng yuqori hosila tartibi tenglama tartibidir.
+
+[0:53] Tenglama chiziqli, agar u va uning hosilalari birinchi darajada qatnashsa, bir-biriga ko‘paytirilmasa va u ga bog‘liq bo‘lmagan koeffitsiyentlar bilan kelsa. Bu koeffitsiyentlar faqat mustaqil o‘zgaruvchilarga — masalan x va t yoki x va y ga — bog‘liq bo‘lishi mumkin. O‘ng tomon nol bo‘lsa, tenglama bir jinsli va superpozitsiya ishlaydi. Masalan, u karra u x hadi tenglamani chiziqli bo‘lmagan qiladi.
+
+[1:26] Misol: u x y teng nol tenglamani yechamiz. Bu degani, u ning x bo‘yicha hosilasi y ga bog‘liq emas. Demak u x teng qandaydir h x funksiya. Diqqat: bu o‘zgarmas emas, balki ixtiyoriy funksiya!
+
+[1:45] Endi x bo‘yicha integrallaymiz. Integrallash “o‘zgarmasi” endi y ning ixtiyoriy funksiyasi bo‘ladi. Javob: u teng f x qo‘shuv g y. Tekshiramiz: x bo‘yicha hosila f shtrix x, keyin y bo‘yicha hosila nol. Demak, xususiy hosilali tenglamaning umumiy yechimi ixtiyoriy funksiyalarga bog‘liq.
+
+[2:11] Uchta asosiy tenglama. Tor tebranishi: u ning t bo‘yicha ikkinchi hosilasi a kvadrat karra x bo‘yicha ikkinchi hosila, bu yerda a kvadrat taranglikning zichlikka nisbati. Sterjendagi issiqlik: birinchi vaqt hosilasi. Ikki o‘lchovli statsionar, manbasiz holatda esa Laplas tenglamasi: x va y bo‘yicha ikkinchi hosilalar yig‘indisi nol.
+
+[2:40] Grafikda e daraja minus t karra sinus x yechimi uch paytda ko‘rsatilgan: t teng nol, yarim va bir. Profil shaklini saqlaydi, lekin balandligi eksponensial kamayadi. Bu bitta xos moda uchun issiqlik tenglamasining xulqini ko‘rsatadi: moda so‘nadi. Umumiy boshlang‘ich profil esa ko‘p modalar yig‘indisi bo‘lib, yuqori chastotali notekisliklar tezroq so‘nadi va profil silliqlanadi. Torda esa ideal manbasiz modelda modalar so‘nmay, tebranadi.
+
+[3:16] Endi o‘zingizni tekshiring. Ekrandagi savolga javob bering: qaysi tenglama chiziqli? Esda tuting, o‘ng tomondagi x va y ning funksiyasi chiziqlilikni buzmaydi.
+

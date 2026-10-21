@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.872
+Salom!
+
+2
+00:00:01.872 --> 00:00:05.880
+Endi yuqori tartibli tenglamalarga o‘tamiz.
+
+3
+00:00:05.880 --> 00:00:14.160
+Telefon balandlikdan tushganda uning balandligi ikkinchi hosila minus g ga teng degan tenglamani qanoatlantiradi.
+
+4
+00:00:14.160 --> 00:00:21.038
+Bunday tenglamalarni qanday yechish va qachon tartibini pasaytirish mumkinligini ko‘ramiz.
+
+5
+00:00:21.288 --> 00:00:26.856
+n-tartibli tenglamaning umumiy yechimida n ta ixtiyoriy o‘zgarmas bor.
+
+6
+00:00:26.856 --> 00:00:34.728
+Koshi masalasida bitta nuqtada n ta shart beriladi: funksiya va uning n minus birinchi tartibgacha hosilalari.
+
+7
+00:00:34.728 --> 00:00:41.232
+Agar o‘ng tomon uzluksiz va noma’lumlar bo‘yicha xususiy hosilalari uzluksiz bo‘lsa,
+
+8
+00:00:41.232 --> 00:00:44.798
+yechim lokal mavjud va yagona.
+
+9
+00:00:45.048 --> 00:00:49.800
+Birinchi tur: y ning n-hosilasi faqat x ga bog‘liq.
+
+10
+00:00:49.800 --> 00:00:56.904
+Masalan, y uch shtrix teng yigirma to‘rt x, boshlang‘ich qiymatlar bir, nol va ikki.
+
+11
+00:00:56.904 --> 00:01:05.568
+Integrallaymiz va har safar o‘zgarmasni darhol topamiz: y ikki shtrix teng o‘n ikki x kvadrat qo‘shuv ikki,
+
+12
+00:01:05.568 --> 00:01:14.342
+y shtrix teng to‘rt x kub qo‘shuv ikki x, va y teng x to‘rtinchi daraja qo‘shuv x kvadrat qo‘shuv bir.
+
+13
+00:01:14.592 --> 00:01:18.576
+Ikkinchi tur: y qatnashmagan tenglama.
+
+14
+00:01:18.576 --> 00:01:24.672
+Masalan, x y ikki shtrix minus y shtrix teng uch x kvadrat.
+
+15
+00:01:24.672 --> 00:01:30.768
+z teng y shtrix desak, z uchun chiziqli birinchi tartibli tenglama chiqadi.
+
+16
+00:01:30.768 --> 00:01:36.192
+x kvadratga bo‘lsak, z ning x ga nisbati hosilasi uchga teng.
+
+17
+00:01:36.192 --> 00:01:45.734
+Demak z teng uch x kvadrat qo‘shuv C bir x, va y teng x kub qo‘shuv C bir x kvadratning yarmi qo‘shuv C ikki.
+
+18
+00:01:45.984 --> 00:01:52.896
+Uchinchi tur: x qatnashmagan tenglama, masalan y ikki shtrix teng ikki y kub.
+
+19
+00:01:52.896 --> 00:01:57.912
+y shtrix teng p, p esa y ning funksiyasi deb olamiz.
+
+20
+00:01:57.912 --> 00:02:03.576
+Zanjir qoidasi bo‘yicha y ikki shtrix teng p ko‘paytirilgan dp dy ga.
+
+21
+00:02:03.576 --> 00:02:06.432
+Muhim: faqat dp dy emas!
+
+22
+00:02:06.432 --> 00:02:12.254
+Integrallasak, p kvadrat teng y to‘rtinchi daraja qo‘shuv C bir.
+
+23
+00:02:12.504 --> 00:02:17.976
+Boshlang‘ich shartlar y nolda bir, y shtrix nolda bir bo‘lsin.
+
+24
+00:02:17.976 --> 00:02:22.224
+Unda C bir nolga teng va p teng y kvadrat.
+
+25
+00:02:22.224 --> 00:02:30.288
+Ajratsak, minus bir bo‘lingan y teng x minus bir, ya’ni y teng bir bo‘lingan bir minus x ga.
+
+26
+00:02:30.288 --> 00:02:38.222
+Yechim faqat x birdan kichik bo‘lganda mavjud: x birga yaqinlashganda u cheksizlikka ketadi.
+
+27
+00:02:38.472 --> 00:02:43.416
+Grafikda y teng bir bo‘lingan bir minus x ko‘rsatilgan.
+
+28
+00:02:43.416 --> 00:02:47.208
+U nol nuqtada birga teng va og‘ishi ham bir.
+
+29
+00:02:47.208 --> 00:02:53.736
+x birga yaqinlashganda egri chiziq vertikal asimptotaga tomon keskin ko‘tariladi.
+
+30
+00:02:53.736 --> 00:02:59.102
+Chiziqli bo‘lmagan tenglamalarda bunday portlash odatiy hol.
+
+31
+00:02:59.352 --> 00:03:06.144
+O‘zingizni tekshiring: x qatnashmagan tenglamada y ikki shtrix qanday ifodalanadi?
+
+32
+00:03:06.144 --> 00:03:09.830
+Javobni tanlang va izohni o‘qing.

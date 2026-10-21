@@ -1,0 +1,18 @@
+Homogeneous and generalised homogeneous equations
+
+[0:00] In this part we meet two more types. In the first, multiplying y and all its derivatives by the same number leaves the equation unchanged. In the second, we give x and y different weights so that all terms balance. In both cases the order drops by one.
+
+[0:19] If the equation is homogeneous in y, y prime and y double prime, substitute y prime equals y times z. Then y double prime equals y times z prime plus z squared. After cancelling the power of y, a first-order equation for z remains. Note: this is yet another meaning of the word homogeneous.
+
+[0:42] Example: x y y double prime minus x times y prime squared equals y y prime. Every term has degree two in y. After the substitution we cancel y squared and get x z prime equals z. So z equals C one x.
+
+[1:01] Now y prime over y equals C one x. Integrating, y equals C two times e to the power one half C one x squared. With C two equal to zero, the zero function is also a solution. The result is easy to check by substitution.
+
+[1:20] Now give x weight one and y weight m. Then y prime has weight m minus one and y double prime m minus two. For x cubed y double prime equals the square of x y prime minus y, we get m plus one equals two m, so m equals one. The substitution x equals e to the t, y equals e to the t times u removes t.
+
+[1:46] The last equation contains neither t nor u, so put q equal to the derivative of u and get a separable equation. Answer: y equals x ln x minus x ln of the absolute value of one minus C one x, plus C two x. Also, the case q equals zero gives the solutions y equals C x, which must be listed separately.
+
+[2:12] The graph shows the curves y equals e to the one half C one x squared from the first example for three values of C one. For positive C one the curve grows, for negative it decays like a bell, and for zero it is a horizontal line.
+
+[2:29] Check yourself: which substitution fits an equation homogeneous in y, y prime and y double prime? Choose an answer.
+

@@ -1,0 +1,105 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.840
+Euler’s method is simple but not very accurate.
+
+2
+00:00:03.840 --> 00:00:11.712
+In this part we look at methods that sample the slope at several points and average: the improved Euler or Heun method,
+
+3
+00:00:11.712 --> 00:00:14.928
+and the classical Runge–Kutta method.
+
+4
+00:00:14.928 --> 00:00:19.022
+Then we see why a large step can be dangerous.
+
+5
+00:00:19.272 --> 00:00:22.872
+In Heun’s method we first predict with Euler,
+
+6
+00:00:22.872 --> 00:00:28.224
+then compute the slope at the end of the step and step with the average of the two slopes.
+
+7
+00:00:28.224 --> 00:00:36.240
+RK4 takes four slopes: at the start, twice at the midpoint and at the end, and averages them with weights one,
+
+8
+00:00:36.240 --> 00:00:39.302
+two, two, one.
+
+9
+00:00:39.552 --> 00:00:46.632
+Again y prime equals x plus y, y of zero equals one, h equals zero point one.
+
+10
+00:00:46.632 --> 00:00:50.328
+In RK4, k one equals one.
+
+11
+00:00:50.328 --> 00:00:56.880
+k two is at the midpoint: x is zero point zero five and y is one point zero five,
+
+12
+00:00:56.880 --> 00:01:00.398
+so k two equals one point one.
+
+13
+00:01:00.648 --> 00:01:06.696
+k three is also at the midpoint but uses k two: one point one zero five.
+
+14
+00:01:06.696 --> 00:01:11.760
+k four is at the end of the step: one point two one zero five.
+
+15
+00:01:11.760 --> 00:01:19.886
+Averaging gives y one about one point one one zero three four two, with an error of about two ten-millionths.
+
+16
+00:01:20.136 --> 00:01:24.600
+Compare the three methods at x equal to zero point five.
+
+17
+00:01:24.600 --> 00:01:31.560
+When the step is halved the Euler error drops by two, Heun’s by four and RK4’s by sixteen.
+
+18
+00:01:31.560 --> 00:01:35.582
+So the orders are one, two and four.
+
+19
+00:01:35.832 --> 00:01:37.920
+Now stability.
+
+20
+00:01:37.920 --> 00:01:45.384
+For y prime equals minus lambda y, Euler multiplies y by one minus h lambda at every step.
+
+21
+00:01:45.384 --> 00:01:50.880
+If h is larger than two over lambda, this factor exceeds one in size,
+
+22
+00:01:50.880 --> 00:01:58.032
+and the numerical solution grows with alternating sign, although the exact solution on the graph decays.
+
+23
+00:01:58.032 --> 00:02:02.438
+SciPy’s solve ivp chooses the step automatically.
+
+24
+00:02:02.688 --> 00:02:09.000
+Question: for which step is explicit Euler stable on y prime equals minus twenty y?
+
+25
+00:02:09.000 --> 00:02:12.048
+Pause the video, choose your answer,
+
+26
+00:02:12.048 --> 00:02:17.726
+then read the explanation and go back to the relevant part of the lesson if needed.

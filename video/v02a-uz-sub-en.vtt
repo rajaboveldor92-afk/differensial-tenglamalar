@@ -1,0 +1,133 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.545
+Hello.
+
+2
+00:00:00.545 --> 00:00:08.805
+In this lesson we learn the simplest and most widely used method: separating the variables.
+
+3
+00:00:08.805 --> 00:00:18.155
+A virus spreading in a network, tea cooling down, radioactive decay — all of these are solved this way.
+
+4
+00:00:18.155 --> 00:00:27.686
+By the end you will not only solve the equation but also find the solutions that get lost when we divide.
+
+5
+00:00:27.936 --> 00:00:34.569
+An equation is separable when the right side splits into two factors,
+
+6
+00:00:34.569 --> 00:00:39.183
+one depending only on x and the other only on y.
+
+7
+00:00:39.183 --> 00:00:50.623
+Then we move everything with y to the left and everything with x to the right: d y over g of y equals f of x times d x.
+
+8
+00:00:50.623 --> 00:00:56.102
+Then we integrate both sides and add a single constant C.
+
+9
+00:00:56.352 --> 00:01:00.436
+Example: y prime equals x times y squared.
+
+10
+00:01:00.436 --> 00:01:03.451
+Here f is x and g is y squared.
+
+11
+00:01:03.451 --> 00:01:08.800
+An important step before dividing: set g equal to zero.
+
+12
+00:01:08.800 --> 00:01:13.565
+If y squared is zero, then y is identically zero.
+
+13
+00:01:13.565 --> 00:01:19.302
+Check it: the left side is zero and the right side is zero.
+
+14
+00:01:19.302 --> 00:01:22.803
+So y identically zero is a solution.
+
+15
+00:01:22.803 --> 00:01:25.526
+We write it down right away.
+
+16
+00:01:25.776 --> 00:01:33.576
+Now assume y is not zero and separate: d y over y squared equals x d x.
+
+17
+00:01:33.576 --> 00:01:42.694
+The integral on the left is minus one over y, on the right it is half of x squared.
+
+18
+00:01:42.694 --> 00:01:44.891
+We add one constant.
+
+19
+00:01:44.891 --> 00:01:52.142
+The result: minus one over y equals x squared over two plus C one.
+
+20
+00:01:52.392 --> 00:01:58.897
+Solve for y: y equals minus two over x squared plus C, where C is two C one.
+
+21
+00:01:58.897 --> 00:02:04.631
+The full answer has two parts: this formula and y identically zero.
+
+22
+00:02:04.631 --> 00:02:11.392
+Notice that y identically zero does not come from the formula for any finite C.
+
+23
+00:02:11.392 --> 00:02:17.726
+Had we not written it down beforehand, it would have been lost completely.
+
+24
+00:02:17.976 --> 00:02:20.422
+Look at the direction field.
+
+25
+00:02:20.422 --> 00:02:23.306
+Exactly on the y axis, x is zero,
+
+26
+00:02:23.306 --> 00:02:30.645
+so the segments there are horizontal; near the y axis their slopes are merely small.
+
+27
+00:02:30.645 --> 00:02:37.897
+The x axis itself is also an integral curve: it is the solution y identically zero.
+
+28
+00:02:37.897 --> 00:02:44.887
+The curves above and below never cross it, as the uniqueness theorem guarantees.
+
+29
+00:02:44.887 --> 00:02:49.430
+The lower curve is the solution with C equal to two.
+
+30
+00:02:49.680 --> 00:02:51.341
+Now test yourself.
+
+31
+00:02:51.341 --> 00:02:56.691
+Find the constant solutions of the equation on the screen.
+
+32
+00:02:56.691 --> 00:03:02.134
+Hint: set the right side equal to zero and check each root.
+
+33
+00:03:02.134 --> 00:03:06.470
+After choosing an answer, read the explanation.

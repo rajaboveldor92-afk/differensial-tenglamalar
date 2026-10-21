@@ -1,0 +1,113 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:07.848
+In this lesson we look at equations whose right side is not zero: for example a battery is connected to a circuit,
+
+2
+00:00:07.848 --> 00:00:11.160
+or an external force acts on a spring.
+
+3
+00:00:11.160 --> 00:00:20.006
+We split the general solution into two parts and find the particular solution from an almost ready template by looking at the right side.
+
+4
+00:00:20.256 --> 00:00:29.040
+The basic structure: the general solution equals the general solution of the homogeneous equation plus one particular solution.
+
+5
+00:00:29.040 --> 00:00:35.568
+The reason is linearity: the difference of two solutions satisfies the homogeneous equation.
+
+6
+00:00:35.568 --> 00:00:42.158
+Initial conditions are always applied to the full sum, not to the homogeneous part alone.
+
+7
+00:00:42.408 --> 00:00:50.064
+If the right side is a quasi-polynomial, built from an exponential, a polynomial, cosine and sine,
+
+8
+00:00:50.064 --> 00:00:54.984
+we attach to it the control number sigma equal to alpha plus i beta.
+
+9
+00:00:54.984 --> 00:01:01.920
+If sigma is not a characteristic root, the particular solution has the same shape as the right side.
+
+10
+00:01:01.920 --> 00:01:08.424
+If sigma is a root of multiplicity s, we multiply the template by x to the power s.
+
+11
+00:01:08.424 --> 00:01:11.006
+This is resonance.
+
+12
+00:01:11.256 --> 00:01:16.104
+Example: y double prime plus y equals four sine x.
+
+13
+00:01:16.104 --> 00:01:22.008
+This is a spring without friction whose forcing frequency equals its natural frequency.
+
+14
+00:01:22.008 --> 00:01:25.896
+The characteristic roots are plus or minus i.
+
+15
+00:01:25.896 --> 00:01:31.550
+The control number sigma is i, a simple root, so s equals one.
+
+16
+00:01:31.800 --> 00:01:37.200
+Template: x times, in brackets, A cosine x plus B sine x.
+
+17
+00:01:37.200 --> 00:01:42.264
+Note that although only a sine is on the right, the cosine is taken too.
+
+18
+00:01:42.264 --> 00:01:50.582
+Differentiating twice and substituting, the left side becomes minus two A sine x plus two B cosine x.
+
+19
+00:01:50.832 --> 00:01:56.640
+Match the coefficients: minus two A equals four and two B equals zero.
+
+20
+00:01:56.640 --> 00:02:03.960
+So A is minus two, B is zero, and the particular solution is minus two x cosine x.
+
+21
+00:02:03.960 --> 00:02:11.414
+The general solution is C one cosine x plus C two sine x minus two x cosine x.
+
+22
+00:02:11.664 --> 00:02:16.680
+The graph shows the particular solution minus two x cosine x.
+
+23
+00:02:16.680 --> 00:02:20.112
+Its amplitude grows linearly with x.
+
+24
+00:02:20.112 --> 00:02:27.984
+This is what resonance looks like: the force pushes at just the right moment every time and the oscillation grows without bound.
+
+25
+00:02:27.984 --> 00:02:32.102
+That is why real bridges and machines have dampers.
+
+26
+00:02:32.352 --> 00:02:40.488
+Your turn: in which form should you look for a particular solution of y double prime plus four y equals cosine two x?
+
+27
+00:02:40.488 --> 00:02:45.096
+Find the control number and check whether it is a characteristic root.
+
+28
+00:02:45.096 --> 00:02:48.422
+Pause the video and choose your answer.

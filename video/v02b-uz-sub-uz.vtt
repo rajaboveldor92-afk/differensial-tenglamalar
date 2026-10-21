@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.696
+Bu qismda ikki real masalani yechamiz.
+
+2
+00:00:03.696 --> 00:00:07.704
+Birinchisi — choy qachon ichishga tayyor bo‘lishi.
+
+3
+00:00:07.704 --> 00:00:14.064
+Ikkinchisi — ming kompyuterli tarmoqda virus qachon tarmoqning yarmini egallashi.
+
+4
+00:00:14.064 --> 00:00:20.280
+Ikkalasida ham reja bir xil: modelni yozamiz, o‘zgaruvchilarni ajratamiz,
+
+5
+00:00:20.280 --> 00:00:25.478
+o‘lchovdan koeffitsiyentni topamiz va savolga javob beramiz.
+
+6
+00:00:25.728 --> 00:00:31.776
+Nyuton qonuni: sovish tezligi jism va xona harorati farqiga proporsional.
+
+7
+00:00:31.776 --> 00:00:36.408
+Ya’ni T shtrix teng minus k karra T minus xona harorati.
+
+8
+00:00:36.408 --> 00:00:40.464
+Minus ishorasi issiq jism soviydi degani.
+
+9
+00:00:40.464 --> 00:00:43.200
+Ajratib integrallasak,
+
+10
+00:00:43.200 --> 00:00:51.878
+harorat farqi eksponenta bo‘yicha kamayadi: T teng xona harorati plyus boshlang‘ich farq karra e daraja minus k t.
+
+11
+00:00:52.128 --> 00:00:59.784
+Xona yigirma gradus, choy to‘qson gradusda quyildi, o‘n daqiqadan keyin oltmish gradus bo‘ldi.
+
+12
+00:00:59.784 --> 00:01:05.616
+Formulaga qo‘yamiz: T teng yigirma plyus yetmish karra e daraja minus k t.
+
+13
+00:01:05.616 --> 00:01:10.464
+O‘n daqiqada yetmish karra e daraja minus o‘n k qirqqa teng.
+
+14
+00:01:10.464 --> 00:01:18.350
+Demak, k teng o‘ndan bir karra yetti to‘rtdan logarifmi, taxminan nol butun besh yuz oltmishdan bir.
+
+15
+00:01:18.600 --> 00:01:22.392
+Endi savol: qachon o‘ttiz gradus bo‘ladi?
+
+16
+00:01:22.392 --> 00:01:30.120
+Yetmish karra e daraja minus k t o‘nga teng bo‘lishi kerak, ya’ni e daraja minus k t yettidan birga teng.
+
+17
+00:01:30.120 --> 00:01:37.272
+Bundan t teng yettining logarifmi bo‘lingan k ga, taxminan o‘ttiz to‘rt butun sakkiz daqiqa.
+
+18
+00:01:37.272 --> 00:01:42.950
+Tekshiramiz: yigirma plyus yetmish karra yettidan bir aniq o‘ttiz.
+
+19
+00:01:43.200 --> 00:01:46.656
+Ikkinchi model: tarmoqdagi virus.
+
+20
+00:01:46.656 --> 00:01:55.704
+Zararlanish tezligi zararlangan va sog‘ kompyuterlar uchrashuviga proporsional: I shtrix teng beta karra I karra N minus I.
+
+21
+00:01:55.704 --> 00:01:58.320
+Bu logistik tenglama.
+
+22
+00:01:58.320 --> 00:02:03.552
+Uning yechimi N bo‘lingan bir plyus A karra e daraja minus r t ga.
+
+23
+00:02:03.552 --> 00:02:08.832
+Ming kompyuter, boshida o‘nta, bir soatdan keyin ellikta bo‘lsa,
+
+24
+00:02:08.832 --> 00:02:13.838
+yarmi taxminan ikki butun sakson soatda zararlanadi.
+
+25
+00:02:14.088 --> 00:02:18.600
+Grafikda zararlangan kompyuterlar soni ko‘rsatilgan.
+
+26
+00:02:18.600 --> 00:02:25.032
+Boshida o‘sish deyarli eksponensial, keyin egri chiziq burilib, mingga yaqinlashadi.
+
+27
+00:02:25.032 --> 00:02:30.720
+Burilish nuqtasi aynan besh yuzda — bu paytda virus eng tez tarqaladi.
+
+28
+00:02:30.720 --> 00:02:36.566
+Shuning uchun himoya choralarini burilish nuqtasidan oldin ko‘rish muhim.
+
+29
+00:02:36.816 --> 00:02:39.072
+Tekshiruv savoli.
+
+30
+00:02:39.072 --> 00:02:43.920
+Logistik modelda o‘sish eng tez bo‘lgan holatni tanlang.
+
+31
+00:02:43.920 --> 00:02:48.782
+Eslatma: o‘ng tomon — bu P ga nisbatan parabola.

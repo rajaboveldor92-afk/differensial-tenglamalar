@@ -1,0 +1,16 @@
+Systems: matrix form and elimination
+
+[0:00] In real processes several quantities influence each other: the temperatures of two rooms, numbers of predators and prey, susceptible and infected computers. In this lesson we write such systems in matrix form and solve them by elimination.
+
+[0:17] In a normal system the derivative of each unknown is expressed through the others. In the linear case we collect the coefficients into a matrix A and write X prime equals A X plus F. An n-th order equation also becomes a system: take y, y prime and so on as new unknowns.
+
+[0:38] Example: x prime equals two x plus y, y prime equals three x plus four y. From the first equation, y equals x prime minus two x. Differentiate the first equation and replace y prime using the second one.
+
+[0:55] This gives x double prime minus six x prime plus five x equals zero. The characteristic roots are one and five. So x equals C one e to the t plus C two e to the five t.
+
+[1:10] We do not integrate for y; we substitute into y equals x prime minus two x: y equals minus C one e to the t plus three C two e to the five t. No extra constant appears: a system with two unknowns has exactly two constants.
+
+[1:28] With x of zero equal to one and y of zero equal to seven we get C one minus one and C two equal to two. The graph shows x and y in time: both grow fast, like e to the five t, because the largest root is five.
+
+[1:44] Question: how many first-order equations do we get when reducing a third-order equation to a normal system? Pause the video, choose your answer, then read the explanation and go back to the relevant part of the lesson if needed.
+

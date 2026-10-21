@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.960
+Eyler usuli sodda, lekin aniqligi past.
+
+2
+00:00:03.960 --> 00:00:07.632
+Bu qismda og‘ishni bir necha nuqtada olib,
+
+3
+00:00:07.632 --> 00:00:14.880
+o‘rtachasini ishlatadigan usullarni ko‘ramiz: takomillashtirilgan Eyler, ya’ni Hoyn usuli,
+
+4
+00:00:14.880 --> 00:00:18.168
+va klassik Runge–Kutta usuli.
+
+5
+00:00:18.168 --> 00:00:23.294
+Keyin katta qadam nima uchun xavfli ekanini bilib olamiz.
+
+6
+00:00:23.544 --> 00:00:27.864
+Hoyn usulida avval Eyler bilan bashorat qilamiz,
+
+7
+00:00:27.864 --> 00:00:34.776
+so‘ng qadam oxiridagi og‘ishni hisoblaymiz va ikki og‘ishning o‘rtachasi bilan qadam qo‘yamiz.
+
+8
+00:00:34.776 --> 00:00:42.648
+RK4 to‘rtta og‘ishni oladi: boshida, ikki marta o‘rtada va oxirida, va ularni bir, ikki, ikki,
+
+9
+00:00:42.648 --> 00:00:46.166
+bir vaznlari bilan o‘rtachalaydi.
+
+10
+00:00:46.416 --> 00:00:53.040
+Yana y shtrix teng x plyus y, y nolda bir, h nol butun o‘ndan bir.
+
+11
+00:00:53.040 --> 00:00:55.824
+RK4 da k bir teng bir.
+
+12
+00:00:55.824 --> 00:01:02.352
+k ikki — o‘rta nuqtada: x nol butun yuzdan besh, y bir butun yuzdan besh,
+
+13
+00:01:02.352 --> 00:01:06.278
+demak k ikki teng bir butun o‘ndan bir.
+
+14
+00:01:06.528 --> 00:01:13.248
+k uch ham o‘rta nuqtada, lekin k ikki bilan hisoblanadi: bir butun mingdan bir yuz besh.
+
+15
+00:01:13.248 --> 00:01:18.720
+k to‘rt qadam oxirida: bir butun o‘n mingdan ikki ming bir yuz besh.
+
+16
+00:01:18.720 --> 00:01:24.768
+Vaznli o‘rtacha bilan y bir taxminan bir butun mingdan bir yuz o‘n chiqadi,
+
+17
+00:01:24.768 --> 00:01:29.822
+aniq qiymatdan farqi esa o‘n milliondan ikki atrofida.
+
+18
+00:01:30.072 --> 00:01:34.440
+Uchala usulni x nol butun beshda solishtiramiz.
+
+19
+00:01:34.440 --> 00:01:42.696
+Qadam ikki marta kamayganda Eyler xatosi ikki, Hoyn xatosi to‘rt, RK4 xatosi o‘n olti marta kamayadi.
+
+20
+00:01:42.696 --> 00:01:46.550
+Demak tartiblar bir, ikki va to‘rt.
+
+21
+00:01:46.800 --> 00:01:49.128
+Endi barqarorlik.
+
+22
+00:01:49.128 --> 00:01:57.048
+y shtrix teng minus lambda y uchun Eyler har qadamda y ni bir minus h lambda ga ko‘paytiradi.
+
+23
+00:01:57.048 --> 00:02:01.272
+Agar h ikki bo‘lingan lambda dan katta bo‘lsa,
+
+24
+00:02:01.272 --> 00:02:07.560
+bu ko‘paytuvchi moduli birdan katta va sonli yechim ishorasini almashtirib o‘sadi,
+
+25
+00:02:07.560 --> 00:02:11.808
+garchi grafikdagi aniq yechim nolga so‘nsa ham.
+
+26
+00:02:11.808 --> 00:02:16.622
+SciPy dagi solve ivp qadamni avtomatik tanlaydi.
+
+27
+00:02:16.872 --> 00:02:24.144
+Savol: y shtrix teng minus yigirma y uchun oshkor Eyler usuli qaysi qadamda barqaror?
+
+28
+00:02:24.144 --> 00:02:28.224
+Videoni to‘xtating, javobni o‘zingiz tanlang,
+
+29
+00:02:28.224 --> 00:02:34.022
+so‘ng izohni o‘qing va kerak bo‘lsa darsning tegishli qismiga qayting.

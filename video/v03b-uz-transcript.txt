@@ -1,0 +1,16 @@
+Ko‘zgu masalasi
+
+[0:00] Fara lampasi bitta nuqtada, lekin yorug‘lik parallel dasta bo‘lib chiqadi. Sun’iy yo‘ldosh antennasi esa parallel signalni bitta nuqtaga yig‘adi. Bu qismda shunday ko‘zgu shaklini differensial tenglama yordamida topamiz. Natija juda chiroyli: bu parabola bo‘ladi.
+
+[0:21] Manba koordinata boshida. Ko‘zgudagi M nuqtadagi urinma Ox o‘qini T nuqtada kesadi. Qaytish qonuniga ko‘ra tushish burchagi qaytish burchagiga teng. Qaytgan nur Ox ga parallel bo‘lgani uchun O M T uchburchak teng yonli bo‘ladi: O T masofa O M ga, ya’ni x kvadrat plyus y kvadratdan ildizga teng.
+
+[0:47] T nuqta O dan chapda yotadi, shuning uchun O T teng y bo‘lingan y shtrix minus x. Buni ildizga tenglaymiz va y shtrixni topamiz: y shtrix teng y bo‘lingan x plyus ildiz x kvadrat plyus y kvadratga. x va y ni bir xil songa ko‘paytirsak, kasr o‘zgarmaydi — tenglama bir jinsli.
+
+[1:12] Bu yerda x ni y ning funksiyasi deb olish qulayroq. x teng v karra y almashtirishdan keyin y karra v shtrix teng ildiz bir plyus v kvadrat hosil bo‘ladi. Ajratib integrallaymiz: v plyus ildiz bir plyus v kvadratning logarifmi y bo‘lingan C ning logarifmiga teng.
+
+[1:34] Potensirlab, v ni x bo‘lingan y bilan almashtiramiz: x plyus ildiz teng y kvadrat bo‘lingan C. Ildizni yolg‘iz qoldirib, kvadratga ko‘taramiz va y kvadratga qisqartiramiz. Javob: y kvadrat teng ikki C x plyus C kvadrat. Bu fokusi koordinata boshida bo‘lgan parabola, ko‘zgu esa aylanish paraboloidi.
+
+[2:01] Grafikda C bir va C ikki bo‘lgan ikkita parabola ko‘rsatilgan. Ularning barchasining fokusi bitta nuqtada — koordinata boshida. Parametr C faqat ko‘zguning kengligini o‘zgartiradi. Antenna loyihalashda aynan shu parametr tanlanadi, qabul qilgich esa doim fokusga qo‘yiladi.
+
+[2:23] Tekshiruv savoli: ko‘zgu masalasida hosil bo‘lgan tenglama qaysi turga kiradi? Uni o‘ng tomoniga qarab aniqlang.
+

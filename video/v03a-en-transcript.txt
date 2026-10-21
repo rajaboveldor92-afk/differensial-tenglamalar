@@ -1,0 +1,16 @@
+Homogeneous equations and y = ux
+
+[0:00] Hello. Some equations do not separate at once, but one clever substitution makes them separable. Today we meet one such kind, the homogeneous equation. Its signature: if you zoom the picture, the direction field does not change. By the end you will confidently use the substitution y equals u times x.
+
+[0:24] If multiplying x and y by the same number t leaves the right side unchanged, the function is homogeneous of degree zero. Then the right side depends only on the ratio y over x. Put y equals u times x. By the product rule y prime equals u prime times x plus u. We get x times u prime equals phi of u minus u, a separable equation.
+
+[0:51] Example: y prime equals x squared plus y squared over x times y. Numerator and denominator both have degree two, so the equation is homogeneous. Dividing top and bottom by x squared gives phi of u equals one over u plus u.
+
+[1:09] Substitute y equals u times x: u prime times x plus u equals one over u plus u. The u terms cancel, leaving x times u prime equals one over u. This is never zero, so there is no straight-line solution. Separate: u d u equals d x over x.
+
+[1:31] Integrate: one half of u squared equals the natural logarithm of the absolute value of x plus C one. Put back u equals y over x and multiply by two. The answer is y squared equals x squared times the entire quantity in parentheses: two natural log of the absolute value of x plus C. The parentheses and absolute value are essential. Always write the final answer in the original variables.
+
+[2:01] Look at the direction field: along every ray from the origin the segments have the same slope. That is the geometric meaning of homogeneity. So stretching or shrinking one integral curve about the origin gives another integral curve.
+
+[2:17] Check question: if y equals u times x, what is y prime? Remember the product rule.
+

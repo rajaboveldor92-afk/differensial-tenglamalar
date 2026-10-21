@@ -1,0 +1,109 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.313
+Endi sistemaga boshqa tomondan qaraymiz.
+
+2
+00:00:03.313 --> 00:00:15.241
+Yechimni vektor karra e daraja lambda t ko‘rinishida izlaymiz va yechimlarning faza tekisligidagi rasmini — faza portretini o‘qishni o‘rganamiz.
+
+3
+00:00:15.241 --> 00:00:19.382
+Oxirida yirtqich–o‘lja modelini chiziqlashtiramiz.
+
+4
+00:00:19.632 --> 00:00:29.411
+Agar v — A ning lambda xos qiymatiga mos xos vektori bo‘lsa, v karra e daraja lambda t yechim bo‘ladi.
+
+5
+00:00:29.411 --> 00:00:39.766
+Ikki o‘lchovli holda lambda kvadrat minus iz karra lambda plyus determinant teng nol tenglamasidan topiladi.
+
+6
+00:00:39.766 --> 00:00:45.710
+Ildizlar haqiqiy turli, kompleks yoki karrali bo‘lishi mumkin.
+
+7
+00:00:45.960 --> 00:00:53.891
+Matritsa: birinchi qator minus bir, minus to‘rt; ikkinchi qator bir, minus bir.
+
+8
+00:00:53.891 --> 00:00:57.103
+Iz minus ikki, determinant besh.
+
+9
+00:00:57.103 --> 00:01:00.918
+Ildizlar minus bir plyus minus ikki i.
+
+10
+00:01:00.918 --> 00:01:06.038
+Kompleks holda bitta ildiz uchun xos vektor olamiz.
+
+11
+00:01:06.288 --> 00:01:12.206
+Lambda minus bir plyus ikki i uchun xos vektor: ikki i va bir.
+
+12
+00:01:12.206 --> 00:01:18.793
+U v karra e daraja lambda t ning haqiqiy va mavhum qismlarini beradi.
+
+13
+00:01:18.793 --> 00:01:29.102
+Masalan, ikkinchi yechim: x teng ikki e daraja minus t kosinus ikki t, y teng e daraja minus t sinus ikki t.
+
+14
+00:01:29.352 --> 00:01:33.561
+Tasnif qoidasi: determinant manfiy bo‘lsa — egar.
+
+15
+00:01:33.561 --> 00:01:42.408
+Determinant musbat bo‘lsa, iz kvadrati to‘rt determinantdan katta bo‘lsa — haqiqiy turli ildizli tugun,
+
+16
+00:01:42.408 --> 00:01:45.758
+kichik bo‘lsa — kompleks ildizli fokus.
+
+17
+00:01:45.758 --> 00:01:58.385
+Iz kvadrati aynan to‘rt determinantga teng bo‘lsa karrali haqiqiy ildiz holati keladi va tugunning xos vektorlar soniga qarab alohida tekshiriladi.
+
+18
+00:01:58.385 --> 00:02:05.343
+Determinant musbat bo‘lgan holatda iz manfiy bo‘lsa muvozanat asimptotik turg‘un,
+
+19
+00:02:05.343 --> 00:02:13.331
+iz musbat bo‘lsa turg‘un emas; iz nol va kompleks sof mavhum ildizlarda markaz hosil bo‘ladi.
+
+20
+00:02:13.331 --> 00:02:22.694
+Bizda determinant besh musbat, iz minus ikki va iz kvadrati to‘rt determinantdan kichik: demak turg‘un fokus.
+
+21
+00:02:22.944 --> 00:02:27.715
+Grafikda x va y vaqt bo‘yicha: so‘nuvchi tebranishlar.
+
+22
+00:02:27.715 --> 00:02:34.783
+Faza tekisligida bu nuqta koordinata boshiga o‘ralib kiradigan spiralni chizadi.
+
+23
+00:02:34.783 --> 00:02:42.823
+Yirtqich–o‘lja modelini chiziqlashtirsak, iz nol chiqadi — markaz; lekin bu chegaraviy hol,
+
+24
+00:02:42.823 --> 00:02:46.622
+uni chiziqlashtirishning o‘zi hal qilmaydi.
+
+25
+00:02:46.872 --> 00:02:54.380
+Savol: iz minus uch, determinant minus ikki bo‘lsa, muvozanat holati qanday turda?
+
+26
+00:02:54.380 --> 00:02:58.501
+Videoni to‘xtating, javobni o‘zingiz tanlang,
+
+27
+00:02:58.501 --> 00:03:04.910
+so‘ng izohni o‘qing va kerak bo‘lsa darsning tegishli qismiga qayting.

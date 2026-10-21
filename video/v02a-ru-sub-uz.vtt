@@ -1,0 +1,137 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.251
+Assalomu alaykum.
+
+2
+00:00:01.251 --> 00:00:08.392
+Bu darsda eng sodda, lekin eng ko‘p ishlatiladigan usul — o‘zgaruvchilarni ajratishni o‘rganamiz.
+
+3
+00:00:08.392 --> 00:00:11.631
+Tarmoqda virus tarqalishi, choyning sovishi,
+
+4
+00:00:11.631 --> 00:00:16.637
+radioaktiv yemirilish — bularning barchasi shu usul bilan yechiladi.
+
+5
+00:00:16.637 --> 00:00:24.734
+Dars oxirida siz tenglamani yechibgina qolmay, bo‘lish paytida yo‘qolib qoladigan yechimlarni ham topa olasiz.
+
+6
+00:00:24.984 --> 00:00:34.200
+Tenglama ajraladigan deyiladi, agar o‘ng tomon ikki ko‘paytuvchiga ajralsa: biri faqat x ga,
+
+7
+00:00:34.200 --> 00:00:37.205
+ikkinchisi faqat y ga bog‘liq.
+
+8
+00:00:37.205 --> 00:00:46.120
+Unda y li hammasini chapga, x li hammasini o‘ngga o‘tkazamiz: d y ni g dan y ga bo‘lamiz,
+
+9
+00:00:46.120 --> 00:00:49.726
+u f dan x karra d x ga teng bo‘ladi.
+
+10
+00:00:49.726 --> 00:00:56.438
+Keyin ikkala tomonni integrallaymiz va bitta o‘zgarmas C qo‘shamiz.
+
+11
+00:00:56.688 --> 00:01:01.110
+Misol: y shtrix teng x karra y kvadrat.
+
+12
+00:01:01.110 --> 00:01:05.192
+Bu yerda f teng x, g teng y kvadrat.
+
+13
+00:01:05.192 --> 00:01:11.088
+Bo‘lishdan oldin muhim qadam: g ni nolga tenglaymiz.
+
+14
+00:01:11.088 --> 00:01:15.737
+y kvadrat nolga teng bo‘lsa, y aynan nol.
+
+15
+00:01:15.737 --> 00:01:21.179
+Tekshiramiz: chap tomon nol, o‘ng tomon ham nol.
+
+16
+00:01:21.179 --> 00:01:24.354
+Demak, y aynan nol — yechim.
+
+17
+00:01:24.354 --> 00:01:27.302
+Uni darhol yozib qo‘yamiz.
+
+18
+00:01:27.552 --> 00:01:36.365
+Endi y nolga teng emas deb hisoblab, ajratamiz: d y ni y kvadratga bo‘lamiz, bu x karra d x ga teng.
+
+19
+00:01:36.365 --> 00:01:44.561
+Chap tomonning integrali minus bir bo‘lingan y ga, o‘ng tomonniki x kvadratning yarmiga teng.
+
+20
+00:01:44.561 --> 00:01:46.852
+Bitta o‘zgarmas qo‘shamiz.
+
+21
+00:01:46.852 --> 00:01:53.462
+Natijada minus bir bo‘lingan y teng x kvadrat ikkiga bo‘lingan plyus C bir.
+
+22
+00:01:53.712 --> 00:02:01.591
+y ni topamiz: y teng minus ikki bo‘lingan x kvadrat plyus C ga, bunda C ikki karra C bir.
+
+23
+00:02:01.591 --> 00:02:06.990
+To‘liq javob ikki qismdan iborat: shu formula va y aynan nol.
+
+24
+00:02:06.990 --> 00:02:13.453
+E’tibor bering, y aynan nol formuladan hech qanday chekli C da chiqmaydi.
+
+25
+00:02:13.453 --> 00:02:19.118
+Agar uni oldindan yozmaganimizda, u butunlay yo‘qolgan bo‘lardi.
+
+26
+00:02:19.368 --> 00:02:21.854
+Yo‘nalish maydoniga qaraymiz.
+
+27
+00:02:21.854 --> 00:02:32.140
+Aynan y o‘qida x nol bo‘lgani uchun kesmalar gorizontal; y o‘qiga yaqin nuqtalarda esa ularning qiyaligi kichik bo‘ladi.
+
+28
+00:02:32.140 --> 00:02:37.454
+Ox o‘qining o‘zi ham integral chiziq — bu y aynan nol yechimi.
+
+29
+00:02:37.454 --> 00:02:46.797
+Yuqoridagi va pastdagi egri chiziqlar uni hech qachon kesib o‘tmaydi: yagonalik teoremasi shuni kafolatlaydi.
+
+30
+00:02:46.797 --> 00:02:51.254
+Pastki egri chiziq C ikkiga teng bo‘lgandagi yechim.
+
+31
+00:02:51.504 --> 00:02:54.264
+Endi o‘zingizni sinab ko‘ring.
+
+32
+00:02:54.264 --> 00:02:59.141
+Ekrandagi tenglamaning o‘zgarmas yechimlarini toping.
+
+33
+00:02:59.141 --> 00:03:05.306
+Eslatma: o‘ng tomonni nolga tenglang va har bir ildizni tekshiring.
+
+34
+00:03:05.306 --> 00:03:08.342
+Javobni tanlagach, izohni o‘qing.

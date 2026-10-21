@@ -1,0 +1,145 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.484
+Hello!
+
+2
+00:00:00.484 --> 00:00:05.321
+Today we go one step beyond ordinary differential equations.
+
+3
+00:00:05.321 --> 00:00:13.062
+The unknown function now depends on two variables instead of one, for example position and time.
+
+4
+00:00:13.062 --> 00:00:25.478
+After this lesson you will find the order and linearity of a partial differential equation and recognise the three main equations of mathematical physics.
+
+5
+00:00:25.728 --> 00:00:28.664
+Take a thin fin of a CPU heat sink.
+
+6
+00:00:28.664 --> 00:00:33.363
+Its temperature u depends on the point x and the time t.
+
+7
+00:00:33.363 --> 00:00:42.927
+The simplest model says the derivative of u with respect to t equals the second derivative of u with respect to x.
+
+8
+00:00:42.927 --> 00:00:48.967
+An equation with partial derivatives is a partial differential equation,
+
+9
+00:00:48.967 --> 00:00:53.414
+and the order of its highest derivative is its order.
+
+10
+00:00:53.664 --> 00:01:02.529
+An equation is linear when u and its derivatives appear to the first power, are not multiplied together,
+
+11
+00:01:02.529 --> 00:01:05.853
+and have coefficients independent of u.
+
+12
+00:01:05.853 --> 00:01:14.036
+Those coefficients may depend only on the independent variables, for example x and t or x and y.
+
+13
+00:01:14.036 --> 00:01:20.940
+If the right side is zero, the equation is homogeneous and superposition applies.
+
+14
+00:01:20.940 --> 00:01:26.054
+A term such as u times u sub x makes the equation nonlinear.
+
+15
+00:01:26.304 --> 00:01:29.997
+Example: solve u sub x y equals zero.
+
+16
+00:01:29.997 --> 00:01:35.586
+It says that the x derivative of u does not depend on y.
+
+17
+00:01:35.586 --> 00:01:39.478
+So u sub x equals some function h of x.
+
+18
+00:01:39.478 --> 00:01:45.566
+Careful: this is not a constant, it is an arbitrary function!
+
+19
+00:01:45.816 --> 00:01:47.742
+Now integrate in x.
+
+20
+00:01:47.742 --> 00:01:54.329
+The “constant” of integration becomes an arbitrary function of y.
+
+21
+00:01:54.329 --> 00:01:57.978
+Answer: u equals f of x plus g of y.
+
+22
+00:01:57.978 --> 00:02:05.072
+Check: the x derivative is f prime of x, and its y derivative is zero.
+
+23
+00:02:05.072 --> 00:02:11.558
+So the general solution of a PDE depends on arbitrary functions.
+
+24
+00:02:11.808 --> 00:02:13.608
+Three main equations.
+
+25
+00:02:13.608 --> 00:02:22.266
+The vibrating string: the second time derivative of u equals a squared times the second x derivative,
+
+26
+00:02:22.266 --> 00:02:25.696
+where a squared is tension over density.
+
+27
+00:02:25.696 --> 00:02:29.296
+Heat in a rod has a first time derivative.
+
+28
+00:02:29.296 --> 00:02:40.526
+In a two-dimensional steady source-free setting we obtain Laplace’s equation: the sum of the second derivatives in x and y is zero.
+
+29
+00:02:40.776 --> 00:02:50.437
+The graph shows the solution e to the minus t times sine x at three times: zero, one half and one.
+
+30
+00:02:50.437 --> 00:02:58.225
+This single eigenmode keeps its shape while its amplitude decays exponentially.
+
+31
+00:02:58.225 --> 00:03:06.998
+A general initial profile is a sum of many modes; high-frequency variations decay faster,
+
+32
+00:03:06.998 --> 00:03:09.660
+so the profile smooths out.
+
+33
+00:03:09.660 --> 00:03:16.166
+For an ideal lossless string the modes do not decay but oscillate.
+
+34
+00:03:16.416 --> 00:03:18.148
+Now check yourself.
+
+35
+00:03:18.148 --> 00:03:23.251
+Answer the question on screen: which equation is linear?
+
+36
+00:03:23.251 --> 00:03:30.542
+Remember, a function of x and y on the right-hand side does not spoil linearity.

@@ -1,0 +1,133 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:10.714
+Tenglamaning o‘zi jarayonni to‘liq aniqlamaydi: bir xil issiqlik tenglamasi muzlatgichdagi va pechdagi sterjenni tavsiflaydi.
+
+2
+00:00:10.714 --> 00:00:12.686
+Farqni shartlar beradi.
+
+3
+00:00:12.686 --> 00:00:16.800
+Bu qismda boshlang‘ich va chegaraviy shartlarni,
+
+4
+00:00:16.800 --> 00:00:25.286
+masala qachon korrekt ekanini va Laplas tenglamasi uchun Dirixle va Neyman masalalarini o‘rganamiz.
+
+5
+00:00:25.536 --> 00:00:30.358
+Boshlang‘ich shartlar t teng nol paytdagi holatni beradi.
+
+6
+00:00:30.358 --> 00:00:39.073
+Issiqlik tenglamasida vaqt hosilasi birinchi tartibli, shuning uchun bitta shart: boshlang‘ich harorat.
+
+7
+00:00:39.073 --> 00:00:47.872
+To‘lqin tenglamasida ikkinchi tartibli, shuning uchun ikkita: boshlang‘ich shakl va boshlang‘ich tezlik.
+
+8
+00:00:47.872 --> 00:00:52.694
+Laplas tenglamasida vaqt yo‘q, faqat chegaraviy shartlar.
+
+9
+00:00:52.944 --> 00:00:58.650
+Chegaraviy shartlar sterjen uchlarida, barcha vaqtlar uchun beriladi.
+
+10
+00:00:58.650 --> 00:01:02.620
+Birinchi tur, Dirixle: uchdagi harorat berilgan.
+
+11
+00:01:02.620 --> 00:01:10.146
+Ikkinchi tur, Neyman: uch orqali oqim berilgan; issiqlik o‘tkazmaydigan uchda u x teng nol.
+
+12
+00:01:10.146 --> 00:01:18.830
+Uchinchi tur, Robin: u x va u ning kombinatsiyasi; bu uch atrof-muhit bilan issiqlik almashganda bo‘ladi.
+
+13
+00:01:19.080 --> 00:01:26.805
+Misol: ichki issiqlik manbaisiz, bir jinsli sterjenning statsionar holatini olaylik.
+
+14
+00:01:26.805 --> 00:01:33.519
+Bu modelda vaqt hosilasi nol va tenglama u ikki shtrix teng nolga keladi.
+
+15
+00:01:33.519 --> 00:01:38.301
+Shuning uchun u teng A qo‘shuv B x — to‘g‘ri chiziq.
+
+16
+00:01:38.301 --> 00:01:42.716
+Chap uchda harorat yuz daraja: demak A teng yuz.
+
+17
+00:01:42.716 --> 00:01:48.326
+O‘ng uchda Robin sharti: u shtrix bir qo‘shuv u bir teng nol.
+
+18
+00:01:48.576 --> 00:01:56.579
+Robin shartiga qo‘yamiz: B qo‘shuv yuz qo‘shuv B teng nol, demak B teng minus ellik.
+
+19
+00:01:56.579 --> 00:01:59.724
+Javob: u teng yuz ayiruv ellik x.
+
+20
+00:01:59.724 --> 00:02:06.298
+O‘ng uch ellik darajagacha soviydi, chunki u atrofga issiqlik beradi.
+
+21
+00:02:06.298 --> 00:02:12.110
+Tekshiruv: u shtrix minus ellik, u bir ellik, yig‘indisi nol.
+
+22
+00:02:12.360 --> 00:02:14.342
+Grafikda aynan shu manbasiz,
+
+23
+00:02:14.342 --> 00:02:25.740
+bir jinsli statsionar model uchun ikki profil ko‘rsatilgan: Robin shartli yuzdan ellikkacha tushuvchi chiziq va ikkala uchi Dirixle sharti bilan berilgan chiziq.
+
+24
+00:02:25.740 --> 00:02:29.988
+Bu modelda u ikki shtrix nol bo‘lgani uchun profil chiziqli.
+
+25
+00:02:29.988 --> 00:02:36.785
+Agar ichki issiqlik manbai, fazoviy o‘zgaruvchi o‘tkazuvchanlik yoki boshqa fizik hadlar bo‘lsa,
+
+26
+00:02:36.785 --> 00:02:41.174
+statsionar profil umuman olganda chiziqli bo‘lishi shart emas.
+
+27
+00:02:41.424 --> 00:02:49.306
+Adamar bo‘yicha masala korrekt, agar yechim mavjud, yagona va berilganlarga uzluksiz bog‘liq bo‘lsa.
+
+28
+00:02:49.306 --> 00:02:56.243
+Mos regularlik shartlarida Laplas tenglamasi uchun Dirixle masalasi yagona yechimga ega.
+
+29
+00:02:56.243 --> 00:03:06.411
+Neyman masalasida esa chegaradan o‘tadigan umumiy oqim nol bo‘lishi shart va yechim faqat o‘zgarmas qo‘shiluvchigacha aniqlanadi.
+
+30
+00:03:06.411 --> 00:03:11.534
+Laplas tenglamasi uchun Koshi masalasi umumiy holda korrekt emas.
+
+31
+00:03:11.784 --> 00:03:17.879
+Savol: sterjenning uchi issiqlik o‘tkazmaydigan qilib o‘ralgan.
+
+32
+00:03:17.879 --> 00:03:19.814
+Qaysi shart to‘g‘ri?
+
+33
+00:03:19.814 --> 00:03:23.006
+Javobni tanlang va izohni o‘qing.

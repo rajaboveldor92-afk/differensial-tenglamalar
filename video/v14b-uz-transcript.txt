@@ -1,0 +1,18 @@
+Xarakteristikalar va kanonik ko‘rinish
+
+[0:00] Yangi o‘zgaruvchilarni to‘g‘ri tanlasak, murakkab tenglama juda sodda ko‘rinishga keladi. Bu ko‘rinish kanonik deyiladi. Bu qismda xarakteristik tenglamani tuzamiz va bir giperbolik tenglamani bosqichma-bosqich kanonik ko‘rinishga keltirib, umumiy yechimini topamiz.
+
+[0:21] Xarakteristik tenglama: a d y kvadrat ayiruv ikki b d x d y qo‘shuv c d x kvadrat teng nol. O‘rtadagi ishora minus ekaniga e’tibor bering. a nol bo‘lmasa, d y d x teng b plyus-minus diskriminant ildizi, bo‘lingan a. Bu oddiy differensial tenglamalarning integral chiziqlari xarakteristikalar deyiladi.
+
+[0:47] Giperbolik holda ikki haqiqiy xarakteristik oila bor va qulay yangi koordinatalarda kanonik ko‘rinish u ksi eta teng F ga keladi. Parabolik holda bitta haqiqiy oila, elliptik holda esa haqiqiy xarakteristikalar yo‘q. Muhim aniqlik: tenglama turi faqat Yakobiani noldan farqli bo‘lgan silliq, haqiqiy koordinata almashtirishlarida saqlanadi. Degeneratsiyalangan yoki singular almashtirish bu xulosaga kirmaydi.
+
+[1:20] Misol: u x x ayiruv ikki u x y ayiruv uch u y y teng nol. a teng bir, b teng minus bir, c teng minus uch. Diskriminant bir qo‘shuv uch, teng to‘rt, musbat: giperbolik.
+
+[1:36] Xarakteristik tenglama: y shtrix kvadrat qo‘shuv ikki y shtrix ayiruv uch teng nol. Ildizlari bir va minus uch. Integrallab, y ayiruv x teng C bir va y qo‘shuv uch x teng C ikki. Shularni yangi o‘zgaruvchilar qilib olamiz: ksi teng y ayiruv x, eta teng y qo‘shuv uch x.
+
+[2:01] Koeffitsiyentlarni hisoblaymiz: A va C nol, B esa minus sakkiz. Tenglama minus o‘n olti u ksi eta teng nol, ya’ni u ksi eta teng nol bo‘ladi. Umumiy yechim: u teng f y ayiruv x qo‘shuv g y qo‘shuv uch x, bu yerda f va g ixtiyoriy funksiyalar.
+
+[2:22] Grafikda koordinata boshidan o‘tuvchi ikki xarakteristika ko‘rsatilgan: qiyaligi bir bo‘lgan y teng x va qiyaligi minus uch bo‘lgan y teng minus uch x. Yechim har bir oila bo‘ylab o‘z shaklini saqlab “tashiladi”. To‘lqin tenglamasida bu chiziqlar x plyus-minus a t teng o‘zgarmas bo‘ladi.
+
+[2:45] Endi tekshiring: ekrandagi to‘lqin tenglamasining xarakteristikalari qanday? Tezlik a ga e’tibor bering: u kvadrat ildizdan chiqadi.
+

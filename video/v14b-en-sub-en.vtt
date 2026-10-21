@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.904
+With the right choice of new variables a complicated equation takes a very simple form,
+
+2
+00:00:05.904 --> 00:00:08.448
+called the canonical form.
+
+3
+00:00:08.448 --> 00:00:16.056
+In this part we write the characteristic equation and reduce a hyperbolic equation to canonical form step by step,
+
+4
+00:00:16.056 --> 00:00:19.214
+finding its general solution.
+
+5
+00:00:19.464 --> 00:00:27.552
+The characteristic equation is a d y squared minus two b d x d y plus c d x squared equals zero.
+
+6
+00:00:27.552 --> 00:00:30.264
+Note the minus sign in the middle.
+
+7
+00:00:30.264 --> 00:00:38.304
+If a is not zero, d y over d x equals b plus or minus the square root of the discriminant, divided by a.
+
+8
+00:00:38.304 --> 00:00:43.142
+The integral curves of these ODEs are called characteristics.
+
+9
+00:00:43.392 --> 00:00:50.088
+In the hyperbolic case there are two real characteristic families and, in suitable new coordinates,
+
+10
+00:00:50.088 --> 00:00:54.864
+the canonical form reduces to u xi eta equals F.
+
+11
+00:00:54.864 --> 00:01:01.512
+The parabolic case has one real family, while the elliptic case has no real characteristics.
+
+12
+00:01:01.512 --> 00:01:09.408
+An important qualification is that the PDE type is preserved under smooth real coordinate changes with nonzero Jacobian.
+
+13
+00:01:09.408 --> 00:01:15.014
+Degenerate or singular transformations are not covered by that statement.
+
+14
+00:01:15.264 --> 00:01:21.672
+Example: u x x minus two u x y minus three u y y equals zero.
+
+15
+00:01:21.672 --> 00:01:26.016
+a is one, b is minus one, c is minus three.
+
+16
+00:01:26.016 --> 00:01:32.270
+The discriminant is one plus three, which is four, positive: hyperbolic.
+
+17
+00:01:32.520 --> 00:01:39.000
+Characteristic equation: y prime squared plus two y prime minus three equals zero.
+
+18
+00:01:39.000 --> 00:01:41.904
+The roots are one and minus three.
+
+19
+00:01:41.904 --> 00:01:48.000
+Integrating gives y minus x equals C one and y plus three x equals C two.
+
+20
+00:01:48.000 --> 00:01:55.814
+Take these as new variables: xi equals y minus x, and eta equals y plus three x.
+
+21
+00:01:56.064 --> 00:02:01.248
+Compute the coefficients: A and C are zero and B is minus eight.
+
+22
+00:02:01.248 --> 00:02:08.880
+The equation becomes minus sixteen u xi eta equals zero, that is u xi eta equals zero.
+
+23
+00:02:08.880 --> 00:02:18.230
+The general solution is u equals f of y minus x plus g of y plus three x, with arbitrary functions f and g.
+
+24
+00:02:18.480 --> 00:02:24.576
+The graph shows the two characteristics through the origin: y equals x with slope one,
+
+25
+00:02:24.576 --> 00:02:28.776
+and y equals minus three x with slope minus three.
+
+26
+00:02:28.776 --> 00:02:33.456
+The solution is carried along each family without changing shape.
+
+27
+00:02:33.456 --> 00:02:39.734
+For the wave equation these lines are x plus or minus a t equals a constant.
+
+28
+00:02:39.984 --> 00:02:44.928
+Now check: what are the characteristics of the wave equation on screen?
+
+29
+00:02:44.928 --> 00:02:49.070
+Watch the speed a: it comes from a square root.

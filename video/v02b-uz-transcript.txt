@@ -1,0 +1,16 @@
+Amaliy masalalar: sovish va virus
+
+[0:00] Bu qismda ikki real masalani yechamiz. Birinchisi — choy qachon ichishga tayyor bo‘lishi. Ikkinchisi — ming kompyuterli tarmoqda virus qachon tarmoqning yarmini egallashi. Ikkalasida ham reja bir xil: modelni yozamiz, o‘zgaruvchilarni ajratamiz, o‘lchovdan koeffitsiyentni topamiz va savolga javob beramiz.
+
+[0:25] Nyuton qonuni: sovish tezligi jism va xona harorati farqiga proporsional. Ya’ni T shtrix teng minus k karra T minus xona harorati. Minus ishorasi issiq jism soviydi degani. Ajratib integrallasak, harorat farqi eksponenta bo‘yicha kamayadi: T teng xona harorati plyus boshlang‘ich farq karra e daraja minus k t.
+
+[0:52] Xona yigirma gradus, choy to‘qson gradusda quyildi, o‘n daqiqadan keyin oltmish gradus bo‘ldi. Formulaga qo‘yamiz: T teng yigirma plyus yetmish karra e daraja minus k t. O‘n daqiqada yetmish karra e daraja minus o‘n k qirqqa teng. Demak, k teng o‘ndan bir karra yetti to‘rtdan logarifmi, taxminan nol butun besh yuz oltmishdan bir.
+
+[1:18] Endi savol: qachon o‘ttiz gradus bo‘ladi? Yetmish karra e daraja minus k t o‘nga teng bo‘lishi kerak, ya’ni e daraja minus k t yettidan birga teng. Bundan t teng yettining logarifmi bo‘lingan k ga, taxminan o‘ttiz to‘rt butun sakkiz daqiqa. Tekshiramiz: yigirma plyus yetmish karra yettidan bir aniq o‘ttiz.
+
+[1:43] Ikkinchi model: tarmoqdagi virus. Zararlanish tezligi zararlangan va sog‘ kompyuterlar uchrashuviga proporsional: I shtrix teng beta karra I karra N minus I. Bu logistik tenglama. Uning yechimi N bo‘lingan bir plyus A karra e daraja minus r t ga. Ming kompyuter, boshida o‘nta, bir soatdan keyin ellikta bo‘lsa, yarmi taxminan ikki butun sakson soatda zararlanadi.
+
+[2:14] Grafikda zararlangan kompyuterlar soni ko‘rsatilgan. Boshida o‘sish deyarli eksponensial, keyin egri chiziq burilib, mingga yaqinlashadi. Burilish nuqtasi aynan besh yuzda — bu paytda virus eng tez tarqaladi. Shuning uchun himoya choralarini burilish nuqtasidan oldin ko‘rish muhim.
+
+[2:36] Tekshiruv savoli. Logistik modelda o‘sish eng tez bo‘lgan holatni tanlang. Eslatma: o‘ng tomon — bu P ga nisbatan parabola.
+

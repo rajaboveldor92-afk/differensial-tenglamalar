@@ -1,0 +1,85 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.584
+In engineering a voltage is switched on or a short pulse arrives.
+
+2
+00:00:04.584 --> 00:00:11.952
+Classical methods are awkward with such discontinuous sources, while the Laplace method handles them easily.
+
+3
+00:00:11.952 --> 00:00:17.390
+In this part we treat steps, impulses and an RLC circuit.
+
+4
+00:00:17.640 --> 00:00:23.256
+The Heaviside function u of t minus c is zero before c and one after.
+
+5
+00:00:23.256 --> 00:00:30.384
+The second shifting theorem: the transform of a function delayed by c is e to the minus c s times F.
+
+6
+00:00:30.384 --> 00:00:36.456
+The transform of the Dirac impulse delta of t minus c is e to the minus c s.
+
+7
+00:00:36.456 --> 00:00:40.958
+Convolution corresponds to the product of transforms.
+
+8
+00:00:41.208 --> 00:00:47.904
+An RLC circuit: inductance one, resistance two, capacitance zero point two.
+
+9
+00:00:47.904 --> 00:00:51.192
+Ten volts are switched on at time zero.
+
+10
+00:00:51.192 --> 00:00:59.798
+The charge satisfies q double prime plus two q prime plus five q equals ten, with zero initial conditions.
+
+11
+00:01:00.048 --> 00:01:05.328
+Q equals ten over s times s squared plus two s plus five.
+
+12
+00:01:05.328 --> 00:01:12.936
+Partial fractions: two over s minus two times s plus two over s plus one squared plus four.
+
+13
+00:01:12.936 --> 00:01:18.110
+We completed the square in the denominator because there are no real roots.
+
+14
+00:01:18.360 --> 00:01:26.928
+Back with the first shifting theorem: q equals two minus e to the minus t times two cosine two t plus sine two t.
+
+15
+00:01:26.928 --> 00:01:34.646
+The impulse response, the original of the transfer function, is one half e to the minus t sine two t.
+
+16
+00:01:34.896 --> 00:01:40.632
+On the graph the charge tends to two coulombs, the capacitance times the voltage.
+
+17
+00:01:40.632 --> 00:01:45.504
+On the way it overshoots slightly and settles with damped oscillations,
+
+18
+00:01:45.504 --> 00:01:50.678
+because the characteristic roots are complex with negative real part.
+
+19
+00:01:50.928 --> 00:01:56.832
+Question: what is the original of e to the minus three s times capital F of s?
+
+20
+00:01:56.832 --> 00:01:59.880
+Pause the video, choose your answer,
+
+21
+00:01:59.880 --> 00:02:05.558
+then read the explanation and go back to the relevant part of the lesson if needed.

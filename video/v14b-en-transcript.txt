@@ -1,0 +1,18 @@
+Characteristics and canonical form
+
+[0:00] With the right choice of new variables a complicated equation takes a very simple form, called the canonical form. In this part we write the characteristic equation and reduce a hyperbolic equation to canonical form step by step, finding its general solution.
+
+[0:19] The characteristic equation is a d y squared minus two b d x d y plus c d x squared equals zero. Note the minus sign in the middle. If a is not zero, d y over d x equals b plus or minus the square root of the discriminant, divided by a. The integral curves of these ODEs are called characteristics.
+
+[0:43] In the hyperbolic case there are two real characteristic families and, in suitable new coordinates, the canonical form reduces to u xi eta equals F. The parabolic case has one real family, while the elliptic case has no real characteristics. An important qualification is that the PDE type is preserved under smooth real coordinate changes with nonzero Jacobian. Degenerate or singular transformations are not covered by that statement.
+
+[1:15] Example: u x x minus two u x y minus three u y y equals zero. a is one, b is minus one, c is minus three. The discriminant is one plus three, which is four, positive: hyperbolic.
+
+[1:32] Characteristic equation: y prime squared plus two y prime minus three equals zero. The roots are one and minus three. Integrating gives y minus x equals C one and y plus three x equals C two. Take these as new variables: xi equals y minus x, and eta equals y plus three x.
+
+[1:56] Compute the coefficients: A and C are zero and B is minus eight. The equation becomes minus sixteen u xi eta equals zero, that is u xi eta equals zero. The general solution is u equals f of y minus x plus g of y plus three x, with arbitrary functions f and g.
+
+[2:18] The graph shows the two characteristics through the origin: y equals x with slope one, and y equals minus three x with slope minus three. The solution is carried along each family without changing shape. For the wave equation these lines are x plus or minus a t equals a constant.
+
+[2:39] Now check: what are the characteristics of the wave equation on screen? Watch the speed a: it comes from a square root.
+

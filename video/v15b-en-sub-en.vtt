@@ -1,0 +1,113 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:07.248
+A guitar string is fixed at both ends, so waves reflect and d’Alembert’s formula does not apply directly.
+
+2
+00:00:07.248 --> 00:00:13.176
+Fourier’s method offers another route: build the solution as a sum of simple “modes”.
+
+3
+00:00:13.176 --> 00:00:17.846
+In this part we learn the method for the string and for the rod.
+
+4
+00:00:18.096 --> 00:00:23.784
+We look for a solution of the form capital X of x times capital T of t.
+
+5
+00:00:23.784 --> 00:00:29.208
+Substituting, the part depending on x equals the part depending on t,
+
+6
+00:00:29.208 --> 00:00:34.464
+which is only possible if both equal the same constant, minus lambda.
+
+7
+00:00:34.464 --> 00:00:42.326
+The problem for X is X double prime plus lambda X equals zero, with X zero at zero and at l.
+
+8
+00:00:42.576 --> 00:00:47.688
+If lambda is negative or zero, only the zero solution appears.
+
+9
+00:00:47.688 --> 00:00:55.560
+If lambda is positive, X is the sine of root lambda times x, and the sine of root lambda times l must vanish.
+
+10
+00:00:55.560 --> 00:01:04.368
+So the eigenvalues are lambda n equals n pi over l, squared, and the eigenfunctions are sine of n pi x over l,
+
+11
+00:01:04.368 --> 00:01:09.182
+for n equal to one, two, three and so on.
+
+12
+00:01:09.432 --> 00:01:16.224
+Example: u t t equals u x x for x from zero to pi, with fixed ends.
+
+13
+00:01:16.224 --> 00:01:23.712
+The initial shape is two sine x minus sine three x, and the initial velocity is four sine two x.
+
+14
+00:01:23.712 --> 00:01:29.318
+Here the modes are sine n x times cosine n t or sine n t.
+
+15
+00:01:29.568 --> 00:01:34.368
+The data are already sums of sines, so no integrals are needed.
+
+16
+00:01:34.368 --> 00:01:40.104
+At t equals zero compare: A one is two, A three is minus one.
+
+17
+00:01:40.104 --> 00:01:46.728
+The velocity carries n times B n: two B two equals four, so B two is two.
+
+18
+00:01:46.728 --> 00:01:55.430
+Answer: two sine x cosine t plus two sine two x sine two t minus sine three x cosine three t.
+
+19
+00:01:55.680 --> 00:01:59.496
+For heat in a rod the problem for X is the same,
+
+20
+00:01:59.496 --> 00:02:04.776
+but T now satisfies a first-order equation and decays exponentially.
+
+21
+00:02:04.776 --> 00:02:11.784
+For example, if the initial temperature is five sine pi x plus two sine three pi x,
+
+22
+00:02:11.784 --> 00:02:21.062
+the solution is five e to the minus pi squared t sine pi x plus two e to the minus nine pi squared t sine three pi x.
+
+23
+00:02:21.312 --> 00:02:28.776
+The graph shows the temperature profile at three times: t equals zero, one hundredth and five hundredths.
+
+24
+00:02:28.776 --> 00:02:32.376
+The third mode decays nine times faster,
+
+25
+00:02:32.376 --> 00:02:37.824
+so the profile quickly becomes a single simple arch and then slowly sinks.
+
+26
+00:02:37.824 --> 00:02:43.502
+On a string, by contrast, modes do not decay, they oscillate.
+
+27
+00:02:43.752 --> 00:02:50.880
+Question: in a rod of length l with zero temperature at the ends, how does the n-th mode change in time?
+
+28
+00:02:50.880 --> 00:02:54.062
+Watch the square in the exponent.

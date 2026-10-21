@@ -1,0 +1,16 @@
+O‘zgaruvchilarni ajratish
+
+[0:00] Assalomu alaykum. Bu darsda eng sodda, lekin eng ko‘p ishlatiladigan usul — o‘zgaruvchilarni ajratishni o‘rganamiz. Tarmoqda virus tarqalishi, choyning sovishi, radioaktiv yemirilish — bularning barchasi shu usul bilan yechiladi. Dars oxirida siz tenglamani yechibgina qolmay, bo‘lish paytida yo‘qolib qoladigan yechimlarni ham topa olasiz.
+
+[0:27] Tenglama ajraladigan deyiladi, agar o‘ng tomon ikki ko‘paytuvchiga ajralsa: biri faqat x ga, ikkinchisi faqat y ga bog‘liq. Unda y li hammasini chapga, x li hammasini o‘ngga o‘tkazamiz: d y ni g dan y ga bo‘lamiz, u f dan x karra d x ga teng bo‘ladi. Keyin ikkala tomonni integrallaymiz va bitta o‘zgarmas C qo‘shamiz.
+
+[0:56] Misol: y shtrix teng x karra y kvadrat. Bu yerda f teng x, g teng y kvadrat. Bo‘lishdan oldin muhim qadam: g ni nolga tenglaymiz. y kvadrat nolga teng bo‘lsa, y aynan nol. Tekshiramiz: chap tomon nol, o‘ng tomon ham nol. Demak, y aynan nol — yechim. Uni darhol yozib qo‘yamiz.
+
+[1:25] Endi y nolga teng emas deb hisoblab, ajratamiz: d y ni y kvadratga bo‘lamiz, bu x karra d x ga teng. Chap tomonning integrali minus bir bo‘lingan y ga, o‘ng tomonniki x kvadratning yarmiga teng. Bitta o‘zgarmas qo‘shamiz. Natijada minus bir bo‘lingan y teng x kvadrat ikkiga bo‘lingan plyus C bir.
+
+[1:52] y ni topamiz: y teng minus ikki bo‘lingan x kvadrat plyus C ga, bunda C ikki karra C bir. To‘liq javob ikki qismdan iborat: shu formula va y aynan nol. E’tibor bering, y aynan nol formuladan hech qanday chekli C da chiqmaydi. Agar uni oldindan yozmaganimizda, u butunlay yo‘qolgan bo‘lardi.
+
+[2:17] Yo‘nalish maydoniga qaraymiz. Aynan y o‘qida x nol bo‘lgani uchun kesmalar gorizontal; y o‘qiga yaqin nuqtalarda esa ularning qiyaligi kichik bo‘ladi. Ox o‘qining o‘zi ham integral chiziq — bu y aynan nol yechimi. Yuqoridagi va pastdagi egri chiziqlar uni hech qachon kesib o‘tmaydi: yagonalik teoremasi shuni kafolatlaydi. Pastki egri chiziq C ikkiga teng bo‘lgandagi yechim.
+
+[2:49] Endi o‘zingizni sinab ko‘ring. Ekrandagi tenglamaning o‘zgarmas yechimlarini toping. Eslatma: o‘ng tomonni nolga tenglang va har bir ildizni tekshiring. Javobni tanlagach, izohni o‘qing.
+

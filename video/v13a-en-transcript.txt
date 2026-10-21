@@ -1,0 +1,18 @@
+PDEs and the main equations
+
+[0:00] Hello! Today we go one step beyond ordinary differential equations. The unknown function now depends on two variables instead of one, for example position and time. After this lesson you will find the order and linearity of a partial differential equation and recognise the three main equations of mathematical physics.
+
+[0:23] Take a thin fin of a CPU heat sink. Its temperature u depends on the point x and the time t. The simplest model says the derivative of u with respect to t equals the second derivative of u with respect to x. An equation with partial derivatives is a partial differential equation, and the order of its highest derivative is its order.
+
+[0:47] An equation is linear when u and its derivatives appear to the first power, are not multiplied together, and have coefficients independent of u. Those coefficients may depend only on the independent variables, for example x and t or x and y. If the right side is zero, the equation is homogeneous and superposition applies. A term such as u times u sub x makes the equation nonlinear.
+
+[1:16] Example: solve u sub x y equals zero. It says that the x derivative of u does not depend on y. So u sub x equals some function h of x. Careful: this is not a constant, it is an arbitrary function!
+
+[1:34] Now integrate in x. The “constant” of integration becomes an arbitrary function of y. Answer: u equals f of x plus g of y. Check: the x derivative is f prime of x, and its y derivative is zero. So the general solution of a PDE depends on arbitrary functions.
+
+[1:57] Three main equations. The vibrating string: the second time derivative of u equals a squared times the second x derivative, where a squared is tension over density. Heat in a rod has a first time derivative. In a two-dimensional steady source-free setting we obtain Laplace’s equation: the sum of the second derivatives in x and y is zero.
+
+[2:22] The graph shows the solution e to the minus t times sine x at three times: zero, one half and one. This single eigenmode keeps its shape while its amplitude decays exponentially. A general initial profile is a sum of many modes; high-frequency variations decay faster, so the profile smooths out. For an ideal lossless string the modes do not decay but oscillate.
+
+[2:50] Now check yourself. Answer the question on screen: which equation is linear? Remember, a function of x and y on the right-hand side does not spoil linearity.
+

@@ -1,0 +1,18 @@
+Higher order and free vibrations
+
+[0:00] In the second part we learn two things. First, how to build a fundamental set when the roots are repeated and the order is above two. Second, an applied question: when does the free motion of a mass on a spring oscillate, and when does it return to equilibrium without oscillating.
+
+[0:20] The rule: if a root r zero has multiplicity k, it gives k functions: e to the r zero x, x times that exponential, and so on up to x to the power k minus one times the exponential. If a complex pair is repeated, the cosine and sine are multiplied by powers of x. The number of functions always equals the order.
+
+[0:44] Example: y triple prime plus y double prime minus y prime minus y equals zero. The characteristic polynomial is r cubed plus r squared minus r minus one. Group the terms: r squared times r plus one, minus r plus one. The result is r plus one squared times r minus one.
+
+[1:07] The simple root one gives e to the x. Minus one is a double root and gives e to the minus x and x times e to the minus x. That is three functions, and the order is three as well. The general solution is C one e to the x plus, in brackets, C two plus C three x, times e to the minus x.
+
+[1:30] Now the spring. Mass m, damping coefficient c, stiffness k. Newton’s law gives m y double prime plus c y prime plus k y equals zero. Everything is decided by the sign of c squared minus four m k. Negative means an underdamped oscillation. Zero means critical damping. Positive means overdamping, with no oscillation.
+
+[1:58] Example: m is one, c is two, k is five; the mass is pulled one metre and released from rest. The roots are minus one plus or minus two i. The conditions give A equals one and B equals one half. The solution is e to the minus t times cosine two t plus one half sine two t. The quasi-period is pi seconds.
+
+[2:24] Compare the three cases on one graph, all starting from the same position. The first curve is underdamped: it oscillates around zero. The second is critically damped, with c equal to four and k equal to four: the fastest return without oscillation. The third is overdamped: a slow return without oscillation.
+
+[2:48] Question: which damping coefficient gives critical damping for a mass of two kilograms on a spring of stiffness eight? Recall the formula: c squared equals four m k. Pause the video and choose your answer.
+

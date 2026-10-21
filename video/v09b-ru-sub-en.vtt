@@ -1,0 +1,101 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:08.716
+Some equations have variable coefficients and their solutions cannot be written with elementary functions.
+
+2
+00:00:08.716 --> 00:00:13.239
+For example Airy’s equation, y double prime equals x y.
+
+3
+00:00:13.239 --> 00:00:22.613
+In such cases we look for the solution as an infinite power series and compute the coefficients one after another.
+
+4
+00:00:22.613 --> 00:00:24.998
+This is also easy to program.
+
+5
+00:00:25.248 --> 00:00:31.561
+Write the equation as y double prime plus p y prime plus q y equals zero.
+
+6
+00:00:31.561 --> 00:00:37.961
+If p and q are analytic at the point x zero, the point is called ordinary.
+
+7
+00:00:37.961 --> 00:00:49.118
+Then every solution expands in a series; the first two coefficients are arbitrary and the rest follow from a recurrence relation.
+
+8
+00:00:49.368 --> 00:00:51.225
+Take Airy’s equation.
+
+9
+00:00:51.225 --> 00:01:04.668
+Differentiate the series twice and shift the index by two: y double prime is the sum of n plus two times n plus one times a n plus two times x to the n.
+
+10
+00:01:04.668 --> 00:01:13.070
+On the right is x y, the sum of a n minus one times x to the n, which starts at n equal to one.
+
+11
+00:01:13.320 --> 00:01:21.480
+Match the coefficients of x to the zero: two a two equals zero, so a two is zero.
+
+12
+00:01:21.480 --> 00:01:33.065
+For n at least one we get the recurrence: a n plus two equals a n minus one divided by n plus two times n plus one.
+
+13
+00:01:33.065 --> 00:01:38.606
+The step is three: coefficients are linked three apart.
+
+14
+00:01:38.856 --> 00:01:46.063
+Compute: a three is a zero over six, a six is a zero over one hundred eighty.
+
+15
+00:01:46.063 --> 00:01:52.896
+a four is a one over twelve, and a seven is a one over five hundred four.
+
+16
+00:01:52.896 --> 00:01:59.822
+The two series form a fundamental set and converge on the whole real line.
+
+17
+00:02:00.072 --> 00:02:09.076
+The graph shows a partial sum of the solution with a zero equal to one and a one equal to zero,
+
+18
+00:02:09.076 --> 00:02:11.255
+up to x to the twelfth.
+
+19
+00:02:11.255 --> 00:02:14.952
+For negative x the solution oscillates,
+
+20
+00:02:14.952 --> 00:02:22.913
+because there the equation looks like y double prime plus a positive number times y.
+
+21
+00:02:22.913 --> 00:02:25.946
+For positive x it grows quickly.
+
+22
+00:02:25.946 --> 00:02:28.694
+One equation, two behaviours.
+
+23
+00:02:28.944 --> 00:02:37.242
+Question: what is the recurrence for y double prime minus x y prime minus y equals zero?
+
+24
+00:02:37.242 --> 00:02:43.088
+Substitute the series and write the coefficient of x to the n.
+
+25
+00:02:43.088 --> 00:02:46.766
+Pause the video and choose your answer.

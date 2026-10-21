@@ -1,0 +1,121 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.496
+Hello.
+
+2
+00:00:00.496 --> 00:00:05.376
+In this lesson we will see what a differential equation is.
+
+3
+00:00:05.376 --> 00:00:15.302
+By the end you will be able to find the order of an equation and check by substitution whether a function is a solution.
+
+4
+00:00:15.552 --> 00:00:17.631
+A cup of tea cools in a room.
+
+5
+00:00:17.631 --> 00:00:20.499
+The hotter the tea, the faster it cools.
+
+6
+00:00:20.499 --> 00:00:24.801
+The cooling rate, that is the derivative of the temperature,
+
+7
+00:00:24.801 --> 00:00:30.179
+is proportional to the difference between the tea and the room temperature.
+
+8
+00:00:30.179 --> 00:00:35.198
+The unknown is not a number but the temperature as a function of time.
+
+9
+00:00:35.448 --> 00:00:38.782
+An equation linking the independent variable,
+
+10
+00:00:38.782 --> 00:00:45.078
+the unknown function and its derivatives is called an ordinary differential equation.
+
+11
+00:00:45.078 --> 00:00:50.338
+The highest derivative order that appears is the order of the equation.
+
+12
+00:00:50.338 --> 00:00:52.783
+Do not confuse order with degree.
+
+13
+00:00:52.783 --> 00:01:03.820
+The degree is defined only when the equation can be written as a polynomial in the derivatives; then it is the power of the highest-order derivative.
+
+14
+00:01:03.820 --> 00:01:09.376
+If a derivative appears, for example, under a square root or inside a sine,
+
+15
+00:01:09.376 --> 00:01:12.710
+the degree is not defined in the usual sense.
+
+16
+00:01:12.960 --> 00:01:19.430
+Example: the cube of the second derivative plus x times the first derivative equals sine of x.
+
+17
+00:01:19.430 --> 00:01:23.697
+The highest derivative is the second one, so the order is two.
+
+18
+00:01:23.697 --> 00:01:29.823
+The equation is polynomial in the derivatives, and the highest-order derivative is cubed,
+
+19
+00:01:29.823 --> 00:01:31.406
+so the degree is three.
+
+20
+00:01:31.656 --> 00:01:34.564
+Now let us check a solution.
+
+21
+00:01:34.564 --> 00:01:41.833
+Is y equals C times e to the two x a solution of y prime equals two y?
+
+22
+00:01:41.833 --> 00:01:46.194
+Take the derivative: two C e to the two x.
+
+23
+00:01:46.194 --> 00:01:49.828
+Substitute: the difference is zero.
+
+24
+00:01:49.828 --> 00:01:54.086
+So it is a solution for every value of C.
+
+25
+00:01:54.336 --> 00:01:58.975
+The graph shows solutions for several values of C.
+
+26
+00:01:58.975 --> 00:02:02.594
+Each curve is called an integral curve.
+
+27
+00:02:02.594 --> 00:02:05.285
+They do not cross each other.
+
+28
+00:02:05.285 --> 00:02:11.966
+For C equal to zero we get y identically zero, which is also a solution.
+
+29
+00:02:12.216 --> 00:02:13.928
+Now check yourself.
+
+30
+00:02:13.928 --> 00:02:21.950
+Answer the question on the screen, then mark your answer in the question below the video.

@@ -1,0 +1,89 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.461
+Bu qismda birinchi tartibli tenglamaning geometrik ma’nosini ko‘ramiz,
+
+2
+00:00:05.461 --> 00:00:11.078
+Koshi masalasini yechamiz va yechim qachon yagona bo‘lishini aniqlaymiz.
+
+3
+00:00:11.328 --> 00:00:19.140
+y shtrix teng f x y tenglama har bir nuqtada yechim grafigiga urinmaning qiyaligini beradi.
+
+4
+00:00:19.140 --> 00:00:24.977
+Shu qiyaliklardagi kichik kesmalar yo‘nalish maydonini hosil qiladi.
+
+5
+00:00:24.977 --> 00:00:29.870
+Integral chiziq har bir nuqtada maydon kesmasiga urinadi.
+
+6
+00:00:30.120 --> 00:00:35.240
+Maydonni qo‘lda chizish uchun izoklinalardan foydalaniladi.
+
+7
+00:00:35.240 --> 00:00:39.840
+Izoklina — qiyalik bir xil bo‘lgan nuqtalar chizig‘i.
+
+8
+00:00:39.840 --> 00:00:46.262
+Bu tenglamada izoklinalar markazi koordinata boshida bo‘lgan aylanalardir.
+
+9
+00:00:46.512 --> 00:00:54.367
+Koshi masalasi: y shtrix teng ikki y, boshlang‘ich shart y nol teng uch.
+
+10
+00:00:54.367 --> 00:00:57.858
+Umumiy yechim C e daraja ikki x.
+
+11
+00:00:57.858 --> 00:01:03.313
+x nolga teng bo‘lganda y teng C, demak C teng uch.
+
+12
+00:01:03.313 --> 00:01:07.022
+Javob: y teng uch e daraja ikki x.
+
+13
+00:01:07.272 --> 00:01:16.547
+Pikar teoremasi: agar f va uning y bo‘yicha xususiy hosilasi boshlang‘ich nuqta atrofidagi to‘rtburchakda uzluksiz bo‘lsa,
+
+14
+00:01:16.547 --> 00:01:19.892
+Koshi masalasining yechimi mavjud va yagona.
+
+15
+00:01:19.892 --> 00:01:25.214
+Diqqat qiling: bu kafolat faqat boshlang‘ich nuqtaning yaqin atrofida.
+
+16
+00:01:25.464 --> 00:01:28.624
+Shart bajarilmasa nima bo‘ladi?
+
+17
+00:01:28.624 --> 00:01:34.944
+y shtrix teng uch y ning uchdan ikki darajasi, y nol teng nol.
+
+18
+00:01:34.944 --> 00:01:39.123
+Bu yerda y bo‘yicha hosila nolda cheksiz.
+
+19
+00:01:39.123 --> 00:01:48.909
+Natijada y aynan nol ham, istalgan nuqtadan keyin boshlanadigan kub parabola ham yechim bo‘ladi.
+
+20
+00:01:48.909 --> 00:01:50.846
+Yagonalik buziladi.
+
+21
+00:01:51.096 --> 00:01:53.525
+Endi o‘zingizni tekshiring.
+
+22
+00:01:53.525 --> 00:01:58.022
+Savolni o‘qing va videodan pastda javobni tanlang.

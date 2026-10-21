@@ -1,0 +1,16 @@
+Chiziqli operator, superpozitsiya va mavjudlik oralig‘i
+
+[0:00] Salom! Tashqi manbasiz elektr zanjirida ikki xil tebranish rejimi bo‘lsa, ularning yig‘indisi ham mumkin bo‘lgan rejim bo‘ladi. Bu chiziqli tenglamalarning asosiy xossasi — superpozitsiya. Bugun uni aniq ta’riflaymiz va yechim mavjud bo‘lgan oraliqni topishni o‘rganamiz.
+
+[0:23] Chiziqli tenglamani L y teng f ko‘rinishida yozamiz, bunda L — y ning n-hosilasi va undan past hosilalarning x ga bog‘liq koeffitsiyentli yig‘indisi. L chiziqli: ikki funksiya kombinatsiyasiga ta’siri natijalarning shu kombinatsiyasiga teng. f nol bo‘lsa, tenglama bir jinsli deyiladi — bu “bir jinsli” so‘zining boshqa ma’nosi.
+
+[0:50] Misol: x kvadrat y ikki shtrix minus ikki y teng nol, x musbat. x kvadrat yechim: ikki x kvadrat minus ikki x kvadrat nol. Bir bo‘lingan x ham yechim: x kvadrat ko‘paytirilgan ikki bo‘lingan x kub, minus ikki bo‘lingan x, nolga teng. Superpozitsiya bo‘yicha C bir x kvadrat qo‘shuv C ikki bo‘lingan x ham yechim.
+
+[1:18] Endi y birda bir, y shtrix birda besh shartlarini qo‘yamiz. C bir qo‘shuv C ikki teng bir, ikki C bir minus C ikki teng besh. Qo‘shsak, uch C bir teng olti, demak C bir ikki, C ikki minus bir. Javob: y teng ikki x kvadrat minus bir bo‘lingan x. Sistemaning determinanti minus uch — bu Vronskianning qiymati.
+
+[1:45] Chiziqli tenglama uchun muhim natija: agar koeffitsiyentlar va o‘ng tomon oraliqda uzluksiz bo‘lsa, Koshi masalasining yechimi butun shu oraliqda mavjud va yagona. Shuning uchun avval bosh koeffitsiyentga bo‘lamiz va uzilish nuqtalarini topamiz. Masalan, x kvadrat minus to‘rt, ko‘paytirilgan y ikki shtrix bo‘lsa, x teng ikki va minus ikki — xavfli nuqtalar.
+
+[2:15] Grafikda ikki fundamental yechim — x kvadrat va bir bo‘lingan x — hamda topilgan yechim ikki x kvadrat minus bir bo‘lingan x ko‘rsatilgan. Uchinchi egri chiziq birinchi ikkitasining chiziqli kombinatsiyasi va x teng birda qiymati bir, og‘ishi besh.
+
+[2:34] O‘zingizni tekshiring: superpozitsiya qaysi tenglamalar uchun to‘g‘ri? Javobni tanlang va izohni o‘qing.
+

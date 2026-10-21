@@ -1,0 +1,101 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.818
+Bu qismda ikki mashhur tenglama — Lagranj va Klero tenglamalarini ko‘ramiz.
+
+2
+00:00:04.818 --> 00:00:10.343
+Klero tenglamasida to‘g‘ri chiziqlar oilasi va bitta maxsus egri chiziq paydo bo‘ladi.
+
+3
+00:00:10.343 --> 00:00:16.574
+Shuningdek, nomzodni maxsus yechim deb atashdan oldin nimani tekshirish kerakligini bilib olasiz.
+
+4
+00:00:16.824 --> 00:00:22.278
+Lagranj tenglamasi: y teng x ko‘paytirilgan fi p dan, qo‘shuv psi p dan.
+
+5
+00:00:22.278 --> 00:00:28.262
+Uni differensiallasak, x ning p ga bog‘liqligi uchun chiziqli tenglama chiqadi.
+
+6
+00:00:28.262 --> 00:00:34.094
+Agar fi p teng p bo‘lsa, Klero tenglamasini olamiz: y teng x p qo‘shuv psi p.
+
+7
+00:00:34.344 --> 00:00:38.769
+Misol: y teng x y shtrix minus y shtrix kvadrat.
+
+8
+00:00:38.769 --> 00:00:45.960
+Differensiallaymiz: p teng p qo‘shuv, x minus ikki p, ko‘paytirilgan p shtrix.
+
+9
+00:00:45.960 --> 00:00:51.215
+Demak, x minus ikki p ko‘paytirilgan p shtrix nolga teng.
+
+10
+00:00:51.215 --> 00:00:52.598
+Ikki holat bor.
+
+11
+00:00:52.848 --> 00:00:57.273
+Birinchi holat: p shtrix nol, ya’ni p teng C.
+
+12
+00:00:57.273 --> 00:01:03.369
+Umumiy yechim — to‘g‘ri chiziqlar: y teng C x minus C kvadrat.
+
+13
+00:01:03.369 --> 00:01:08.973
+Ikkinchi holat: x teng ikki p, ya’ni p teng x ning yarmi.
+
+14
+00:01:08.973 --> 00:01:14.086
+Qo‘ysak, y teng x kvadratning to‘rtdan biri chiqadi.
+
+15
+00:01:14.086 --> 00:01:15.758
+Bu maxsus yechim.
+
+16
+00:01:16.008 --> 00:01:23.800
+Grafikda parabola y teng x kvadratning to‘rtdan biri va C ning bir nechta qiymatidagi to‘g‘ri chiziqlar ko‘rsatilgan.
+
+17
+00:01:23.800 --> 00:01:27.530
+Har bir chiziq parabolaga x teng ikki C nuqtada urinadi.
+
+18
+00:01:27.530 --> 00:01:30.261
+Parabola — chiziqlar oilasining o‘ramasi.
+
+19
+00:01:30.261 --> 00:01:36.854
+Uning har bir nuqtasidan ikki yechim bir xil og‘ish bilan o‘tadi, shuning uchun yagonalik buziladi.
+
+20
+00:01:37.104 --> 00:01:45.530
+Maxsus yechim har doim p-diskriminant chiziqda yotadi: F nolga va F ning p bo‘yicha hosilasi nolga teng.
+
+21
+00:01:45.530 --> 00:01:47.637
+Lekin teskarisi noto‘g‘ri!
+
+22
+00:01:47.637 --> 00:01:55.577
+Masalan, y teng ikki x y shtrix minus y shtrix kvadrat uchun diskriminant chiziq y teng x kvadrat,
+
+23
+00:01:55.577 --> 00:01:57.684
+ammo u umuman yechim emas.
+
+24
+00:01:57.684 --> 00:02:05.462
+Shuning uchun har doim tekshiring: bu yechimmi, va uning har bir nuqtasida yagonalik buziladimi.
+
+25
+00:02:05.712 --> 00:02:10.814
+O‘zingizni tekshiring: p-diskriminant chiziq haqida qaysi gap to‘g‘ri?

@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.069
+Bu darsda tenglamaning o‘ng tomoni noldan farqli bo‘lgan holni ko‘ramiz: masalan,
+
+2
+00:00:06.069 --> 00:00:11.239
+zanjirga batareya ulangan yoki prujinaga tashqi kuch ta’sir qilmoqda.
+
+3
+00:00:11.239 --> 00:00:20.006
+Umumiy yechimni ikki qismga ajratamiz va o‘ng tomonga qarab xususiy yechimni deyarli tayyor shablon bo‘yicha topamiz.
+
+4
+00:00:20.256 --> 00:00:28.329
+Asosiy tuzilma: umumiy yechim teng bir jinsli tenglamaning umumiy yechimi plyus bitta xususiy yechim.
+
+5
+00:00:28.329 --> 00:00:34.964
+Sababi chiziqlilik: ikki yechimning ayirmasi bir jinsli tenglamani qanoatlantiradi.
+
+6
+00:00:34.964 --> 00:00:42.158
+Boshlang‘ich shartlar esa doimo to‘liq yig‘indiga qo‘yiladi, faqat bir jinsli qismga emas.
+
+7
+00:00:42.408 --> 00:00:50.470
+O‘ng tomon kvaziko‘phad bo‘lsa, ya’ni eksponenta, ko‘phad, kosinus va sinusdan tuzilgan bo‘lsa,
+
+8
+00:00:50.470 --> 00:00:55.731
+unga sigma teng alfa plyus i beta nazorat sonini mos qo‘yamiz.
+
+9
+00:00:55.731 --> 00:01:03.623
+Agar sigma xarakteristik ildiz bo‘lmasa, xususiy yechim o‘ng tomon bilan bir xil ko‘rinishda.
+
+10
+00:01:03.623 --> 00:01:09.988
+Agar sigma s karrali ildiz bo‘lsa, shablonni iks daraja s ga ko‘paytiramiz.
+
+11
+00:01:09.988 --> 00:01:11.006
+Bu rezonans.
+
+12
+00:01:11.256 --> 00:01:15.868
+Misol: y ikki shtrix plyus y teng to‘rt sinus iks.
+
+13
+00:01:15.868 --> 00:01:22.694
+Bu ishqalanishsiz prujina, tashqi kuch chastotasi xususiy chastotaga teng.
+
+14
+00:01:22.694 --> 00:01:26.108
+Xarakteristik ildizlar plyus minus i.
+
+15
+00:01:26.108 --> 00:01:31.550
+Nazorat soni sigma teng i, u oddiy ildiz, demak s teng bir.
+
+16
+00:01:31.800 --> 00:01:36.533
+Shablon: iks marta qavs ichida A kosinus iks plyus B sinus iks.
+
+17
+00:01:36.533 --> 00:01:42.017
+E’tibor bering, o‘ng tomonda faqat sinus bo‘lsa ham, kosinus ham olinadi.
+
+18
+00:01:42.017 --> 00:01:45.548
+Ikki marta differensiallab, tenglamaga qo‘ysak,
+
+19
+00:01:45.548 --> 00:01:50.582
+chap tomon minus ikki A sinus iks plyus ikki B kosinus iks bo‘ladi.
+
+20
+00:01:50.832 --> 00:01:57.463
+Koeffitsiyentlarni tenglashtiramiz: minus ikki A teng to‘rt, ikki B teng nol.
+
+21
+00:01:57.463 --> 00:02:04.266
+Demak A teng minus ikki, B teng nol, xususiy yechim minus ikki iks kosinus iks.
+
+22
+00:02:04.266 --> 00:02:11.414
+Umumiy yechim: C bir kosinus iks plyus C ikki sinus iks minus ikki iks kosinus iks.
+
+23
+00:02:11.664 --> 00:02:16.159
+Grafikda xususiy yechim minus ikki iks kosinus iks ko‘rsatilgan.
+
+24
+00:02:16.159 --> 00:02:19.671
+Uning amplitudasi iks bilan chiziqli o‘sib boradi.
+
+25
+00:02:19.671 --> 00:02:26.905
+Bu rezonansning ko‘rinishi: kuch har safar to‘g‘ri vaqtda itaradi va tebranish chegarasiz kattalashadi.
+
+26
+00:02:26.905 --> 00:02:32.102
+Haqiqiy ko‘priklar va mashinalarda shuning uchun so‘ndirgichlar qo‘yiladi.
+
+27
+00:02:32.352 --> 00:02:40.873
+Endi siz: y ikki shtrix plyus to‘rt y teng kosinus ikki iks uchun xususiy yechimni qaysi ko‘rinishda izlash kerak?
+
+28
+00:02:40.873 --> 00:02:45.806
+Nazorat sonini toping va u xarakteristik ildiz ekanini tekshiring.
+
+29
+00:02:45.806 --> 00:02:48.422
+Videoni to‘xtatib, javobni tanlang.

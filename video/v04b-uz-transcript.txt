@@ -1,0 +1,16 @@
+To‘la differensialli tenglama va μ ni tanlash
+
+[0:00] Bu qismda tenglamaga boshqacha qaraymiz: M d x plyus N d y teng nol. Agar chap tomon biror U funksiyaning to‘la differensiali bo‘lsa, javob shunchaki U teng C. Biz buni qanday tekshirishni, U ni qanday tiklashni va tenglama to‘la differensialli bo‘lmasa, uni qanday ko‘paytuvchi bilan tuzatishni o‘rganamiz.
+
+[0:24] Agar U ning x bo‘yicha hosilasi M, y bo‘yicha hosilasi N bo‘lsa, aralash hosilalar teng bo‘lgani uchun M ning y bo‘yicha hosilasi N ning x bo‘yicha hosilasiga teng. Bir bog‘lamli sohada bu shart yetarli ham. Demak birinchi qadam doim bitta: M y va N x ni hisoblab, solishtirish.
+
+[0:48] Misol: ikki x y plyus uch x kvadrat, d x, plyus x kvadrat plyus ikki y, d y, teng nol. M ning y bo‘yicha hosilasi ikki x, N ning x bo‘yicha hosilasi ham ikki x. Shart bajarildi. M ni x bo‘yicha integrallaymiz: x kvadrat y plyus x kub plyus h dan y. h — y ning noma’lum funksiyasi.
+
+[1:17] h ni topish uchun U ni y bo‘yicha differensiallaymiz va N ga tenglaymiz: x kvadrat plyus h shtrix teng x kvadrat plyus ikki y. Demak h shtrix ikki y, h esa y kvadrat. Javob: x kvadrat y plyus x kub plyus y kvadrat teng C. Agar h shtrixda x qolsa, hisobda xato bor.
+
+[1:43] Shart bajarilmasa-chi? Masalan, x kvadrat plyus y kvadrat plyus x, d x, plyus x y, d y. M y ikki y, N x esa y. M y minus N x ni N ga bo‘lsak, bir bo‘lingan x chiqadi — faqat x ga bog‘liq. Demak mu teng e daraja logarifm x, ya’ni x. Ko‘paytirgandan keyin tenglama to‘la differensialli bo‘ladi.
+
+[2:13] Grafikda birinchi misolning yo‘nalish maydoni va bir nechta integral chiziq ko‘rsatilgan. Har bir chiziq U funksiyaning sath chizig‘i: unda U o‘zgarmas. To‘la differensialli tenglamani yechish — U ning sath chiziqlarini topish demakdir.
+
+[2:32] Tekshiruv savoli: ekrandagi nisbat berilgan bo‘lsa, integrallovchi ko‘paytuvchi nimaga teng? Eksponentani olishni unutmang.
+

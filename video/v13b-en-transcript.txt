@@ -1,0 +1,18 @@
+Conditions, well-posedness, Dirichlet and Neumann problems
+
+[0:00] An equation alone does not determine a process: the same heat equation describes a rod in a fridge and in an oven. The conditions make the difference. In this part we study initial and boundary conditions, when a problem is well-posed, and the Dirichlet and Neumann problems for Laplace’s equation.
+
+[0:21] Initial conditions give the state at time zero. The heat equation has a first-order time derivative, so one condition: the initial temperature. The wave equation has a second-order one, so two: the initial shape and the initial velocity. Laplace’s equation has no time at all, only boundary conditions.
+
+[0:43] Boundary conditions are given at the ends of the rod for all times. First kind, Dirichlet: the temperature of the end is given. Second kind, Neumann: the flux through the end is given; an insulated end has u sub x equal to zero. Third kind, Robin: a combination of u sub x and u, used when the end exchanges heat with the surroundings.
+
+[1:09] Example: consider the steady state of a homogeneous rod with no internal heat source. In this model the time derivative is zero and the equation reduces to u double prime equals zero. Therefore u equals A plus B x, a straight line. The left end is at one hundred degrees, so A equals one hundred. At the right end we have a Robin condition: u prime at one plus u at one equals zero.
+
+[1:37] Substitute into the Robin condition: B plus one hundred plus B equals zero, so B equals minus fifty. Answer: u equals one hundred minus fifty x. The right end cools to fifty degrees because it gives heat away. Check: u prime is minus fifty, u at one is fifty, and the sum is zero.
+
+[2:00] The graph shows two profiles for this particular homogeneous steady source-free model: a line from one hundred to fifty with a Robin condition and a line with Dirichlet data at both ends. The profile is linear here because u double prime equals zero. With an internal heat source, spatially varying conductivity, or other physical terms, a steady profile need not be linear in general.
+
+[2:27] By Hadamard, a problem is well-posed if a solution exists, is unique, and depends continuously on the data. Under standard regularity assumptions, the Dirichlet problem for Laplace’s equation has a unique solution. For the Neumann problem the total boundary flux must vanish, and the solution is determined only up to an additive constant. The Cauchy problem for Laplace’s equation is generally ill-posed.
+
+[2:57] Question: the end of a rod is insulated. Which condition is correct? Choose an answer and read the explanation.
+

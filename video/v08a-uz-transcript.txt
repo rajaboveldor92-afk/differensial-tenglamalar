@@ -1,0 +1,18 @@
+Xarakteristik tenglama va uch xil ildiz
+
+[0:00] Salom! Bugun ikkinchi va undan yuqori tartibli chiziqli tenglamalarni o‘rganamiz, ularning koeffitsiyentlari o‘zgarmas sonlar. Bunday tenglamalar elektr zanjirlarida, prujinalarda va boshqaruv tizimlarida uchraydi. Darsning oxirida siz har qanday shunday tenglamaning umumiy yechimini bir necha daqiqada yoza olasiz, faqat bitta algebraik tenglamani yechib.
+
+[0:30] Asosiy g‘oya juda oddiy. Yechimni e daraja r iks ko‘rinishida izlaymiz. Har bir hosila faqat r ko‘paytuvchini qo‘shadi: birinchi hosila r marta e daraja r iks, ikkinchi hosila r kvadrat marta. Tenglamaga qo‘yib, noldan farqli eksponentaga qisqartirsak, r ga nisbatan ko‘phad qoladi. Bu xarakteristik ko‘phad.
+
+[0:57] Ildizlar uch xil bo‘lishi mumkin. Har xil haqiqiy ildizlar har biri bitta eksponentani beradi. Karrali ildiz, masalan ikki karrali, e daraja r iks va iks marta e daraja r iks ni beradi. Kompleks juftlik alfa plyus minus i beta esa e daraja alfa iks marta kosinus beta iks va sinus beta iks ni beradi.
+
+[1:22] Misol: y ikki shtrix minus ikki y shtrix plyus besh y teng nol, boshlang‘ich shartlar y nolda bir, y shtrix nolda besh. Xarakteristik tenglama: r kvadrat minus ikki r plyus besh teng nol. Diskriminant manfiy, minus o‘n olti, shuning uchun ildizlar kompleks: bir plyus minus ikki i.
+
+[1:47] Demak alfa bir, beta ikki, umumiy yechim e daraja iks marta qavs ichida C bir kosinus ikki iks plyus C ikki sinus ikki iks. Iks nolga teng bo‘lganda kosinus bir, sinus nol, shuning uchun birinchi shartdan C bir teng bir. Ikkinchi shart uchun avval hosilani ko‘paytma qoidasi bilan hisoblaymiz.
+
+[2:11] Hosilaning nol nuqtadagi qiymati C bir plyus ikki C ikki ga teng. Bu beshga teng bo‘lishi kerak, demak C ikki teng ikki. Javob: y teng e daraja iks marta kosinus ikki iks plyus ikki sinus ikki iks. Tekshirish: tenglamaga qo‘ysak nol chiqadi, boshlang‘ich qiymatlar ham to‘g‘ri.
+
+[2:34] Grafikka qarang. Ko‘k chiziq bizning yechim: u tebranadi, lekin amplitudasi e daraja iks kabi o‘sadi, chunki alfa musbat. Ikkinchi chiziq alfa manfiy bo‘lgan holat, e daraja minus iks marta kosinus ikki iks: tebranish so‘nadi. Alfa ishorasi o‘sish yoki so‘nishni, beta esa tebranish tezligini belgilaydi.
+
+[2:59] Endi o‘zingizni sinab ko‘ring. Ekrandagi savolga javob bering: y ikki shtrix plyus to‘rt y shtrix plyus to‘rt y teng nol tenglamaning yechimlari qaysilar? Xarakteristik ko‘phadni yozing va uning ildizlarini karraligi bilan aniqlang. Videoni to‘xtatib, javobni tanlang.
+

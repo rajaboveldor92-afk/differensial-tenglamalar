@@ -1,0 +1,18 @@
+Hosilaga nisbatan yechilmagan tenglamalar va parametr usuli
+
+[0:00] Salom! Bugun shunday tenglamalarni ko‘ramizki, ularda hosila oshkor ifodalanmagan. Masalan, y shtrix kvadrati to‘rtga teng. Bunday tenglamada bitta nuqtadan bir nechta integral chiziq o‘tishi mumkin. Dars oxirida siz ikki usulni bilasiz: hosilaga nisbatan yechish va parametr kiritish.
+
+[0:24] Hosilani p harfi bilan belgilaymiz. Tenglama F ning x, y, p dan funksiyasi nolga teng ko‘rinishida bo‘ladi. Agar F p ga nisbatan ko‘phad bo‘lsa, uning darajasi tenglamaning darajasi deyiladi. Har bir nuqtada p ning bir nechta ildizi bo‘lsa, har bir ildiz o‘z integral chizig‘ini beradi.
+
+[0:48] Misol: y shtrix kvadrat minus x qo‘shuv y ko‘paytirilgan y shtrix, qo‘shuv x y, nolga teng. Bu p ga nisbatan kvadrat uchhad va u p minus x bilan p minus y ko‘paytmasiga ajraladi. Demak, tenglama ikkita oddiy tenglamaga bo‘linadi: y shtrix teng x, yoki y shtrix teng y.
+
+[1:13] Birinchisidan y teng x kvadratning yarmi qo‘shuv C. Ikkinchisidan y teng C ko‘paytirilgan e daraja x. Umumiy integral — bu ikki oilaning birlashmasi. Tekshiring: birinchi oilada p teng x, ikkinchisida p teng y, demak ko‘paytma nolga teng.
+
+[1:35] Agar tenglamani hosilaga nisbatan yechish qiyin bo‘lsa, p ni parametr deb olamiz. Masalan, x teng p kub qo‘shuv p. Unda dx teng uch p kvadrat qo‘shuv bir, dp ga ko‘paytirilgan. dy esa p ko‘paytirilgan dx ga teng. Integrallasak, y teng to‘rtdan uch p ning to‘rtinchi darajasi qo‘shuv p kvadratning yarmi qo‘shuv C.
+
+[2:01] Javob parametrik ko‘rinishda. Tekshirish: dy ni dp bo‘yicha dx ning dp bo‘yicha hosilasiga bo‘lsak, p chiqadi. Demak y shtrix haqiqatan p ga teng. Esda tuting: asosiy formula — dy teng p dx, aksincha emas.
+
+[2:19] Grafikda y teng x kvadratning yarmi oilasidan uchta egri chiziq va y teng C e daraja x oilasidan ikkita egri chiziq ko‘rsatilgan. Ular y teng x to‘g‘ri chizig‘ida bir-biriga urinadi: u yerda ikkala ildiz ustma-ust tushadi.
+
+[2:38] Endi o‘zingizni tekshiring. Savolni o‘qing va javobni tanlang.
+

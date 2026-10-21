@@ -1,0 +1,16 @@
+Pog‘ona, impuls va RLC zanjiri
+
+[0:00] Muhandislikda kuchlanish kalit bilan ulanadi yoki qisqa impuls keladi. Bunday uzilishli manbalar bilan klassik usullar noqulay, Laplas usuli esa ularni oson hisobga oladi. Bu qismda pog‘ona, impuls va RLC zanjirini ko‘ramiz.
+
+[0:18] Xevisayd funksiyasi u t minus c, c gacha nol, keyin bir. Ikkinchi siljish teoremasi: c ga kechiktirilgan funksiyaning tasviri e daraja minus c s karra F. Dirak impulsi delta t minus c ning tasviri esa e daraja minus c s. O‘ram tasvirlar ko‘paytmasiga mos keladi.
+
+[0:40] RLC zanjiri: induktivlik bir, qarshilik ikki, sig‘im nol butun o‘ndan ikki. Nol vaqtda o‘n volt ulanadi. Zaryad uchun q ikki shtrix plyus ikki q shtrix plyus besh q teng o‘n, boshlang‘ich shartlar nol.
+
+[0:58] Q teng o‘n bo‘lingan s karra s kvadrat plyus ikki s plyus besh. Sodda kasrlar: ikki bo‘lingan s minus ikki karra s plyus ikki bo‘lingan s plyus bir kvadrat plyus to‘rt. Maxrajda kvadratni to‘ldirdik, chunki haqiqiy ildizlar yo‘q.
+
+[1:16] Birinchi siljish teoremasi bilan qaytamiz: q teng ikki minus e daraja minus t karra ikki kosinus ikki t plyus sinus ikki t. Impuls javobi, ya’ni uzatish funksiyasining originali, yarim e daraja minus t sinus ikki t.
+
+[1:33] Grafikda zaryad ikki kulonga intiladi, ya’ni sig‘im karra kuchlanishga. Yo‘lda u biroz oshib ketadi va so‘nuvchi tebranish bilan barqarorlashadi: bu xarakteristik ildizlar kompleks va haqiqiy qismi manfiy bo‘lgani uchun.
+
+[1:50] Savol: e daraja minus uch s karra F katta s tasvirning originali qanday? Videoni to‘xtating, javobni o‘zingiz tanlang, so‘ng izohni o‘qing va kerak bo‘lsa darsning tegishli qismiga qayting.
+

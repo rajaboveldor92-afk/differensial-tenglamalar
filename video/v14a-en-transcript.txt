@@ -1,0 +1,16 @@
+Classifying second-order equations
+
+[0:00] The wave, heat and Laplace equations have very different solutions. Why? The answer lies in the coefficients of the second derivatives. In this part we learn how to write the equation, compute the discriminant and tell apart the three types: hyperbolic, parabolic and elliptic.
+
+[0:22] Important convention: we write the equation as a u x x plus two b u x y plus c u y y. The mixed term carries two b. The discriminant is b squared minus a c. Some books drop the two and use b squared minus four a c. The sign is the same, but never mix the notations!
+
+[0:45] If the discriminant is positive the equation is hyperbolic, like the wave equation. If it is zero it is parabolic, like the heat equation. If it is negative it is elliptic, like Laplace’s equation. It mirrors the second-order curves: hyperbola, parabola, ellipse. Lower-order terms do not affect the type.
+
+[1:08] Example: u x x plus two u x y plus two u y y equals zero. The mixed coefficient is two, so two b equals two, that is b equals one. And a equals one, c equals two.
+
+[1:24] The discriminant is one minus two, which is minus one. Negative, so the equation is elliptic. If you wrongly take b equal to two, you get four minus two, a positive number, and the wrong answer “hyperbolic”. So always take half of the mixed coefficient.
+
+[1:45] With variable coefficients the type depends on the region. The Tricomi equation: y times u x x plus u y y equals zero. The discriminant is minus y. The graph shows the line y equals zero: above it the equation is elliptic, below it hyperbolic, and on the line parabolic. It marks the border between subsonic and supersonic gas flow.
+
+[2:13] Check yourself: what is b in the equation on screen, and what type is it? Remember to halve the mixed coefficient first.
+

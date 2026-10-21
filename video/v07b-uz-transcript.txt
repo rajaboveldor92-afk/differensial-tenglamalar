@@ -1,0 +1,18 @@
+Vronskian va fundamental yechimlar sistemasi
+
+[0:00] Ikki yechimdan umumiy yechim yasash uchun ular chiziqli erkli bo‘lishi kerak. Buni tekshirishning qulay vositasi — Vronskian determinanti. Lekin u bilan ehtiyot bo‘lish kerak: ixtiyoriy funksiyalar va tenglama yechimlari uchun xulosalar turlicha.
+
+[0:19] Ikki funksiya uchun Vronskian: y bir ko‘paytirilgan y ikki shtrix, minus y bir shtrix ko‘paytirilgan y ikki. Agar funksiyalar oraliqda chiziqli bog‘liq bo‘lsa, Vronskian u yerda aynan nol. Demak, agar biror nuqtada Vronskian noldan farqli bo‘lsa, funksiyalar albatta erkli. Masalan, e daraja x, e daraja ikki x, e daraja uch x uchun Vronskian ikki e daraja olti x.
+
+[0:50] Endi ogohlantiruvchi misol: x kvadrat va x ko‘paytirilgan modul x, minus birdan birgacha oraliqda. x musbat bo‘lsa ikkala funksiya x kvadrat, manfiy bo‘lsa ikkinchisi minus x kvadrat. Ikkala holda ham Vronskian nolga teng. Demak, Vronskian aynan nol.
+
+[1:13] Lekin ular bog‘liqmi? Alfa bir x kvadrat qo‘shuv alfa ikki x modul x aynan nol bo‘lsin. x teng yarimda alfa bir qo‘shuv alfa ikki nol, x teng minus yarimda alfa bir minus alfa ikki nol. Demak ikkala alfa ham nol — funksiyalar erkli! Xulosa: ixtiyoriy funksiyalar uchun Vronskian nolga tengligi bog‘liqlikni anglatmaydi.
+
+[1:41] Yechimlar uchun esa vaziyat boshqacha. Agar y bir va y ikki bitta chiziqli bir jinsli tenglamaning yechimlari bo‘lsa va koeffitsiyentlar uzluksiz bo‘lsa, Vronskian yo hamma joyda nol, yo hech qayerda nol emas. Ostrogradskiy–Liuvill formulasi buni ko‘rsatadi: W teng W nol ko‘paytirilgan e daraja minus p ning integrali, eksponenta esa hech qachon nol emas.
+
+[2:12] Grafikda x kvadrat va x modul x ko‘rsatilgan. O‘ng tomonda ular ustma-ust tushadi, chap tomonda esa bir-birining ko‘zgudagi aksi. Bitta o‘zgarmas ko‘paytuvchi ikkala tomonda ham ishlamaydi — shuning uchun ular erkli.
+
+[2:30] n-tartibli tenglamaning n ta erkli yechimi fundamental sistema deyiladi. Bir jinsli tenglamaning har qanday yechimi ularning chiziqli kombinatsiyasi. Bir jinsli bo‘lmagan tenglamaning umumiy yechimi — shu kombinatsiya qo‘shuv bitta xususiy yechim. Masalan, y ikki shtrix qo‘shuv y teng x uchun: C bir kosinus x qo‘shuv C ikki sinus x qo‘shuv x.
+
+[2:58] O‘zingizni tekshiring: ixtiyoriy ikki funksiya uchun Vronskian aynan nol bo‘lsa, nima deyish mumkin? Javobni tanlang.
+

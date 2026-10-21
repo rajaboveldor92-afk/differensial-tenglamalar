@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.099
+Assalomu alaykum.
+
+2
+00:00:01.099 --> 00:00:04.527
+Kondensatorning zaryadlanishi, idishdagi tuz miqdori,
+
+3
+00:00:04.527 --> 00:00:10.542
+serverga kelayotgan so‘rovlar — bular birinchi tartibli chiziqli tenglama bilan tavsiflanadi.
+
+4
+00:00:10.542 --> 00:00:17.591
+Bugun bunday tenglamani to‘rt qadamda yechadigan universal usulni — integrallovchi ko‘paytuvchini o‘rganamiz.
+
+5
+00:00:17.591 --> 00:00:22.118
+Bu algoritm mustaqil ishning ikkinchi topshirig‘ida ham kerak bo‘ladi.
+
+6
+00:00:22.368 --> 00:00:28.521
+Tenglamani normal ko‘rinishda yozamiz: y shtrix plyus p dan x karra y teng q dan x.
+
+7
+00:00:28.521 --> 00:00:32.970
+Mu teng e daraja p ning integrali bo‘lgan funksiyani olamiz.
+
+8
+00:00:32.970 --> 00:00:36.528
+Uning ajoyib xossasi: mu shtrix teng p karra mu.
+
+9
+00:00:36.528 --> 00:00:44.016
+Shuning uchun tenglamani mu ga ko‘paytirsak, chap tomon mu karra y ko‘paytmaning hosilasiga aylanadi.
+
+10
+00:00:44.016 --> 00:00:46.166
+Qolgani — oddiy integrallash.
+
+11
+00:00:46.416 --> 00:00:50.459
+Misol: y shtrix plyus ikki y teng e daraja x.
+
+12
+00:00:50.459 --> 00:00:57.288
+Bu yerda p teng ikki, uning integrali ikki x, demak mu teng e daraja ikki x.
+
+13
+00:00:57.288 --> 00:01:00.074
+Tenglamani mu ga ko‘paytiramiz.
+
+14
+00:01:00.074 --> 00:01:08.879
+Chap tomon e daraja ikki x karra y ning hosilasi, o‘ng tomon esa e daraja ikki x karra e daraja x,
+
+15
+00:01:08.879 --> 00:01:10.766
+ya’ni e daraja uch x.
+
+16
+00:01:11.016 --> 00:01:18.753
+Ikkala tomonni integrallaymiz: e daraja ikki x karra y teng e daraja uch x ning uchdan biri plyus C.
+
+17
+00:01:18.753 --> 00:01:23.163
+Diqqat: C ni aynan shu yerda qo‘shamiz, bo‘lishdan oldin.
+
+18
+00:01:23.163 --> 00:01:25.793
+Keyin e daraja ikki x ga bo‘lamiz.
+
+19
+00:01:25.793 --> 00:01:31.286
+y teng e daraja x ning uchdan biri plyus C karra e daraja minus ikki x.
+
+20
+00:01:31.536 --> 00:01:34.398
+Javobning tuzilishiga e’tibor bering.
+
+21
+00:01:34.398 --> 00:01:39.425
+Birinchi had — bir jinsli bo‘lmagan tenglamaning xususiy yechimi.
+
+22
+00:01:39.425 --> 00:01:43.602
+Ikkinchi had — bir jinsli tenglamaning umumiy yechimi.
+
+23
+00:01:43.602 --> 00:01:50.485
+Tekshiramiz: hosila e daraja x ning uchdan biri minus ikki C karra e daraja minus ikki x.
+
+24
+00:01:50.485 --> 00:01:55.358
+Ikki y ni qo‘shsak, C li hadlar qisqaradi va e daraja x qoladi.
+
+25
+00:01:55.608 --> 00:01:58.890
+Grafikda bir nechta integral chiziq ko‘rsatilgan.
+
+26
+00:01:58.890 --> 00:02:03.913
+x o‘sgan sari ularning barchasi e daraja x ning uchdan biriga yaqinlashadi,
+
+27
+00:02:03.913 --> 00:02:07.195
+chunki C karra e daraja minus ikki x tez so‘nadi.
+
+28
+00:02:07.195 --> 00:02:10.945
+Bu yerda C karra e daraja minus ikki x — o‘tkinchi qism,
+
+29
+00:02:10.945 --> 00:02:16.705
+e daraja x ning uchdan biri esa tashqi ta’sirga mos majburiy yoki asimptotik javobdir.
+
+30
+00:02:16.705 --> 00:02:22.934
+U o‘suvchi funksiya bo‘lgani uchun uni qat’iy ma’noda o‘zgarmas barqaror holat deb atamaymiz.
+
+31
+00:02:23.184 --> 00:02:28.334
+Tekshiruv savoli: ekrandagi tenglama uchun integrallovchi ko‘paytuvchini toping.
+
+32
+00:02:28.334 --> 00:02:32.582
+Avval y shtrix oldidagi koeffitsiyent birga tengligini tekshiring.

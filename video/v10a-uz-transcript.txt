@@ -1,0 +1,18 @@
+O‘zgarmaslarni variatsiyalash
+
+[0:00] O‘tgan darsdagi usul faqat eksponenta, ko‘phad, sinus va kosinus uchun ishlardi. Ammo o‘ng tomon bir bo‘lingan kosinus iks yoki tangens iks bo‘lsa-chi? Bugun universal usulni o‘rganamiz: o‘zgarmaslarni variatsiyalash. U har qanday uzluksiz o‘ng tomon va hatto o‘zgaruvchan koeffitsiyentlar uchun ishlaydi.
+
+[0:25] G‘oya: bir jinsli yechim C bir y bir plyus C ikki y ikki dagi o‘zgarmaslarni iks ning funksiyalariga aylantiramiz. Ikki noma’lum funksiya uchun ikki shart qo‘yamiz. Birinchisi: C bir shtrix y bir plyus C ikki shtrix y ikki teng nol. Ikkinchisi tenglamadan kelib chiqadi: C bir shtrix y bir shtrix plyus C ikki shtrix y ikki shtrix teng f.
+
+[0:53] Bu sistemaning determinanti Vronskian, u noldan farqli. Kramer qoidasi bilan: C bir shtrix teng minus y ikki f bo‘lingan W, C ikki shtrix teng y bir f bo‘lingan W. Muhim ogohlantirish: bu formulalar faqat y ikki shtrix oldidagi koeffitsiyent birga teng bo‘lganda to‘g‘ri. Aks holda avval tenglamani unga bo‘ling.
+
+[1:20] Misol: y ikki shtrix plyus y teng bir bo‘lingan kosinus iks, minus pi yarimdan pi yarimgacha oraliqda. Bir jinsli yechimlar kosinus iks va sinus iks, Vronskian kosinus kvadrat plyus sinus kvadrat, ya’ni bir. Juda qulay.
+
+[1:40] C bir shtrix teng minus sinus iks bo‘lingan kosinus iks, integrali natural logarifm kosinus iks; bu oraliqda kosinus musbat. C ikki shtrix teng kosinus bo‘lingan kosinus, ya’ni bir, integrali iks. Xususiy yechim: kosinus iks marta logarifm kosinus iks plyus iks sinus iks.
+
+[2:04] Normallashtirish nega muhim? Iks kvadrat y ikki shtrix minus ikki iks y shtrix plyus ikki y teng iks kub tenglamani oling. Iks kvadratga bo‘lsak, f teng iks, iks kub emas. To‘g‘ri hisob iks kub bo‘lingan ikkini beradi. Agar bo‘lishni unutsak, iks beshinchi daraja bo‘lingan o‘n ikki chiqadi va u tenglamani qanoatlantirmaydi.
+
+[2:32] Grafikda xususiy yechim kosinus iks marta logarifm kosinus iks plyus iks sinus iks ko‘rsatilgan. Iks pi yarimga yaqinlashganda kuch cheksiz o‘sadi, lekin yechimning o‘zi chegaralangan qoladi. Yechim faqat boshlang‘ich nuqtani o‘z ichiga olgan oraliqda, ya’ni minus pi yarimdan pi yarimgacha mavjud.
+
+[2:55] Savol: y ikki shtrix plyus y teng tangens iks uchun C ikki shtrix nimaga teng? Y bir kosinus iks, Vronskian bir ekanini eslang va formulaga qo‘ying. Videoni to‘xtatib, javobni tanlang.
+

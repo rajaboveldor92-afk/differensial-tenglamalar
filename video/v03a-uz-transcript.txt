@@ -1,0 +1,16 @@
+Bir jinsli tenglama va y = ux
+
+[0:00] Assalomu alaykum. Ba’zi tenglamalar o‘zgaruvchilari ajralmaydi, lekin bitta aqlli almashtirishdan keyin ajraladiganga aylanadi. Bugun shunday tenglamalardan biri — bir jinsli tenglama bilan tanishamiz. Uning belgisi: rasmni kattalashtirsak, yo‘nalish maydoni o‘zgarmaydi. Dars oxirida siz y teng u karra x almashtirishni ishonch bilan qo‘llaysiz.
+
+[0:28] Agar o‘ng tomonda x va y ni bir xil t songa ko‘paytirsak va natija o‘zgarmasa, funksiya nolinchi darajali bir jinsli deyiladi. Unda o‘ng tomon faqat y ning x ga nisbatiga bog‘liq. y teng u karra x deymiz. Ko‘paytmaning hosilasi bo‘yicha y shtrix teng u shtrix karra x plyus u. Natijada x karra u shtrix teng phi dan u minus u — ajraladigan tenglama.
+
+[1:00] Misol: y shtrix teng x kvadrat plyus y kvadrat bo‘lingan x karra y ga. Surat ham, maxraj ham ikkinchi darajali, demak tenglama bir jinsli. Surat va maxrajni x kvadratga bo‘lsak, phi dan u teng bir bo‘lingan u plyus u hosil bo‘ladi.
+
+[1:21] y teng u karra x ni qo‘yamiz: u shtrix karra x plyus u teng bir bo‘lingan u plyus u. u lar qisqaradi va x karra u shtrix teng bir bo‘lingan u qoladi. Bu ifoda hech qachon nolga teng emas, shuning uchun to‘g‘ri chiziqli yechim yo‘q. Ajratamiz: u karra d u teng d x bo‘lingan x.
+
+[1:45] Integrallaymiz: u kvadratning yarmi teng x modulining natural logarifmi plyus C bir. u o‘rniga y bo‘lingan x ni qaytaramiz va ikkiga ko‘paytiramiz. Javob: y kvadrat teng x kvadrat ko‘paytirilgan qavs ichida ikki natural logarifm modul x plyus C. Qavs va modul belgisi muhim. Oxirgi qadamni unutmang: javobni doim eski o‘zgaruvchilarda yozing.
+
+[2:15] Yo‘nalish maydoniga qarang: koordinata boshidan chiqadigan har bir nur bo‘ylab kesmalar bir xil qiyalikka ega. Bu bir jinslilikning geometrik ma’nosi. Shuning uchun bitta integral chiziqni koordinata boshiga nisbatan cho‘zsak yoki siqsak, yana integral chiziq hosil bo‘ladi.
+
+[2:37] Tekshiruv savoli: y teng u karra x bo‘lsa, y shtrix nimaga teng? Ko‘paytmaning hosilasini eslang.
+

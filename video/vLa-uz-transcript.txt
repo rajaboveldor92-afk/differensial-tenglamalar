@@ -1,0 +1,16 @@
+Laplas almashtirishi: ta’rif va boshlang‘ich masala
+
+[0:00] Bu qo‘shimcha modul, u tasdiqlangan ma’ruza soatlariga kirmaydi, lekin dasturdagi mustaqil ishlar uchun kerak. Laplas almashtirishi differensial tenglamani algebraik tenglamaga aylantiradi. Bugun uning ta’rifini, jadvalini va boshlang‘ich masalani yechishni ko‘ramiz.
+
+[0:21] F katta s teng noldan cheksizgacha e daraja minus s t karra f t d t integrali. Integral mavjud bo‘lishi uchun f bo‘lakli uzluksiz va eksponensial tartibli bo‘lishi yetarli. Masalan, e daraja a t ning tasviri bir bo‘lingan s minus a, s katta a bo‘lganda.
+
+[0:41] Asosiy xossa: hosilaning tasviri s karra Y minus y nolda. Ikkinchi hosila: s kvadrat Y minus s y nolda minus y shtrix nolda. Masala: y ikki shtrix minus uch y shtrix plyus ikki y teng e daraja uch t, y nolda bir, y shtrix nolda nol.
+
+[1:04] Y ni topamiz: surat s kvadrat minus olti s plyus o‘n, maxraj s minus bir, s minus ikki, s minus uch ko‘paytmasi. Sodda kasrlarga ajratamiz: koeffitsiyentlar besh ikkidan, minus ikki va bir ikkidan.
+
+[1:22] Jadval bo‘yicha qaytamiz: y teng besh ikkidan e daraja t minus ikki e daraja ikki t plyus bir ikkidan e daraja uch t. Tekshiruv: t nolda besh ikkidan minus ikki plyus bir ikkidan bir beradi. O‘zgarmaslarni alohida topish kerak bo‘lmadi.
+
+[1:41] Grafikda yechim: boshida y bir va gorizontal urinma bilan boshlanadi, so‘ng e daraja uch t hadi ustunlik qiladi va yechim tez o‘sadi.
+
+[1:52] Savol: y shtrixning Laplas tasviri nimaga teng? Videoni to‘xtating, javobni o‘zingiz tanlang, so‘ng izohni o‘qing va kerak bo‘lsa darsning tegishli qismiga qayting.
+

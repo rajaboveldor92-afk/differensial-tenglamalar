@@ -1,0 +1,133 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:07.536
+An equation alone does not determine a process: the same heat equation describes a rod in a fridge and in an oven.
+
+2
+00:00:07.536 --> 00:00:10.416
+The conditions make the difference.
+
+3
+00:00:10.416 --> 00:00:16.416
+In this part we study initial and boundary conditions, when a problem is well-posed,
+
+4
+00:00:16.416 --> 00:00:21.086
+and the Dirichlet and Neumann problems for Laplace’s equation.
+
+5
+00:00:21.336 --> 00:00:25.032
+Initial conditions give the state at time zero.
+
+6
+00:00:25.032 --> 00:00:31.632
+The heat equation has a first-order time derivative, so one condition: the initial temperature.
+
+7
+00:00:31.632 --> 00:00:38.232
+The wave equation has a second-order one, so two: the initial shape and the initial velocity.
+
+8
+00:00:38.232 --> 00:00:43.694
+Laplace’s equation has no time at all, only boundary conditions.
+
+9
+00:00:43.944 --> 00:00:48.600
+Boundary conditions are given at the ends of the rod for all times.
+
+10
+00:00:48.600 --> 00:00:53.136
+First kind, Dirichlet: the temperature of the end is given.
+
+11
+00:00:53.136 --> 00:01:00.720
+Second kind, Neumann: the flux through the end is given; an insulated end has u sub x equal to zero.
+
+12
+00:01:00.720 --> 00:01:08.894
+Third kind, Robin: a combination of u sub x and u, used when the end exchanges heat with the surroundings.
+
+13
+00:01:09.144 --> 00:01:15.456
+Example: consider the steady state of a homogeneous rod with no internal heat source.
+
+14
+00:01:15.456 --> 00:01:21.840
+In this model the time derivative is zero and the equation reduces to u double prime equals zero.
+
+15
+00:01:21.840 --> 00:01:25.968
+Therefore u equals A plus B x, a straight line.
+
+16
+00:01:25.968 --> 00:01:30.912
+The left end is at one hundred degrees, so A equals one hundred.
+
+17
+00:01:30.912 --> 00:01:37.502
+At the right end we have a Robin condition: u prime at one plus u at one equals zero.
+
+18
+00:01:37.752 --> 00:01:45.576
+Substitute into the Robin condition: B plus one hundred plus B equals zero, so B equals minus fifty.
+
+19
+00:01:45.576 --> 00:01:49.896
+Answer: u equals one hundred minus fifty x.
+
+20
+00:01:49.896 --> 00:01:54.288
+The right end cools to fifty degrees because it gives heat away.
+
+21
+00:01:54.288 --> 00:02:00.638
+Check: u prime is minus fifty, u at one is fifty, and the sum is zero.
+
+22
+00:02:00.888 --> 00:02:12.504
+The graph shows two profiles for this particular homogeneous steady source-free model: a line from one hundred to fifty with a Robin condition and a line with Dirichlet data at both ends.
+
+23
+00:02:12.504 --> 00:02:17.064
+The profile is linear here because u double prime equals zero.
+
+24
+00:02:17.064 --> 00:02:23.568
+With an internal heat source, spatially varying conductivity, or other physical terms,
+
+25
+00:02:23.568 --> 00:02:27.686
+a steady profile need not be linear in general.
+
+26
+00:02:27.936 --> 00:02:35.760
+By Hadamard, a problem is well-posed if a solution exists, is unique, and depends continuously on the data.
+
+27
+00:02:35.760 --> 00:02:43.104
+Under standard regularity assumptions, the Dirichlet problem for Laplace’s equation has a unique solution.
+
+28
+00:02:43.104 --> 00:02:47.496
+For the Neumann problem the total boundary flux must vanish,
+
+29
+00:02:47.496 --> 00:02:52.080
+and the solution is determined only up to an additive constant.
+
+30
+00:02:52.080 --> 00:02:57.134
+The Cauchy problem for Laplace’s equation is generally ill-posed.
+
+31
+00:02:57.384 --> 00:03:00.912
+Question: the end of a rod is insulated.
+
+32
+00:03:00.912 --> 00:03:03.480
+Which condition is correct?
+
+33
+00:03:03.480 --> 00:03:07.166
+Choose an answer and read the explanation.

@@ -1,0 +1,149 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.744
+Ikkinchi qismda ikki narsani o‘rganamiz.
+
+2
+00:00:03.744 --> 00:00:05.640
+Birinchisi,
+
+3
+00:00:05.640 --> 00:00:13.632
+ildizlar karrali bo‘lganda va tenglama tartibi uchdan yuqori bo‘lganda fundamental sistemani qanday tuzish.
+
+4
+00:00:13.632 --> 00:00:19.968
+Ikkinchisi, amaliy masala: prujinadagi yukning erkin harakati qachon tebranadi,
+
+5
+00:00:19.968 --> 00:00:24.278
+qachon esa tebranmasdan muvozanatga qaytadi.
+
+6
+00:00:24.528 --> 00:00:32.064
+Qoida: agar r nol ildiz k karrali bo‘lsa, unga k ta funksiya mos keladi: e daraja r nol iks,
+
+7
+00:00:32.064 --> 00:00:39.000
+iks marta shu eksponenta, va hokazo, iks daraja k minus bir marta eksponentagacha.
+
+8
+00:00:39.000 --> 00:00:45.720
+Kompleks juftlik ham karrali bo‘lsa, kosinus va sinusni iks darajalariga ko‘paytiramiz.
+
+9
+00:00:45.720 --> 00:00:50.246
+Funksiyalar soni doim tenglama tartibiga teng.
+
+10
+00:00:50.496 --> 00:00:57.624
+Misol: y uch shtrix plyus y ikki shtrix minus y shtrix minus y teng nol.
+
+11
+00:00:57.624 --> 00:01:02.664
+Xarakteristik ko‘phad r kub plyus r kvadrat minus r minus bir.
+
+12
+00:01:02.664 --> 00:01:07.800
+Guruhlaymiz: r kvadrat marta r plyus bir, minus r plyus bir.
+
+13
+00:01:07.800 --> 00:01:12.470
+Natija: r plyus bir kvadrati marta r minus bir.
+
+14
+00:01:12.720 --> 00:01:16.440
+Bir oddiy ildiz e daraja iks ni beradi.
+
+15
+00:01:16.440 --> 00:01:23.400
+Minus bir ikki karrali, u e daraja minus iks va iks marta e daraja minus iks ni beradi.
+
+16
+00:01:23.400 --> 00:01:26.976
+Jami uchta funksiya, tartib ham uch.
+
+17
+00:01:26.976 --> 00:01:35.630
+Umumiy yechim: C bir e daraja iks plyus qavs ichida C ikki plyus C uch iks, marta e daraja minus iks.
+
+18
+00:01:35.880 --> 00:01:38.040
+Endi prujina.
+
+19
+00:01:38.040 --> 00:01:42.432
+Massa m, qarshilik koeffitsiyenti c, bikrlik k.
+
+20
+00:01:42.432 --> 00:01:48.936
+Nyuton qonuni: m y ikki shtrix plyus c y shtrix plyus k y teng nol.
+
+21
+00:01:48.936 --> 00:01:53.736
+Hammasini c kvadrat minus to‘rt m k ishorasi hal qiladi.
+
+22
+00:01:53.736 --> 00:01:57.552
+Manfiy bo‘lsa, kuchsiz so‘nuvchi tebranish.
+
+23
+00:01:57.552 --> 00:02:00.528
+Nol bo‘lsa, kritik so‘nish.
+
+24
+00:02:00.528 --> 00:02:04.670
+Musbat bo‘lsa, tebranishsiz kuchli so‘nish.
+
+25
+00:02:04.920 --> 00:02:11.832
+Misol: m bir, c ikki, k besh, yuk bir metrga tortilib, tezliksiz qo‘yib yuborildi.
+
+26
+00:02:11.832 --> 00:02:15.576
+Ildizlar minus bir plyus minus ikki i.
+
+27
+00:02:15.576 --> 00:02:19.032
+Shartlardan A teng bir, B teng yarim.
+
+28
+00:02:19.032 --> 00:02:24.888
+Yechim: e daraja minus t marta kosinus ikki t plyus yarim sinus ikki t.
+
+29
+00:02:24.888 --> 00:02:27.782
+Kvazidavr pi sekund.
+
+30
+00:02:28.032 --> 00:02:34.824
+Uch holatni bir grafikda solishtiramiz, hammasi bir xil boshlang‘ich holatdan boshlanadi.
+
+31
+00:02:34.824 --> 00:02:39.432
+Birinchi chiziq kuchsiz so‘nish: nol atrofida tebranadi.
+
+32
+00:02:39.432 --> 00:02:46.128
+Ikkinchisi kritik so‘nish, c teng to‘rt, k teng to‘rt: tebranmasdan eng tez qaytadi.
+
+33
+00:02:46.128 --> 00:02:51.086
+Uchinchisi kuchli so‘nish: sekin, tebranishsiz qaytadi.
+
+34
+00:02:51.336 --> 00:02:54.648
+Savol: massasi ikki kilogramm,
+
+35
+00:02:54.648 --> 00:03:01.800
+bikrligi sakkiz bo‘lgan prujina uchun kritik so‘nishga qaysi qarshilik koeffitsiyenti mos keladi?
+
+36
+00:03:01.800 --> 00:03:05.904
+Formulani eslang: c kvadrat teng to‘rt m k.
+
+37
+00:03:05.904 --> 00:03:09.734
+Videoni to‘xtatib, javobni tanlang.

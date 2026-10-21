@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.200
+Bu qismda yana ikki turdagi tenglamani ko‘ramiz.
+
+2
+00:00:04.200 --> 00:00:11.520
+Birinchisida y va uning barcha hosilalarini bir xil songa ko‘paytirsak, tenglama o‘zgarmaydi.
+
+3
+00:00:11.520 --> 00:00:18.048
+Ikkinchisida x va y ga turli “vaznlar” berib, barcha hadlarni tenglashtiramiz.
+
+4
+00:00:18.048 --> 00:00:22.022
+Ikkala holda tartib bittaga pasayadi.
+
+5
+00:00:22.272 --> 00:00:28.896
+Agar tenglama y, y shtrix, y ikki shtrixga nisbatan bir jinsli bo‘lsa,
+
+6
+00:00:28.896 --> 00:00:34.056
+y shtrix teng y ko‘paytirilgan z almashtirishni qilamiz.
+
+7
+00:00:34.056 --> 00:00:40.008
+Unda y ikki shtrix teng y ko‘paytirilgan z shtrix qo‘shuv z kvadrat.
+
+8
+00:00:40.008 --> 00:00:46.104
+y ning darajasiga qisqartirsak, z uchun birinchi tartibli tenglama qoladi.
+
+9
+00:00:46.104 --> 00:00:51.086
+Diqqat: bu “bir jinsli” so‘zining yana bir ma’nosi.
+
+10
+00:00:51.336 --> 00:00:58.896
+Misol: x y y ikki shtrix minus x y shtrix kvadrat teng y y shtrix.
+
+11
+00:00:58.896 --> 00:01:03.216
+Har bir had y ga nisbatan ikkinchi darajali.
+
+12
+00:01:03.216 --> 00:01:09.912
+Almashtirishdan keyin y kvadratga qisqartiramiz va x z shtrix teng z ni olamiz.
+
+13
+00:01:09.912 --> 00:01:13.094
+Demak z teng C bir x.
+
+14
+00:01:13.344 --> 00:01:17.832
+Endi y shtrix bo‘lingan y teng C bir x.
+
+15
+00:01:17.832 --> 00:01:24.696
+Integrallasak, y teng C ikki ko‘paytirilgan e daraja C bir x kvadratning yarmi.
+
+16
+00:01:24.696 --> 00:01:29.640
+C ikki nolga teng bo‘lganda y aynan nol ham yechim.
+
+17
+00:01:29.640 --> 00:01:33.902
+Natijani tenglamaga qo‘yib tekshirish oson.
+
+18
+00:01:34.152 --> 00:01:38.400
+Endi x ga vazn bir, y ga vazn m beramiz.
+
+19
+00:01:38.400 --> 00:01:44.520
+Unda y shtrixning vazni m minus bir, y ikki shtrixniki m minus ikki.
+
+20
+00:01:44.520 --> 00:01:52.392
+x kub y ikki shtrix tenglamasi, x y shtrix minus y ning kvadrati bilan solishtirilsa,
+
+21
+00:01:52.392 --> 00:01:56.088
+m qo‘shuv bir teng ikki m, ya’ni m teng bir.
+
+22
+00:01:56.088 --> 00:02:03.182
+x teng e daraja t, y teng e daraja t ko‘paytirilgan u almashtirish t ni yo‘qotadi.
+
+23
+00:02:03.432 --> 00:02:07.008
+Oxirgi tenglamada t ham, u ham yo‘q,
+
+24
+00:02:07.008 --> 00:02:13.008
+shuning uchun q teng u ning hosilasi deymiz va ajraladigan tenglama olamiz.
+
+25
+00:02:13.008 --> 00:02:20.160
+Javob: y teng x ln x minus x ln modul bir minus C bir x qo‘shuv C ikki x.
+
+26
+00:02:20.160 --> 00:02:27.830
+Shuningdek, q nol bo‘lgan holat y teng C x yechimini beradi — uni alohida yozish kerak.
+
+27
+00:02:28.080 --> 00:02:37.440
+Grafikda birinchi misoldagi y teng e daraja C bir x kvadrat yarmi egri chiziqlari C bir ning uchta qiymatida ko‘rsatilgan.
+
+28
+00:02:37.440 --> 00:02:43.920
+C bir musbat bo‘lsa egri chiziq o‘sadi, manfiy bo‘lsa — qo‘ng‘iroq shaklida so‘nadi,
+
+29
+00:02:43.920 --> 00:02:47.510
+nol bo‘lsa — gorizontal chiziq.
+
+30
+00:02:47.760 --> 00:02:51.840
+O‘zingizni tekshiring: y, y shtrix,
+
+31
+00:02:51.840 --> 00:02:57.960
+y ikki shtrixga nisbatan bir jinsli tenglama uchun qaysi almashtirish to‘g‘ri?
+
+32
+00:02:57.960 --> 00:03:00.566
+Javobni tanlang.

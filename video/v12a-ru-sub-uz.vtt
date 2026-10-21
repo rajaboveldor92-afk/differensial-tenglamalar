@@ -1,0 +1,81 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.588
+Real jarayonlarda bir nechta kattalik bir-biriga ta’sir qiladi: ikki xonaning harorati,
+
+2
+00:00:06.588 --> 00:00:10.904
+yirtqich va o‘lja soni, zaif va zararlangan kompyuterlar.
+
+3
+00:00:10.904 --> 00:00:19.310
+Bu darsda bunday sistemalarni matritsa ko‘rinishida yozamiz va o‘zgaruvchilarni yo‘qotish usuli bilan yechamiz.
+
+4
+00:00:19.560 --> 00:00:26.125
+Normal sistemada har bir noma’lumning hosilasi qolganlar orqali ifodalanadi.
+
+5
+00:00:26.125 --> 00:00:34.504
+Chiziqli holda koeffitsiyentlarni A matritsaga yig‘amiz va X shtrix teng A X plyus F deb yozamiz.
+
+6
+00:00:34.504 --> 00:00:43.142
+n tartibli tenglama ham sistemaga aylanadi: y, y shtrix va hokazolarni yangi noma’lumlar deb olamiz.
+
+7
+00:00:43.392 --> 00:00:50.058
+Misol: x shtrix teng ikki x plyus y, y shtrix teng uch x plyus to‘rt y.
+
+8
+00:00:50.058 --> 00:00:54.752
+Birinchi tenglamadan y teng x shtrix minus ikki x.
+
+9
+00:00:54.752 --> 00:01:03.014
+Birinchi tenglamani differensiallaymiz va y shtrix o‘rniga ikkinchi tenglamani qo‘yamiz.
+
+10
+00:01:03.264 --> 00:01:10.079
+Natijada x ikki shtrix minus olti x shtrix plyus besh x teng nol.
+
+11
+00:01:10.079 --> 00:01:13.748
+Xarakteristik ildizlar bir va besh.
+
+12
+00:01:13.748 --> 00:01:19.934
+Demak x teng C bir e daraja t plyus C ikki e daraja besh t.
+
+13
+00:01:20.184 --> 00:01:22.059
+y ni integrallamaymiz,
+
+14
+00:01:22.059 --> 00:01:32.115
+balki y teng x shtrix minus ikki x formulaga qo‘yamiz: y teng minus C bir e daraja t plyus uch C ikki e daraja besh t.
+
+15
+00:01:32.115 --> 00:01:39.614
+Ortiqcha o‘zgarmas paydo bo‘lmadi: ikki noma’lumli sistemada aynan ikkita o‘zgarmas bor.
+
+16
+00:01:39.864 --> 00:01:48.018
+Boshlang‘ich shartlar x nolda bir, y nolda yetti bo‘lsa, C bir minus bir, C ikki ikki.
+
+17
+00:01:48.018 --> 00:01:57.974
+Grafikda x va y vaqt bo‘yicha: ikkalasi ham e daraja besh t kabi tez o‘sadi, chunki eng katta ildiz besh.
+
+18
+00:01:58.224 --> 00:02:07.473
+Savol: uchinchi tartibli tenglamani normal sistemaga keltirganda nechta birinchi tartibli tenglama hosil bo‘ladi?
+
+19
+00:02:07.473 --> 00:02:11.156
+Videoni to‘xtating, javobni o‘zingiz tanlang,
+
+20
+00:02:11.156 --> 00:02:16.886
+so‘ng izohni o‘qing va kerak bo‘lsa darsning tegishli qismiga qayting.

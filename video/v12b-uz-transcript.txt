@@ -1,0 +1,16 @@
+Xos qiymatlar va faza portreti
+
+[0:00] Endi sistemaga boshqa tomondan qaraymiz. Yechimni vektor karra e daraja lambda t ko‘rinishida izlaymiz va yechimlarning faza tekisligidagi rasmini — faza portretini o‘qishni o‘rganamiz. Oxirida yirtqich–o‘lja modelini chiziqlashtiramiz.
+
+[0:19] Agar v — A ning lambda xos qiymatiga mos xos vektori bo‘lsa, v karra e daraja lambda t yechim bo‘ladi. Ikki o‘lchovli holda lambda kvadrat minus iz karra lambda plyus determinant teng nol tenglamasidan topiladi. Ildizlar haqiqiy turli, kompleks yoki karrali bo‘lishi mumkin.
+
+[0:40] Matritsa: birinchi qator minus bir, minus to‘rt; ikkinchi qator bir, minus bir. Iz minus ikki, determinant besh. Ildizlar minus bir plyus minus ikki i. Kompleks holda bitta ildiz uchun xos vektor olamiz.
+
+[0:59] Lambda minus bir plyus ikki i uchun xos vektor: ikki i va bir. U v karra e daraja lambda t ning haqiqiy va mavhum qismlarini beradi. Masalan, ikkinchi yechim: x teng ikki e daraja minus t kosinus ikki t, y teng e daraja minus t sinus ikki t.
+
+[1:19] Tasnif qoidasi: determinant manfiy bo‘lsa — egar. Determinant musbat bo‘lsa, iz kvadrati to‘rt determinantdan katta bo‘lsa — haqiqiy turli ildizli tugun, kichik bo‘lsa — kompleks ildizli fokus. Iz kvadrati aynan to‘rt determinantga teng bo‘lsa karrali haqiqiy ildiz holati keladi va tugunning xos vektorlar soniga qarab alohida tekshiriladi. Determinant musbat bo‘lgan holatda iz manfiy bo‘lsa muvozanat asimptotik turg‘un, iz musbat bo‘lsa turg‘un emas; iz nol va kompleks sof mavhum ildizlarda markaz hosil bo‘ladi. Bizda determinant besh musbat, iz minus ikki va iz kvadrati to‘rt determinantdan kichik: demak turg‘un fokus.
+
+[2:08] Grafikda x va y vaqt bo‘yicha: so‘nuvchi tebranishlar. Faza tekisligida bu nuqta koordinata boshiga o‘ralib kiradigan spiralni chizadi. Yirtqich–o‘lja modelini chiziqlashtirsak, iz nol chiqadi — markaz; lekin bu chegaraviy hol, uni chiziqlashtirishning o‘zi hal qilmaydi.
+
+[2:31] Savol: iz minus uch, determinant minus ikki bo‘lsa, muvozanat holati qanday turda? Videoni to‘xtating, javobni o‘zingiz tanlang, so‘ng izohni o‘qing va kerak bo‘lsa darsning tegishli qismiga qayting.
+

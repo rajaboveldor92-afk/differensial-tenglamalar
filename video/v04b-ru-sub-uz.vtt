@@ -1,0 +1,113 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.372
+Bu qismda tenglamaga boshqacha qaraymiz: M d x plyus N d y teng nol.
+
+2
+00:00:05.372 --> 00:00:12.481
+Agar chap tomon biror U funksiyaning to‘la differensiali bo‘lsa, javob shunchaki U teng C.
+
+3
+00:00:12.481 --> 00:00:19.906
+Biz buni qanday tekshirishni, U ni qanday tiklashni va tenglama to‘la differensialli bo‘lmasa,
+
+4
+00:00:19.906 --> 00:00:24.014
+uni qanday ko‘paytuvchi bilan tuzatishni o‘rganamiz.
+
+5
+00:00:24.264 --> 00:00:29.814
+Agar U ning x bo‘yicha hosilasi M, y bo‘yicha hosilasi N bo‘lsa,
+
+6
+00:00:29.814 --> 00:00:38.398
+aralash hosilalar teng bo‘lgani uchun M ning y bo‘yicha hosilasi N ning x bo‘yicha hosilasiga teng.
+
+7
+00:00:38.398 --> 00:00:42.040
+Bir bog‘lamli sohada bu shart yetarli ham.
+
+8
+00:00:42.040 --> 00:00:48.110
+Demak birinchi qadam doim bitta: M y va N x ni hisoblab, solishtirish.
+
+9
+00:00:48.360 --> 00:00:57.637
+Misol: ikki x y plyus uch x kvadrat, d x, plyus x kvadrat plyus ikki y, d y, teng nol.
+
+10
+00:00:57.637 --> 00:01:05.512
+M ning y bo‘yicha hosilasi ikki x, N ning x bo‘yicha hosilasi ham ikki x.
+
+11
+00:01:05.512 --> 00:01:07.238
+Shart bajarildi.
+
+12
+00:01:07.238 --> 00:01:14.790
+M ni x bo‘yicha integrallaymiz: x kvadrat y plyus x kub plyus h dan y.
+
+13
+00:01:14.790 --> 00:01:18.134
+h — y ning noma’lum funksiyasi.
+
+14
+00:01:18.384 --> 00:01:32.005
+h ni topish uchun U ni y bo‘yicha differensiallaymiz va N ga tenglaymiz: x kvadrat plyus h shtrix teng x kvadrat plyus ikki y.
+
+15
+00:01:32.005 --> 00:01:36.220
+Demak h shtrix ikki y, h esa y kvadrat.
+
+16
+00:01:36.220 --> 00:01:42.058
+Javob: x kvadrat y plyus x kub plyus y kvadrat teng C.
+
+17
+00:01:42.058 --> 00:01:46.598
+Agar h shtrixda x qolsa, hisobda xato bor.
+
+18
+00:01:46.848 --> 00:01:49.443
+Shart bajarilmasa-chi?
+
+19
+00:01:49.443 --> 00:01:56.992
+Masalan, x kvadrat plyus y kvadrat plyus x, d x, plyus x y, d y.
+
+20
+00:01:56.992 --> 00:01:59.587
+M y ikki y, N x esa y.
+
+21
+00:01:59.587 --> 00:02:08.552
+M y minus N x ni N ga bo‘lsak, bir bo‘lingan x chiqadi — faqat x ga bog‘liq.
+
+22
+00:02:08.552 --> 00:02:13.625
+Demak mu teng e daraja logarifm x, ya’ni x.
+
+23
+00:02:13.625 --> 00:02:20.702
+Ko‘paytirgandan keyin tenglama to‘la differensialli bo‘ladi.
+
+24
+00:02:20.952 --> 00:02:27.940
+Grafikda birinchi misolning yo‘nalish maydoni va bir nechta integral chiziq ko‘rsatilgan.
+
+25
+00:02:27.940 --> 00:02:32.809
+Har bir chiziq U funksiyaning sath chizig‘i: unda U o‘zgarmas.
+
+26
+00:02:32.809 --> 00:02:39.326
+To‘la differensialli tenglamani yechish — U ning sath chiziqlarini topish demakdir.
+
+27
+00:02:39.576 --> 00:02:47.333
+Tekshiruv savoli: ekrandagi nisbat berilgan bo‘lsa, integrallovchi ko‘paytuvchi nimaga teng?
+
+28
+00:02:47.333 --> 00:02:49.862
+Eksponentani olishni unutmang.

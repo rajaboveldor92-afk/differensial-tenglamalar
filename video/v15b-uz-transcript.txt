@@ -1,0 +1,18 @@
+Furye usuli: tor va sterjen
+
+[0:00] Gitara tori ikki uchidan mahkamlangan, shuning uchun to‘lqinlar qaytadi va Dalamber formulasi to‘g‘ridan-to‘g‘ri ishlamaydi. Furye usuli boshqa yo‘l taklif qiladi: yechimni oddiy “modalar” yig‘indisi sifatida qurish. Bu qismda tor va sterjen uchun bu usulni o‘rganamiz.
+
+[0:22] Yechimni katta X x karra katta T t ko‘rinishida izlaymiz. Tenglamaga qo‘ysak, x ga bog‘liq qism t ga bog‘liq qismga teng bo‘ladi; bu faqat ikkalasi bir xil o‘zgarmas minus lambda bo‘lganda mumkin. X uchun masala: X ikki shtrix qo‘shuv lambda X teng nol, X nolda va X l da nol.
+
+[0:45] Lambda manfiy yoki nol bo‘lsa, faqat nol yechim chiqadi. Lambda musbat bo‘lsa, X teng sinus ildiz lambda x, va sinus ildiz lambda l nol bo‘lishi kerak. Demak, xos qiymatlar lambda n teng n pi bo‘lingan l ning kvadrati, xos funksiyalar sinus n pi x bo‘lingan l, n bir, ikki, uch va hokazo.
+
+[1:10] Misol: u t t teng u x x, x noldan pi gacha, uchlari mahkamlangan. Boshlang‘ich shakl ikki sinus x ayiruv sinus uch x, boshlang‘ich tezlik to‘rt sinus ikki x. Bu yerda modalar sinus n x karra kosinus n t yoki sinus n t.
+
+[1:30] Berilganlar allaqachon sinuslar yig‘indisi, shuning uchun integral kerak emas. t nolda solishtiramiz: A bir teng ikki, A uch teng minus bir. Tezlikda n karra B n turadi: ikki B ikki teng to‘rt, B ikki teng ikki. Javob: ikki sinus x kosinus t qo‘shuv ikki sinus ikki x sinus ikki t ayiruv sinus uch x kosinus uch t.
+
+[1:56] Sterjendagi issiqlik uchun X bo‘yicha masala aynan shunday, lekin T endi birinchi tartibli tenglamani qanoatlantiradi va eksponensial so‘nadi. Masalan, boshlang‘ich harorat besh sinus pi x qo‘shuv ikki sinus uch pi x bo‘lsa, yechim besh e daraja minus pi kvadrat t sinus pi x qo‘shuv ikki e daraja minus to‘qqiz pi kvadrat t sinus uch pi x.
+
+[2:23] Grafikda harorat profili uch paytda: t teng nol, nol butun yuzdan bir va nol butun yuzdan besh. Uchinchi moda to‘qqiz marta tezroq so‘nadi, shuning uchun profil tezda oddiy bitta yoyga aylanadi va keyin sekin pasayadi. Torda esa modalar so‘nmaydi, balki tebranadi.
+
+[2:45] Savol: uzunligi l bo‘lgan sterjenda, uchlarida nol harorat, n-moda vaqt bo‘yicha qanday o‘zgaradi? Daraja ko‘rsatkichidagi kvadratga e’tibor bering.
+

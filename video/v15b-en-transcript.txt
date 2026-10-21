@@ -1,0 +1,18 @@
+Fourier’s method: string and rod
+
+[0:00] A guitar string is fixed at both ends, so waves reflect and d’Alembert’s formula does not apply directly. Fourier’s method offers another route: build the solution as a sum of simple “modes”. In this part we learn the method for the string and for the rod.
+
+[0:18] We look for a solution of the form capital X of x times capital T of t. Substituting, the part depending on x equals the part depending on t, which is only possible if both equal the same constant, minus lambda. The problem for X is X double prime plus lambda X equals zero, with X zero at zero and at l.
+
+[0:42] If lambda is negative or zero, only the zero solution appears. If lambda is positive, X is the sine of root lambda times x, and the sine of root lambda times l must vanish. So the eigenvalues are lambda n equals n pi over l, squared, and the eigenfunctions are sine of n pi x over l, for n equal to one, two, three and so on.
+
+[1:09] Example: u t t equals u x x for x from zero to pi, with fixed ends. The initial shape is two sine x minus sine three x, and the initial velocity is four sine two x. Here the modes are sine n x times cosine n t or sine n t.
+
+[1:29] The data are already sums of sines, so no integrals are needed. At t equals zero compare: A one is two, A three is minus one. The velocity carries n times B n: two B two equals four, so B two is two. Answer: two sine x cosine t plus two sine two x sine two t minus sine three x cosine three t.
+
+[1:55] For heat in a rod the problem for X is the same, but T now satisfies a first-order equation and decays exponentially. For example, if the initial temperature is five sine pi x plus two sine three pi x, the solution is five e to the minus pi squared t sine pi x plus two e to the minus nine pi squared t sine three pi x.
+
+[2:21] The graph shows the temperature profile at three times: t equals zero, one hundredth and five hundredths. The third mode decays nine times faster, so the profile quickly becomes a single simple arch and then slowly sinks. On a string, by contrast, modes do not decay, they oscillate.
+
+[2:43] Question: in a rod of length l with zero temperature at the ends, how does the n-th mode change in time? Watch the square in the exponent.
+

@@ -1,0 +1,121 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.488
+Ikki yechimdan umumiy yechim yasash uchun ular chiziqli erkli bo‘lishi kerak.
+
+2
+00:00:05.488 --> 00:00:09.764
+Buni tekshirishning qulay vositasi — Vronskian determinanti.
+
+3
+00:00:09.764 --> 00:00:17.390
+Lekin u bilan ehtiyot bo‘lish kerak: ixtiyoriy funksiyalar va tenglama yechimlari uchun xulosalar turlicha.
+
+4
+00:00:17.640 --> 00:00:25.873
+Ikki funksiya uchun Vronskian: y bir ko‘paytirilgan y ikki shtrix, minus y bir shtrix ko‘paytirilgan y ikki.
+
+5
+00:00:25.873 --> 00:00:31.894
+Agar funksiyalar oraliqda chiziqli bog‘liq bo‘lsa, Vronskian u yerda aynan nol.
+
+6
+00:00:31.894 --> 00:00:38.298
+Demak, agar biror nuqtada Vronskian noldan farqli bo‘lsa, funksiyalar albatta erkli.
+
+7
+00:00:38.298 --> 00:00:45.158
+Masalan, e daraja x, e daraja ikki x, e daraja uch x uchun Vronskian ikki e daraja olti x.
+
+8
+00:00:45.408 --> 00:00:54.269
+Endi ogohlantiruvchi misol: x kvadrat va x ko‘paytirilgan modul x, minus birdan birgacha oraliqda.
+
+9
+00:00:54.269 --> 00:01:01.865
+x musbat bo‘lsa ikkala funksiya x kvadrat, manfiy bo‘lsa ikkinchisi minus x kvadrat.
+
+10
+00:01:01.865 --> 00:01:05.301
+Ikkala holda ham Vronskian nolga teng.
+
+11
+00:01:05.301 --> 00:01:07.742
+Demak, Vronskian aynan nol.
+
+12
+00:01:07.992 --> 00:01:10.015
+Lekin ular bog‘liqmi?
+
+13
+00:01:10.015 --> 00:01:16.278
+Alfa bir x kvadrat qo‘shuv alfa ikki x modul x aynan nol bo‘lsin.
+
+14
+00:01:16.278 --> 00:01:25.624
+x teng yarimda alfa bir qo‘shuv alfa ikki nol, x teng minus yarimda alfa bir minus alfa ikki nol.
+
+15
+00:01:25.624 --> 00:01:30.056
+Demak ikkala alfa ham nol — funksiyalar erkli!
+
+16
+00:01:30.056 --> 00:01:38.342
+Xulosa: ixtiyoriy funksiyalar uchun Vronskian nolga tengligi bog‘liqlikni anglatmaydi.
+
+17
+00:01:38.592 --> 00:01:41.335
+Yechimlar uchun esa vaziyat boshqacha.
+
+18
+00:01:41.335 --> 00:01:49.563
+Agar y bir va y ikki bitta chiziqli bir jinsli tenglamaning yechimlari bo‘lsa va koeffitsiyentlar uzluksiz bo‘lsa,
+
+19
+00:01:49.563 --> 00:01:53.532
+Vronskian yo hamma joyda nol, yo hech qayerda nol emas.
+
+20
+00:01:53.532 --> 00:02:01.400
+Ostrogradskiy–Liuvill formulasi buni ko‘rsatadi: W teng W nol ko‘paytirilgan e daraja minus p ning integrali,
+
+21
+00:02:01.400 --> 00:02:03.998
+eksponenta esa hech qachon nol emas.
+
+22
+00:02:04.248 --> 00:02:07.481
+Grafikda x kvadrat va x modul x ko‘rsatilgan.
+
+23
+00:02:07.481 --> 00:02:13.444
+O‘ng tomonda ular ustma-ust tushadi, chap tomonda esa bir-birining ko‘zgudagi aksi.
+
+24
+00:02:13.444 --> 00:02:19.622
+Bitta o‘zgarmas ko‘paytuvchi ikkala tomonda ham ishlamaydi — shuning uchun ular erkli.
+
+25
+00:02:19.872 --> 00:02:25.262
+n-tartibli tenglamaning n ta erkli yechimi fundamental sistema deyiladi.
+
+26
+00:02:25.262 --> 00:02:30.951
+Bir jinsli tenglamaning har qanday yechimi ularning chiziqli kombinatsiyasi.
+
+27
+00:02:30.951 --> 00:02:38.212
+Bir jinsli bo‘lmagan tenglamaning umumiy yechimi — shu kombinatsiya qo‘shuv bitta xususiy yechim.
+
+28
+00:02:38.212 --> 00:02:45.398
+Masalan, y ikki shtrix qo‘shuv y teng x uchun: C bir kosinus x qo‘shuv C ikki sinus x qo‘shuv x.
+
+29
+00:02:45.648 --> 00:02:53.336
+O‘zingizni tekshiring: ixtiyoriy ikki funksiya uchun Vronskian aynan nol bo‘lsa, nima deyish mumkin?
+
+30
+00:02:53.336 --> 00:02:54.566
+Javobni tanlang.

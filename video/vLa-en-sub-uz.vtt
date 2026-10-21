@@ -1,0 +1,81 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:08.524
+Bu qo‘shimcha modul, u tasdiqlangan ma’ruza soatlariga kirmaydi, lekin dasturdagi mustaqil ishlar uchun kerak.
+
+2
+00:00:08.524 --> 00:00:14.568
+Laplas almashtirishi differensial tenglamani algebraik tenglamaga aylantiradi.
+
+3
+00:00:14.568 --> 00:00:20.534
+Bugun uning ta’rifini, jadvalini va boshlang‘ich masalani yechishni ko‘ramiz.
+
+4
+00:00:20.784 --> 00:00:27.516
+F katta s teng noldan cheksizgacha e daraja minus s t karra f t d t integrali.
+
+5
+00:00:27.516 --> 00:00:35.542
+Integral mavjud bo‘lishi uchun f bo‘lakli uzluksiz va eksponensial tartibli bo‘lishi yetarli.
+
+6
+00:00:35.542 --> 00:00:42.446
+Masalan, e daraja a t ning tasviri bir bo‘lingan s minus a, s katta a bo‘lganda.
+
+7
+00:00:42.696 --> 00:00:48.683
+Asosiy xossa: hosilaning tasviri s karra Y minus y nolda.
+
+8
+00:00:48.683 --> 00:00:55.615
+Ikkinchi hosila: s kvadrat Y minus s y nolda minus y shtrix nolda.
+
+9
+00:00:55.615 --> 00:01:06.854
+Masala: y ikki shtrix minus uch y shtrix plyus ikki y teng e daraja uch t, y nolda bir, y shtrix nolda nol.
+
+10
+00:01:07.104 --> 00:01:15.184
+Y ni topamiz: surat s kvadrat minus olti s plyus o‘n, maxraj s minus bir, s minus ikki,
+
+11
+00:01:15.184 --> 00:01:17.413
+s minus uch ko‘paytmasi.
+
+12
+00:01:17.413 --> 00:01:25.214
+Sodda kasrlarga ajratamiz: koeffitsiyentlar besh ikkidan, minus ikki va bir ikkidan.
+
+13
+00:01:25.464 --> 00:01:34.291
+Jadval bo‘yicha qaytamiz: y teng besh ikkidan e daraja t minus ikki e daraja ikki t plyus bir ikkidan e daraja uch t.
+
+14
+00:01:34.291 --> 00:01:39.723
+Tekshiruv: t nolda besh ikkidan minus ikki plyus bir ikkidan bir beradi.
+
+15
+00:01:39.723 --> 00:01:43.118
+O‘zgarmaslarni alohida topish kerak bo‘lmadi.
+
+16
+00:01:43.368 --> 00:01:49.297
+Grafikda yechim: boshida y bir va gorizontal urinma bilan boshlanadi,
+
+17
+00:01:49.297 --> 00:01:54.710
+so‘ng e daraja uch t hadi ustunlik qiladi va yechim tez o‘sadi.
+
+18
+00:01:54.960 --> 00:01:58.703
+Savol: y shtrixning Laplas tasviri nimaga teng?
+
+19
+00:01:58.703 --> 00:02:02.287
+Videoni to‘xtating, javobni o‘zingiz tanlang,
+
+20
+00:02:02.287 --> 00:02:07.862
+so‘ng izohni o‘qing va kerak bo‘lsa darsning tegishli qismiga qayting.

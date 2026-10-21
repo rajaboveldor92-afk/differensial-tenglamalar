@@ -1,0 +1,16 @@
+Direction fields and the Cauchy problem
+
+[0:00] In this part we look at the geometric meaning of a first order equation, solve a Cauchy problem and find out when the solution is unique.
+
+[0:10] The equation y prime equals f of x and y gives, at each point, the slope of the tangent to a solution graph. Short segments with these slopes form the direction field. An integral curve is tangent to the field segment at every point.
+
+[0:27] To sketch the field by hand we use isoclines. An isocline is a curve along which the slope is the same. For this equation the isoclines are circles centred at the origin.
+
+[0:40] A Cauchy problem: y prime equals two y, with the initial condition y of zero equals three. The general solution is C e to the two x. At x equal to zero, y equals C, so C equals three. Answer: y equals three e to the two x.
+
+[1:01] Picard’s theorem: if f and its partial derivative with respect to y are continuous in a rectangle around the initial point, the Cauchy problem has a solution and it is unique. Note that the guarantee holds only near the initial point.
+
+[1:18] What if the condition fails? Take y prime equals three y to the two thirds, with y of zero equal to zero. The derivative with respect to y is infinite at zero. As a result, both y identically zero and a cubic starting at any later point are solutions. Uniqueness fails.
+
+[1:40] Check yourself. Read the question and choose your answer below the video.
+

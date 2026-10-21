@@ -1,0 +1,16 @@
+The Laplace transform: definition and an initial value problem
+
+[0:00] This is a supplementary module; it is not part of the approved lecture hours, but the syllabus needs it for independent tasks. The Laplace transform turns a differential equation into an algebraic one. Today we cover the definition, the table and solving an initial value problem.
+
+[0:20] Capital F of s is the integral from zero to infinity of e to the minus s t times f of t, d t. For the integral to exist it is enough that f is piecewise continuous and of exponential order. For example, the transform of e to the a t is one over s minus a, for s greater than a.
+
+[0:42] The key property: the transform of a derivative is s times Y minus y of zero. For the second derivative: s squared Y minus s y of zero minus y prime of zero. Problem: y double prime minus three y prime plus two y equals e to the three t, with y of zero equal to one and y prime of zero equal to zero.
+
+[1:07] We find Y: numerator s squared minus six s plus ten, denominator the product of s minus one, s minus two and s minus three. Split into partial fractions: the coefficients are five halves, minus two and one half.
+
+[1:25] Back through the table: y equals five halves e to the t minus two e to the two t plus one half e to the three t. Check: at t equal to zero, five halves minus two plus one half gives one. We never had to find constants separately.
+
+[1:43] The graph shows the solution: it starts at y equal to one with a horizontal tangent, then the e to the three t term dominates and the solution grows fast.
+
+[1:54] Question: what is the Laplace transform of y prime? Pause the video, choose your answer, then read the explanation and go back to the relevant part of the lesson if needed.
+

@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.184
+In this part we meet two more types.
+
+2
+00:00:03.184 --> 00:00:12.117
+In the first, multiplying y and all its derivatives by the same number leaves the equation unchanged.
+
+3
+00:00:12.117 --> 00:00:18.750
+In the second, we give x and y different weights so that all terms balance.
+
+4
+00:00:18.750 --> 00:00:22.022
+In both cases the order drops by one.
+
+5
+00:00:22.272 --> 00:00:32.412
+If the equation is homogeneous in y, y prime and y double prime, substitute y prime equals y times z.
+
+6
+00:00:32.412 --> 00:00:38.235
+Then y double prime equals y times z prime plus z squared.
+
+7
+00:00:38.235 --> 00:00:45.263
+After cancelling the power of y, a first-order equation for z remains.
+
+8
+00:00:45.263 --> 00:00:51.086
+Note: this is yet another meaning of the word homogeneous.
+
+9
+00:00:51.336 --> 00:00:59.662
+Example: x y y double prime minus x times y prime squared equals y y prime.
+
+10
+00:00:59.662 --> 00:01:03.103
+Every term has degree two in y.
+
+11
+00:01:03.103 --> 00:01:10.874
+After the substitution we cancel y squared and get x z prime equals z.
+
+12
+00:01:10.874 --> 00:01:13.094
+So z equals C one x.
+
+13
+00:01:13.344 --> 00:01:16.595
+Now y prime over y equals C one x.
+
+14
+00:01:16.595 --> 00:01:23.671
+Integrating, y equals C two times e to the power one half C one x squared.
+
+15
+00:01:23.671 --> 00:01:29.695
+With C two equal to zero, the zero function is also a solution.
+
+16
+00:01:29.695 --> 00:01:33.902
+The result is easy to check by substitution.
+
+17
+00:01:34.152 --> 00:01:37.805
+Now give x weight one and y weight m.
+
+18
+00:01:37.805 --> 00:01:44.421
+Then y prime has weight m minus one and y double prime m minus two.
+
+19
+00:01:44.421 --> 00:01:54.098
+For x cubed y double prime equals the square of x y prime minus y, we get m plus one equals two m,
+
+20
+00:01:54.098 --> 00:01:55.678
+so m equals one.
+
+21
+00:01:55.678 --> 00:02:03.182
+The substitution x equals e to the t, y equals e to the t times u removes t.
+
+22
+00:02:03.432 --> 00:02:06.964
+The last equation contains neither t nor u,
+
+23
+00:02:06.964 --> 00:02:12.468
+so put q equal to the derivative of u and get a separable equation.
+
+24
+00:02:12.468 --> 00:02:20.026
+Answer: y equals x ln x minus x ln of the absolute value of one minus C one x, plus C two x.
+
+25
+00:02:20.026 --> 00:02:27.830
+Also, the case q equals zero gives the solutions y equals C x, which must be listed separately.
+
+26
+00:02:28.080 --> 00:02:38.221
+The graph shows the curves y equals e to the one half C one x squared from the first example for three values of C one.
+
+27
+00:02:38.221 --> 00:02:47.510
+For positive C one the curve grows, for negative it decays like a bell, and for zero it is a horizontal line.
+
+28
+00:02:47.760 --> 00:02:58.656
+Check yourself: which substitution fits an equation homogeneous in y, y prime and y double prime?
+
+29
+00:02:58.656 --> 00:03:00.566
+Choose an answer.

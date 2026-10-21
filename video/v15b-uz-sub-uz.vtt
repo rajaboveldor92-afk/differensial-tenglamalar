@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.696
+Gitara tori ikki uchidan mahkamlangan,
+
+2
+00:00:03.696 --> 00:00:09.888
+shuning uchun to‘lqinlar qaytadi va Dalamber formulasi to‘g‘ridan-to‘g‘ri ishlamaydi.
+
+3
+00:00:09.888 --> 00:00:16.872
+Furye usuli boshqa yo‘l taklif qiladi: yechimni oddiy “modalar” yig‘indisi sifatida qurish.
+
+4
+00:00:16.872 --> 00:00:21.830
+Bu qismda tor va sterjen uchun bu usulni o‘rganamiz.
+
+5
+00:00:22.080 --> 00:00:27.144
+Yechimni katta X x karra katta T t ko‘rinishida izlaymiz.
+
+6
+00:00:27.144 --> 00:00:29.520
+Tenglamaga qo‘ysak,
+
+7
+00:00:29.520 --> 00:00:38.280
+x ga bog‘liq qism t ga bog‘liq qismga teng bo‘ladi; bu faqat ikkalasi bir xil o‘zgarmas minus lambda bo‘lganda mumkin.
+
+8
+00:00:38.280 --> 00:00:45.734
+X uchun masala: X ikki shtrix qo‘shuv lambda X teng nol, X nolda va X l da nol.
+
+9
+00:00:45.984 --> 00:00:50.736
+Lambda manfiy yoki nol bo‘lsa, faqat nol yechim chiqadi.
+
+10
+00:00:50.736 --> 00:00:58.248
+Lambda musbat bo‘lsa, X teng sinus ildiz lambda x, va sinus ildiz lambda l nol bo‘lishi kerak.
+
+11
+00:00:58.248 --> 00:01:06.648
+Demak, xos qiymatlar lambda n teng n pi bo‘lingan l ning kvadrati, xos funksiyalar sinus n pi x bo‘lingan l,
+
+12
+00:01:06.648 --> 00:01:10.142
+n bir, ikki, uch va hokazo.
+
+13
+00:01:10.392 --> 00:01:16.656
+Misol: u t t teng u x x, x noldan pi gacha, uchlari mahkamlangan.
+
+14
+00:01:16.656 --> 00:01:24.264
+Boshlang‘ich shakl ikki sinus x ayiruv sinus uch x, boshlang‘ich tezlik to‘rt sinus ikki x.
+
+15
+00:01:24.264 --> 00:01:29.990
+Bu yerda modalar sinus n x karra kosinus n t yoki sinus n t.
+
+16
+00:01:30.240 --> 00:01:36.456
+Berilganlar allaqachon sinuslar yig‘indisi, shuning uchun integral kerak emas.
+
+17
+00:01:36.456 --> 00:01:41.496
+t nolda solishtiramiz: A bir teng ikki, A uch teng minus bir.
+
+18
+00:01:41.496 --> 00:01:47.184
+Tezlikda n karra B n turadi: ikki B ikki teng to‘rt, B ikki teng ikki.
+
+19
+00:01:47.184 --> 00:01:55.958
+Javob: ikki sinus x kosinus t qo‘shuv ikki sinus ikki x sinus ikki t ayiruv sinus uch x kosinus uch t.
+
+20
+00:01:56.208 --> 00:02:01.104
+Sterjendagi issiqlik uchun X bo‘yicha masala aynan shunday,
+
+21
+00:02:01.104 --> 00:02:07.560
+lekin T endi birinchi tartibli tenglamani qanoatlantiradi va eksponensial so‘nadi.
+
+22
+00:02:07.560 --> 00:02:14.136
+Masalan, boshlang‘ich harorat besh sinus pi x qo‘shuv ikki sinus uch pi x bo‘lsa,
+
+23
+00:02:14.136 --> 00:02:23.222
+yechim besh e daraja minus pi kvadrat t sinus pi x qo‘shuv ikki e daraja minus to‘qqiz pi kvadrat t sinus uch pi x.
+
+24
+00:02:23.472 --> 00:02:30.960
+Grafikda harorat profili uch paytda: t teng nol, nol butun yuzdan bir va nol butun yuzdan besh.
+
+25
+00:02:30.960 --> 00:02:34.728
+Uchinchi moda to‘qqiz marta tezroq so‘nadi,
+
+26
+00:02:34.728 --> 00:02:40.824
+shuning uchun profil tezda oddiy bitta yoyga aylanadi va keyin sekin pasayadi.
+
+27
+00:02:40.824 --> 00:02:45.302
+Torda esa modalar so‘nmaydi, balki tebranadi.
+
+28
+00:02:45.552 --> 00:02:53.160
+Savol: uzunligi l bo‘lgan sterjenda, uchlarida nol harorat, n-moda vaqt bo‘yicha qanday o‘zgaradi?
+
+29
+00:02:53.160 --> 00:02:57.614
+Daraja ko‘rsatkichidagi kvadratga e’tibor bering.

@@ -1,0 +1,16 @@
+Exact equations and choosing μ
+
+[0:00] In this part we look at the equation differently: M d x plus N d y equals zero. If the left side is the total differential of some function U, the answer is simply U equals C. We learn how to test this, how to recover U, and how to fix the equation with a factor when it is not exact.
+
+[0:21] If the x derivative of U is M and the y derivative is N, then since mixed partials agree, the y derivative of M equals the x derivative of N. On a simply connected region this condition is also sufficient. So the first step is always the same: compute M sub y and N sub x and compare.
+
+[0:43] Example: two x y plus three x squared, d x, plus x squared plus two y, d y, equals zero. The y derivative of M is two x, and the x derivative of N is also two x. The condition holds. Integrate M in x: x squared y plus x cubed plus h of y, where h is an unknown function of y.
+
+[1:09] To find h, differentiate U in y and set it equal to N: x squared plus h prime equals x squared plus two y. So h prime is two y and h is y squared. Answer: x squared y plus x cubed plus y squared equals C. If x is left in h prime, there is a mistake.
+
+[1:31] What if the condition fails? Take x squared plus y squared plus x, d x, plus x y, d y. M sub y is two y and N sub x is y. Dividing M sub y minus N sub x by N gives one over x, which depends on x only. So mu equals e to the log x, that is x. After multiplying, the equation becomes exact.
+
+[1:59] The graph shows the direction field of the first example and several integral curves. Each curve is a level curve of U: U is constant along it. Solving an exact equation means finding the level curves of U.
+
+[2:15] Check question: given the ratio on the screen, what is the integrating factor? Do not forget to take the exponential.
+

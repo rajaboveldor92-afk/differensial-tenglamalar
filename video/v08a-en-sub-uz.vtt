@@ -1,0 +1,145 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.417
+Salom!
+
+2
+00:00:00.417 --> 00:00:05.556
+Bugun ikkinchi va undan yuqori tartibli chiziqli tenglamalarni o‘rganamiz,
+
+3
+00:00:05.556 --> 00:00:08.612
+ularning koeffitsiyentlari o‘zgarmas sonlar.
+
+4
+00:00:08.612 --> 00:00:14.654
+Bunday tenglamalar elektr zanjirlarida, prujinalarda va boshqaruv tizimlarida uchraydi.
+
+5
+00:00:14.654 --> 00:00:21.668
+Darsning oxirida siz har qanday shunday tenglamaning umumiy yechimini bir necha daqiqada yoza olasiz,
+
+6
+00:00:21.668 --> 00:00:24.446
+faqat bitta algebraik tenglamani yechib.
+
+7
+00:00:24.696 --> 00:00:26.771
+Asosiy g‘oya juda oddiy.
+
+8
+00:00:26.771 --> 00:00:30.748
+Yechimni e daraja r iks ko‘rinishida izlaymiz.
+
+9
+00:00:30.748 --> 00:00:38.271
+Har bir hosila faqat r ko‘paytuvchini qo‘shadi: birinchi hosila r marta e daraja r iks,
+
+10
+00:00:38.271 --> 00:00:41.037
+ikkinchi hosila r kvadrat marta.
+
+11
+00:00:41.037 --> 00:00:48.732
+Tenglamaga qo‘yib, noldan farqli eksponentaga qisqartirsak, r ga nisbatan ko‘phad qoladi.
+
+12
+00:00:48.732 --> 00:00:50.894
+Bu xarakteristik ko‘phad.
+
+13
+00:00:51.144 --> 00:00:53.516
+Ildizlar uch xil bo‘lishi mumkin.
+
+14
+00:00:53.516 --> 00:00:57.829
+Har xil haqiqiy ildizlar har biri bitta eksponentani beradi.
+
+15
+00:00:57.829 --> 00:01:04.299
+Karrali ildiz, masalan ikki karrali, e daraja r iks va iks marta e daraja r iks ni beradi.
+
+16
+00:01:04.299 --> 00:01:12.494
+Kompleks juftlik alfa plyus minus i beta esa e daraja alfa iks marta kosinus beta iks va sinus beta iks ni beradi.
+
+17
+00:01:12.744 --> 00:01:21.505
+Misol: y ikki shtrix minus ikki y shtrix plyus besh y teng nol, boshlang‘ich shartlar y nolda bir,
+
+18
+00:01:21.505 --> 00:01:23.294
+y shtrix nolda besh.
+
+19
+00:01:23.294 --> 00:01:29.284
+Xarakteristik tenglama: r kvadrat minus ikki r plyus besh teng nol.
+
+20
+00:01:29.284 --> 00:01:37.598
+Diskriminant manfiy, minus o‘n olti, shuning uchun ildizlar kompleks: bir plyus minus ikki i.
+
+21
+00:01:37.848 --> 00:01:40.014
+Demak alfa bir, beta ikki,
+
+22
+00:01:40.014 --> 00:01:48.011
+umumiy yechim e daraja iks marta qavs ichida C bir kosinus ikki iks plyus C ikki sinus ikki iks.
+
+23
+00:01:48.011 --> 00:01:56.008
+Iks nolga teng bo‘lganda kosinus bir, sinus nol, shuning uchun birinchi shartdan C bir teng bir.
+
+24
+00:01:56.008 --> 00:02:02.006
+Ikkinchi shart uchun avval hosilani ko‘paytma qoidasi bilan hisoblaymiz.
+
+25
+00:02:02.256 --> 00:02:07.321
+Hosilaning nol nuqtadagi qiymati C bir plyus ikki C ikki ga teng.
+
+26
+00:02:07.321 --> 00:02:11.528
+Bu beshga teng bo‘lishi kerak, demak C ikki teng ikki.
+
+27
+00:02:11.528 --> 00:02:17.450
+Javob: y teng e daraja iks marta kosinus ikki iks plyus ikki sinus ikki iks.
+
+28
+00:02:17.450 --> 00:02:23.606
+Tekshirish: tenglamaga qo‘ysak nol chiqadi, boshlang‘ich qiymatlar ham to‘g‘ri.
+
+29
+00:02:23.856 --> 00:02:25.208
+Grafikka qarang.
+
+30
+00:02:25.208 --> 00:02:33.994
+Ko‘k chiziq bizning yechim: u tebranadi, lekin amplitudasi e daraja iks kabi o‘sadi, chunki alfa musbat.
+
+31
+00:02:33.994 --> 00:02:42.781
+Ikkinchi chiziq alfa manfiy bo‘lgan holat, e daraja minus iks marta kosinus ikki iks: tebranish so‘nadi.
+
+32
+00:02:42.781 --> 00:02:49.286
+Alfa ishorasi o‘sish yoki so‘nishni, beta esa tebranish tezligini belgilaydi.
+
+33
+00:02:49.536 --> 00:02:51.649
+Endi o‘zingizni sinab ko‘ring.
+
+34
+00:02:51.649 --> 00:03:00.311
+Ekrandagi savolga javob bering: y ikki shtrix plyus to‘rt y shtrix plyus to‘rt y teng nol tenglamaning yechimlari qaysilar?
+
+35
+00:03:00.311 --> 00:03:05.733
+Xarakteristik ko‘phadni yozing va uning ildizlarini karraligi bilan aniqlang.
+
+36
+00:03:05.733 --> 00:03:08.198
+Videoni to‘xtatib, javobni tanlang.

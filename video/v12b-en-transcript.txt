@@ -1,0 +1,16 @@
+Eigenvalues and phase portraits
+
+[0:00] Now we look at a system from another side. We seek solutions of the form vector times e to the lambda t and learn to read the picture of solutions in the phase plane, the phase portrait. At the end we linearise a predator–prey model.
+
+[0:17] If v is an eigenvector of A for the eigenvalue lambda, then v times e to the lambda t is a solution. In two dimensions lambda solves lambda squared minus trace times lambda plus determinant equals zero. The roots can be real distinct, complex, or repeated.
+
+[0:36] The matrix has first row minus one, minus four and second row one, minus one. The trace is minus two, the determinant five. The roots are minus one plus or minus two i. In the complex case we take an eigenvector for one root.
+
+[0:55] For lambda equal to minus one plus two i the eigenvector is two i and one. It gives the real and imaginary parts of v times e to the lambda t. For example, the second solution is x equals two e to the minus t cosine two t, and y equals e to the minus t sine two t.
+
+[1:17] Classification rule: a negative determinant gives a saddle. With positive determinant, trace squared greater than four times the determinant gives a node with distinct real eigenvalues, while a smaller value gives a focus with complex eigenvalues. Equality, trace squared equals four times the determinant, is the repeated-real-eigenvalue case and must be checked separately according to the number of eigenvectors. When the determinant is positive, negative trace gives asymptotic stability and positive trace gives instability; zero trace with purely imaginary eigenvalues gives a centre. Here the determinant is five, the trace is minus two, and trace squared is less than four times the determinant, so we have a stable focus.
+
+[2:10] The graph shows x and y in time: damped oscillations. In the phase plane the point traces a spiral winding into the origin. Linearising the predator–prey model gives zero trace, a centre; but that is a borderline case, which linearisation alone cannot settle.
+
+[2:30] Question: if the trace is minus three and the determinant minus two, what type is the equilibrium? Pause the video, choose your answer, then read the explanation and go back to the relevant part of the lesson if needed.
+

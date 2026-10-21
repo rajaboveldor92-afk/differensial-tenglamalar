@@ -1,0 +1,18 @@
+n-tartibli tenglama va y yoki x qatnashmagan tenglamalar
+
+[0:00] Salom! Endi yuqori tartibli tenglamalarga o‘tamiz. Telefon balandlikdan tushganda uning balandligi ikkinchi hosila minus g ga teng degan tenglamani qanoatlantiradi. Bunday tenglamalarni qanday yechish va qachon tartibini pasaytirish mumkinligini ko‘ramiz.
+
+[0:21] n-tartibli tenglamaning umumiy yechimida n ta ixtiyoriy o‘zgarmas bor. Koshi masalasida bitta nuqtada n ta shart beriladi: funksiya va uning n minus birinchi tartibgacha hosilalari. Agar o‘ng tomon uzluksiz va noma’lumlar bo‘yicha xususiy hosilalari uzluksiz bo‘lsa, yechim lokal mavjud va yagona.
+
+[0:45] Birinchi tur: y ning n-hosilasi faqat x ga bog‘liq. Masalan, y uch shtrix teng yigirma to‘rt x, boshlang‘ich qiymatlar bir, nol va ikki. Integrallaymiz va har safar o‘zgarmasni darhol topamiz: y ikki shtrix teng o‘n ikki x kvadrat qo‘shuv ikki, y shtrix teng to‘rt x kub qo‘shuv ikki x, va y teng x to‘rtinchi daraja qo‘shuv x kvadrat qo‘shuv bir.
+
+[1:14] Ikkinchi tur: y qatnashmagan tenglama. Masalan, x y ikki shtrix minus y shtrix teng uch x kvadrat. z teng y shtrix desak, z uchun chiziqli birinchi tartibli tenglama chiqadi. x kvadratga bo‘lsak, z ning x ga nisbati hosilasi uchga teng. Demak z teng uch x kvadrat qo‘shuv C bir x, va y teng x kub qo‘shuv C bir x kvadratning yarmi qo‘shuv C ikki.
+
+[1:45] Uchinchi tur: x qatnashmagan tenglama, masalan y ikki shtrix teng ikki y kub. y shtrix teng p, p esa y ning funksiyasi deb olamiz. Zanjir qoidasi bo‘yicha y ikki shtrix teng p ko‘paytirilgan dp dy ga. Muhim: faqat dp dy emas! Integrallasak, p kvadrat teng y to‘rtinchi daraja qo‘shuv C bir.
+
+[2:12] Boshlang‘ich shartlar y nolda bir, y shtrix nolda bir bo‘lsin. Unda C bir nolga teng va p teng y kvadrat. Ajratsak, minus bir bo‘lingan y teng x minus bir, ya’ni y teng bir bo‘lingan bir minus x ga. Yechim faqat x birdan kichik bo‘lganda mavjud: x birga yaqinlashganda u cheksizlikka ketadi.
+
+[2:38] Grafikda y teng bir bo‘lingan bir minus x ko‘rsatilgan. U nol nuqtada birga teng va og‘ishi ham bir. x birga yaqinlashganda egri chiziq vertikal asimptotaga tomon keskin ko‘tariladi. Chiziqli bo‘lmagan tenglamalarda bunday portlash odatiy hol.
+
+[2:59] O‘zingizni tekshiring: x qatnashmagan tenglamada y ikki shtrix qanday ifodalanadi? Javobni tanlang va izohni o‘qing.
+

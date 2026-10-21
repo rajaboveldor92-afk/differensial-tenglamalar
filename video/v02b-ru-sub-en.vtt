@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.177
+In this part we solve two real problems.
+
+2
+00:00:03.177 --> 00:00:06.592
+First: when will the tea be ready to drink?
+
+3
+00:00:06.592 --> 00:00:12.469
+Second: when will a virus reach half of a network of a thousand computers?
+
+4
+00:00:12.469 --> 00:00:18.108
+The plan is the same for both: write the model, separate the variables,
+
+5
+00:00:18.108 --> 00:00:23.270
+find the coefficient from a measurement, and answer the question.
+
+6
+00:00:23.520 --> 00:00:32.102
+Newton’s law: the cooling rate is proportional to the difference between the body and room temperatures.
+
+7
+00:00:32.102 --> 00:00:37.135
+So T prime equals minus k times T minus the room temperature.
+
+8
+00:00:37.135 --> 00:00:40.270
+The minus sign means a hot body cools.
+
+9
+00:00:40.270 --> 00:00:42.498
+Separating and integrating,
+
+10
+00:00:42.498 --> 00:00:52.070
+the difference decays exponentially: T equals room temperature plus the initial difference times e to the minus k t.
+
+11
+00:00:52.320 --> 00:00:59.747
+The room is at twenty degrees, the tea is poured at ninety and is sixty after ten minutes.
+
+12
+00:00:59.747 --> 00:01:05.194
+Substitute: T equals twenty plus seventy times e to the minus k t.
+
+13
+00:01:05.194 --> 00:01:10.476
+At ten minutes, seventy times e to the minus ten k equals forty.
+
+14
+00:01:10.476 --> 00:01:18.398
+So k is one tenth of the logarithm of seven quarters, about zero point zero five six per minute.
+
+15
+00:01:18.648 --> 00:01:22.772
+Now the question: when is it thirty degrees?
+
+16
+00:01:22.772 --> 00:01:31.394
+We need seventy times e to the minus k t to equal ten, so e to the minus k t is one seventh.
+
+17
+00:01:31.394 --> 00:01:39.829
+Hence t equals the logarithm of seven divided by k, about thirty four point eight minutes.
+
+18
+00:01:39.829 --> 00:01:45.734
+Check: twenty plus seventy times one seventh is exactly thirty.
+
+19
+00:01:45.984 --> 00:01:49.495
+The second model is a virus in a network.
+
+20
+00:01:49.495 --> 00:02:00.627
+The infection rate is proportional to contacts between infected and healthy machines: I prime equals beta times I times N minus I.
+
+21
+00:02:00.627 --> 00:02:03.196
+This is the logistic equation.
+
+22
+00:02:03.196 --> 00:02:08.249
+Its solution is N over one plus A times e to the minus r t.
+
+23
+00:02:08.249 --> 00:02:13.729
+With a thousand computers, ten at first and fifty after an hour,
+
+24
+00:02:13.729 --> 00:02:18.182
+half are infected after about two point eight hours.
+
+25
+00:02:18.432 --> 00:02:22.309
+The graph shows the number of infected computers.
+
+26
+00:02:22.309 --> 00:02:29.590
+At first the growth is almost exponential, then the curve bends and approaches one thousand.
+
+27
+00:02:29.590 --> 00:02:35.920
+The inflection point is exactly at five hundred, when the virus spreads fastest.
+
+28
+00:02:35.920 --> 00:02:41.222
+That is why protection must be applied before the inflection point.
+
+29
+00:02:41.472 --> 00:02:43.338
+Check question.
+
+30
+00:02:43.338 --> 00:02:49.806
+Choose when growth is fastest in the logistic model.
+
+31
+00:02:49.806 --> 00:02:54.782
+Hint: the right side is a parabola in P.

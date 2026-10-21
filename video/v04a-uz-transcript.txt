@@ -1,0 +1,16 @@
+Chiziqli tenglama va integrallovchi ko‘paytuvchi
+
+[0:00] Assalomu alaykum. Kondensatorning zaryadlanishi, idishdagi tuz miqdori, serverga kelayotgan so‘rovlar — bular birinchi tartibli chiziqli tenglama bilan tavsiflanadi. Bugun bunday tenglamani to‘rt qadamda yechadigan universal usulni — integrallovchi ko‘paytuvchini o‘rganamiz. Bu algoritm mustaqil ishning ikkinchi topshirig‘ida ham kerak bo‘ladi.
+
+[0:28] Tenglamani normal ko‘rinishda yozamiz: y shtrix plyus p dan x karra y teng q dan x. Mu teng e daraja p ning integrali bo‘lgan funksiyani olamiz. Uning ajoyib xossasi: mu shtrix teng p karra mu. Shuning uchun tenglamani mu ga ko‘paytirsak, chap tomon mu karra y ko‘paytmaning hosilasiga aylanadi. Qolgani — oddiy integrallash.
+
+[0:56] Misol: y shtrix plyus ikki y teng e daraja x. Bu yerda p teng ikki, uning integrali ikki x, demak mu teng e daraja ikki x. Tenglamani mu ga ko‘paytiramiz. Chap tomon e daraja ikki x karra y ning hosilasi, o‘ng tomon esa e daraja ikki x karra e daraja x, ya’ni e daraja uch x.
+
+[1:22] Ikkala tomonni integrallaymiz: e daraja ikki x karra y teng e daraja uch x ning uchdan biri plyus C. Diqqat: C ni aynan shu yerda qo‘shamiz, bo‘lishdan oldin. Keyin e daraja ikki x ga bo‘lamiz. y teng e daraja x ning uchdan biri plyus C karra e daraja minus ikki x.
+
+[1:45] Javobning tuzilishiga e’tibor bering. Birinchi had — bir jinsli bo‘lmagan tenglamaning xususiy yechimi. Ikkinchi had — bir jinsli tenglamaning umumiy yechimi. Tekshiramiz: hosila e daraja x ning uchdan biri minus ikki C karra e daraja minus ikki x. Ikki y ni qo‘shsak, C li hadlar qisqaradi va e daraja x qoladi.
+
+[2:12] Grafikda bir nechta integral chiziq ko‘rsatilgan. x o‘sgan sari ularning barchasi e daraja x ning uchdan biriga yaqinlashadi, chunki C karra e daraja minus ikki x tez so‘nadi. Bu yerda C karra e daraja minus ikki x — o‘tkinchi qism, e daraja x ning uchdan biri esa tashqi ta’sirga mos majburiy yoki asimptotik javobdir. U o‘suvchi funksiya bo‘lgani uchun uni qat’iy ma’noda o‘zgarmas barqaror holat deb atamaymiz.
+
+[2:46] Tekshiruv savoli: ekrandagi tenglama uchun integrallovchi ko‘paytuvchini toping. Avval y shtrix oldidagi koeffitsiyent birga tengligini tekshiring.
+

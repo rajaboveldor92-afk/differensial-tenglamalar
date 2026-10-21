@@ -1,0 +1,16 @@
+Ikkinchi tartibli tenglamalarni tasniflash
+
+[0:00] To‘lqin, issiqlik va Laplas tenglamalari juda boshqacha yechimlarga ega. Nega? Javob ikkinchi tartibli hosilalar oldidagi koeffitsiyentlarda. Bu qismda tenglamani qanday yozishni, diskriminantni hisoblashni va uch turni — giperbolik, parabolik va elliptikni ajratishni o‘rganamiz.
+
+[0:24] Muhim kelishuv: biz tenglamani a u x x qo‘shuv ikki b u x y qo‘shuv c u y y deb yozamiz. Aralash had oldida ikki b turibdi. Diskriminant: b kvadrat ayiruv a c. Ba’zi kitoblarda ikki yo‘q va b kvadrat ayiruv to‘rt a c ishlatiladi. Ishora bir xil, lekin yozuvlarni aralashtirmang!
+
+[0:50] Diskriminant musbat bo‘lsa, tenglama giperbolik, namunasi to‘lqin tenglamasi. Nol bo‘lsa, parabolik, namunasi issiqlik tenglamasi. Manfiy bo‘lsa, elliptik, namunasi Laplas tenglamasi. Bu ikkinchi tartibli egri chiziqlar: giperbola, parabola va ellipsga o‘xshaydi. Quyi tartibli hadlar turga ta’sir qilmaydi.
+
+[1:16] Misol: u x x qo‘shuv ikki u x y qo‘shuv ikki u y y teng nol. Aralash had koeffitsiyenti ikki, demak ikki b teng ikki, ya’ni b teng bir. a teng bir, c teng ikki.
+
+[1:32] Diskriminant: bir ayiruv ikki, teng minus bir. Manfiy, demak tenglama elliptik. Agar xato qilib b ni ikki desangiz, to‘rt ayiruv ikki musbat chiqadi va noto‘g‘ri “giperbolik” javob olasiz. Shuning uchun har doim aralash koeffitsiyentning yarmini oling.
+
+[1:54] Koeffitsiyentlar o‘zgaruvchan bo‘lsa, tur sohaga bog‘liq. Trikomi tenglamasi: y karra u x x qo‘shuv u y y teng nol. Diskriminant minus y. Grafikda chiziq y teng nol: undan yuqorida tenglama elliptik, pastda giperbolik, chiziqning o‘zida parabolik. Bu tovushdan tez va sekin gaz oqimining chegarasi.
+
+[2:21] O‘zingizni tekshiring: ekrandagi tenglamada b nimaga teng va tenglama qaysi turga tegishli? Avval aralash koeffitsiyentni ikkiga bo‘lishni unutmang.
+

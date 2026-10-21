@@ -1,0 +1,109 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.556
+Hello!
+
+2
+00:00:00.556 --> 00:00:10.467
+If a circuit without an external source admits two modes of oscillation, their sum is also a possible mode.
+
+3
+00:00:10.467 --> 00:00:16.024
+This is the key property of linear equations, superposition.
+
+4
+00:00:16.024 --> 00:00:23.990
+Today we state it precisely and learn to find the interval on which a solution exists.
+
+5
+00:00:24.240 --> 00:00:28.044
+Write a linear equation as L of y equals f,
+
+6
+00:00:28.044 --> 00:00:35.739
+where L is the n-th derivative plus lower derivatives with coefficients depending on x.
+
+7
+00:00:35.739 --> 00:00:44.496
+L is linear: acting on a combination of two functions it gives the same combination of the results.
+
+8
+00:00:44.496 --> 00:00:51.926
+When f is zero the equation is called homogeneous, a different meaning of that word.
+
+9
+00:00:52.176 --> 00:01:00.042
+Example: x squared y double prime minus two y equals zero, for positive x.
+
+10
+00:01:00.042 --> 00:01:07.164
+x squared is a solution: two x squared minus two x squared is zero.
+
+11
+00:01:07.164 --> 00:01:16.731
+One over x is a solution too: x squared times two over x cubed, minus two over x, is zero.
+
+12
+00:01:16.731 --> 00:01:24.278
+By superposition, C one x squared plus C two over x is also a solution.
+
+13
+00:01:24.528 --> 00:01:30.733
+Now impose y of one equals one and y prime of one equals five.
+
+14
+00:01:30.733 --> 00:01:37.438
+C one plus C two equals one, and two C one minus C two equals five.
+
+15
+00:01:37.438 --> 00:01:44.544
+Adding, three C one equals six, so C one is two and C two is minus one.
+
+16
+00:01:44.544 --> 00:01:49.348
+Answer: y equals two x squared minus one over x.
+
+17
+00:01:49.348 --> 00:01:56.654
+The determinant of the system is minus three, the value of the Wronskian.
+
+18
+00:01:56.904 --> 00:02:04.834
+A key result for linear equations: if the coefficients and the right side are continuous on an interval,
+
+19
+00:02:04.834 --> 00:02:10.857
+the solution of the Cauchy problem exists and is unique on that whole interval.
+
+20
+00:02:10.857 --> 00:02:16.957
+So first divide by the leading coefficient and find the points of discontinuity.
+
+21
+00:02:16.957 --> 00:02:22.065
+For instance, with x squared minus four in front of y double prime,
+
+22
+00:02:22.065 --> 00:02:26.030
+the dangerous points are x equals two and minus two.
+
+23
+00:02:26.280 --> 00:02:35.340
+The graph shows the two fundamental solutions, x squared and one over x, and the solution we found,
+
+24
+00:02:35.340 --> 00:02:38.177
+two x squared minus one over x.
+
+25
+00:02:38.177 --> 00:02:48.518
+The third curve is a linear combination of the first two; at x equals one its value is one and its slope is five.
+
+26
+00:02:48.768 --> 00:02:54.169
+Check yourself: for which equations does superposition hold?
+
+27
+00:02:54.169 --> 00:02:57.950
+Choose an answer and read the explanation.

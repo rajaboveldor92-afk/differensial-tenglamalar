@@ -1,0 +1,18 @@
+The n-th order equation and equations without y or x
+
+[0:00] Hello! We now move to higher-order equations. When a phone falls, its height satisfies the equation second derivative equals minus g. We will see how to solve such equations and when their order can be reduced.
+
+[0:16] The general solution of an n-th order equation has n arbitrary constants. In the Cauchy problem n conditions are given at one point: the function and its derivatives up to order n minus one. If the right side and its partial derivatives in the unknowns are continuous, a solution exists locally and is unique.
+
+[0:39] Type one: the n-th derivative depends only on x. For example, y triple prime equals twenty-four x, with initial values one, zero and two. Integrate and find each constant immediately: y double prime equals twelve x squared plus two, y prime equals four x cubed plus two x, and y equals x to the fourth plus x squared plus one.
+
+[1:07] Type two: an equation without y. For example, x y double prime minus y prime equals three x squared. Putting z equal to y prime gives a first-order linear equation for z. Dividing by x squared, the derivative of z over x equals three. So z equals three x squared plus C one x, and y equals x cubed plus half C one x squared plus C two.
+
+[1:36] Type three: an equation without x, such as y double prime equals two y cubed. Put y prime equal to p, with p a function of y. By the chain rule y double prime equals p times dp by dy. Important: not just dp by dy! Integrating gives p squared equals y to the fourth plus C one.
+
+[2:00] Take the initial values y of zero equals one and y prime of zero equals one. Then C one is zero and p equals y squared. Separating, minus one over y equals x minus one, so y equals one over one minus x. The solution exists only for x less than one; as x approaches one it blows up.
+
+[2:24] The graph shows y equals one over one minus x. At zero it equals one with slope one. As x approaches one, the curve shoots up towards a vertical asymptote. Such blow-up is common for nonlinear equations.
+
+[2:41] Check yourself: how is y double prime expressed for an equation without x? Choose an answer and read the explanation.
+

@@ -1,0 +1,105 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.515
+In this part we meet two famous equations, Lagrange’s and Clairaut’s.
+
+2
+00:00:05.515 --> 00:00:11.749
+Clairaut’s equation produces a family of straight lines and one special curve.
+
+3
+00:00:11.749 --> 00:00:18.782
+You will also learn what must be checked before calling a candidate a singular solution.
+
+4
+00:00:19.032 --> 00:00:25.015
+Lagrange’s equation: y equals x times phi of p plus psi of p.
+
+5
+00:00:25.015 --> 00:00:31.390
+Differentiating gives a linear equation for x as a function of p.
+
+6
+00:00:31.390 --> 00:00:38.942
+If phi of p equals p, we get Clairaut’s equation: y equals x p plus psi of p.
+
+7
+00:00:39.192 --> 00:00:45.052
+Example: y equals x y prime minus y prime squared.
+
+8
+00:00:45.052 --> 00:00:52.084
+Differentiate: p equals p plus x minus two p, times p prime.
+
+9
+00:00:52.084 --> 00:00:57.358
+So x minus two p, times p prime, equals zero.
+
+10
+00:00:57.358 --> 00:00:59.702
+There are two cases.
+
+11
+00:00:59.952 --> 00:01:04.173
+Case one: p prime is zero, so p equals C.
+
+12
+00:01:04.173 --> 00:01:11.586
+The general solution is a family of lines: y equals C x minus C squared.
+
+13
+00:01:11.586 --> 00:01:16.631
+Case two: x equals two p, so p equals x over two.
+
+14
+00:01:16.631 --> 00:01:21.573
+Substituting gives y equals x squared over four.
+
+15
+00:01:21.573 --> 00:01:24.662
+This is the singular solution.
+
+16
+00:01:24.912 --> 00:01:33.446
+The graph shows the parabola y equals x squared over four and the lines for several values of C.
+
+17
+00:01:33.446 --> 00:01:37.802
+Each line touches the parabola at x equals two C.
+
+18
+00:01:37.802 --> 00:01:41.624
+The parabola is the envelope of the family.
+
+19
+00:01:41.624 --> 00:01:49.358
+Through each of its points pass two solutions with the same slope, so uniqueness fails.
+
+20
+00:01:49.608 --> 00:01:54.841
+A singular solution always lies on the p-discriminant curve,
+
+21
+00:01:54.841 --> 00:02:00.597
+where F is zero and the derivative of F with respect to p is zero.
+
+22
+00:02:00.597 --> 00:02:02.865
+But the converse is false!
+
+23
+00:02:02.865 --> 00:02:11.063
+For y equals two x y prime minus y prime squared the discriminant curve is y equals x squared,
+
+24
+00:02:11.063 --> 00:02:13.766
+which is not a solution at all.
+
+25
+00:02:13.766 --> 00:02:20.918
+So always check: is it a solution, and does uniqueness fail at each of its points?
+
+26
+00:02:21.168 --> 00:02:27.206
+Check yourself: which statement about the p-discriminant curve is true?

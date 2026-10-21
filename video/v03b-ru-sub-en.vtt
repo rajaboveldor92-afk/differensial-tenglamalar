@@ -1,0 +1,101 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.421
+A headlight lamp sits at one point, yet the light leaves as a parallel beam.
+
+2
+00:00:06.421 --> 00:00:11.321
+A satellite dish gathers a parallel signal into one point.
+
+3
+00:00:11.321 --> 00:00:17.826
+In this part we find the shape of such a mirror with a differential equation.
+
+4
+00:00:17.826 --> 00:00:21.374
+The result is beautiful: it is a parabola.
+
+5
+00:00:21.624 --> 00:00:23.972
+The source is at the origin.
+
+6
+00:00:23.972 --> 00:00:29.087
+The tangent to the mirror at a point M meets the x axis at T.
+
+7
+00:00:29.087 --> 00:00:35.796
+By the law of reflection, the angle of incidence equals the angle of reflection.
+
+8
+00:00:35.796 --> 00:00:44.852
+Since the reflected ray is parallel to the x axis, triangle O M T is isosceles: the distance O T equals O M,
+
+9
+00:00:44.852 --> 00:00:48.542
+the square root of x squared plus y squared.
+
+10
+00:00:48.792 --> 00:00:54.698
+T lies to the left of O, so O T equals y over y prime minus x.
+
+11
+00:00:54.698 --> 00:01:05.749
+Set this equal to the root and solve for y prime: y prime equals y over x plus the root of x squared plus y squared.
+
+12
+00:01:05.749 --> 00:01:14.990
+Scaling x and y by the same number leaves the fraction unchanged, so the equation is homogeneous.
+
+13
+00:01:15.240 --> 00:01:19.724
+Here it is easier to treat x as a function of y.
+
+14
+00:01:19.724 --> 00:01:27.759
+After x equals v times y we get y times v prime equals the root of one plus v squared.
+
+15
+00:01:27.759 --> 00:01:38.222
+Separate and integrate: the logarithm of v plus the root of one plus v squared equals the logarithm of y over C.
+
+16
+00:01:38.472 --> 00:01:46.330
+Exponentiate and replace v by x over y: x plus the root equals y squared over C.
+
+17
+00:01:46.330 --> 00:01:50.947
+Isolate the root, square, and cancel y squared.
+
+18
+00:01:50.947 --> 00:01:55.662
+Answer: y squared equals two C x plus C squared.
+
+19
+00:01:55.662 --> 00:02:04.502
+This is a parabola with focus at the origin, and the mirror is a paraboloid of revolution.
+
+20
+00:02:04.752 --> 00:02:09.686
+The graph shows two parabolas, with C equal to one and two.
+
+21
+00:02:09.686 --> 00:02:13.031
+All of them share one focus, the origin.
+
+22
+00:02:13.031 --> 00:02:17.463
+The parameter C only changes the width of the mirror.
+
+23
+00:02:17.463 --> 00:02:25.574
+When designing a dish engineers choose this parameter, and the receiver always sits at the focus.
+
+24
+00:02:25.824 --> 00:02:32.535
+Check question: what type is the equation of the mirror problem?
+
+25
+00:02:32.535 --> 00:02:35.366
+Decide from its right side.

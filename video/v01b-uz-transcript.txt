@@ -1,0 +1,16 @@
+Yo‘nalish maydoni va Koshi masalasi
+
+[0:00] Bu qismda birinchi tartibli tenglamaning geometrik ma’nosini ko‘ramiz, Koshi masalasini yechamiz va yechim qachon yagona bo‘lishini aniqlaymiz.
+
+[0:11] y shtrix teng f x y tenglama har bir nuqtada yechim grafigiga urinmaning qiyaligini beradi. Shu qiyaliklardagi kichik kesmalar yo‘nalish maydonini hosil qiladi. Integral chiziq har bir nuqtada maydon kesmasiga urinadi.
+
+[0:30] Maydonni qo‘lda chizish uchun izoklinalardan foydalaniladi. Izoklina — qiyalik bir xil bo‘lgan nuqtalar chizig‘i. Bu tenglamada izoklinalar markazi koordinata boshida bo‘lgan aylanalardir.
+
+[0:46] Koshi masalasi: y shtrix teng ikki y, boshlang‘ich shart y nol teng uch. Umumiy yechim C e daraja ikki x. x nolga teng bo‘lganda y teng C, demak C teng uch. Javob: y teng uch e daraja ikki x.
+
+[1:05] Pikar teoremasi: agar f va uning y bo‘yicha xususiy hosilasi boshlang‘ich nuqta atrofidagi to‘rtburchakda uzluksiz bo‘lsa, Koshi masalasining yechimi mavjud va yagona. Diqqat qiling: bu kafolat faqat boshlang‘ich nuqtaning yaqin atrofida.
+
+[1:25] Shart bajarilmasa nima bo‘ladi? y shtrix teng uch y ning uchdan ikki darajasi, y nol teng nol. Bu yerda y bo‘yicha hosila nolda cheksiz. Natijada y aynan nol ham, istalgan nuqtadan keyin boshlanadigan kub parabola ham yechim bo‘ladi. Yagonalik buziladi.
+
+[1:49] Endi o‘zingizni tekshiring. Savolni o‘qing va videodan pastda javobni tanlang.
+

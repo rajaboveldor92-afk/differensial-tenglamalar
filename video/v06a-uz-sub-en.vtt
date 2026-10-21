@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.610
+Hello!
+
+2
+00:00:00.610 --> 00:00:04.472
+We now move to higher-order equations.
+
+3
+00:00:04.472 --> 00:00:13.314
+When a phone falls, its height satisfies the equation second derivative equals minus g.
+
+4
+00:00:13.314 --> 00:00:21.038
+We will see how to solve such equations and when their order can be reduced.
+
+5
+00:00:21.288 --> 00:00:26.897
+The general solution of an n-th order equation has n arbitrary constants.
+
+6
+00:00:26.897 --> 00:00:35.809
+In the Cauchy problem n conditions are given at one point: the function and its derivatives up to order n minus one.
+
+7
+00:00:35.809 --> 00:00:41.725
+If the right side and its partial derivatives in the unknowns are continuous,
+
+8
+00:00:41.725 --> 00:00:44.798
+a solution exists locally and is unique.
+
+9
+00:00:45.048 --> 00:00:49.401
+Type one: the n-th derivative depends only on x.
+
+10
+00:00:49.401 --> 00:00:57.382
+For example, y triple prime equals twenty-four x, with initial values one, zero and two.
+
+11
+00:00:57.382 --> 00:01:05.908
+Integrate and find each constant immediately: y double prime equals twelve x squared plus two,
+
+12
+00:01:05.908 --> 00:01:14.342
+y prime equals four x cubed plus two x, and y equals x to the fourth plus x squared plus one.
+
+13
+00:01:14.592 --> 00:01:17.603
+Type two: an equation without y.
+
+14
+00:01:17.603 --> 00:01:23.906
+For example, x y double prime minus y prime equals three x squared.
+
+15
+00:01:23.906 --> 00:01:30.398
+Putting z equal to y prime gives a first-order linear equation for z.
+
+16
+00:01:30.398 --> 00:01:36.326
+Dividing by x squared, the derivative of z over x equals three.
+
+17
+00:01:36.326 --> 00:01:45.734
+So z equals three x squared plus C one x, and y equals x cubed plus half C one x squared plus C two.
+
+18
+00:01:45.984 --> 00:01:53.421
+Type three: an equation without x, such as y double prime equals two y cubed.
+
+19
+00:01:53.421 --> 00:01:57.960
+Put y prime equal to p, with p a function of y.
+
+20
+00:01:57.960 --> 00:02:03.465
+By the chain rule y double prime equals p times dp by dy.
+
+21
+00:02:03.465 --> 00:02:06.266
+Important: not just dp by dy!
+
+22
+00:02:06.266 --> 00:02:12.254
+Integrating gives p squared equals y to the fourth plus C one.
+
+23
+00:02:12.504 --> 00:02:19.535
+Take the initial values y of zero equals one and y prime of zero equals one.
+
+24
+00:02:19.535 --> 00:02:23.420
+Then C one is zero and p equals y squared.
+
+25
+00:02:23.420 --> 00:02:31.006
+Separating, minus one over y equals x minus one, so y equals one over one minus x.
+
+26
+00:02:31.006 --> 00:02:38.222
+The solution exists only for x less than one; as x approaches one it blows up.
+
+27
+00:02:38.472 --> 00:02:43.217
+The graph shows y equals one over one minus x.
+
+28
+00:02:43.217 --> 00:02:47.033
+At zero it equals one with slope one.
+
+29
+00:02:47.033 --> 00:02:54.254
+As x approaches one, the curve shoots up towards a vertical asymptote.
+
+30
+00:02:54.254 --> 00:02:59.102
+Such blow-up is common for nonlinear equations.
+
+31
+00:02:59.352 --> 00:03:06.036
+Check yourself: how is y double prime expressed for an equation without x?
+
+32
+00:03:06.036 --> 00:03:09.830
+Choose an answer and read the explanation.

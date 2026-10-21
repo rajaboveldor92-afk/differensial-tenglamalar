@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.608
+Hello.
+
+2
+00:00:00.608 --> 00:00:05.774
+A charging capacitor, the amount of salt in a tank,
+
+3
+00:00:05.774 --> 00:00:14.183
+requests arriving at a server — all are described by a first-order linear equation.
+
+4
+00:00:14.183 --> 00:00:21.781
+Today we learn a universal four-step method for it: the integrating factor.
+
+5
+00:00:21.781 --> 00:00:27.758
+You will also need this algorithm for independent task two.
+
+6
+00:00:28.008 --> 00:00:35.429
+Write the equation in normal form: y prime plus p of x times y equals q of x.
+
+7
+00:00:35.429 --> 00:00:39.284
+Take mu equal to e to the integral of p.
+
+8
+00:00:39.284 --> 00:00:44.296
+Its key property is that mu prime equals p times mu.
+
+9
+00:00:44.296 --> 00:00:53.067
+So after multiplying by mu, the left side becomes the derivative of the product mu times y.
+
+10
+00:00:53.067 --> 00:00:55.958
+The rest is plain integration.
+
+11
+00:00:56.208 --> 00:01:00.495
+Example: y prime plus two y equals e to the x.
+
+12
+00:01:00.495 --> 00:01:06.647
+Here p is two, its integral is two x, so mu equals e to the two x.
+
+13
+00:01:06.647 --> 00:01:09.256
+Multiply the equation by mu.
+
+14
+00:01:09.256 --> 00:01:14.662
+The left side is the derivative of e to the two x times y,
+
+15
+00:01:14.662 --> 00:01:22.118
+and the right side is e to the two x times e to the x, that is e to the three x.
+
+16
+00:01:22.368 --> 00:01:31.249
+Integrate both sides: e to the two x times y equals one third of e to the three x plus C.
+
+17
+00:01:31.249 --> 00:01:35.839
+Careful: we add C right here, before dividing.
+
+18
+00:01:35.839 --> 00:01:38.832
+Then divide by e to the two x.
+
+19
+00:01:38.832 --> 00:01:45.518
+y equals one third of e to the x plus C times e to the minus two x.
+
+20
+00:01:45.768 --> 00:01:48.818
+Notice the structure of the answer.
+
+21
+00:01:48.818 --> 00:01:55.005
+The first term is a particular solution of the nonhomogeneous equation.
+
+22
+00:01:55.005 --> 00:02:00.060
+The second is the general solution of the homogeneous one.
+
+23
+00:02:00.060 --> 00:02:07.206
+Check: the derivative is one third of e to the x minus two C e to the minus two x.
+
+24
+00:02:07.206 --> 00:02:12.086
+Adding two y, the C terms cancel and e to the x remains.
+
+25
+00:02:12.336 --> 00:02:16.145
+The graph shows several integral curves.
+
+26
+00:02:16.145 --> 00:02:25.382
+As x grows, they all approach one third e to the x because C e to the minus two x decays rapidly.
+
+27
+00:02:25.382 --> 00:02:35.572
+Here C e to the minus two x is the transient part, while one third e to the x is the forced, or asymptotic,
+
+28
+00:02:35.572 --> 00:02:36.429
+response.
+
+29
+00:02:36.429 --> 00:02:46.142
+Since that response itself grows, it should not be called a constant steady state in the strict sense.
+
+30
+00:02:46.392 --> 00:02:53.500
+Check question: find the integrating factor for the equation on the screen.
+
+31
+00:02:53.500 --> 00:02:58.238
+First make sure the coefficient of y prime is one.

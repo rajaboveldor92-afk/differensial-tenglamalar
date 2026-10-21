@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.440
+Variatsiya usuli uchun ikkita bir jinsli yechim kerak.
+
+2
+00:00:04.440 --> 00:00:09.336
+O‘zgaruvchan koeffitsiyentli tenglamada ularni topish qiyin.
+
+3
+00:00:09.336 --> 00:00:14.760
+Ammo bittasi ma’lum bo‘lsa, ikkinchisini formula bilan olish mumkin.
+
+4
+00:00:14.760 --> 00:00:21.878
+Buning kaliti Ostrogradskiy va Liuvill formulasi, uni Abel formulasi ham deyishadi.
+
+5
+00:00:22.128 --> 00:00:31.608
+Vronskianni differensiallaymiz: W shtrix teng y bir y ikki ikki shtrix minus y bir ikki shtrix y ikki.
+
+6
+00:00:31.608 --> 00:00:38.304
+Tenglamadan ikkinchi hosilalarni qo‘ysak, W shtrix teng minus p marta W chiqadi.
+
+7
+00:00:38.304 --> 00:00:46.382
+Bu birinchi tartibli chiziqli tenglama, yechimi: W teng W nol marta e daraja minus integral p.
+
+8
+00:00:46.632 --> 00:00:54.600
+Muhim natija: bitta tenglamaning yechimlari uchun Vronskian yo aynan nol, yo hech qayerda nol emas.
+
+9
+00:00:54.600 --> 00:01:02.856
+Lekin ixtiyoriy funksiyalar uchun bu to‘g‘ri emas: iks kvadrat va iks marta iks moduli uchun Vronskian nol,
+
+10
+00:01:02.856 --> 00:01:05.808
+ammo ular chiziqli erkli.
+
+11
+00:01:05.808 --> 00:01:10.382
+Ular bunday tenglamaning yechimlari bo‘la olmaydi.
+
+12
+00:01:10.632 --> 00:01:19.968
+Ikkinchi yechim formulasi: y ikki teng y bir marta integral e daraja minus integral p bo‘lingan y bir kvadrat.
+
+13
+00:01:19.968 --> 00:01:28.416
+Misol: iks kvadrat y ikki shtrix minus uch iks y shtrix plyus to‘rt y teng nol, iks musbat,
+
+14
+00:01:28.416 --> 00:01:32.198
+y bir teng iks kvadrat ma’lum.
+
+15
+00:01:32.448 --> 00:01:39.000
+Avval normallashtiramiz: iks kvadratga bo‘lsak, p teng minus uch bo‘lingan iks.
+
+16
+00:01:39.000 --> 00:01:44.400
+Minus integral p teng uch logarifm iks, eksponentasi iks kub.
+
+17
+00:01:44.400 --> 00:01:50.616
+Integral ostida iks kub bo‘lingan iks to‘rtinchi daraja, ya’ni bir bo‘lingan iks.
+
+18
+00:01:50.616 --> 00:01:53.894
+Integrali logarifm iks.
+
+19
+00:01:54.144 --> 00:01:58.728
+Demak y ikki teng iks kvadrat logarifm iks,
+
+20
+00:01:58.728 --> 00:02:04.824
+umumiy yechim C bir iks kvadrat plyus C ikki iks kvadrat logarifm iks.
+
+21
+00:02:04.824 --> 00:02:09.072
+Tekshirish: y ikki ning hosilalarini qo‘ysak,
+
+22
+00:02:09.072 --> 00:02:15.902
+iks kvadrat logarifm iks hadlari va qolgan hadlar alohida qisqarib, nol chiqadi.
+
+23
+00:02:16.152 --> 00:02:21.624
+Grafikda ikki yechim: iks kvadrat va iks kvadrat logarifm iks.
+
+24
+00:02:21.624 --> 00:02:28.536
+Iks birga teng nuqtada ikkinchisi nolga teng, lekin ular hech qayerda proporsional emas.
+
+25
+00:02:28.536 --> 00:02:36.638
+Ularning Vronskiani iks kub, iks musbat bo‘lganda noldan farqli, bu Abel formulasi bilan mos keladi.
+
+26
+00:02:36.888 --> 00:02:46.776
+Savol: iks y ikki shtrix plyus y shtrix plyus iks y teng nol tenglamaning ikki yechimi uchun Vronskian birda uchga teng.
+
+27
+00:02:46.776 --> 00:02:49.368
+Ikkida u nimaga teng?
+
+28
+00:02:49.368 --> 00:02:52.632
+Avval normallashtirishni unutmang.
+
+29
+00:02:52.632 --> 00:02:56.462
+Videoni to‘xtatib, javobni tanlang.

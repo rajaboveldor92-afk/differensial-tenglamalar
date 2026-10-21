@@ -1,0 +1,97 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.063
+Many differential equations cannot be solved by formulas.
+
+2
+00:00:05.063 --> 00:00:09.770
+For example, y prime equals x squared plus y squared.
+
+3
+00:00:09.770 --> 00:00:17.053
+In this lesson we learn to find the solution approximately, as a table of numbers.
+
+4
+00:00:17.053 --> 00:00:24.158
+The simplest way is Euler’s method, and we will also measure how accurate it is.
+
+5
+00:00:24.408 --> 00:00:31.094
+At the starting point the slope is known: it is the value of f there.
+
+6
+00:00:31.094 --> 00:00:39.233
+We take a short step h along the tangent: the new y equals the old y plus h times f.
+
+7
+00:00:39.233 --> 00:00:42.527
+Then we repeat from the new point.
+
+8
+00:00:42.527 --> 00:00:46.694
+Joining the points gives the Euler polygon.
+
+9
+00:00:46.944 --> 00:00:54.977
+Problem: y prime equals x plus y, y of zero equals one, step zero point one.
+
+10
+00:00:54.977 --> 00:01:02.270
+First step: f at zero, one equals one, so y one equals one point one.
+
+11
+00:01:02.520 --> 00:01:10.465
+Second step: the slope is zero point one plus one point one, that is one point two.
+
+12
+00:01:10.465 --> 00:01:13.720
+So y two equals one point two two.
+
+13
+00:01:13.720 --> 00:01:22.718
+Continuing for five steps, at x equal to zero point five we get about one point seven two one.
+
+14
+00:01:22.968 --> 00:01:34.870
+The exact solution is y equals two e to the x minus x minus one; at zero point five it is one point seven nine seven.
+
+15
+00:01:34.870 --> 00:01:39.448
+The error is about zero point zero seven six.
+
+16
+00:01:39.448 --> 00:01:47.078
+Halving the step roughly halves the error: this is first order, big O of h.
+
+17
+00:01:47.328 --> 00:01:54.460
+The graph shows the direction field and the exact integral curve through zero, one.
+
+18
+00:01:54.460 --> 00:02:00.646
+The Euler polygon follows tangents of a convex curve and stays below it.
+
+19
+00:02:00.646 --> 00:02:08.035
+The local error per step is proportional to h squared, but there are one over h steps,
+
+20
+00:02:08.035 --> 00:02:11.558
+so the global error is proportional to h.
+
+21
+00:02:11.808 --> 00:02:13.539
+Now check yourself.
+
+22
+00:02:13.539 --> 00:02:20.372
+How does the global error of Euler’s method change when the step is halved?
+
+23
+00:02:20.372 --> 00:02:23.652
+Pause the video, choose your answer,
+
+24
+00:02:23.652 --> 00:02:31.214
+then read the explanation and go back to the relevant part of the lesson if needed.

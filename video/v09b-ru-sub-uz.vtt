@@ -1,0 +1,97 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:08.575
+Ba’zi tenglamalar o‘zgaruvchan koeffitsiyentli va ularning yechimi elementar funksiyalar bilan yozilmaydi.
+
+2
+00:00:08.575 --> 00:00:12.620
+Masalan, Eyri tenglamasi y ikki shtrix teng iks y.
+
+3
+00:00:12.620 --> 00:00:22.005
+Bunday hollarda yechimni cheksiz darajali qator ko‘rinishida izlaymiz va koeffitsiyentlarni birin-ketin hisoblaymiz.
+
+4
+00:00:22.005 --> 00:00:24.998
+Bu kompyuterda ham oson dasturlanadi.
+
+5
+00:00:25.248 --> 00:00:32.264
+Tenglamani y ikki shtrix plyus p y shtrix plyus q y teng nol ko‘rinishida yozamiz.
+
+6
+00:00:32.264 --> 00:00:38.680
+Agar p va q nuqta iks nolda analitik bo‘lsa, bu nuqta oddiy nuqta deyiladi.
+
+7
+00:00:38.680 --> 00:00:45.354
+Shunda har bir yechim qatorga yoyiladi, birinchi ikki koeffitsiyent ixtiyoriy,
+
+8
+00:00:45.354 --> 00:00:49.118
+qolganlari rekurrent formula bilan topiladi.
+
+9
+00:00:49.368 --> 00:00:51.454
+Eyri tenglamasini olamiz.
+
+10
+00:00:51.454 --> 00:01:05.475
+Qatorni ikki marta differensiallaymiz va indeksni ikkiga siljitamiz: y ikki shtrix teng yig‘indi n plyus ikki marta n plyus bir marta a n plyus ikki marta iks daraja n.
+
+11
+00:01:05.475 --> 00:01:13.070
+O‘ng tomonda iks y, ya’ni yig‘indi a n minus bir iks daraja n, bu n teng birdan boshlanadi.
+
+12
+00:01:13.320 --> 00:01:22.104
+Iks daraja nol oldidagi koeffitsiyentlarni tenglashtiramiz: ikki a ikki teng nol, demak a ikki nol.
+
+13
+00:01:22.104 --> 00:01:33.726
+n birdan katta yoki teng bo‘lganda rekurrent formula: a n plyus ikki teng a n minus bir bo‘lingan n plyus ikki marta n plyus birga.
+
+14
+00:01:33.726 --> 00:01:38.606
+Qadam uchga teng: koeffitsiyentlar uchtadan bog‘langan.
+
+15
+00:01:38.856 --> 00:01:46.414
+Hisoblaymiz: a uch teng a nol bo‘lingan oltiga, a olti teng a nol bo‘lingan bir yuz saksonga.
+
+16
+00:01:46.414 --> 00:01:53.483
+a to‘rt teng a bir bo‘lingan o‘n ikkiga, a yetti teng a bir bo‘lingan besh yuz to‘rtga.
+
+17
+00:01:53.483 --> 00:01:59.822
+Ikki qator fundamental sistemani beradi va ular butun son o‘qida yaqinlashadi.
+
+18
+00:02:00.072 --> 00:02:11.267
+Grafikda a nol bir, a bir nol bo‘lgan yechimning qisman yig‘indisi ko‘rsatilgan, iks daraja o‘n ikkigacha.
+
+19
+00:02:11.267 --> 00:02:21.829
+Manfiy iks da yechim tebranadi, chunki u yerda tenglama y ikki shtrix plyus musbat son marta y kabi.
+
+20
+00:02:21.829 --> 00:02:25.631
+Musbat iks da esa yechim tez o‘sadi.
+
+21
+00:02:25.631 --> 00:02:28.694
+Bitta tenglama ikki xil xulq.
+
+22
+00:02:28.944 --> 00:02:37.255
+Savol: y ikki shtrix minus iks y shtrix minus y teng nol tenglamaning rekurrent formulasi qanday?
+
+23
+00:02:37.255 --> 00:02:43.767
+Hosilalarni qatorga qo‘ying va iks daraja n oldidagi koeffitsiyentni yozing.
+
+24
+00:02:43.767 --> 00:02:46.766
+Videoni to‘xtatib, javobni tanlang.

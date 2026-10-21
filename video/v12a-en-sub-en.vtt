@@ -1,0 +1,77 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.072
+In real processes several quantities influence each other: the temperatures of two rooms,
+
+2
+00:00:06.072 --> 00:00:11.232
+numbers of predators and prey, susceptible and infected computers.
+
+3
+00:00:11.232 --> 00:00:17.366
+In this lesson we write such systems in matrix form and solve them by elimination.
+
+4
+00:00:17.616 --> 00:00:22.776
+In a normal system the derivative of each unknown is expressed through the others.
+
+5
+00:00:22.776 --> 00:00:30.048
+In the linear case we collect the coefficients into a matrix A and write X prime equals A X plus F.
+
+6
+00:00:30.048 --> 00:00:37.766
+An n-th order equation also becomes a system: take y, y prime and so on as new unknowns.
+
+7
+00:00:38.016 --> 00:00:44.688
+Example: x prime equals two x plus y, y prime equals three x plus four y.
+
+8
+00:00:44.688 --> 00:00:49.608
+From the first equation, y equals x prime minus two x.
+
+9
+00:00:49.608 --> 00:00:55.190
+Differentiate the first equation and replace y prime using the second one.
+
+10
+00:00:55.440 --> 00:01:01.176
+This gives x double prime minus six x prime plus five x equals zero.
+
+11
+00:01:01.176 --> 00:01:04.704
+The characteristic roots are one and five.
+
+12
+00:01:04.704 --> 00:01:10.070
+So x equals C one e to the t plus C two e to the five t.
+
+13
+00:01:10.320 --> 00:01:21.552
+We do not integrate for y; we substitute into y equals x prime minus two x: y equals minus C one e to the t plus three C two e to the five t.
+
+14
+00:01:21.552 --> 00:01:28.070
+No extra constant appears: a system with two unknowns has exactly two constants.
+
+15
+00:01:28.320 --> 00:01:36.384
+With x of zero equal to one and y of zero equal to seven we get C one minus one and C two equal to two.
+
+16
+00:01:36.384 --> 00:01:44.702
+The graph shows x and y in time: both grow fast, like e to the five t, because the largest root is five.
+
+17
+00:01:44.952 --> 00:01:51.864
+Question: how many first-order equations do we get when reducing a third-order equation to a normal system?
+
+18
+00:01:51.864 --> 00:01:54.912
+Pause the video, choose your answer,
+
+19
+00:01:54.912 --> 00:02:00.590
+then read the explanation and go back to the relevant part of the lesson if needed.

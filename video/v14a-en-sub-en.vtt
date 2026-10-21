@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.184
+The wave, heat and Laplace equations have very different solutions.
+
+2
+00:00:05.184 --> 00:00:07.056
+Why?
+
+3
+00:00:07.056 --> 00:00:11.352
+The answer lies in the coefficients of the second derivatives.
+
+4
+00:00:11.352 --> 00:00:14.832
+In this part we learn how to write the equation,
+
+5
+00:00:14.832 --> 00:00:21.782
+compute the discriminant and tell apart the three types: hyperbolic, parabolic and elliptic.
+
+6
+00:00:22.032 --> 00:00:29.328
+Important convention: we write the equation as a u x x plus two b u x y plus c u y y.
+
+7
+00:00:29.328 --> 00:00:32.160
+The mixed term carries two b.
+
+8
+00:00:32.160 --> 00:00:35.688
+The discriminant is b squared minus a c.
+
+9
+00:00:35.688 --> 00:00:40.296
+Some books drop the two and use b squared minus four a c.
+
+10
+00:00:40.296 --> 00:00:44.822
+The sign is the same, but never mix the notations!
+
+11
+00:00:45.072 --> 00:00:50.736
+If the discriminant is positive the equation is hyperbolic, like the wave equation.
+
+12
+00:00:50.736 --> 00:00:55.056
+If it is zero it is parabolic, like the heat equation.
+
+13
+00:00:55.056 --> 00:00:59.496
+If it is negative it is elliptic, like Laplace’s equation.
+
+14
+00:00:59.496 --> 00:01:04.920
+It mirrors the second-order curves: hyperbola, parabola, ellipse.
+
+15
+00:01:04.920 --> 00:01:08.606
+Lower-order terms do not affect the type.
+
+16
+00:01:08.856 --> 00:01:14.952
+Example: u x x plus two u x y plus two u y y equals zero.
+
+17
+00:01:14.952 --> 00:01:20.808
+The mixed coefficient is two, so two b equals two, that is b equals one.
+
+18
+00:01:20.808 --> 00:01:24.566
+And a equals one, c equals two.
+
+19
+00:01:24.816 --> 00:01:29.088
+The discriminant is one minus two, which is minus one.
+
+20
+00:01:29.088 --> 00:01:32.520
+Negative, so the equation is elliptic.
+
+21
+00:01:32.520 --> 00:01:38.520
+If you wrongly take b equal to two, you get four minus two, a positive number,
+
+22
+00:01:38.520 --> 00:01:41.376
+and the wrong answer “hyperbolic”.
+
+23
+00:01:41.376 --> 00:01:45.374
+So always take half of the mixed coefficient.
+
+24
+00:01:45.624 --> 00:01:49.920
+With variable coefficients the type depends on the region.
+
+25
+00:01:49.920 --> 00:01:55.728
+The Tricomi equation: y times u x x plus u y y equals zero.
+
+26
+00:01:55.728 --> 00:01:58.512
+The discriminant is minus y.
+
+27
+00:01:58.512 --> 00:02:05.568
+The graph shows the line y equals zero: above it the equation is elliptic, below it hyperbolic,
+
+28
+00:02:05.568 --> 00:02:08.232
+and on the line parabolic.
+
+29
+00:02:08.232 --> 00:02:13.310
+It marks the border between subsonic and supersonic gas flow.
+
+30
+00:02:13.560 --> 00:02:18.840
+Check yourself: what is b in the equation on screen, and what type is it?
+
+31
+00:02:18.840 --> 00:02:22.670
+Remember to halve the mixed coefficient first.

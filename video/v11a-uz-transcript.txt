@@ -1,0 +1,16 @@
+Eyler usuli va xato
+
+[0:00] Ko‘p differensial tenglamalarni formulalar bilan yechib bo‘lmaydi. Masalan, y shtrix teng x kvadrat plyus y kvadrat. Bu darsda yechimni sonlar jadvali ko‘rinishida taqribiy topishni o‘rganamiz. Eng sodda usul — Eyler usuli. Uning qanchalik aniq ekanini ham o‘lchaymiz.
+
+[0:24] Boshlang‘ich nuqtada og‘ish ma’lum: u f ning shu nuqtadagi qiymati. Urinma bo‘ylab qisqa h qadam yuramiz: yangi y teng eski y plyus h karra f. Keyin yangi nuqtadan yana shunday qadam. Nuqtalarni tutashtirsak, Eyler siniq chizig‘i chiqadi.
+
+[0:45] Masala: y shtrix teng x plyus y, y nolda bir, qadam nol butun o‘ndan bir. Birinchi qadam: f nol va birda bir, demak y bir teng bir butun o‘ndan bir.
+
+[0:58] Ikkinchi qadam: og‘ish nol butun o‘ndan bir plyus bir butun o‘ndan bir, ya’ni bir butun o‘ndan ikki. y ikki teng bir butun yuzdan yigirma ikki. Shu tarzda besh qadamdan keyin, x nol butun o‘ndan beshda, taxminan bir butun yuzdan yetmish ikki chiqadi.
+
+[1:19] Aniq yechim y teng ikki e daraja x minus x minus bir, x nol butun o‘ndan beshda u taxminan bir butun mingdan yetti yuz to‘qson yetti. Xato taxminan yuzdan yetti. Qadamni ikki marta kichraytirsak, xato ham taxminan ikki marta kamayadi: bu birinchi tartib, O katta h.
+
+[1:42] Grafikda yo‘nalish maydoni va nol, bir nuqtadan o‘tuvchi aniq integral chiziq. Eyler siniq chizig‘i qavariq egri chiziqning urinmalari bo‘ylab ketadi va doim undan pastda qoladi. Lokal xato bir qadamda h kvadratga proporsional, lekin qadamlar soni bir bo‘lingan h ga teng, shuning uchun global xato h ga proporsional.
+
+[2:08] Endi o‘zingizni tekshiring. Qadamni ikki marta kamaytirganda Eyler usulining global xatosi qanday o‘zgaradi? Videoni to‘xtating, javobni o‘zingiz tanlang, so‘ng izohni o‘qing va kerak bo‘lsa darsning tegishli qismiga qayting.
+

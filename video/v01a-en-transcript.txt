@@ -1,0 +1,16 @@
+What is a differential equation?
+
+[0:00] Hello. In this lesson we will see what a differential equation is. By the end you will be able to find the order of an equation and check by substitution whether a function is a solution.
+
+[0:13] A cup of tea cools in a room. The hotter the tea, the faster it cools. The cooling rate, that is the derivative of the temperature, is proportional to the difference between the tea and the room temperature. The unknown is not a number but the temperature as a function of time.
+
+[0:34] An equation linking the independent variable, the unknown function and its derivatives is called an ordinary differential equation. The highest derivative order that appears is the order of the equation. Do not confuse order with degree. The degree is defined only when the equation can be written as a polynomial in the derivatives; then it is the power of the highest-order derivative. If a derivative appears, for example, under a square root or inside a sine, the degree is not defined in the usual sense.
+
+[1:09] Example: the cube of the second derivative plus x times the first derivative equals sine of x. The highest derivative is the second one, so the order is two. The equation is polynomial in the derivatives, and the highest-order derivative is cubed, so the degree is three.
+
+[1:29] Now let us check a solution. Is y equals C times e to the two x a solution of y prime equals two y? Take the derivative: two C e to the two x. Substitute: the difference is zero. So it is a solution for every value of C.
+
+[1:49] The graph shows solutions for several values of C. Each curve is called an integral curve. They do not cross each other. For C equal to zero we get y identically zero, which is also a solution.
+
+[2:05] Now check yourself. Answer the question on the screen, then mark your answer in the question below the video.
+

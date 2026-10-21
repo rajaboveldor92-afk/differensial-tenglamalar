@@ -1,0 +1,16 @@
+Differensial tenglama nima?
+
+[0:00] Salom. Bu darsda differensial tenglama nima ekanini ko‘ramiz. Oxirida siz tenglamaning tartibini aniqlay olasiz va berilgan funksiya yechim ekanini o‘rniga qo‘yib tekshira olasiz.
+
+[0:15] Stakandagi choy xonada soviydi. Choy qancha issiq bo‘lsa, shuncha tez soviydi. Sovish tezligi, ya’ni harorat hosilasi, choy va xona harorati farqiga proporsional. Noma’lum narsa son emas, balki vaqtga bog‘liq harorat funksiyasi.
+
+[0:35] Erkli o‘zgaruvchi, noma’lum funksiya va uning hosilalarini bog‘lovchi tenglama oddiy differensial tenglama deyiladi. Tenglamada qatnashgan eng yuqori hosilaning tartibi tenglamaning tartibi bo‘ladi. Tartibni darajadan farqlang. Daraja faqat tenglama hosilalarga nisbatan ko‘phad ko‘rinishiga keltirilganda aniqlanadi; shunda u eng yuqori tartibli hosilaning darajasidir. Masalan, ildiz ostidagi yoki sinus ichidagi hosila bo‘lsa, odatdagi ma’noda daraja aniqlanmaydi.
+
+[1:12] Misol: ikkinchi hosilaning kubi qo‘shuv x ko‘paytirilgan birinchi hosila teng sinus x. Eng yuqori hosila ikkinchi, demak tartib ikki. Tenglama hosilalarga nisbatan ko‘phad va eng yuqori hosila kub darajada, demak daraja uch.
+
+[1:31] Endi yechimni tekshiramiz. y teng C ko‘paytirilgan e daraja ikki x funksiyasi y shtrix teng ikki y tenglamaning yechimimi? Hosilasini olamiz: ikki C e daraja ikki x. Uni o‘rniga qo‘yamiz: ayirma nolga teng. Demak, istalgan C da bu yechim.
+
+[1:54] Grafikda C ning turli qiymatlari uchun yechimlar ko‘rsatilgan. Har bir egri chiziq integral chiziq deyiladi. Ular bir-birini kesib o‘tmaydi. C nolga teng bo‘lganda y aynan nol bo‘ladi, bu ham yechim.
+
+[2:12] Endi o‘zingizni tekshiring. Ekrandagi savolga javob bering, keyin videodan pastdagi savolda javobingizni belgilang.
+

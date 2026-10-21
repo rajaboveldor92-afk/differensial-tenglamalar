@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.480
+If you pull a long rope at one spot and let go, the bump splits in two and runs both ways.
+
+2
+00:00:06.480 --> 00:00:09.720
+Today we explain this with a formula.
+
+3
+00:00:09.720 --> 00:00:18.134
+After the lesson you will solve the Cauchy problem for an infinite string with d’Alembert’s formula and check the answer by substitution.
+
+4
+00:00:18.384 --> 00:00:23.568
+The problem: u t t equals a squared u x x on the whole line.
+
+5
+00:00:23.568 --> 00:00:31.680
+The initial shape u at x and zero is phi of x, and the initial velocity u t at x and zero is psi of x.
+
+6
+00:00:31.680 --> 00:00:38.640
+From the last topic the general solution is f of x minus a t plus g of x plus a t.
+
+7
+00:00:38.640 --> 00:00:42.710
+The two initial conditions determine f and g.
+
+8
+00:00:42.960 --> 00:00:51.024
+The result is d’Alembert’s formula: u equals the average of phi at x minus a t and phi at x plus a t,
+
+9
+00:00:51.024 --> 00:00:57.432
+plus one over two a times the integral of psi from x minus a t to x plus a t.
+
+10
+00:00:57.432 --> 00:01:02.654
+Careful: the factor is one over two a, not one half.
+
+11
+00:01:02.904 --> 00:01:10.656
+Example: u t t equals nine u x x, initial shape x squared, initial velocity x.
+
+12
+00:01:10.656 --> 00:01:12.912
+Here a equals three.
+
+13
+00:01:12.912 --> 00:01:19.200
+The first part is the average of x minus three t squared and x plus three t squared,
+
+14
+00:01:19.200 --> 00:01:23.078
+which is x squared plus nine t squared.
+
+15
+00:01:23.328 --> 00:01:30.576
+Second part: one sixth times the integral of s from x minus three t to x plus three t.
+
+16
+00:01:30.576 --> 00:01:37.488
+That is one twelfth of a difference of squares, twelve x t over twelve, which equals x t.
+
+17
+00:01:37.488 --> 00:01:43.262
+Answer: u equals x squared plus nine t squared plus x t.
+
+18
+00:01:43.512 --> 00:01:45.384
+Check.
+
+19
+00:01:45.384 --> 00:01:48.120
+u t t equals eighteen.
+
+20
+00:01:48.120 --> 00:01:54.384
+Nine times u x x is nine times two, which is eighteen: the equation holds.
+
+21
+00:01:54.384 --> 00:01:58.368
+At t equals zero, u equals x squared.
+
+22
+00:01:58.368 --> 00:02:03.984
+u t equals eighteen t plus x, which is x at t equals zero.
+
+23
+00:02:03.984 --> 00:02:06.878
+All three conditions hold.
+
+24
+00:02:07.128 --> 00:02:13.248
+The graph shows the initial pulse one over one plus x squared and its state at time three.
+
+25
+00:02:13.248 --> 00:02:19.992
+The pulse has split into two halves of half the height, which have reached x equals plus and minus three.
+
+26
+00:02:19.992 --> 00:02:24.398
+The shape does not change, it only moves with speed a.
+
+27
+00:02:24.648 --> 00:02:31.080
+Question: the initial shape is sine x, the velocity is zero, and a equals one.
+
+28
+00:02:31.080 --> 00:02:33.312
+What is the solution?
+
+29
+00:02:33.312 --> 00:02:38.150
+Try turning the sum of two travelling sine waves into a product.

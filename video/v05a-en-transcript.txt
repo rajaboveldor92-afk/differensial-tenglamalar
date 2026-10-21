@@ -1,0 +1,18 @@
+Equations not solved for the derivative and the parameter method
+
+[0:00] Hello! Today we look at equations in which the derivative is not given explicitly, for example y prime squared equals four. For such an equation several integral curves can pass through one point. By the end you will know two techniques: solving for the derivative, and introducing a parameter.
+
+[0:22] Denote the derivative by p. The equation reads F of x, y, p equals zero. If F is a polynomial in p, its degree is the degree of the equation. If p has several roots at a point, each root gives its own integral curve.
+
+[0:40] Example: y prime squared, minus x plus y times y prime, plus x y, equals zero. This is a quadratic in p, and it factors as p minus x times p minus y. So the equation splits into two simple ones: y prime equals x, or y prime equals y.
+
+[1:02] From the first, y equals one half x squared plus C. From the second, y equals C times e to the x. The general integral is the union of both families. Check: in the first family p equals x, in the second p equals y, so the product is zero.
+
+[1:22] If solving for the derivative is hard, take p as a parameter. For example, x equals p cubed plus p. Then dx equals three p squared plus one, times dp, and dy equals p times dx. Integrating, y equals three quarters p to the fourth plus one half p squared plus C.
+
+[1:45] The answer is parametric. Check: dividing dy by dp by dx by dp gives p, so y prime really equals p. Remember the key formula: dy equals p dx, not the other way round.
+
+[2:02] The graph shows three curves of the family y equals one half x squared and two curves of the family y equals C e to the x. They touch each other on the line y equals x, where the two roots coincide.
+
+[2:16] Now check yourself. Read the question and choose an answer.
+

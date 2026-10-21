@@ -1,0 +1,18 @@
+Shartlar, korrektlik, Dirixle va Neyman masalalari
+
+[0:00] Tenglamaning o‘zi jarayonni to‘liq aniqlamaydi: bir xil issiqlik tenglamasi muzlatgichdagi va pechdagi sterjenni tavsiflaydi. Farqni shartlar beradi. Bu qismda boshlang‘ich va chegaraviy shartlarni, masala qachon korrekt ekanini va Laplas tenglamasi uchun Dirixle va Neyman masalalarini o‘rganamiz.
+
+[0:23] Boshlang‘ich shartlar t teng nol paytdagi holatni beradi. Issiqlik tenglamasida vaqt hosilasi birinchi tartibli, shuning uchun bitta shart: boshlang‘ich harorat. To‘lqin tenglamasida ikkinchi tartibli, shuning uchun ikkita: boshlang‘ich shakl va boshlang‘ich tezlik. Laplas tenglamasida vaqt yo‘q, faqat chegaraviy shartlar.
+
+[0:48] Chegaraviy shartlar sterjen uchlarida, barcha vaqtlar uchun beriladi. Birinchi tur, Dirixle: uchdagi harorat berilgan. Ikkinchi tur, Neyman: uch orqali oqim berilgan; issiqlik o‘tkazmaydigan uchda u x teng nol. Uchinchi tur, Robin: u x va u ning kombinatsiyasi; bu uch atrof-muhit bilan issiqlik almashganda bo‘ladi.
+
+[1:14] Misol: ichki issiqlik manbaisiz, bir jinsli sterjenning statsionar holatini olaylik. Bu modelda vaqt hosilasi nol va tenglama u ikki shtrix teng nolga keladi. Shuning uchun u teng A qo‘shuv B x — to‘g‘ri chiziq. Chap uchda harorat yuz daraja: demak A teng yuz. O‘ng uchda Robin sharti: u shtrix bir qo‘shuv u bir teng nol.
+
+[1:42] Robin shartiga qo‘yamiz: B qo‘shuv yuz qo‘shuv B teng nol, demak B teng minus ellik. Javob: u teng yuz ayiruv ellik x. O‘ng uch ellik darajagacha soviydi, chunki u atrofga issiqlik beradi. Tekshiruv: u shtrix minus ellik, u bir ellik, yig‘indisi nol.
+
+[2:03] Grafikda aynan shu manbasiz, bir jinsli statsionar model uchun ikki profil ko‘rsatilgan: Robin shartli yuzdan ellikkacha tushuvchi chiziq va ikkala uchi Dirixle sharti bilan berilgan chiziq. Bu modelda u ikki shtrix nol bo‘lgani uchun profil chiziqli. Agar ichki issiqlik manbai, fazoviy o‘zgaruvchi o‘tkazuvchanlik yoki boshqa fizik hadlar bo‘lsa, statsionar profil umuman olganda chiziqli bo‘lishi shart emas.
+
+[2:36] Adamar bo‘yicha masala korrekt, agar yechim mavjud, yagona va berilganlarga uzluksiz bog‘liq bo‘lsa. Mos regularlik shartlarida Laplas tenglamasi uchun Dirixle masalasi yagona yechimga ega. Neyman masalasida esa chegaradan o‘tadigan umumiy oqim nol bo‘lishi shart va yechim faqat o‘zgarmas qo‘shiluvchigacha aniqlanadi. Laplas tenglamasi uchun Koshi masalasi umumiy holda korrekt emas.
+
+[3:06] Savol: sterjenning uchi issiqlik o‘tkazmaydigan qilib o‘ralgan. Qaysi shart to‘g‘ri? Javobni tanlang va izohni o‘qing.
+

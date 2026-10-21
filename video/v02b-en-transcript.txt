@@ -1,0 +1,16 @@
+Applications: cooling and a virus
+
+[0:00] In this part we solve two real problems. First: when will the tea be ready to drink? Second: when will a virus reach half of a network of a thousand computers? The plan is the same for both: write the model, separate the variables, find the coefficient from a measurement, and answer the question.
+
+[0:22] Newton’s law: the cooling rate is proportional to the difference between the body and room temperatures. So T prime equals minus k times T minus the room temperature. The minus sign means a hot body cools. Separating and integrating, the difference decays exponentially: T equals room temperature plus the initial difference times e to the minus k t.
+
+[0:49] The room is at twenty degrees, the tea is poured at ninety and is sixty after ten minutes. Substitute: T equals twenty plus seventy times e to the minus k t. At ten minutes, seventy times e to the minus ten k equals forty. So k is one tenth of the logarithm of seven quarters, about zero point zero five six per minute.
+
+[1:14] Now the question: when is it thirty degrees? We need seventy times e to the minus k t to equal ten, so e to the minus k t is one seventh. Hence t equals the logarithm of seven divided by k, about thirty four point eight minutes. Check: twenty plus seventy times one seventh is exactly thirty.
+
+[1:37] The second model is a virus in a network. The infection rate is proportional to contacts between infected and healthy machines: I prime equals beta times I times N minus I. This is the logistic equation. Its solution is N over one plus A times e to the minus r t. With a thousand computers, ten at first and fifty after an hour, half are infected after about two point eight hours.
+
+[2:07] The graph shows the number of infected computers. At first the growth is almost exponential, then the curve bends and approaches one thousand. The inflection point is exactly at five hundred, when the virus spreads fastest. That is why protection must be applied before the inflection point.
+
+[2:28] Check question. Choose when growth is fastest in the logistic model. Hint: the right side is a parabola in P.
+

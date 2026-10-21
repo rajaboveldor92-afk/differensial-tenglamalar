@@ -1,0 +1,16 @@
+Linear equations and the integrating factor
+
+[0:00] Hello. A charging capacitor, the amount of salt in a tank, requests arriving at a server — all are described by a first-order linear equation. Today we learn a universal four-step method for it: the integrating factor. You will also need this algorithm for independent task two.
+
+[0:22] Write the equation in normal form: y prime plus p of x times y equals q of x. Take mu equal to e to the integral of p. Its key property is that mu prime equals p times mu. So after multiplying by mu, the left side becomes the derivative of the product mu times y. The rest is plain integration.
+
+[0:46] Example: y prime plus two y equals e to the x. Here p is two, its integral is two x, so mu equals e to the two x. Multiply the equation by mu. The left side is the derivative of e to the two x times y, and the right side is e to the two x times e to the x, that is e to the three x.
+
+[1:11] Integrate both sides: e to the two x times y equals one third of e to the three x plus C. Careful: we add C right here, before dividing. Then divide by e to the two x. y equals one third of e to the x plus C times e to the minus two x.
+
+[1:31] Notice the structure of the answer. The first term is a particular solution of the nonhomogeneous equation. The second is the general solution of the homogeneous one. Check: the derivative is one third of e to the x minus two C e to the minus two x. Adding two y, the C terms cancel and e to the x remains.
+
+[1:55] The graph shows several integral curves. As x grows, they all approach one third e to the x because C e to the minus two x decays rapidly. Here C e to the minus two x is the transient part, while one third e to the x is the forced, or asymptotic, response. Since that response itself grows, it should not be called a constant steady state in the strict sense.
+
+[2:23] Check question: find the integrating factor for the equation on the screen. First make sure the coefficient of y prime is one.
+

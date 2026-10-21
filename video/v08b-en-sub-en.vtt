@@ -1,0 +1,145 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.288
+In the second part we learn two things.
+
+2
+00:00:03.288 --> 00:00:09.336
+First, how to build a fundamental set when the roots are repeated and the order is above two.
+
+3
+00:00:09.336 --> 00:00:15.360
+Second, an applied question: when does the free motion of a mass on a spring oscillate,
+
+4
+00:00:15.360 --> 00:00:19.790
+and when does it return to equilibrium without oscillating.
+
+5
+00:00:20.040 --> 00:00:27.576
+The rule: if a root r zero has multiplicity k, it gives k functions: e to the r zero x,
+
+6
+00:00:27.576 --> 00:00:34.464
+x times that exponential, and so on up to x to the power k minus one times the exponential.
+
+7
+00:00:34.464 --> 00:00:40.632
+If a complex pair is repeated, the cosine and sine are multiplied by powers of x.
+
+8
+00:00:40.632 --> 00:00:44.606
+The number of functions always equals the order.
+
+9
+00:00:44.856 --> 00:00:51.432
+Example: y triple prime plus y double prime minus y prime minus y equals zero.
+
+10
+00:00:51.432 --> 00:00:57.336
+The characteristic polynomial is r cubed plus r squared minus r minus one.
+
+11
+00:00:57.336 --> 00:01:02.736
+Group the terms: r squared times r plus one, minus r plus one.
+
+12
+00:01:02.736 --> 00:01:07.262
+The result is r plus one squared times r minus one.
+
+13
+00:01:07.512 --> 00:01:10.776
+The simple root one gives e to the x.
+
+14
+00:01:10.776 --> 00:01:16.992
+Minus one is a double root and gives e to the minus x and x times e to the minus x.
+
+15
+00:01:16.992 --> 00:01:21.120
+That is three functions, and the order is three as well.
+
+16
+00:01:21.120 --> 00:01:30.302
+The general solution is C one e to the x plus, in brackets, C two plus C three x, times e to the minus x.
+
+17
+00:01:30.552 --> 00:01:32.520
+Now the spring.
+
+18
+00:01:32.520 --> 00:01:36.864
+Mass m, damping coefficient c, stiffness k.
+
+19
+00:01:36.864 --> 00:01:42.864
+Newton’s law gives m y double prime plus c y prime plus k y equals zero.
+
+20
+00:01:42.864 --> 00:01:47.760
+Everything is decided by the sign of c squared minus four m k.
+
+21
+00:01:47.760 --> 00:01:51.144
+Negative means an underdamped oscillation.
+
+22
+00:01:51.144 --> 00:01:53.904
+Zero means critical damping.
+
+23
+00:01:53.904 --> 00:01:58.286
+Positive means overdamping, with no oscillation.
+
+24
+00:01:58.536 --> 00:02:06.432
+Example: m is one, c is two, k is five; the mass is pulled one metre and released from rest.
+
+25
+00:02:06.432 --> 00:02:10.224
+The roots are minus one plus or minus two i.
+
+26
+00:02:10.224 --> 00:02:14.688
+The conditions give A equals one and B equals one half.
+
+27
+00:02:14.688 --> 00:02:20.808
+The solution is e to the minus t times cosine two t plus one half sine two t.
+
+28
+00:02:20.808 --> 00:02:24.254
+The quasi-period is pi seconds.
+
+29
+00:02:24.504 --> 00:02:29.688
+Compare the three cases on one graph, all starting from the same position.
+
+30
+00:02:29.688 --> 00:02:34.128
+The first curve is underdamped: it oscillates around zero.
+
+31
+00:02:34.128 --> 00:02:36.912
+The second is critically damped,
+
+32
+00:02:36.912 --> 00:02:43.248
+with c equal to four and k equal to four: the fastest return without oscillation.
+
+33
+00:02:43.248 --> 00:02:48.062
+The third is overdamped: a slow return without oscillation.
+
+34
+00:02:48.312 --> 00:02:55.776
+Question: which damping coefficient gives critical damping for a mass of two kilograms on a spring of stiffness eight?
+
+35
+00:02:55.776 --> 00:03:00.120
+Recall the formula: c squared equals four m k.
+
+36
+00:03:00.120 --> 00:03:03.446
+Pause the video and choose your answer.

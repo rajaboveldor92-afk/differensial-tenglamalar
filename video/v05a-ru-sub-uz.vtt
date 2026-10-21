@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.545
+Salom!
+
+2
+00:00:00.545 --> 00:00:07.351
+Bugun shunday tenglamalarni ko‘ramizki, ularda hosila oshkor ifodalanmagan.
+
+3
+00:00:07.351 --> 00:00:10.981
+Masalan, y shtrix kvadrati to‘rtga teng.
+
+4
+00:00:10.981 --> 00:00:17.788
+Bunday tenglamada bitta nuqtadan bir nechta integral chiziq o‘tishi mumkin.
+
+5
+00:00:17.788 --> 00:00:25.502
+Dars oxirida siz ikki usulni bilasiz: hosilaga nisbatan yechish va parametr kiritish.
+
+6
+00:00:25.752 --> 00:00:28.517
+Hosilani p harfi bilan belgilaymiz.
+
+7
+00:00:28.517 --> 00:00:34.126
+Tenglama F ning x, y, p dan funksiyasi nolga teng ko‘rinishida bo‘ladi.
+
+8
+00:00:34.126 --> 00:00:40.684
+Agar F p ga nisbatan ko‘phad bo‘lsa, uning darajasi tenglamaning darajasi deyiladi.
+
+9
+00:00:40.684 --> 00:00:48.110
+Har bir nuqtada p ning bir nechta ildizi bo‘lsa, har bir ildiz o‘z integral chizig‘ini beradi.
+
+10
+00:00:48.360 --> 00:00:56.469
+Misol: y shtrix kvadrat minus x qo‘shuv y ko‘paytirilgan y shtrix, qo‘shuv x y, nolga teng.
+
+11
+00:00:56.469 --> 00:01:04.132
+Bu p ga nisbatan kvadrat uchhad va u p minus x bilan p minus y ko‘paytmasiga ajraladi.
+
+12
+00:01:04.132 --> 00:01:12.062
+Demak, tenglama ikkita oddiy tenglamaga bo‘linadi: y shtrix teng x, yoki y shtrix teng y.
+
+13
+00:01:12.312 --> 00:01:17.211
+Birinchisidan y teng x kvadratning yarmi qo‘shuv C.
+
+14
+00:01:17.211 --> 00:01:21.918
+Ikkinchisidan y teng C ko‘paytirilgan e daraja x.
+
+15
+00:01:21.918 --> 00:01:26.433
+Umumiy integral — bu ikki oilaning birlashmasi.
+
+16
+00:01:26.433 --> 00:01:34.886
+Tekshiring: birinchi oilada p teng x, ikkinchisida p teng y, demak ko‘paytma nolga teng.
+
+17
+00:01:35.136 --> 00:01:42.576
+Agar tenglamani hosilaga nisbatan yechish qiyin bo‘lsa, p ni parametr deb olamiz.
+
+18
+00:01:42.576 --> 00:01:45.515
+Masalan, x teng p kub qo‘shuv p.
+
+19
+00:01:45.515 --> 00:01:51.118
+Unda dx teng uch p kvadrat qo‘shuv bir, dp ga ko‘paytirilgan.
+
+20
+00:01:51.118 --> 00:01:54.333
+dy esa p ko‘paytirilgan dx ga teng.
+
+21
+00:01:54.333 --> 00:02:03.518
+Integrallasak, y teng to‘rtdan uch p ning to‘rtinchi darajasi qo‘shuv p kvadratning yarmi qo‘shuv C.
+
+22
+00:02:03.768 --> 00:02:06.795
+Javob parametrik ko‘rinishda.
+
+23
+00:02:06.795 --> 00:02:15.146
+Tekshirish: dy ni dp bo‘yicha dx ning dp bo‘yicha hosilasiga bo‘lsak, p chiqadi.
+
+24
+00:02:15.146 --> 00:02:18.800
+Demak y shtrix haqiqatan p ga teng.
+
+25
+00:02:18.800 --> 00:02:24.854
+Esda tuting: asosiy formula — dy teng p dx, aksincha emas.
+
+26
+00:02:25.104 --> 00:02:34.246
+Grafikda y teng x kvadratning yarmi oilasidan uchta egri chiziq va y teng C e daraja x oilasidan ikkita egri chiziq ko‘rsatilgan.
+
+27
+00:02:34.246 --> 00:02:40.766
+Ular y teng x to‘g‘ri chizig‘ida bir-biriga urinadi: u yerda ikkala ildiz ustma-ust tushadi.
+
+28
+00:02:41.016 --> 00:02:43.986
+Endi o‘zingizni tekshiring.
+
+29
+00:02:43.986 --> 00:02:47.726
+Savolni o‘qing va javobni tanlang.

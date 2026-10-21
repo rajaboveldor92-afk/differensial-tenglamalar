@@ -1,0 +1,113 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.600
+Yangi o‘zgaruvchilarni to‘g‘ri tanlasak, murakkab tenglama juda sodda ko‘rinishga keladi.
+
+2
+00:00:06.600 --> 00:00:09.648
+Bu ko‘rinish kanonik deyiladi.
+
+3
+00:00:09.648 --> 00:00:18.264
+Bu qismda xarakteristik tenglamani tuzamiz va bir giperbolik tenglamani bosqichma-bosqich kanonik ko‘rinishga keltirib,
+
+4
+00:00:18.264 --> 00:00:21.494
+umumiy yechimini topamiz.
+
+5
+00:00:21.744 --> 00:00:29.904
+Xarakteristik tenglama: a d y kvadrat ayiruv ikki b d x d y qo‘shuv c d x kvadrat teng nol.
+
+6
+00:00:29.904 --> 00:00:33.864
+O‘rtadagi ishora minus ekaniga e’tibor bering.
+
+7
+00:00:33.864 --> 00:00:40.296
+a nol bo‘lmasa, d y d x teng b plyus-minus diskriminant ildizi, bo‘lingan a.
+
+8
+00:00:40.296 --> 00:00:47.270
+Bu oddiy differensial tenglamalarning integral chiziqlari xarakteristikalar deyiladi.
+
+9
+00:00:47.520 --> 00:00:57.096
+Giperbolik holda ikki haqiqiy xarakteristik oila bor va qulay yangi koordinatalarda kanonik ko‘rinish u ksi eta teng F ga keladi.
+
+10
+00:00:57.096 --> 00:01:03.864
+Parabolik holda bitta haqiqiy oila, elliptik holda esa haqiqiy xarakteristikalar yo‘q.
+
+11
+00:01:03.864 --> 00:01:09.960
+Muhim aniqlik: tenglama turi faqat Yakobiani noldan farqli bo‘lgan silliq,
+
+12
+00:01:09.960 --> 00:01:14.088
+haqiqiy koordinata almashtirishlarida saqlanadi.
+
+13
+00:01:14.088 --> 00:01:19.934
+Degeneratsiyalangan yoki singular almashtirish bu xulosaga kirmaydi.
+
+14
+00:01:20.184 --> 00:01:26.808
+Misol: u x x ayiruv ikki u x y ayiruv uch u y y teng nol.
+
+15
+00:01:26.808 --> 00:01:31.104
+a teng bir, b teng minus bir, c teng minus uch.
+
+16
+00:01:31.104 --> 00:01:36.710
+Diskriminant bir qo‘shuv uch, teng to‘rt, musbat: giperbolik.
+
+17
+00:01:36.960 --> 00:01:43.992
+Xarakteristik tenglama: y shtrix kvadrat qo‘shuv ikki y shtrix ayiruv uch teng nol.
+
+18
+00:01:43.992 --> 00:01:47.016
+Ildizlari bir va minus uch.
+
+19
+00:01:47.016 --> 00:01:53.424
+Integrallab, y ayiruv x teng C bir va y qo‘shuv uch x teng C ikki.
+
+20
+00:01:53.424 --> 00:02:01.622
+Shularni yangi o‘zgaruvchilar qilib olamiz: ksi teng y ayiruv x, eta teng y qo‘shuv uch x.
+
+21
+00:02:01.872 --> 00:02:07.296
+Koeffitsiyentlarni hisoblaymiz: A va C nol, B esa minus sakkiz.
+
+22
+00:02:07.296 --> 00:02:13.392
+Tenglama minus o‘n olti u ksi eta teng nol, ya’ni u ksi eta teng nol bo‘ladi.
+
+23
+00:02:13.392 --> 00:02:22.430
+Umumiy yechim: u teng f y ayiruv x qo‘shuv g y qo‘shuv uch x, bu yerda f va g ixtiyoriy funksiyalar.
+
+24
+00:02:22.680 --> 00:02:34.176
+Grafikda koordinata boshidan o‘tuvchi ikki xarakteristika ko‘rsatilgan: qiyaligi bir bo‘lgan y teng x va qiyaligi minus uch bo‘lgan y teng minus uch x.
+
+25
+00:02:34.176 --> 00:02:38.976
+Yechim har bir oila bo‘ylab o‘z shaklini saqlab “tashiladi”.
+
+26
+00:02:38.976 --> 00:02:45.254
+To‘lqin tenglamasida bu chiziqlar x plyus-minus a t teng o‘zgarmas bo‘ladi.
+
+27
+00:02:45.504 --> 00:02:51.312
+Endi tekshiring: ekrandagi to‘lqin tenglamasining xarakteristikalari qanday?
+
+28
+00:02:51.312 --> 00:02:56.414
+Tezlik a ga e’tibor bering: u kvadrat ildizdan chiqadi.

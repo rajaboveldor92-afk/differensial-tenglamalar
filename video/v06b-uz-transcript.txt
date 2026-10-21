@@ -1,0 +1,18 @@
+Bir jinsli va umumlashgan bir jinsli tenglamalar
+
+[0:00] Bu qismda yana ikki turdagi tenglamani ko‘ramiz. Birinchisida y va uning barcha hosilalarini bir xil songa ko‘paytirsak, tenglama o‘zgarmaydi. Ikkinchisida x va y ga turli “vaznlar” berib, barcha hadlarni tenglashtiramiz. Ikkala holda tartib bittaga pasayadi.
+
+[0:22] Agar tenglama y, y shtrix, y ikki shtrixga nisbatan bir jinsli bo‘lsa, y shtrix teng y ko‘paytirilgan z almashtirishni qilamiz. Unda y ikki shtrix teng y ko‘paytirilgan z shtrix qo‘shuv z kvadrat. y ning darajasiga qisqartirsak, z uchun birinchi tartibli tenglama qoladi. Diqqat: bu “bir jinsli” so‘zining yana bir ma’nosi.
+
+[0:51] Misol: x y y ikki shtrix minus x y shtrix kvadrat teng y y shtrix. Har bir had y ga nisbatan ikkinchi darajali. Almashtirishdan keyin y kvadratga qisqartiramiz va x z shtrix teng z ni olamiz. Demak z teng C bir x.
+
+[1:13] Endi y shtrix bo‘lingan y teng C bir x. Integrallasak, y teng C ikki ko‘paytirilgan e daraja C bir x kvadratning yarmi. C ikki nolga teng bo‘lganda y aynan nol ham yechim. Natijani tenglamaga qo‘yib tekshirish oson.
+
+[1:34] Endi x ga vazn bir, y ga vazn m beramiz. Unda y shtrixning vazni m minus bir, y ikki shtrixniki m minus ikki. x kub y ikki shtrix tenglamasi, x y shtrix minus y ning kvadrati bilan solishtirilsa, m qo‘shuv bir teng ikki m, ya’ni m teng bir. x teng e daraja t, y teng e daraja t ko‘paytirilgan u almashtirish t ni yo‘qotadi.
+
+[2:03] Oxirgi tenglamada t ham, u ham yo‘q, shuning uchun q teng u ning hosilasi deymiz va ajraladigan tenglama olamiz. Javob: y teng x ln x minus x ln modul bir minus C bir x qo‘shuv C ikki x. Shuningdek, q nol bo‘lgan holat y teng C x yechimini beradi — uni alohida yozish kerak.
+
+[2:28] Grafikda birinchi misoldagi y teng e daraja C bir x kvadrat yarmi egri chiziqlari C bir ning uchta qiymatida ko‘rsatilgan. C bir musbat bo‘lsa egri chiziq o‘sadi, manfiy bo‘lsa — qo‘ng‘iroq shaklida so‘nadi, nol bo‘lsa — gorizontal chiziq.
+
+[2:47] O‘zingizni tekshiring: y, y shtrix, y ikki shtrixga nisbatan bir jinsli tenglama uchun qaysi almashtirish to‘g‘ri? Javobni tanlang.
+

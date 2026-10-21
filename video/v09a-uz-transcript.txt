@@ -1,0 +1,18 @@
+Noma’lum koeffitsiyentlar va rezonans
+
+[0:00] Bu darsda tenglamaning o‘ng tomoni noldan farqli bo‘lgan holni ko‘ramiz: masalan, zanjirga batareya ulangan yoki prujinaga tashqi kuch ta’sir qilmoqda. Umumiy yechimni ikki qismga ajratamiz va o‘ng tomonga qarab xususiy yechimni deyarli tayyor shablon bo‘yicha topamiz.
+
+[0:21] Asosiy tuzilma: umumiy yechim teng bir jinsli tenglamaning umumiy yechimi plyus bitta xususiy yechim. Sababi chiziqlilik: ikki yechimning ayirmasi bir jinsli tenglamani qanoatlantiradi. Boshlang‘ich shartlar esa doimo to‘liq yig‘indiga qo‘yiladi, faqat bir jinsli qismga emas.
+
+[0:42] O‘ng tomon kvaziko‘phad bo‘lsa, ya’ni eksponenta, ko‘phad, kosinus va sinusdan tuzilgan bo‘lsa, unga sigma teng alfa plyus i beta nazorat sonini mos qo‘yamiz. Agar sigma xarakteristik ildiz bo‘lmasa, xususiy yechim o‘ng tomon bilan bir xil ko‘rinishda. Agar sigma s karrali ildiz bo‘lsa, shablonni iks daraja s ga ko‘paytiramiz. Bu rezonans.
+
+[1:11] Misol: y ikki shtrix plyus y teng to‘rt sinus iks. Bu ishqalanishsiz prujina, tashqi kuch chastotasi xususiy chastotaga teng. Xarakteristik ildizlar plyus minus i. Nazorat soni sigma teng i, u oddiy ildiz, demak s teng bir.
+
+[1:31] Shablon: iks marta qavs ichida A kosinus iks plyus B sinus iks. E’tibor bering, o‘ng tomonda faqat sinus bo‘lsa ham, kosinus ham olinadi. Ikki marta differensiallab, tenglamaga qo‘ysak, chap tomon minus ikki A sinus iks plyus ikki B kosinus iks bo‘ladi.
+
+[1:53] Koeffitsiyentlarni tenglashtiramiz: minus ikki A teng to‘rt, ikki B teng nol. Demak A teng minus ikki, B teng nol, xususiy yechim minus ikki iks kosinus iks. Umumiy yechim: C bir kosinus iks plyus C ikki sinus iks minus ikki iks kosinus iks.
+
+[2:14] Grafikda xususiy yechim minus ikki iks kosinus iks ko‘rsatilgan. Uning amplitudasi iks bilan chiziqli o‘sib boradi. Bu rezonansning ko‘rinishi: kuch har safar to‘g‘ri vaqtda itaradi va tebranish chegarasiz kattalashadi. Haqiqiy ko‘priklar va mashinalarda shuning uchun so‘ndirgichlar qo‘yiladi.
+
+[2:37] Endi siz: y ikki shtrix plyus to‘rt y teng kosinus ikki iks uchun xususiy yechimni qaysi ko‘rinishda izlash kerak? Nazorat sonini toping va u xarakteristik ildiz ekanini tekshiring. Videoni to‘xtatib, javobni tanlang.
+

@@ -1,0 +1,16 @@
+Separating the variables
+
+[0:00] Hello. In this lesson we learn the simplest and most widely used method: separating the variables. A virus spreading in a network, tea cooling down, radioactive decay — all of these are solved this way. By the end you will not only solve the equation but also find the solutions that get lost when we divide.
+
+[0:22] An equation is separable when the right side splits into two factors, one depending only on x and the other only on y. Then we move everything with y to the left and everything with x to the right: d y over g of y equals f of x times d x. Then we integrate both sides and add a single constant C.
+
+[0:45] Example: y prime equals x times y squared. Here f is x and g is y squared. An important step before dividing: set g equal to zero. If y squared is zero, then y is identically zero. Check it: the left side is zero and the right side is zero. So y identically zero is a solution. We write it down right away.
+
+[1:13] Now assume y is not zero and separate: d y over y squared equals x d x. The integral on the left is minus one over y, on the right it is half of x squared. We add one constant. The result: minus one over y equals x squared over two plus C one.
+
+[1:35] Solve for y: y equals minus two over x squared plus C, where C is two C one. The full answer has two parts: this formula and y identically zero. Notice that y identically zero does not come from the formula for any finite C. Had we not written it down beforehand, it would have been lost completely.
+
+[1:58] Look at the direction field. Exactly on the y axis, x is zero, so the segments there are horizontal; near the y axis their slopes are merely small. The x axis itself is also an integral curve: it is the solution y identically zero. The curves above and below never cross it, as the uniqueness theorem guarantees. The lower curve is the solution with C equal to two.
+
+[2:27] Now test yourself. Find the constant solutions of the equation on the screen. Hint: set the right side equal to zero and check each root. After choosing an answer, read the explanation.
+

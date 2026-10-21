@@ -1,0 +1,81 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.483
+Muhandislikda kuchlanish kalit bilan ulanadi yoki qisqa impuls keladi.
+
+2
+00:00:05.483 --> 00:00:13.317
+Bunday uzilishli manbalar bilan klassik usullar noqulay, Laplas usuli esa ularni oson hisobga oladi.
+
+3
+00:00:13.317 --> 00:00:17.390
+Bu qismda pog‘ona, impuls va RLC zanjirini ko‘ramiz.
+
+4
+00:00:17.640 --> 00:00:22.682
+Xevisayd funksiyasi u t minus c, c gacha nol, keyin bir.
+
+5
+00:00:22.682 --> 00:00:31.325
+Ikkinchi siljish teoremasi: c ga kechiktirilgan funksiyaning tasviri e daraja minus c s karra F.
+
+6
+00:00:31.325 --> 00:00:37.267
+Dirak impulsi delta t minus c ning tasviri esa e daraja minus c s.
+
+7
+00:00:37.267 --> 00:00:40.958
+O‘ram tasvirlar ko‘paytmasiga mos keladi.
+
+8
+00:00:41.208 --> 00:00:48.214
+RLC zanjiri: induktivlik bir, qarshilik ikki, sig‘im nol butun o‘ndan ikki.
+
+9
+00:00:48.214 --> 00:00:50.830
+Nol vaqtda o‘n volt ulanadi.
+
+10
+00:00:50.830 --> 00:00:59.798
+Zaryad uchun q ikki shtrix plyus ikki q shtrix plyus besh q teng o‘n, boshlang‘ich shartlar nol.
+
+11
+00:01:00.048 --> 00:01:05.061
+Q teng o‘n bo‘lingan s karra s kvadrat plyus ikki s plyus besh.
+
+12
+00:01:05.061 --> 00:01:13.336
+Sodda kasrlar: ikki bo‘lingan s minus ikki karra s plyus ikki bo‘lingan s plyus bir kvadrat plyus to‘rt.
+
+13
+00:01:13.336 --> 00:01:18.110
+Maxrajda kvadratni to‘ldirdik, chunki haqiqiy ildizlar yo‘q.
+
+14
+00:01:18.360 --> 00:01:27.721
+Birinchi siljish teoremasi bilan qaytamiz: q teng ikki minus e daraja minus t karra ikki kosinus ikki t plyus sinus ikki t.
+
+15
+00:01:27.721 --> 00:01:34.646
+Impuls javobi, ya’ni uzatish funksiyasining originali, yarim e daraja minus t sinus ikki t.
+
+16
+00:01:34.896 --> 00:01:40.013
+Grafikda zaryad ikki kulonga intiladi, ya’ni sig‘im karra kuchlanishga.
+
+17
+00:01:40.013 --> 00:01:50.678
+Yo‘lda u biroz oshib ketadi va so‘nuvchi tebranish bilan barqarorlashadi: bu xarakteristik ildizlar kompleks va haqiqiy qismi manfiy bo‘lgani uchun.
+
+18
+00:01:50.928 --> 00:01:56.561
+Savol: e daraja minus uch s karra F katta s tasvirning originali qanday?
+
+19
+00:01:56.561 --> 00:02:00.082
+Videoni to‘xtating, javobni o‘zingiz tanlang,
+
+20
+00:02:00.082 --> 00:02:05.558
+so‘ng izohni o‘qing va kerak bo‘lsa darsning tegishli qismiga qayting.

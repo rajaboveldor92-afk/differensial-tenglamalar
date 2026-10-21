@@ -1,0 +1,18 @@
+The characteristic equation and three kinds of roots
+
+[0:00] Hello! Today we study linear equations of second and higher order whose coefficients are constant numbers. Such equations appear in electric circuits, springs and control systems. By the end of the lesson you will be able to write the general solution of any such equation in a few minutes, by solving just one algebraic equation.
+
+[0:24] The key idea is very simple. We look for a solution of the form e to the r x. Each derivative only adds a factor r: the first derivative is r times e to the r x, the second is r squared times it. Substituting into the equation and cancelling the non-zero exponential leaves a polynomial in r. This is the characteristic polynomial.
+
+[0:51] Roots come in three kinds. Each distinct real root gives one exponential. A repeated root, say a double one, gives e to the r x and x times e to the r x. A complex pair alpha plus or minus i beta gives e to the alpha x times cosine beta x and times sine beta x.
+
+[1:12] Example: y double prime minus two y prime plus five y equals zero, with y of zero equal to one and y prime of zero equal to five. The characteristic equation is r squared minus two r plus five equals zero. The discriminant is negative, minus sixteen, so the roots are complex: one plus or minus two i.
+
+[1:37] So alpha is one and beta is two, and the general solution is e to the x times, in brackets, C one cosine two x plus C two sine two x. At x equal to zero the cosine is one and the sine is zero, so the first condition gives C one equals one. For the second condition we first differentiate with the product rule.
+
+[2:02] The derivative at zero equals C one plus two C two. It must be five, so C two equals two. The answer is y equals e to the x times cosine two x plus two sine two x. Check: substituting into the equation gives zero, and the initial values are right as well.
+
+[2:23] Look at the graph. The first curve is our solution: it oscillates, but its amplitude grows like e to the x because alpha is positive. The second curve is the case of negative alpha, e to the minus x times cosine two x: the oscillation dies out. The sign of alpha decides growth or decay, and beta sets how fast it oscillates.
+
+[2:49] Now test yourself. Answer the question on the screen: which functions solve y double prime plus four y prime plus four y equals zero? Write the characteristic polynomial and find its roots with their multiplicity. Pause the video and choose your answer.
+

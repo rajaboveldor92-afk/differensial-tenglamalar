@@ -1,0 +1,16 @@
+Steps, impulses and an RLC circuit
+
+[0:00] In engineering a voltage is switched on or a short pulse arrives. Classical methods are awkward with such discontinuous sources, while the Laplace method handles them easily. In this part we treat steps, impulses and an RLC circuit.
+
+[0:17] The Heaviside function u of t minus c is zero before c and one after. The second shifting theorem: the transform of a function delayed by c is e to the minus c s times F. The transform of the Dirac impulse delta of t minus c is e to the minus c s. Convolution corresponds to the product of transforms.
+
+[0:41] An RLC circuit: inductance one, resistance two, capacitance zero point two. Ten volts are switched on at time zero. The charge satisfies q double prime plus two q prime plus five q equals ten, with zero initial conditions.
+
+[1:00] Q equals ten over s times s squared plus two s plus five. Partial fractions: two over s minus two times s plus two over s plus one squared plus four. We completed the square in the denominator because there are no real roots.
+
+[1:18] Back with the first shifting theorem: q equals two minus e to the minus t times two cosine two t plus sine two t. The impulse response, the original of the transfer function, is one half e to the minus t sine two t.
+
+[1:34] On the graph the charge tends to two coulombs, the capacitance times the voltage. On the way it overshoots slightly and settles with damped oscillations, because the characteristic roots are complex with negative real part.
+
+[1:50] Question: what is the original of e to the minus three s times capital F of s? Pause the video, choose your answer, then read the explanation and go back to the relevant part of the lesson if needed.
+

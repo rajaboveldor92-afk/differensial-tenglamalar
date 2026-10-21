@@ -1,0 +1,145 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.551
+Hello!
+
+2
+00:00:00.551 --> 00:00:09.644
+Today we study linear equations of second and higher order whose coefficients are constant numbers.
+
+3
+00:00:09.644 --> 00:00:16.257
+Such equations appear in electric circuits, springs and control systems.
+
+4
+00:00:16.257 --> 00:00:26.360
+By the end of the lesson you will be able to write the general solution of any such equation in a few minutes,
+
+5
+00:00:26.360 --> 00:00:29.942
+by solving just one algebraic equation.
+
+6
+00:00:30.192 --> 00:00:32.508
+The key idea is very simple.
+
+7
+00:00:32.508 --> 00:00:36.479
+We look for a solution of the form e to the r x.
+
+8
+00:00:36.479 --> 00:00:43.344
+Each derivative only adds a factor r: the first derivative is r times e to the r x,
+
+9
+00:00:43.344 --> 00:00:46.074
+the second is r squared times it.
+
+10
+00:00:46.074 --> 00:00:54.015
+Substituting into the equation and cancelling the non-zero exponential leaves a polynomial in r.
+
+11
+00:00:54.015 --> 00:00:57.158
+This is the characteristic polynomial.
+
+12
+00:00:57.408 --> 00:00:59.869
+Roots come in three kinds.
+
+13
+00:00:59.869 --> 00:01:04.223
+Each distinct real root gives one exponential.
+
+14
+00:01:04.223 --> 00:01:11.701
+A repeated root, say a double one, gives e to the r x and x times e to the r x.
+
+15
+00:01:11.701 --> 00:01:21.830
+A complex pair alpha plus or minus i beta gives e to the alpha x times cosine beta x and times sine beta x.
+
+16
+00:01:22.080 --> 00:01:27.585
+Example: y double prime minus two y prime plus five y equals zero,
+
+17
+00:01:27.585 --> 00:01:32.756
+with y of zero equal to one and y prime of zero equal to five.
+
+18
+00:01:32.756 --> 00:01:39.011
+The characteristic equation is r squared minus two r plus five equals zero.
+
+19
+00:01:39.011 --> 00:01:46.934
+The discriminant is negative, minus sixteen, so the roots are complex: one plus or minus two i.
+
+20
+00:01:47.184 --> 00:01:54.231
+So alpha is one and beta is two, and the general solution is e to the x times, in brackets,
+
+21
+00:01:54.231 --> 00:01:57.406
+C one cosine two x plus C two sine two x.
+
+22
+00:01:57.406 --> 00:02:05.537
+At x equal to zero the cosine is one and the sine is zero, so the first condition gives C one equals one.
+
+23
+00:02:05.537 --> 00:02:10.958
+For the second condition we first differentiate with the product rule.
+
+24
+00:02:11.208 --> 00:02:15.888
+The derivative at zero equals C one plus two C two.
+
+25
+00:02:15.888 --> 00:02:19.284
+It must be five, so C two equals two.
+
+26
+00:02:19.284 --> 00:02:25.983
+The answer is y equals e to the x times cosine two x plus two sine two x.
+
+27
+00:02:25.983 --> 00:02:34.334
+Check: substituting into the equation gives zero, and the initial values are right as well.
+
+28
+00:02:34.584 --> 00:02:35.986
+Look at the graph.
+
+29
+00:02:35.986 --> 00:02:39.646
+The first curve is our solution: it oscillates,
+
+30
+00:02:39.646 --> 00:02:44.786
+but its amplitude grows like e to the x because alpha is positive.
+
+31
+00:02:44.786 --> 00:02:53.352
+The second curve is the case of negative alpha, e to the minus x times cosine two x: the oscillation dies out.
+
+32
+00:02:53.352 --> 00:02:59.582
+The sign of alpha decides growth or decay, and beta sets how fast it oscillates.
+
+33
+00:02:59.832 --> 00:03:01.440
+Now test yourself.
+
+34
+00:03:01.440 --> 00:03:11.624
+Answer the question on the screen: which functions solve y double prime plus four y prime plus four y equals zero?
+
+35
+00:03:11.624 --> 00:03:18.682
+Write the characteristic polynomial and find its roots with their multiplicity.
+
+36
+00:03:18.682 --> 00:03:22.166
+Pause the video and choose your answer.

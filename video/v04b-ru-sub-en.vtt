@@ -1,0 +1,105 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.727
+In this part we look at the equation differently: M d x plus N d y equals zero.
+
+2
+00:00:06.727 --> 00:00:14.817
+If the left side is the total differential of some function U, the answer is simply U equals C.
+
+3
+00:00:14.817 --> 00:00:24.014
+We learn how to test this, how to recover U, and how to fix the equation with a factor when it is not exact.
+
+4
+00:00:24.264 --> 00:00:31.817
+If the x derivative of U is M and the y derivative is N, then since mixed partials agree,
+
+5
+00:00:31.817 --> 00:00:36.145
+the y derivative of M equals the x derivative of N.
+
+6
+00:00:36.145 --> 00:00:41.491
+On a simply connected region this condition is also sufficient.
+
+7
+00:00:41.491 --> 00:00:48.110
+So the first step is always the same: compute M sub y and N sub x and compare.
+
+8
+00:00:48.360 --> 00:00:57.993
+Example: two x y plus three x squared, d x, plus x squared plus two y, d y, equals zero.
+
+9
+00:00:57.993 --> 00:01:05.874
+The y derivative of M is two x, and the x derivative of N is also two x.
+
+10
+00:01:05.874 --> 00:01:08.063
+The condition holds.
+
+11
+00:01:08.063 --> 00:01:18.134
+Integrate M in x: x squared y plus x cubed plus h of y, where h is an unknown function of y.
+
+12
+00:01:18.384 --> 00:01:30.541
+To find h, differentiate U in y and set it equal to N: x squared plus h prime equals x squared plus two y.
+
+13
+00:01:30.541 --> 00:01:35.014
+So h prime is two y and h is y squared.
+
+14
+00:01:35.014 --> 00:01:41.552
+Answer: x squared y plus x cubed plus y squared equals C.
+
+15
+00:01:41.552 --> 00:01:46.598
+If x is left in h prime, there is a mistake.
+
+16
+00:01:46.848 --> 00:01:50.209
+What if the condition fails?
+
+17
+00:01:50.209 --> 00:01:57.052
+Take x squared plus y squared plus x, d x, plus x y, d y.
+
+18
+00:01:57.052 --> 00:02:01.134
+M sub y is two y and N sub x is y.
+
+19
+00:02:01.134 --> 00:02:10.498
+Dividing M sub y minus N sub x by N gives one over x, which depends on x only.
+
+20
+00:02:10.498 --> 00:02:15.180
+So mu equals e to the log x, that is x.
+
+21
+00:02:15.180 --> 00:02:20.702
+After multiplying, the equation becomes exact.
+
+22
+00:02:20.952 --> 00:02:28.608
+The graph shows the direction field of the first example and several integral curves.
+
+23
+00:02:28.608 --> 00:02:33.742
+Each curve is a level curve of U: U is constant along it.
+
+24
+00:02:33.742 --> 00:02:39.326
+Solving an exact equation means finding the level curves of U.
+
+25
+00:02:39.576 --> 00:02:46.492
+Check question: given the ratio on the screen, what is the integrating factor?
+
+26
+00:02:46.492 --> 00:02:49.862
+Do not forget to take the exponential.

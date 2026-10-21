@@ -1,0 +1,117 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.615
+To‘lqin, issiqlik va Laplas tenglamalari juda boshqacha yechimlarga ega.
+
+2
+00:00:06.615 --> 00:00:07.075
+Nega?
+
+3
+00:00:07.075 --> 00:00:12.771
+Javob ikkinchi tartibli hosilalar oldidagi koeffitsiyentlarda.
+
+4
+00:00:12.771 --> 00:00:21.132
+Bu qismda tenglamani qanday yozishni, diskriminantni hisoblashni va uch turni — giperbolik,
+
+5
+00:00:21.132 --> 00:00:25.358
+parabolik va elliptikni ajratishni o‘rganamiz.
+
+6
+00:00:25.608 --> 00:00:34.076
+Muhim kelishuv: biz tenglamani a u x x qo‘shuv ikki b u x y qo‘shuv c u y y deb yozamiz.
+
+7
+00:00:34.076 --> 00:00:37.348
+Aralash had oldida ikki b turibdi.
+
+8
+00:00:37.348 --> 00:00:40.716
+Diskriminant: b kvadrat ayiruv a c.
+
+9
+00:00:40.716 --> 00:00:47.355
+Ba’zi kitoblarda ikki yo‘q va b kvadrat ayiruv to‘rt a c ishlatiladi.
+
+10
+00:00:47.355 --> 00:00:51.974
+Ishora bir xil, lekin yozuvlarni aralashtirmang!
+
+11
+00:00:52.224 --> 00:00:59.735
+Diskriminant musbat bo‘lsa, tenglama giperbolik, namunasi to‘lqin tenglamasi.
+
+12
+00:00:59.735 --> 00:01:04.808
+Nol bo‘lsa, parabolik, namunasi issiqlik tenglamasi.
+
+13
+00:01:04.808 --> 00:01:09.881
+Manfiy bo‘lsa, elliptik, namunasi Laplas tenglamasi.
+
+14
+00:01:09.881 --> 00:01:17.587
+Bu ikkinchi tartibli egri chiziqlar: giperbola, parabola va ellipsga o‘xshaydi.
+
+15
+00:01:17.587 --> 00:01:21.782
+Quyi tartibli hadlar turga ta’sir qilmaydi.
+
+16
+00:01:22.032 --> 00:01:28.572
+Misol: u x x qo‘shuv ikki u x y qo‘shuv ikki u y y teng nol.
+
+17
+00:01:28.572 --> 00:01:36.638
+Aralash had koeffitsiyenti ikki, demak ikki b teng ikki, ya’ni b teng bir.
+
+18
+00:01:36.638 --> 00:01:39.254
+a teng bir, c teng ikki.
+
+19
+00:01:39.504 --> 00:01:44.140
+Diskriminant: bir ayiruv ikki, teng minus bir.
+
+20
+00:01:44.140 --> 00:01:47.365
+Manfiy, demak tenglama elliptik.
+
+21
+00:01:47.365 --> 00:01:58.249
+Agar xato qilib b ni ikki desangiz, to‘rt ayiruv ikki musbat chiqadi va noto‘g‘ri “giperbolik” javob olasiz.
+
+22
+00:01:58.249 --> 00:02:04.598
+Shuning uchun har doim aralash koeffitsiyentning yarmini oling.
+
+23
+00:02:04.848 --> 00:02:10.755
+Koeffitsiyentlar o‘zgaruvchan bo‘lsa, tur sohaga bog‘liq.
+
+24
+00:02:10.755 --> 00:02:16.663
+Trikomi tenglamasi: y karra u x x qo‘shuv u y y teng nol.
+
+25
+00:02:16.663 --> 00:02:18.839
+Diskriminant minus y.
+
+26
+00:02:18.839 --> 00:02:30.136
+Grafikda chiziq y teng nol: undan yuqorida tenglama elliptik, pastda giperbolik, chiziqning o‘zida parabolik.
+
+27
+00:02:30.136 --> 00:02:35.318
+Bu tovushdan tez va sekin gaz oqimining chegarasi.
+
+28
+00:02:35.568 --> 00:02:42.456
+O‘zingizni tekshiring: ekrandagi tenglamada b nimaga teng va tenglama qaysi turga tegishli?
+
+29
+00:02:42.456 --> 00:02:46.694
+Avval aralash koeffitsiyentni ikkiga bo‘lishni unutmang.

@@ -1,0 +1,18 @@
+Variation of parameters
+
+[0:00] Last lesson’s method only worked for exponentials, polynomials, sines and cosines. But what if the right side is one over cosine x, or tangent x? Today we learn a universal method, variation of parameters. It works for any continuous right side and even for variable coefficients.
+
+[0:22] The idea: turn the constants in the homogeneous solution C one y one plus C two y two into functions of x. Two unknown functions allow two conditions. The first: C one prime y one plus C two prime y two equals zero. The second comes from the equation: C one prime y one prime plus C two prime y two prime equals f.
+
+[0:48] The determinant of this system is the Wronskian, which is non-zero. By Cramer’s rule, C one prime equals minus y two f over W, and C two prime equals y one f over W. An important warning: these formulas hold only when the coefficient of y double prime is one. Otherwise divide the equation by it first.
+
+[1:11] Example: y double prime plus y equals one over cosine x, on the interval from minus pi over two to pi over two. The homogeneous solutions are cosine x and sine x, and the Wronskian is cosine squared plus sine squared, which is one. Very convenient.
+
+[1:33] C one prime equals minus sine x over cosine x, whose integral is the natural log of cosine x; on this interval the cosine is positive. C two prime equals cosine over cosine, which is one, with integral x. The particular solution is cosine x times log cosine x plus x sine x.
+
+[1:57] Why does normalising matter? Take x squared y double prime minus two x y prime plus two y equals x cubed. Dividing by x squared gives f equal to x, not x cubed. The correct computation gives x cubed over two. If we forget to divide, we get x to the fifth over twelve, which does not solve the equation.
+
+[2:22] The graph shows the particular solution cosine x times log cosine x plus x sine x. As x approaches pi over two the force grows without bound, but the solution itself stays bounded. The solution lives only on the interval containing the initial point, from minus pi over two to pi over two.
+
+[2:44] Question: what is C two prime for y double prime plus y equals tangent x? Remember that y one is cosine x and the Wronskian is one, and substitute into the formula. Pause the video and choose your answer.
+

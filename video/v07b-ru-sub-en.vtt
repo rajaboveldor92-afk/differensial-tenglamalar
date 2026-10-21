@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.425
+To build a general solution from two solutions, they must be linearly independent.
+
+2
+00:00:06.425 --> 00:00:10.108
+A convenient test is the Wronskian determinant.
+
+3
+00:00:10.108 --> 00:00:18.806
+But it must be used with care: the conclusions differ for arbitrary functions and for solutions of an equation.
+
+4
+00:00:19.056 --> 00:00:26.472
+For two functions the Wronskian is y one times y two prime minus y one prime times y two.
+
+5
+00:00:26.472 --> 00:00:33.804
+If the functions are dependent on an interval, the Wronskian vanishes identically there.
+
+6
+00:00:33.804 --> 00:00:41.303
+So if the Wronskian is nonzero at even one point, the functions are certainly independent.
+
+7
+00:00:41.303 --> 00:00:49.718
+For example, for e to the x, e to the two x and e to the three x the Wronskian is two e to the six x.
+
+8
+00:00:49.968 --> 00:00:56.858
+Now a cautionary example: x squared and x times the absolute value of x,
+
+9
+00:00:56.858 --> 00:01:00.495
+on the interval from minus one to one.
+
+10
+00:01:00.495 --> 00:01:09.681
+For positive x both functions equal x squared; for negative x the second equals minus x squared.
+
+11
+00:01:09.681 --> 00:01:15.806
+In both cases the Wronskian is zero, so it vanishes identically.
+
+12
+00:01:16.056 --> 00:01:17.948
+But are they dependent?
+
+13
+00:01:17.948 --> 00:01:24.694
+Suppose alpha one x squared plus alpha two x times absolute x is identically zero.
+
+14
+00:01:24.694 --> 00:01:31.522
+At x equals one half, alpha one plus alpha two is zero; at x equals minus one half,
+
+15
+00:01:31.522 --> 00:01:34.319
+alpha one minus alpha two is zero.
+
+16
+00:01:34.319 --> 00:01:39.091
+So both alphas are zero and the functions are independent!
+
+17
+00:01:39.091 --> 00:01:45.590
+Conclusion: for arbitrary functions a zero Wronskian does not imply dependence.
+
+18
+00:01:45.840 --> 00:01:49.628
+For solutions the situation is different.
+
+19
+00:01:49.628 --> 00:01:57.575
+If y one and y two solve one linear homogeneous equation with continuous coefficients,
+
+20
+00:01:57.575 --> 00:02:02.287
+the Wronskian is either zero everywhere or nowhere.
+
+21
+00:02:02.287 --> 00:02:11.989
+The Abel–Liouville formula shows it: W equals W at the starting point times e to the minus integral of p,
+
+22
+00:02:11.989 --> 00:02:15.038
+and an exponential is never zero.
+
+23
+00:02:15.288 --> 00:02:19.646
+The graph shows x squared and x times absolute x.
+
+24
+00:02:19.646 --> 00:02:25.250
+On the right they coincide, on the left they are mirror images.
+
+25
+00:02:25.250 --> 00:02:32.366
+No single constant factor works on both sides, so the functions are independent.
+
+26
+00:02:32.616 --> 00:02:39.099
+n independent solutions of an n-th order equation form a fundamental set.
+
+27
+00:02:39.099 --> 00:02:45.405
+Every solution of the homogeneous equation is their linear combination.
+
+28
+00:02:45.405 --> 00:02:54.375
+The general solution of the nonhomogeneous equation is that combination plus one particular solution.
+
+29
+00:02:54.375 --> 00:03:01.214
+For y double prime plus y equals x it is C one cos x plus C two sin x plus x.
+
+30
+00:03:01.464 --> 00:03:10.196
+Check yourself: what can be said if the Wronskian of two arbitrary functions is identically zero?
+
+31
+00:03:10.196 --> 00:03:11.726
+Choose an answer.

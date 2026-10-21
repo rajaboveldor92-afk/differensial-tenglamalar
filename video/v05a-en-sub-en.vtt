@@ -1,0 +1,109 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.872
+Hello!
+
+2
+00:00:01.872 --> 00:00:06.888
+Today we look at equations in which the derivative is not given explicitly,
+
+3
+00:00:06.888 --> 00:00:10.536
+for example y prime squared equals four.
+
+4
+00:00:10.536 --> 00:00:15.648
+For such an equation several integral curves can pass through one point.
+
+5
+00:00:15.648 --> 00:00:22.334
+By the end you will know two techniques: solving for the derivative, and introducing a parameter.
+
+6
+00:00:22.584 --> 00:00:25.176
+Denote the derivative by p.
+
+7
+00:00:25.176 --> 00:00:29.712
+The equation reads F of x, y, p equals zero.
+
+8
+00:00:29.712 --> 00:00:35.064
+If F is a polynomial in p, its degree is the degree of the equation.
+
+9
+00:00:35.064 --> 00:00:40.670
+If p has several roots at a point, each root gives its own integral curve.
+
+10
+00:00:40.920 --> 00:00:48.528
+Example: y prime squared, minus x plus y times y prime, plus x y, equals zero.
+
+11
+00:00:48.528 --> 00:00:54.648
+This is a quadratic in p, and it factors as p minus x times p minus y.
+
+12
+00:00:54.648 --> 00:01:01.934
+So the equation splits into two simple ones: y prime equals x, or y prime equals y.
+
+13
+00:01:02.184 --> 00:01:06.816
+From the first, y equals one half x squared plus C.
+
+14
+00:01:06.816 --> 00:01:11.016
+From the second, y equals C times e to the x.
+
+15
+00:01:11.016 --> 00:01:14.928
+The general integral is the union of both families.
+
+16
+00:01:14.928 --> 00:01:22.526
+Check: in the first family p equals x, in the second p equals y, so the product is zero.
+
+17
+00:01:22.776 --> 00:01:27.312
+If solving for the derivative is hard, take p as a parameter.
+
+18
+00:01:27.312 --> 00:01:31.344
+For example, x equals p cubed plus p.
+
+19
+00:01:31.344 --> 00:01:38.832
+Then dx equals three p squared plus one, times dp, and dy equals p times dx.
+
+20
+00:01:38.832 --> 00:01:45.494
+Integrating, y equals three quarters p to the fourth plus one half p squared plus C.
+
+21
+00:01:45.744 --> 00:01:48.384
+The answer is parametric.
+
+22
+00:01:48.384 --> 00:01:55.752
+Check: dividing dy by dp by dx by dp gives p, so y prime really equals p.
+
+23
+00:01:55.752 --> 00:02:02.030
+Remember the key formula: dy equals p dx, not the other way round.
+
+24
+00:02:02.280 --> 00:02:10.728
+The graph shows three curves of the family y equals one half x squared and two curves of the family y equals C e to the x.
+
+25
+00:02:10.728 --> 00:02:16.598
+They touch each other on the line y equals x, where the two roots coincide.
+
+26
+00:02:16.848 --> 00:02:19.080
+Now check yourself.
+
+27
+00:02:19.080 --> 00:02:22.502
+Read the question and choose an answer.

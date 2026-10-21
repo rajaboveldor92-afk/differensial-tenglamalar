@@ -1,0 +1,16 @@
+Sistemalar: matritsa ko‘rinishi va yo‘qotish usuli
+
+[0:00] Real jarayonlarda bir nechta kattalik bir-biriga ta’sir qiladi: ikki xonaning harorati, yirtqich va o‘lja soni, zaif va zararlangan kompyuterlar. Bu darsda bunday sistemalarni matritsa ko‘rinishida yozamiz va o‘zgaruvchilarni yo‘qotish usuli bilan yechamiz.
+
+[0:20] Normal sistemada har bir noma’lumning hosilasi qolganlar orqali ifodalanadi. Chiziqli holda koeffitsiyentlarni A matritsaga yig‘amiz va X shtrix teng A X plyus F deb yozamiz. n tartibli tenglama ham sistemaga aylanadi: y, y shtrix va hokazolarni yangi noma’lumlar deb olamiz.
+
+[0:42] Misol: x shtrix teng ikki x plyus y, y shtrix teng uch x plyus to‘rt y. Birinchi tenglamadan y teng x shtrix minus ikki x. Birinchi tenglamani differensiallaymiz va y shtrix o‘rniga ikkinchi tenglamani qo‘yamiz.
+
+[1:02] Natijada x ikki shtrix minus olti x shtrix plyus besh x teng nol. Xarakteristik ildizlar bir va besh. Demak x teng C bir e daraja t plyus C ikki e daraja besh t.
+
+[1:17] y ni integrallamaymiz, balki y teng x shtrix minus ikki x formulaga qo‘yamiz: y teng minus C bir e daraja t plyus uch C ikki e daraja besh t. Ortiqcha o‘zgarmas paydo bo‘lmadi: ikki noma’lumli sistemada aynan ikkita o‘zgarmas bor.
+
+[1:37] Boshlang‘ich shartlar x nolda bir, y nolda yetti bo‘lsa, C bir minus bir, C ikki ikki. Grafikda x va y vaqt bo‘yicha: ikkalasi ham e daraja besh t kabi tez o‘sadi, chunki eng katta ildiz besh.
+
+[1:54] Savol: uchinchi tartibli tenglamani normal sistemaga keltirganda nechta birinchi tartibli tenglama hosil bo‘ladi? Videoni to‘xtating, javobni o‘zingiz tanlang, so‘ng izohni o‘qing va kerak bo‘lsa darsning tegishli qismiga qayting.
+

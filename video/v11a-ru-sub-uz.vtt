@@ -1,0 +1,105 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.040
+Ko‘p differensial tenglamalarni formulalar bilan yechib bo‘lmaydi.
+
+2
+00:00:06.040 --> 00:00:10.523
+Masalan, y shtrix teng x kvadrat plyus y kvadrat.
+
+3
+00:00:10.523 --> 00:00:17.478
+Bu darsda yechimni sonlar jadvali ko‘rinishida taqribiy topishni o‘rganamiz.
+
+4
+00:00:17.478 --> 00:00:20.132
+Eng sodda usul — Eyler usuli.
+
+5
+00:00:20.132 --> 00:00:24.158
+Uning qanchalik aniq ekanini ham o‘lchaymiz.
+
+6
+00:00:24.408 --> 00:00:30.762
+Boshlang‘ich nuqtada og‘ish ma’lum: u f ning shu nuqtadagi qiymati.
+
+7
+00:00:30.762 --> 00:00:37.780
+Urinma bo‘ylab qisqa h qadam yuramiz: yangi y teng eski y plyus h karra f.
+
+8
+00:00:37.780 --> 00:00:41.573
+Keyin yangi nuqtadan yana shunday qadam.
+
+9
+00:00:41.573 --> 00:00:46.694
+Nuqtalarni tutashtirsak, Eyler siniq chizig‘i chiqadi.
+
+10
+00:00:46.944 --> 00:00:54.555
+Masala: y shtrix teng x plyus y, y nolda bir, qadam nol butun o‘ndan bir.
+
+11
+00:00:54.555 --> 00:01:02.270
+Birinchi qadam: f nol va birda bir, demak y bir teng bir butun o‘ndan bir.
+
+12
+00:01:02.520 --> 00:01:10.664
+Ikkinchi qadam: og‘ish nol butun o‘ndan bir plyus bir butun o‘ndan bir, ya’ni bir butun o‘ndan ikki.
+
+13
+00:01:10.664 --> 00:01:14.085
+y ikki teng bir butun yuzdan yigirma ikki.
+
+14
+00:01:14.085 --> 00:01:22.718
+Shu tarzda besh qadamdan keyin, x nol butun o‘ndan beshda, taxminan bir butun yuzdan yetmish ikki chiqadi.
+
+15
+00:01:22.968 --> 00:01:27.845
+Aniq yechim y teng ikki e daraja x minus x minus bir,
+
+16
+00:01:27.845 --> 00:01:35.115
+x nol butun o‘ndan beshda u taxminan bir butun mingdan yetti yuz to‘qson yetti.
+
+17
+00:01:35.115 --> 00:01:37.600
+Xato taxminan yuzdan yetti.
+
+18
+00:01:37.600 --> 00:01:47.078
+Qadamni ikki marta kichraytirsak, xato ham taxminan ikki marta kamayadi: bu birinchi tartib, O katta h.
+
+19
+00:01:47.328 --> 00:01:53.347
+Grafikda yo‘nalish maydoni va nol, bir nuqtadan o‘tuvchi aniq integral chiziq.
+
+20
+00:01:53.347 --> 00:02:00.986
+Eyler siniq chizig‘i qavariq egri chiziqning urinmalari bo‘ylab ketadi va doim undan pastda qoladi.
+
+21
+00:02:00.986 --> 00:02:08.163
+Lokal xato bir qadamda h kvadratga proporsional, lekin qadamlar soni bir bo‘lingan h ga teng,
+
+22
+00:02:08.163 --> 00:02:11.558
+shuning uchun global xato h ga proporsional.
+
+23
+00:02:11.808 --> 00:02:14.168
+Endi o‘zingizni tekshiring.
+
+24
+00:02:14.168 --> 00:02:21.161
+Qadamni ikki marta kamaytirganda Eyler usulining global xatosi qanday o‘zgaradi?
+
+25
+00:02:21.161 --> 00:02:25.095
+Videoni to‘xtating, javobni o‘zingiz tanlang,
+
+26
+00:02:25.095 --> 00:02:31.214
+so‘ng izohni o‘qing va kerak bo‘lsa darsning tegishli qismiga qayting.

@@ -1,0 +1,121 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.672
+O‘tgan darsdagi usul faqat eksponenta, ko‘phad, sinus va kosinus uchun ishlardi.
+
+2
+00:00:06.672 --> 00:00:12.336
+Ammo o‘ng tomon bir bo‘lingan kosinus iks yoki tangens iks bo‘lsa-chi?
+
+3
+00:00:12.336 --> 00:00:17.904
+Bugun universal usulni o‘rganamiz: o‘zgarmaslarni variatsiyalash.
+
+4
+00:00:17.904 --> 00:00:24.974
+U har qanday uzluksiz o‘ng tomon va hatto o‘zgaruvchan koeffitsiyentlar uchun ishlaydi.
+
+5
+00:00:25.224 --> 00:00:34.392
+G‘oya: bir jinsli yechim C bir y bir plyus C ikki y ikki dagi o‘zgarmaslarni iks ning funksiyalariga aylantiramiz.
+
+6
+00:00:34.392 --> 00:00:38.448
+Ikki noma’lum funksiya uchun ikki shart qo‘yamiz.
+
+7
+00:00:38.448 --> 00:00:44.520
+Birinchisi: C bir shtrix y bir plyus C ikki shtrix y ikki teng nol.
+
+8
+00:00:44.520 --> 00:00:53.294
+Ikkinchisi tenglamadan kelib chiqadi: C bir shtrix y bir shtrix plyus C ikki shtrix y ikki shtrix teng f.
+
+9
+00:00:53.544 --> 00:00:58.464
+Bu sistemaning determinanti Vronskian, u noldan farqli.
+
+10
+00:00:58.464 --> 00:01:07.896
+Kramer qoidasi bilan: C bir shtrix teng minus y ikki f bo‘lingan W, C ikki shtrix teng y bir f bo‘lingan W.
+
+11
+00:01:07.896 --> 00:01:16.344
+Muhim ogohlantirish: bu formulalar faqat y ikki shtrix oldidagi koeffitsiyent birga teng bo‘lganda to‘g‘ri.
+
+12
+00:01:16.344 --> 00:01:20.462
+Aks holda avval tenglamani unga bo‘ling.
+
+13
+00:01:20.712 --> 00:01:29.232
+Misol: y ikki shtrix plyus y teng bir bo‘lingan kosinus iks, minus pi yarimdan pi yarimgacha oraliqda.
+
+14
+00:01:29.232 --> 00:01:37.560
+Bir jinsli yechimlar kosinus iks va sinus iks, Vronskian kosinus kvadrat plyus sinus kvadrat, ya’ni bir.
+
+15
+00:01:37.560 --> 00:01:39.854
+Juda qulay.
+
+16
+00:01:40.104 --> 00:01:45.168
+C bir shtrix teng minus sinus iks bo‘lingan kosinus iks,
+
+17
+00:01:45.168 --> 00:01:51.336
+integrali natural logarifm kosinus iks; bu oraliqda kosinus musbat.
+
+18
+00:01:51.336 --> 00:01:57.336
+C ikki shtrix teng kosinus bo‘lingan kosinus, ya’ni bir, integrali iks.
+
+19
+00:01:57.336 --> 00:02:04.238
+Xususiy yechim: kosinus iks marta logarifm kosinus iks plyus iks sinus iks.
+
+20
+00:02:04.488 --> 00:02:07.392
+Normallashtirish nega muhim?
+
+21
+00:02:07.392 --> 00:02:15.528
+Iks kvadrat y ikki shtrix minus ikki iks y shtrix plyus ikki y teng iks kub tenglamani oling.
+
+22
+00:02:15.528 --> 00:02:20.016
+Iks kvadratga bo‘lsak, f teng iks, iks kub emas.
+
+23
+00:02:20.016 --> 00:02:23.928
+To‘g‘ri hisob iks kub bo‘lingan ikkini beradi.
+
+24
+00:02:23.928 --> 00:02:32.246
+Agar bo‘lishni unutsak, iks beshinchi daraja bo‘lingan o‘n ikki chiqadi va u tenglamani qanoatlantirmaydi.
+
+25
+00:02:32.496 --> 00:02:40.176
+Grafikda xususiy yechim kosinus iks marta logarifm kosinus iks plyus iks sinus iks ko‘rsatilgan.
+
+26
+00:02:40.176 --> 00:02:47.304
+Iks pi yarimga yaqinlashganda kuch cheksiz o‘sadi, lekin yechimning o‘zi chegaralangan qoladi.
+
+27
+00:02:47.304 --> 00:02:55.526
+Yechim faqat boshlang‘ich nuqtani o‘z ichiga olgan oraliqda, ya’ni minus pi yarimdan pi yarimgacha mavjud.
+
+28
+00:02:55.776 --> 00:03:02.736
+Savol: y ikki shtrix plyus y teng tangens iks uchun C ikki shtrix nimaga teng?
+
+29
+00:03:02.736 --> 00:03:08.784
+Y bir kosinus iks, Vronskian bir ekanini eslang va formulaga qo‘ying.
+
+30
+00:03:08.784 --> 00:03:12.614
+Videoni to‘xtatib, javobni tanlang.

@@ -1,0 +1,89 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.376
+This is a supplementary module; it is not part of the approved lecture hours,
+
+2
+00:00:05.376 --> 00:00:09.144
+but the syllabus needs it for independent tasks.
+
+3
+00:00:09.144 --> 00:00:14.448
+The Laplace transform turns a differential equation into an algebraic one.
+
+4
+00:00:14.448 --> 00:00:20.534
+Today we cover the definition, the table and solving an initial value problem.
+
+5
+00:00:20.784 --> 00:00:28.464
+Capital F of s is the integral from zero to infinity of e to the minus s t times f of t, d t.
+
+6
+00:00:28.464 --> 00:00:34.896
+For the integral to exist it is enough that f is piecewise continuous and of exponential order.
+
+7
+00:00:34.896 --> 00:00:42.446
+For example, the transform of e to the a t is one over s minus a, for s greater than a.
+
+8
+00:00:42.696 --> 00:00:48.672
+The key property: the transform of a derivative is s times Y minus y of zero.
+
+9
+00:00:48.672 --> 00:00:55.104
+For the second derivative: s squared Y minus s y of zero minus y prime of zero.
+
+10
+00:00:55.104 --> 00:01:01.368
+Problem: y double prime minus three y prime plus two y equals e to the three t,
+
+11
+00:01:01.368 --> 00:01:06.854
+with y of zero equal to one and y prime of zero equal to zero.
+
+12
+00:01:07.104 --> 00:01:14.880
+We find Y: numerator s squared minus six s plus ten, denominator the product of s minus one,
+
+13
+00:01:14.880 --> 00:01:18.096
+s minus two and s minus three.
+
+14
+00:01:18.096 --> 00:01:25.214
+Split into partial fractions: the coefficients are five halves, minus two and one half.
+
+15
+00:01:25.464 --> 00:01:33.384
+Back through the table: y equals five halves e to the t minus two e to the two t plus one half e to the three t.
+
+16
+00:01:33.384 --> 00:01:39.432
+Check: at t equal to zero, five halves minus two plus one half gives one.
+
+17
+00:01:39.432 --> 00:01:43.118
+We never had to find constants separately.
+
+18
+00:01:43.368 --> 00:01:49.392
+The graph shows the solution: it starts at y equal to one with a horizontal tangent,
+
+19
+00:01:49.392 --> 00:01:54.710
+then the e to the three t term dominates and the solution grows fast.
+
+20
+00:01:54.960 --> 00:01:59.136
+Question: what is the Laplace transform of y prime?
+
+21
+00:01:59.136 --> 00:02:02.184
+Pause the video, choose your answer,
+
+22
+00:02:02.184 --> 00:02:07.862
+then read the explanation and go back to the relevant part of the lesson if needed.

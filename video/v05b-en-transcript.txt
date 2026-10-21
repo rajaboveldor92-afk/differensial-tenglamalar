@@ -1,0 +1,16 @@
+Lagrange, Clairaut and singular solutions
+
+[0:00] In this part we meet two famous equations, Lagrange’s and Clairaut’s. Clairaut’s equation produces a family of straight lines and one special curve. You will also learn what must be checked before calling a candidate a singular solution.
+
+[0:16] Lagrange’s equation: y equals x times phi of p plus psi of p. Differentiating gives a linear equation for x as a function of p. If phi of p equals p, we get Clairaut’s equation: y equals x p plus psi of p.
+
+[0:34] Example: y equals x y prime minus y prime squared. Differentiate: p equals p plus x minus two p, times p prime. So x minus two p, times p prime, equals zero. There are two cases.
+
+[0:52] Case one: p prime is zero, so p equals C. The general solution is a family of lines: y equals C x minus C squared. Case two: x equals two p, so p equals x over two. Substituting gives y equals x squared over four. This is the singular solution.
+
+[1:16] The graph shows the parabola y equals x squared over four and the lines for several values of C. Each line touches the parabola at x equals two C. The parabola is the envelope of the family. Through each of its points pass two solutions with the same slope, so uniqueness fails.
+
+[1:37] A singular solution always lies on the p-discriminant curve, where F is zero and the derivative of F with respect to p is zero. But the converse is false! For y equals two x y prime minus y prime squared the discriminant curve is y equals x squared, which is not a solution at all. So always check: is it a solution, and does uniqueness fail at each of its points?
+
+[2:05] Check yourself: which statement about the p-discriminant curve is true?
+

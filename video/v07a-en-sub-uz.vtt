@@ -1,0 +1,109 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.443
+Salom!
+
+2
+00:00:00.443 --> 00:00:05.317
+Tashqi manbasiz elektr zanjirida ikki xil tebranish rejimi bo‘lsa,
+
+3
+00:00:05.317 --> 00:00:09.231
+ularning yig‘indisi ham mumkin bo‘lgan rejim bo‘ladi.
+
+4
+00:00:09.231 --> 00:00:13.662
+Bu chiziqli tenglamalarning asosiy xossasi — superpozitsiya.
+
+5
+00:00:13.662 --> 00:00:19.718
+Bugun uni aniq ta’riflaymiz va yechim mavjud bo‘lgan oraliqni topishni o‘rganamiz.
+
+6
+00:00:19.968 --> 00:00:23.668
+Chiziqli tenglamani L y teng f ko‘rinishida yozamiz,
+
+7
+00:00:23.668 --> 00:00:30.499
+bunda L — y ning n-hosilasi va undan past hosilalarning x ga bog‘liq koeffitsiyentli yig‘indisi.
+
+8
+00:00:30.499 --> 00:00:36.975
+L chiziqli: ikki funksiya kombinatsiyasiga ta’siri natijalarning shu kombinatsiyasiga teng.
+
+9
+00:00:36.975 --> 00:00:43.094
+f nol bo‘lsa, tenglama bir jinsli deyiladi — bu “bir jinsli” so‘zining boshqa ma’nosi.
+
+10
+00:00:43.344 --> 00:00:48.754
+Misol: x kvadrat y ikki shtrix minus ikki y teng nol, x musbat.
+
+11
+00:00:48.754 --> 00:00:53.734
+x kvadrat yechim: ikki x kvadrat minus ikki x kvadrat nol.
+
+12
+00:00:53.734 --> 00:01:03.180
+Bir bo‘lingan x ham yechim: x kvadrat ko‘paytirilgan ikki bo‘lingan x kub, minus ikki bo‘lingan x, nolga teng.
+
+13
+00:01:03.180 --> 00:01:09.878
+Superpozitsiya bo‘yicha C bir x kvadrat qo‘shuv C ikki bo‘lingan x ham yechim.
+
+14
+00:01:10.128 --> 00:01:15.528
+Endi y birda bir, y shtrix birda besh shartlarini qo‘yamiz.
+
+15
+00:01:15.528 --> 00:01:21.478
+C bir qo‘shuv C ikki teng bir, ikki C bir minus C ikki teng besh.
+
+16
+00:01:21.478 --> 00:01:27.519
+Qo‘shsak, uch C bir teng olti, demak C bir ikki, C ikki minus bir.
+
+17
+00:01:27.519 --> 00:01:32.187
+Javob: y teng ikki x kvadrat minus bir bo‘lingan x.
+
+18
+00:01:32.187 --> 00:01:37.862
+Sistemaning determinanti minus uch — bu Vronskianning qiymati.
+
+19
+00:01:38.112 --> 00:01:45.880
+Chiziqli tenglama uchun muhim natija: agar koeffitsiyentlar va o‘ng tomon oraliqda uzluksiz bo‘lsa,
+
+20
+00:01:45.880 --> 00:01:50.823
+Koshi masalasining yechimi butun shu oraliqda mavjud va yagona.
+
+21
+00:01:50.823 --> 00:01:57.178
+Shuning uchun avval bosh koeffitsiyentga bo‘lamiz va uzilish nuqtalarini topamiz.
+
+22
+00:01:57.178 --> 00:02:02.514
+Masalan, x kvadrat minus to‘rt, ko‘paytirilgan y ikki shtrix bo‘lsa,
+
+23
+00:02:02.514 --> 00:02:05.966
+x teng ikki va minus ikki — xavfli nuqtalar.
+
+24
+00:02:06.216 --> 00:02:16.938
+Grafikda ikki fundamental yechim — x kvadrat va bir bo‘lingan x — hamda topilgan yechim ikki x kvadrat minus bir bo‘lingan x ko‘rsatilgan.
+
+25
+00:02:16.938 --> 00:02:25.406
+Uchinchi egri chiziq birinchi ikkitasining chiziqli kombinatsiyasi va x teng birda qiymati bir, og‘ishi besh.
+
+26
+00:02:25.656 --> 00:02:31.211
+O‘zingizni tekshiring: superpozitsiya qaysi tenglamalar uchun to‘g‘ri?
+
+27
+00:02:31.211 --> 00:02:33.830
+Javobni tanlang va izohni o‘qing.

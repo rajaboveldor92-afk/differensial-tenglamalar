@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.960
+Last lesson’s method only worked for exponentials, polynomials, sines and cosines.
+
+2
+00:00:06.960 --> 00:00:11.880
+But what if the right side is one over cosine x, or tangent x?
+
+3
+00:00:11.880 --> 00:00:16.608
+Today we learn a universal method, variation of parameters.
+
+4
+00:00:16.608 --> 00:00:22.502
+It works for any continuous right side and even for variable coefficients.
+
+5
+00:00:22.752 --> 00:00:30.864
+The idea: turn the constants in the homogeneous solution C one y one plus C two y two into functions of x.
+
+6
+00:00:30.864 --> 00:00:34.392
+Two unknown functions allow two conditions.
+
+7
+00:00:34.392 --> 00:00:40.200
+The first: C one prime y one plus C two prime y two equals zero.
+
+8
+00:00:40.200 --> 00:00:48.014
+The second comes from the equation: C one prime y one prime plus C two prime y two prime equals f.
+
+9
+00:00:48.264 --> 00:00:53.016
+The determinant of this system is the Wronskian, which is non-zero.
+
+10
+00:00:53.016 --> 00:01:01.584
+By Cramer’s rule, C one prime equals minus y two f over W, and C two prime equals y one f over W.
+
+11
+00:01:01.584 --> 00:01:07.872
+An important warning: these formulas hold only when the coefficient of y double prime is one.
+
+12
+00:01:07.872 --> 00:01:11.702
+Otherwise divide the equation by it first.
+
+13
+00:01:11.952 --> 00:01:17.160
+Example: y double prime plus y equals one over cosine x,
+
+14
+00:01:17.160 --> 00:01:21.432
+on the interval from minus pi over two to pi over two.
+
+15
+00:01:21.432 --> 00:01:29.232
+The homogeneous solutions are cosine x and sine x, and the Wronskian is cosine squared plus sine squared,
+
+16
+00:01:29.232 --> 00:01:31.128
+which is one.
+
+17
+00:01:31.128 --> 00:01:33.686
+Very convenient.
+
+18
+00:01:33.936 --> 00:01:38.376
+C one prime equals minus sine x over cosine x,
+
+19
+00:01:38.376 --> 00:01:44.880
+whose integral is the natural log of cosine x; on this interval the cosine is positive.
+
+20
+00:01:44.880 --> 00:01:50.856
+C two prime equals cosine over cosine, which is one, with integral x.
+
+21
+00:01:50.856 --> 00:01:57.494
+The particular solution is cosine x times log cosine x plus x sine x.
+
+22
+00:01:57.744 --> 00:02:00.360
+Why does normalising matter?
+
+23
+00:02:00.360 --> 00:02:06.792
+Take x squared y double prime minus two x y prime plus two y equals x cubed.
+
+24
+00:02:06.792 --> 00:02:11.856
+Dividing by x squared gives f equal to x, not x cubed.
+
+25
+00:02:11.856 --> 00:02:15.912
+The correct computation gives x cubed over two.
+
+26
+00:02:15.912 --> 00:02:22.718
+If we forget to divide, we get x to the fifth over twelve, which does not solve the equation.
+
+27
+00:02:22.968 --> 00:02:29.832
+The graph shows the particular solution cosine x times log cosine x plus x sine x.
+
+28
+00:02:29.832 --> 00:02:36.576
+As x approaches pi over two the force grows without bound, but the solution itself stays bounded.
+
+29
+00:02:36.576 --> 00:02:44.414
+The solution lives only on the interval containing the initial point, from minus pi over two to pi over two.
+
+30
+00:02:44.664 --> 00:02:50.448
+Question: what is C two prime for y double prime plus y equals tangent x?
+
+31
+00:02:50.448 --> 00:02:57.120
+Remember that y one is cosine x and the Wronskian is one, and substitute into the formula.
+
+32
+00:02:57.120 --> 00:03:00.446
+Pause the video and choose your answer.
