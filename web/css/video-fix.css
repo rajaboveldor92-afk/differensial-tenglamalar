@@ -59,6 +59,47 @@
   margin-top: 1em;
 }
 
+/* Full-lesson prose slides: short chunks, readable formulas, no controls/buttons. */
+.slide-prose {
+  overflow: hidden;
+}
+.slide-prose .slide-kicker {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-size: .62em;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--teal);
+  font-weight: 700;
+}
+.slide-prose-title {
+  margin: 0 0 16px;
+  font-size: 1.05em;
+  line-height: 1.25;
+}
+.slide-prose-body {
+  font-size: .78em;
+  line-height: 1.42;
+  max-height: 470px;
+  overflow: hidden;
+}
+.slide-prose-body p {
+  margin: .35em 0 .7em;
+}
+.slide-prose-body .katex-display {
+  margin: .45em 0;
+  font-size: 1.08em;
+}
+.slide-prose-body ul,
+.slide-prose-body ol {
+  margin: .35em 0;
+  padding-left: 1.4em;
+}
+.slide-prose .btn,
+.slide-prose .blk-actions {
+  display: none !important;
+}
+
 /* Keep the separate subtitle strip when the player is fullscreen too. */
 .player:fullscreen .player-stage {
   margin-bottom: 3.6rem;
