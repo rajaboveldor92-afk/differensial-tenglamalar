@@ -8,6 +8,10 @@ on:
     paths:
       - '.github/workflows/rebuild-revised-videos.yml'
       - 'tools/video/neural_espeak_shim.py'
+      - 'tools/video/dump.js'
+      - 'web/js/video-clean.js'
+      - 'web/index.html'
+      - 'web/slide.html'
 
 jobs:
   build:
@@ -15,8 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
+      max-parallel: 4
       matrix:
-        topic: [t01]
+        topic: [t01, t02, t03, t04, t05, t06, t07, t08, t09, t10, t11, t12, t13, t14, t15, tL]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
