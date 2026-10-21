@@ -57,14 +57,14 @@ jobs:
           done
           cat /tmp/dt-video-http.log
           exit 1
-      - name: Render ${{ matrix.topic }} in Uzbek with Madina neural voice
+      - name: Render ${{ matrix.topic }} in Russian and English with female neural voices
         run: |
           python3 tools/video/build.py \
             --topics '${{ matrix.topic }}' \
             --bundle '' \
             --out 'dist/revised/${{ matrix.topic }}' \
             --quals 480,720 \
-            --langs uz
+            --langs ru,en
       - name: Verify outputs
         run: |
           set -euo pipefail
@@ -72,14 +72,14 @@ jobs:
           count_vtt=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*.vtt' | wc -l)
           count_txt=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*-transcript.txt' | wc -l)
           echo "mp4=$count_mp4 vtt=$count_vtt transcript=$count_txt"
-          test "$count_mp4" -eq 4
-          test "$count_vtt" -eq 6
-          test "$count_txt" -eq 2
+          test "$count_mp4" -eq 8
+          test "$count_vtt" -eq 12
+          test "$count_txt" -eq 4
           first_mp4=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*-720.mp4' | head -n 1)
           ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height -of default=nw=1 "$first_mp4"
       - uses: actions/upload-artifact@v4
         with:
-          name: female-voice-${{ matrix.topic }}-uz-480-720
+          name: female-voice-${{ matrix.topic }}-ru-en-480-720
           path: dist/revised/${{ matrix.topic }}/
           if-no-files-found: error
           retention-days: 7
