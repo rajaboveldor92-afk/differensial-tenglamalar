@@ -1,0 +1,88 @@
+name: Collect video packs
+
+# Gathers the per-topic video artifacts of "Rebuild revised video lessons" (they expire after 7 days),
+# merges them into one pack set, keeps topic 1 (480p) inside the APK, builds the APK and stores
+# everything on the orphan branch video-packs, where it does not expire.
+
+on:
+  workflow_dispatch:
+    inputs:
+      uz_run:
+        description: 'Run id with the Uzbek (Madina) artifacts'
+        default: '39581314026'
+      ruen_run:
+        description: 'Run id with the Russian (Svetlana) and English (Jenny) artifacts'
+        default: '39583434375'
+  push:
+    branches:
+      - claude/video-packs
+    paths:
+      - '.github/workflows/collect-video-packs.yml'
+      - 'tools/video/merge_packs.py'
+      - 'android/AndroidManifest.xml'
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    env:
+      ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+      UZ_RUN: ${{ github.event.inputs.uz_run || '39581314026' }}
+      RUEN_RUN: ${{ github.event.inputs.ruen_run || '39583434375' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download video artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh run download "$UZ_RUN" -R "$GITHUB_REPOSITORY" -p 'female-voice-*-uz-480-720' -D art/uz
+          gh run download "$RUEN_RUN" -R "$GITHUB_REPOSITORY" -p 'female-voice-*-ru-en-480-720' -D art/ruen
+          ls art/uz art/ruen
+      - name: Merge packs and bundle topic 1
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg zip >/dev/null
+          python3 tools/video/merge_packs.py art dist/video --bundle t01 \
+            --voice 'Microsoft neural TTS: uz-UZ-MadinaNeural, ru-RU-SvetlanaNeural, en-US-JennyNeural (synthetic)'
+          python3 tools/video/zip_packs.py dist/video dist/video-zips | tail -3
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Build test APK (API 36)
+        env:
+          ANDROID_PLATFORM_API: '36'
+          ANDROID_BUILD_TOOLS_VERSION: '36.0.0'
+        run: |
+          set -euo pipefail
+          SDKMANAGER="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0" >/dev/null
+          bash android/build.sh test
+          "$ANDROID_SDK_ROOT/build-tools/36.0.0/apksigner" verify "$(ls dist/*-test.apk)"
+      - name: Store packs, index and APK on branch video-packs
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/store/video /tmp/store/app
+          cp dist/video/* /tmp/store/video/
+          cp web/video/index.js web/video/*.mp4 /tmp/store/app/
+          cp dist/*-test.apk /tmp/store/
+          cd /tmp/store
+          git init -q -b video-packs
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898+github-actions[bot]@users.noreply.github.com'
+          printf '# Video packs\n\nBuilt from runs %s (uz) and %s (ru, en) by collect-video-packs.yml.\n\n- video/: all pack files and manifest.json (upload as-is to the video server)\n- zips: run python3 tools/video/zip_packs.py video zips for one zip per pack\n- app/: web/video/index.js and the topic 1 videos shipped in the APK\n' "$UZ_RUN" "$RUEN_RUN" > README.md
+          git add -A
+          git commit -q -m "Video packs from runs $UZ_RUN and $RUEN_RUN"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" video-packs
+      - name: Check subtitles against the voice and the app's own cue timing
+        continue-on-error: true
+        run: |
+          node tools/test-cues.js dist/video
+          python3 tools/video/sync_check.py dist/video 480
