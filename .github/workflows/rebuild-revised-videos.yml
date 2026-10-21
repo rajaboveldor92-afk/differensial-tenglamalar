@@ -15,19 +15,32 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        topic: [t01, t02, t03, t04, t12, t13, t14]
+        topic: [t01]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Install render dependencies
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install render and neural voice dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg espeak-ng
+          sudo apt-get install -y ffmpeg
+          python3 -m pip install --upgrade pip edge-tts
           sudo npm install --prefix /opt/node-tools playwright
           sudo /opt/node-tools/node_modules/.bin/playwright install-deps chromium
           /opt/node-tools/node_modules/.bin/playwright install chromium
+      - name: Use female neural voices
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/.tts-bin"
+          cat > "$GITHUB_WORKSPACE/.tts-bin/espeak-ng" <<'EOF'
+          #!/usr/bin/env bash
+          exec python3 "$GITHUB_WORKSPACE/tools/video/neural_espeak_shim.py" "$@"
+          EOF
+          chmod +x "$GITHUB_WORKSPACE/.tts-bin/espeak-ng"
+          echo "$GITHUB_WORKSPACE/.tts-bin" >> "$GITHUB_PATH"
       - name: Start lesson server
         run: |
           python3 -m http.server 8765 -d web >/tmp/dt-video-http.log 2>&1 &
@@ -38,14 +51,14 @@ jobs:
           done
           cat /tmp/dt-video-http.log
           exit 1
-      - name: Render ${{ matrix.topic }} in uz ru en, 480p and 720p
+      - name: Render ${{ matrix.topic }} in Uzbek with Madina neural voice
         run: |
           python3 tools/video/build.py \
             --topics '${{ matrix.topic }}' \
             --bundle '' \
             --out 'dist/revised/${{ matrix.topic }}' \
             --quals 480,720 \
-            --langs uz,ru,en
+            --langs uz
       - name: Verify outputs
         run: |
           set -euo pipefail
@@ -53,14 +66,14 @@ jobs:
           count_vtt=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*.vtt' | wc -l)
           count_txt=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*-transcript.txt' | wc -l)
           echo "mp4=$count_mp4 vtt=$count_vtt transcript=$count_txt"
-          test "$count_mp4" -eq 12
-          test "$count_vtt" -eq 18
-          test "$count_txt" -eq 6
+          test "$count_mp4" -eq 4
+          test "$count_vtt" -eq 6
+          test "$count_txt" -eq 2
           first_mp4=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*-720.mp4' | head -n 1)
           ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height -of default=nw=1 "$first_mp4"
       - uses: actions/upload-artifact@v4
         with:
-          name: revised-${{ matrix.topic }}-all-languages-480-720
+          name: female-voice-${{ matrix.topic }}-uz-480-720
           path: dist/revised/${{ matrix.topic }}/
           if-no-files-found: error
           retention-days: 7
