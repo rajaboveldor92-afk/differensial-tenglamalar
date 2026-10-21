@@ -40,7 +40,6 @@ def fail(msg):
 def main():
     args = sys.argv[1:]
     voice = 'en-us'
-    speed = None
     out = None
     text = []
 
@@ -51,14 +50,13 @@ def main():
             voice = args[i + 1]
             i += 2
         elif a == '-s' and i + 1 < len(args):
-            speed = args[i + 1]  # accepted for compatibility; neural rate is tuned below
+            # Accepted for espeak-ng compatibility. Neural speed is deliberately
+            # tuned with RATE_MAP instead of copying the old robotic WPM value.
             i += 2
         elif a == '-w' and i + 1 < len(args):
             out = args[i + 1]
             i += 2
         elif a.startswith('-'):
-            # build.py does not currently pass any other option. Fail loudly if
-            # that changes so we do not silently produce the wrong narration.
             fail('unsupported espeak-ng option: ' + a)
         else:
             text.extend(args[i:])
@@ -80,7 +78,7 @@ def main():
     mp3 = out + '.edge.mp3'
     try:
         subprocess.run([
-            'edge-tts', '--voice', neural_voice, '--rate', rate,
+            'edge-tts', '--voice', neural_voice, '--rate=' + rate,
             '--text', spoken, '--write-media', mp3,
         ], check=True)
         subprocess.run([
