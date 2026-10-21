@@ -5,7 +5,7 @@
   const DT = window.DT, h = DT.h, t = DT.t, tx = DT.tx;
   const X = (uz, ru, en) => ({ uz, ru, en })[DT.lang()];
   const P = () => DT.state.progress;
-  DT.VERSION = '1.0.1';
+  DT.VERSION = '1.0.2';
   DT.VERSION_CODE = 1;
 
   const DATA = { glossary: 'GLOSSARY', formulas: 'FORMULAS', diag: 'DIAG', chooser: 'CHOOSER', independent: 'INDEPENDENT', python: 'PYTHON', geometry: 'GEOMETRY', syllabus: 'SYLLABUS' };

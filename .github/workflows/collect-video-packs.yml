@@ -19,6 +19,7 @@ on:
     paths:
       - '.github/workflows/collect-video-packs.yml'
       - 'tools/video/merge_packs.py'
+      - 'android/AndroidManifest.xml'
 
 permissions:
   contents: write
