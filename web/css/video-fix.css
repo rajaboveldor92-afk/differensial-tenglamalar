@@ -1,0 +1,65 @@
+/* Video readability fixes: keep subtitles outside the math area and reserve a safe title zone. */
+
+/* Subtitles live in a dedicated strip below the 16:9 picture instead of covering formulas. */
+.player-stage {
+  margin-bottom: 3.6rem;
+}
+.player-sub {
+  left: 0;
+  right: 0;
+  top: 100%;
+  bottom: auto;
+  min-height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .45rem .8rem;
+  background: #1b2226;
+  color: #eef0ec;
+  border-radius: 0;
+  font-size: clamp(.82rem, 2.2vw, 1.1rem);
+  line-height: 1.35;
+}
+.player-sub:not(:empty) {
+  background: #1b2226;
+  padding: .45rem .8rem;
+  border-radius: 0;
+}
+.player-sub[hidden] {
+  display: none !important;
+}
+
+/* Long RU/EN titles must not grow downward into the formula area. */
+.slide-head {
+  min-height: 54px;
+}
+.slide-head span:last-child {
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.slide:not(.slide-title) {
+  padding-top: 110px !important;
+}
+
+/* Math gets its own safe region; oversized formulas are slightly reduced. */
+.slide-tex .slide-math,
+.slide-steps .slide-math {
+  max-width: 100%;
+  font-size: 1.22em;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.slide-tex .katex-display,
+.slide-steps .katex-display {
+  margin: .55em 0;
+}
+.slide-cap {
+  margin-top: 1em;
+}
+
+/* Keep the separate subtitle strip when the player is fullscreen too. */
+.player:fullscreen .player-stage {
+  margin-bottom: 3.6rem;
+}
