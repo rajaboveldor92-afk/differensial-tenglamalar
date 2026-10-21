@@ -9,7 +9,10 @@ on:
       - '.github/workflows/rebuild-revised-videos.yml'
       - 'tools/video/neural_espeak_shim.py'
       - 'tools/video/dump.js'
+      - 'web/js/video-full.js'
       - 'web/js/video-clean.js'
+      - 'web/css/video-fix.css'
+      - 'web/content/t*.js'
       - 'web/index.html'
       - 'web/slide.html'
 
@@ -19,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      max-parallel: 4
+      max-parallel: 2
       matrix:
         topic: [t01, t02, t03, t04, t05, t06, t07, t08, t09, t10, t11, t12, t13, t14, t15, tL]
     steps:
@@ -47,6 +50,18 @@ jobs:
           EOF
           chmod +x "$GITHUB_WORKSPACE/.tts-bin/espeak-ng"
           echo "$GITHUB_WORKSPACE/.tts-bin" >> "$GITHUB_PATH"
+      - name: Validate full lesson scripts
+        run: |
+          node tools/video/dump.js > /tmp/video-scripts.json
+          python3 - <<'PY'
+          import json
+          d=json.load(open('/tmp/video-scripts.json'))
+          for topic,v in d.items():
+              assert v.get('full') is True, topic
+              assert v.get('parts'), topic
+              assert all(p.get('segments') for p in v['parts']), topic
+          print('topics=',len(d),'parts=',sum(len(v['parts']) for v in d.values()),'segments=',sum(len(p['segments']) for v in d.values() for p in v['parts']))
+          PY
       - name: Start lesson server
         run: |
           python3 -m http.server 8765 -d web >/tmp/dt-video-http.log 2>&1 &
@@ -57,29 +72,33 @@ jobs:
           done
           cat /tmp/dt-video-http.log
           exit 1
-      - name: Render ${{ matrix.topic }} in Russian and English with female neural voices
+      - name: Render ${{ matrix.topic }} full lesson in Uzbek, Russian and English
         run: |
           python3 tools/video/build.py \
             --topics '${{ matrix.topic }}' \
             --bundle '' \
             --out 'dist/revised/${{ matrix.topic }}' \
             --quals 480,720 \
-            --langs ru,en
+            --langs uz,ru,en
       - name: Verify outputs
         run: |
           set -euo pipefail
+          parts=$(node tools/video/dump.js | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d['${{ matrix.topic }}']['parts']))")
+          expected_mp4=$((parts * 3 * 2))
+          expected_vtt=$((parts * 3 * 3))
+          expected_txt=$((parts * 3))
           count_mp4=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*.mp4' | wc -l)
           count_vtt=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*.vtt' | wc -l)
           count_txt=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*-transcript.txt' | wc -l)
-          echo "mp4=$count_mp4 vtt=$count_vtt transcript=$count_txt"
-          test "$count_mp4" -eq 8
-          test "$count_vtt" -eq 12
-          test "$count_txt" -eq 4
+          echo "parts=$parts mp4=$count_mp4/$expected_mp4 vtt=$count_vtt/$expected_vtt transcript=$count_txt/$expected_txt"
+          test "$count_mp4" -eq "$expected_mp4"
+          test "$count_vtt" -eq "$expected_vtt"
+          test "$count_txt" -eq "$expected_txt"
           first_mp4=$(find 'dist/revised/${{ matrix.topic }}' -type f -name '*-720.mp4' | head -n 1)
           ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height -of default=nw=1 "$first_mp4"
       - uses: actions/upload-artifact@v4
         with:
-          name: female-voice-${{ matrix.topic }}-ru-en-480-720
+          name: full-lesson-${{ matrix.topic }}-uz-ru-en-480-720
           path: dist/revised/${{ matrix.topic }}/
           if-no-files-found: error
           retention-days: 7
