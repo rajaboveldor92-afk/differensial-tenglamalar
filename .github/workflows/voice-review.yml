@@ -32,19 +32,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install
+      - name: Install, fetch packs, transcribe ${{ matrix.lang }} shard ${{ matrix.shard }}
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
-          python3 -m pip install -q faster-whisper
-      - name: Get video packs
-        run: git clone -q --depth 1 -b video-packs "https://github.com/${GITHUB_REPOSITORY}.git" /tmp/packs
-      - name: Transcribe ${{ matrix.lang }} shard ${{ matrix.shard }}
-        run: |
-          node tools/video/dump.js > /tmp/scripts.json
           mkdir -p results
-          python3 tools/video/voice_review.py /tmp/packs/video /tmp/scripts.json results/${{ matrix.lang }}-${{ matrix.shard }}.jsonl \
-            --lang ${{ matrix.lang }} --shard ${{ matrix.shard }}/5 --model large-v3-turbo
+          LOG=results/log-${{ matrix.lang }}-${{ matrix.shard }}.txt
+          (
+            set -euxo pipefail
+            sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+            python3 -m pip install -q faster-whisper
+            git clone -q --depth 1 -b video-packs "https://github.com/${GITHUB_REPOSITORY}.git" /tmp/packs
+            node tools/video/dump.js > /tmp/scripts.json
+            python3 tools/video/voice_review.py /tmp/packs/video /tmp/scripts.json results/${{ matrix.lang }}-${{ matrix.shard }}.jsonl \
+              --lang ${{ matrix.lang }} --shard ${{ matrix.shard }}/5 --model large-v3-turbo
+          ) > "$LOG" 2>&1 || { tail -50 "$LOG"; exit 1; }
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: voice-${{ matrix.lang }}-${{ matrix.shard }}
           path: results/
@@ -63,7 +65,7 @@ jobs:
       - name: Push results to branch voice-review-results
         run: |
           set -euo pipefail
-          mkdir -p /tmp/store && cp /tmp/res/*.jsonl /tmp/store/
+          mkdir -p /tmp/store && cp /tmp/res/* /tmp/store/
           cd /tmp/store
           git init -q -b voice-review-results
           git config user.name 'github-actions[bot]'
