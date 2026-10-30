@@ -96,6 +96,7 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg zip >/dev/null
           cd tools/video && python3 overlay_packs.py "$GITHUB_WORKSPACE/vp/video" "$GITHUB_WORKSPACE/art" --bundle t01
+          node refresh_vtt.js "$GITHUB_WORKSPACE/vp/video"
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
