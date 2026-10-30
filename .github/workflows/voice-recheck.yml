@@ -31,9 +31,10 @@ jobs:
             sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
             python3 -m pip install -q faster-whisper
             git clone -q --depth 1 -b video-packs "https://github.com/${GITHUB_REPOSITORY}.git" /tmp/packs
+            git fetch -q origin claude/video-packs && git checkout FETCH_HEAD -- web/content/video
             node tools/video/dump.js > /tmp/scripts.json
-            python3 tools/video/voice_recheck.py /tmp/packs/video /tmp/scripts.json /tmp/store/recheck.jsonl \
-              v11b-ru-3-1 v11b-ru-3-2 v14a-ru-4-0 v01b-en-3-3 v09a-uz-3-0 v02b-uz-3-0 v15a-ru-3-2
+            python3 tools/video/voice_recheck.py /tmp/packs/video /tmp/scripts.json /tmp/store/recheck-fixed.jsonl \
+              v02b-uz-2-3 v06b-ru-2-0 v11a-uz-4-2 v11a-ru-4-2
           ) > /tmp/store/recheck-log.txt 2>&1 || tail -40 /tmp/store/recheck-log.txt
       - name: Push results
         if: always()
@@ -44,4 +45,4 @@ jobs:
           cd /tmp/res
           git config user.name 'github-actions[bot]'
           git config user.email '41898+github-actions[bot]@users.noreply.github.com'
-          git add -A && git commit -q -m "Voice recheck" && git push -q origin voice-review-results
+          git add -A && git commit -q -m "Voice recheck of the re-rendered sentences" && git push -q origin voice-review-results
