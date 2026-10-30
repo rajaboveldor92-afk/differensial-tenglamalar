@@ -200,7 +200,7 @@ DT.UI = {
   equation: { uz: 'Tenglama', ru: 'Уравнение', en: 'Equation' },
   // videos
   videoIntro: { uz: 'Har bir mavzu bo‘yicha qisqa videodarslar: o‘zbek, rus va ingliz tillarida ovoz, subtitr va transkript.', ru: 'Короткие видеоуроки по каждой теме: озвучка, субтитры и стенограмма на узбекском, русском и английском.', en: 'Short video lessons for every topic, with narration, subtitles and transcript in Uzbek, Russian and English.' },
-  syntheticVoice: { uz: 'Ovoz sun’iy (espeak-ng nutq sintezatori). Bu biror insonning ovozi emas.', ru: 'Голос синтезированный (синтезатор речи espeak-ng). Это не голос реального человека.', en: 'The voice is synthetic (espeak-ng speech synthesizer). It is not a real person’s voice.' },
+  syntheticVoice: { uz: 'Ovoz sun’iy: Microsoft neyron nutq sintezi (o‘zbekcha Madina, ruscha Svetlana, inglizcha Jenny). Matnni odam o‘qimagan.', ru: 'Голос синтезированный: нейронный синтез речи Microsoft (узбекский — Madina, русский — Svetlana, английский — Jenny). Текст читал не человек.', en: 'The voice is synthetic: Microsoft neural text-to-speech (Uzbek Madina, Russian Svetlana, English Jenny). No person read the text.' },
   videoStatus: { uz: 'Holati', ru: 'Статус', en: 'Status' },
   vsReady: { uz: 'Video tayyor', ru: 'Видео готово', en: 'Video ready' },
   vsScript: { uz: 'Ssenariy', ru: 'Сценарий', en: 'Script' },

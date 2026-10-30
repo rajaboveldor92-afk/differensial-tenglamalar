@@ -1,0 +1,66 @@
+name: Refresh pack subtitles
+
+# After a script fix, videos narrated in the other languages keep their timing, but their subtitles in
+# the corrected language must show the new text. This rewrites those subtitle files on the branch
+# video-packs (tools/video/refresh_vtt.js) and rebuilds the test APK with the updated index.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - claude/video-packs
+    paths:
+      - '.github/workflows/refresh-pack-subtitles.yml'
+      - 'tools/video/refresh_vtt.js'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: video-packs
+          path: vp
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rewrite stale subtitle files
+        run: |
+          set -euo pipefail
+          cp vp/app/index.js web/video/index.js
+          node tools/video/refresh_vtt.js vp/video
+          node tools/test-cues.js vp/video
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Build test APK (API 36)
+        env:
+          ANDROID_PLATFORM_API: '36'
+          ANDROID_BUILD_TOOLS_VERSION: '36.0.0'
+        run: |
+          set -euo pipefail
+          SDKMANAGER="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0" >/dev/null
+          bash android/build.sh test
+          "$ANDROID_SDK_ROOT/build-tools/36.0.0/apksigner" verify "$(ls dist/*-test.apk)"
+      - name: Store on branch video-packs
+        run: |
+          set -euo pipefail
+          cd vp
+          rm -f ./*-test.apk
+          cp ../web/video/index.js app/
+          cp ../dist/*-test.apk .
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --quiet && { echo 'nothing to refresh'; exit 0; }
+          git commit -q -m "Refresh subtitles that changed with the corrected script"
+          git push origin video-packs
