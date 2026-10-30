@@ -64,7 +64,7 @@ DT.addVideo({ topic: 't06', parts: [
         show: { kind: 'steps', tex: [R`y'=yz`, R`y''=y\,(z'+z^2)`] } },
       { chapter: L('Ishlangan misol', 'Разобранный пример', 'Worked example'),
         say: L('Misol: x y y ikki shtrix minus x y shtrix kvadrat teng y y shtrix. Har bir had y ga nisbatan ikkinchi darajali. Almashtirishdan keyin y kvadratga qisqartiramiz va x z shtrix teng z ni olamiz. Demak z teng C bir x.',
-          'Пример: икс игрек игрек два штриха минус икс квадрат игрек штрих равно игрек игрек штрих. Каждый член второй степени по игрек. После замены сокращаем на игрек квадрат и получаем: икс z штрих равно z. Значит z равно C один икс.',
+          'Пример: икс игрек игрек два штриха минус икс на игрек штрих в квадрате равно игрек игрек штрих. Каждый член второй степени по игрек. После замены сокращаем на игрек квадрат и получаем: икс z штрих равно z. Значит z равно C один икс.',
           'Example: x y y double prime minus x times y prime squared equals y y prime. Every term has degree two in y. After the substitution we cancel y squared and get x z prime equals z. So z equals C one x.'),
         show: { kind: 'steps', tex: [R`xyy''-x(y')^2=yy'`, R`xy^2(z'+z^2)-xy^2z^2=y^2z`, R`xz'=z\ \Rightarrow\ z=C_1x`] } },
       { say: L('Endi y shtrix bo‘lingan y teng C bir x. Integrallasak, y teng C ikki ko‘paytirilgan e daraja C bir x kvadratning yarmi. C ikki nolga teng bo‘lganda y aynan nol ham yechim. Natijani tenglamaga qo‘yib tekshirish oson.',

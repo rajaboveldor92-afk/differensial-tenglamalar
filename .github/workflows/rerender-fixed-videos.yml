@@ -1,0 +1,131 @@
+name: Re-render corrected video lessons
+
+# Re-renders the topic × narration-language videos whose script was corrected after the voice review
+# (t02 uz, t06 ru, t11 uz, t11 ru) with the same neural voices, puts them into the pack set on the
+# branch video-packs in place of the old ones, and rebuilds the test APK with the new timing index.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - claude/video-packs
+    paths:
+      - '.github/workflows/rerender-fixed-videos.yml'
+      - 'tools/video/overlay_packs.py'
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    name: render-${{ matrix.topic }}-${{ matrix.lang }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { topic: t02, lang: uz }
+          - { topic: t06, lang: ru }
+          - { topic: t11, lang: uz }
+          - { topic: t11, lang: ru }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install render and neural voice dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python3 -m pip install --upgrade pip edge-tts
+          sudo npm install --prefix /opt/node-tools playwright
+          sudo /opt/node-tools/node_modules/.bin/playwright install-deps chromium
+          /opt/node-tools/node_modules/.bin/playwright install chromium
+      - name: Use female neural voices
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/.tts-bin"
+          cat > "$GITHUB_WORKSPACE/.tts-bin/espeak-ng" <<'SH'
+          #!/usr/bin/env bash
+          exec python3 "$GITHUB_WORKSPACE/tools/video/neural_espeak_shim.py" "$@"
+          SH
+          chmod +x "$GITHUB_WORKSPACE/.tts-bin/espeak-ng"
+          echo "$GITHUB_WORKSPACE/.tts-bin" >> "$GITHUB_PATH"
+      - name: Start lesson server
+        run: |
+          python3 -m http.server 8765 -d web >/tmp/dt-video-http.log 2>&1 &
+          for i in {1..30}; do
+            if curl -fsS http://localhost:8765/slide.html >/dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/dt-video-http.log
+          exit 1
+      - name: Render ${{ matrix.topic }} (${{ matrix.lang }})
+        run: |
+          python3 tools/video/build.py --topics '${{ matrix.topic }}' --bundle '' \
+            --out 'dist/fixed/${{ matrix.topic }}-${{ matrix.lang }}' --quals 480,720 --langs '${{ matrix.lang }}'
+          test "$(find dist/fixed -name '*.mp4' | wc -l)" -eq 4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fixed-${{ matrix.topic }}-${{ matrix.lang }}
+          path: dist/fixed/
+          if-no-files-found: error
+          retention-days: 7
+
+  collect:
+    needs: render
+    runs-on: ubuntu-latest
+    env:
+      ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: video-packs
+          path: vp
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: fixed-*
+          path: art
+      - name: Put the re-rendered packs into the pack set
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg zip >/dev/null
+          cd tools/video && python3 overlay_packs.py "$GITHUB_WORKSPACE/vp/video" "$GITHUB_WORKSPACE/art" --bundle t01
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Build test APK (API 36)
+        env:
+          ANDROID_PLATFORM_API: '36'
+          ANDROID_BUILD_TOOLS_VERSION: '36.0.0'
+        run: |
+          set -euo pipefail
+          SDKMANAGER="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0" >/dev/null
+          bash android/build.sh test
+          "$ANDROID_SDK_ROOT/build-tools/36.0.0/apksigner" verify "$(ls dist/*-test.apk)"
+      - name: Store packs, index and APK on branch video-packs
+        run: |
+          set -euo pipefail
+          cd vp
+          rm -f ./*-test.apk app/*
+          cp ../web/video/index.js ../web/video/*.mp4 app/
+          cp ../dist/*-test.apk .
+          printf '\nRe-rendered after the voice review (corrected script): t02 uz, t06 ru, t11 uz, t11 ru, by rerender-fixed-videos.yml run %s.\n' "$GITHUB_RUN_ID" >> README.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -q -m "Re-render t02 uz, t06 ru, t11 uz, t11 ru with the corrected script"
+          git push origin video-packs
+      - name: Check subtitles against the voice and the app's own cue timing
+        continue-on-error: true
+        run: |
+          node tools/test-cues.js vp/video
+          python3 tools/video/sync_check.py vp/video 480
