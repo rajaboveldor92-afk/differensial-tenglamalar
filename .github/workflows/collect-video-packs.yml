@@ -2,7 +2,8 @@ name: Collect video packs
 
 # Gathers the per-topic video artifacts of "Rebuild revised video lessons" (they expire after 7 days),
 # merges them into one pack set, keeps topic 1 (480p) inside the APK, builds the APK and stores
-# everything on the orphan branch video-packs, where it does not expire.
+# everything on the orphan branch video-packs, where it does not expire. Run by hand only: the source
+# artifacts have expired, and later fixes go through rerender-fixed-videos.yml.
 
 on:
   workflow_dispatch:
@@ -13,13 +14,6 @@ on:
       ruen_run:
         description: 'Run id with the Russian (Svetlana) and English (Jenny) artifacts'
         default: '39583434375'
-  push:
-    branches:
-      - claude/video-packs
-    paths:
-      - '.github/workflows/collect-video-packs.yml'
-      - 'tools/video/merge_packs.py'
-      - 'android/AndroidManifest.xml'
 
 permissions:
   contents: write
