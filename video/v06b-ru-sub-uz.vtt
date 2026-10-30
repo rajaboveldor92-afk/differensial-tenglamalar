@@ -37,93 +37,93 @@ y ning darajasiga qisqartirsak, z uchun birinchi tartibli tenglama qoladi.
 Diqqat: bu “bir jinsli” so‘zining yana bir ma’nosi.
 
 10
-00:00:53.136 --> 00:00:59.755
+00:00:53.136 --> 00:00:59.831
 Misol: x y y ikki shtrix minus x y shtrix kvadrat teng y y shtrix.
 
 11
-00:00:59.755 --> 00:01:04.168
+00:00:59.831 --> 00:01:04.294
 Har bir had y ga nisbatan ikkinchi darajali.
 
 12
-00:01:04.168 --> 00:01:12.092
+00:01:04.294 --> 00:01:12.308
 Almashtirishdan keyin y kvadratga qisqartiramiz va x z shtrix teng z ni olamiz.
 
 13
-00:01:12.092 --> 00:01:14.198
+00:01:12.308 --> 00:01:14.438
 Demak z teng C bir x.
 
 14
-00:01:14.448 --> 00:01:18.557
+00:01:14.688 --> 00:01:18.797
 Endi y shtrix bo‘lingan y teng C bir x.
 
 15
-00:01:18.557 --> 00:01:26.879
+00:01:18.797 --> 00:01:27.119
 Integrallasak, y teng C ikki ko‘paytirilgan e daraja C bir x kvadratning yarmi.
 
 16
-00:01:26.879 --> 00:01:32.252
+00:01:27.119 --> 00:01:32.492
 C ikki nolga teng bo‘lganda y aynan nol ham yechim.
 
 17
-00:01:32.252 --> 00:01:36.782
+00:01:32.492 --> 00:01:37.022
 Natijani tenglamaga qo‘yib tekshirish oson.
 
 18
-00:01:37.032 --> 00:01:40.865
+00:01:37.272 --> 00:01:41.105
 Endi x ga vazn bir, y ga vazn m beramiz.
 
 19
-00:01:40.865 --> 00:01:47.380
+00:01:41.105 --> 00:01:47.620
 Unda y shtrixning vazni m minus bir, y ikki shtrixniki m minus ikki.
 
 20
-00:01:47.380 --> 00:01:55.525
+00:01:47.620 --> 00:01:55.765
 x kub y ikki shtrix tenglamasi, x y shtrix minus y ning kvadrati bilan solishtirilsa,
 
 21
-00:01:55.525 --> 00:01:59.741
+00:01:55.765 --> 00:01:59.981
 m qo‘shuv bir teng ikki m, ya’ni m teng bir.
 
 22
-00:01:59.741 --> 00:02:07.598
+00:01:59.981 --> 00:02:07.838
 x teng e daraja t, y teng e daraja t ko‘paytirilgan u almashtirish t ni yo‘qotadi.
 
 23
-00:02:07.848 --> 00:02:11.386
+00:02:08.088 --> 00:02:11.626
 Oxirgi tenglamada t ham, u ham yo‘q,
 
 24
-00:02:11.386 --> 00:02:18.755
+00:02:11.626 --> 00:02:18.995
 shuning uchun q teng u ning hosilasi deymiz va ajraladigan tenglama olamiz.
 
 25
-00:02:18.755 --> 00:02:25.929
+00:02:18.995 --> 00:02:26.169
 Javob: y teng x ln x minus x ln modul bir minus C bir x qo‘shuv C ikki x.
 
 26
-00:02:25.929 --> 00:02:34.478
+00:02:26.169 --> 00:02:34.718
 Shuningdek, q nol bo‘lgan holat y teng C x yechimini beradi — uni alohida yozish kerak.
 
 27
-00:02:34.728 --> 00:02:44.928
+00:02:34.968 --> 00:02:45.168
 Grafikda birinchi misoldagi y teng e daraja C bir x kvadrat yarmi egri chiziqlari C bir ning uchta qiymatida ko‘rsatilgan.
 
 28
-00:02:44.928 --> 00:02:51.950
+00:02:45.168 --> 00:02:52.190
 C bir musbat bo‘lsa egri chiziq o‘sadi, manfiy bo‘lsa — qo‘ng‘iroq shaklida so‘nadi,
 
 29
-00:02:51.950 --> 00:02:54.542
+00:02:52.190 --> 00:02:54.782
 nol bo‘lsa — gorizontal chiziq.
 
 30
-00:02:54.792 --> 00:02:58.319
+00:02:55.032 --> 00:02:58.559
 O‘zingizni tekshiring: y, y shtrix,
 
 31
-00:02:58.319 --> 00:03:06.178
+00:02:58.559 --> 00:03:06.418
 y ikki shtrixga nisbatan bir jinsli tenglama uchun qaysi almashtirish to‘g‘ri?
 
 32
-00:03:06.178 --> 00:03:07.790
+00:03:06.418 --> 00:03:08.030
 Javobni tanlang.

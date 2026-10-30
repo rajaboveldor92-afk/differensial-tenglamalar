@@ -636,12 +636,12 @@
      0.0,
      25.728,
      52.128,
-     78.6,
-     103.2,
-     134.088,
-     156.816
+     77.88,
+     102.48,
+     133.368,
+     156.096
     ],
-    "dur": 169.032,
+    "dur": 168.312,
     "sw": [
      [
       3.696,
@@ -661,7 +661,7 @@
       7.656,
       5.832,
       4.848,
-      7.536
+      6.816
      ],
      [
       3.792,
@@ -1979,13 +1979,13 @@
      0.0,
      22.704,
      53.136,
-     74.448,
-     97.032,
-     127.848,
-     154.728,
-     174.792
+     74.688,
+     97.272,
+     128.088,
+     154.968,
+     175.032
     ],
-    "dur": 188.04,
+    "dur": 188.28,
     "sw": [
      [
       4.416,
@@ -2001,7 +2001,7 @@
       5.376
      ],
      [
-      7.08,
+      7.32,
       3.6,
       6.336,
       3.696
@@ -3645,10 +3645,10 @@
      46.944,
      62.52,
      82.968,
-     107.328,
-     131.808
+     108.12,
+     132.6
     ],
-    "dur": 151.464,
+    "dur": 152.256,
     "sw": [
      [
       4.776,
@@ -3675,7 +3675,7 @@
      [
       5.928,
       6.6,
-      3.336,
+      4.128,
       7.896
      ],
      [
@@ -3699,10 +3699,10 @@
      45.024,
      58.68,
      79.152,
-     102.384,
-     128.064
+     102.864,
+     128.544
     ],
-    "dur": 147.384,
+    "dur": 147.864,
     "sw": [
      [
       5.208,
@@ -3729,7 +3729,7 @@
      [
       5.064,
       6.384,
-      3.12,
+      3.6,
       8.064
      ],
      [
@@ -6269,12 +6269,12 @@
    "topic": "t02",
    "lang": "uz",
    "q": "480",
-   "bytes": 2347331,
+   "bytes": 2341820,
    "files": [
     {
      "name": "v02a-uz-480.mp4",
-     "bytes": 1271411,
-     "sha256": "c6558cbe7d982ea5e44a2dadd004854de06edc741774f3dd9c6ea0432b086959"
+     "bytes": 1271024,
+     "sha256": "9a0419278fa761c7da696a966a7c9ff2e6bdd165d5033182c3b855cdc35398ba"
     },
     {
      "name": "v02a-uz-sub-uz.vtt",
@@ -6298,28 +6298,28 @@
     },
     {
      "name": "v02b-uz-480.mp4",
-     "bytes": 1049174,
-     "sha256": "b1cbd01bb0a8b112062c5af9039243fe537856e52cef512ae51493ba29dcea6a"
+     "bytes": 1044080,
+     "sha256": "7e32a51da51c4bb942955205b97e732947948b7e4bd42edb45094d870a92d7d9"
     },
     {
      "name": "v02b-uz-sub-uz.vtt",
-     "bytes": 3156,
-     "sha256": "39db1fcdfe033d3f64aeb30543efcf44b0c6a63878942286723acf60501ae47a"
+     "bytes": 3141,
+     "sha256": "bbe00876d963ad83daa5f9d86b7fedb0f5b115f6997f2f91b6c4651265ff4824"
     },
     {
      "name": "v02b-uz-sub-ru.vtt",
      "bytes": 4797,
-     "sha256": "d37bc0da6c2959f57ee33614187d5a790cf961dbef59cf9b9c293ceb37ff756e"
+     "sha256": "3a9ea80328cd3c622ac76efb0b386db08ada12b710d2c69b6a00a26498430ead"
     },
     {
      "name": "v02b-uz-sub-en.vtt",
      "bytes": 3100,
-     "sha256": "4bc7153c9a9cc3f1c776a6351857d704148fa46bb5bdec6ceb3c5b57cc023159"
+     "sha256": "32c89eeaac0c468657d865760de4c6618275ab75f3de572907bfe0d3a9adcf93"
     },
     {
      "name": "v02b-uz-transcript.txt",
-     "bytes": 2195,
-     "sha256": "5531fac05ba52a06fa2d83644e2a08af3110f8decafaa86f400cd8c6c954674e"
+     "bytes": 2180,
+     "sha256": "905ea86226072bf5931a82bca1b09154a68d07d8f5e62c7aea02d999bd80d767"
     }
    ],
    "bundled": false
@@ -6329,12 +6329,12 @@
    "topic": "t02",
    "lang": "uz",
    "q": "720",
-   "bytes": 2828253,
+   "bytes": 2818509,
    "files": [
     {
      "name": "v02a-uz-720.mp4",
-     "bytes": 1563507,
-     "sha256": "e94bbb4c25aead6c4157b71d19442981f0d9eb94ab5dcf051c811e2e929eb244"
+     "bytes": 1563093,
+     "sha256": "dc997de1fac12e6b3834e99ba60f7112536656994e472c80f1bf315082a99107"
     },
     {
      "name": "v02a-uz-sub-uz.vtt",
@@ -6358,28 +6358,28 @@
     },
     {
      "name": "v02b-uz-720.mp4",
-     "bytes": 1238000,
-     "sha256": "74cad831b59bbf722543d07139297b0adaef4f0fa7c51a3de5bbbdf65b55209f"
+     "bytes": 1228700,
+     "sha256": "431dc1f4e87b943bb212c5018b02d20d71729f5e6c16590f11eda290ff932d2b"
     },
     {
      "name": "v02b-uz-sub-uz.vtt",
-     "bytes": 3156,
-     "sha256": "39db1fcdfe033d3f64aeb30543efcf44b0c6a63878942286723acf60501ae47a"
+     "bytes": 3141,
+     "sha256": "bbe00876d963ad83daa5f9d86b7fedb0f5b115f6997f2f91b6c4651265ff4824"
     },
     {
      "name": "v02b-uz-sub-ru.vtt",
      "bytes": 4797,
-     "sha256": "d37bc0da6c2959f57ee33614187d5a790cf961dbef59cf9b9c293ceb37ff756e"
+     "sha256": "3a9ea80328cd3c622ac76efb0b386db08ada12b710d2c69b6a00a26498430ead"
     },
     {
      "name": "v02b-uz-sub-en.vtt",
      "bytes": 3100,
-     "sha256": "4bc7153c9a9cc3f1c776a6351857d704148fa46bb5bdec6ceb3c5b57cc023159"
+     "sha256": "32c89eeaac0c468657d865760de4c6618275ab75f3de572907bfe0d3a9adcf93"
     },
     {
      "name": "v02b-uz-transcript.txt",
-     "bytes": 2195,
-     "sha256": "5531fac05ba52a06fa2d83644e2a08af3110f8decafaa86f400cd8c6c954674e"
+     "bytes": 2180,
+     "sha256": "905ea86226072bf5931a82bca1b09154a68d07d8f5e62c7aea02d999bd80d767"
     }
    ],
    "bundled": false
@@ -7589,12 +7589,12 @@
    "topic": "t06",
    "lang": "ru",
    "q": "480",
-   "bytes": 2477438,
+   "bytes": 2481952,
    "files": [
     {
      "name": "v06a-ru-480.mp4",
-     "bytes": 1270931,
-     "sha256": "80b9d1e7bde698df6dd36df4a75ff2cabaf8e699ae8e1ccacdd66c833642afd6"
+     "bytes": 1276689,
+     "sha256": "d736f51115b776c50442c51cf767d3536ccbc67e12bacce7ca5cf4b5c332d6ff"
     },
     {
      "name": "v06a-ru-sub-uz.vtt",
@@ -7618,28 +7618,28 @@
     },
     {
      "name": "v06b-ru-480.mp4",
-     "bytes": 1175654,
-     "sha256": "47413e86e98b92e388fdbffa44db993375eb3b1808a331f153931c0b70d7264a"
+     "bytes": 1174390,
+     "sha256": "247498c16d724ed330b1e052f1cef205b9183c2102ed2ef4c981f12c438d3356"
     },
     {
      "name": "v06b-ru-sub-uz.vtt",
      "bytes": 3147,
-     "sha256": "3b3bd3feec7881c3127dcb8313dbe8e6d7b9cabcee583b5c720ca7026435cad4"
+     "sha256": "d0119d2ade40329787b5614c4335e4486bcd1dd42f159533c9c59d1be43f863e"
     },
     {
      "name": "v06b-ru-sub-ru.vtt",
-     "bytes": 4824,
-     "sha256": "09bb2b92479f47a48ac26be8761633f669dcebb0eda1e1ffadac09ea143a8b0c"
+     "bytes": 4834,
+     "sha256": "32b171e5d081f913ccbf0d265f01f50457c1bcc65b83cdefed0d0c281ac5e76d"
     },
     {
      "name": "v06b-ru-sub-en.vtt",
      "bytes": 2893,
-     "sha256": "2c180b7f743c6b170f94cda02f8ef86980a821988f2b8af2b9b84d56505876f1"
+     "sha256": "082102f0820b6b3c99064bede106cdbcf19b1bba8258d7bb0b4153e7667f38b9"
     },
     {
      "name": "v06b-ru-transcript.txt",
-     "bytes": 3886,
-     "sha256": "d0c1d3fb7c058b7447e4b76cd59fd31c5f9c32c6431bc6d2435c9c9a326a432e"
+     "bytes": 3896,
+     "sha256": "d2cdc4a2c4f5d9b4ddc58075cc5298fe93ba46f8d520bcb5d1566848243fa2ab"
     }
    ],
    "bundled": false
@@ -7649,12 +7649,12 @@
    "topic": "t06",
    "lang": "ru",
    "q": "720",
-   "bytes": 2880469,
+   "bytes": 2885395,
    "files": [
     {
      "name": "v06a-ru-720.mp4",
-     "bytes": 1473597,
-     "sha256": "b8273e53c9b6dc2ee96b82f144df9b2609af3de66bd52679077f62b1b05a8108"
+     "bytes": 1479355,
+     "sha256": "2ba092cba5f3ed5a7080c342313ff48d0e9fdbe55e876ec0c622cec71a5920ac"
     },
     {
      "name": "v06a-ru-sub-uz.vtt",
@@ -7678,28 +7678,28 @@
     },
     {
      "name": "v06b-ru-720.mp4",
-     "bytes": 1376019,
-     "sha256": "78882a8d46946b4936873000c8a2fa01e260f308d4a0b588814727acf72f27c0"
+     "bytes": 1375167,
+     "sha256": "2f5d7b16adea31ab9048e39248566d43f57b7ea4422444c8e3a12381229840fc"
     },
     {
      "name": "v06b-ru-sub-uz.vtt",
      "bytes": 3147,
-     "sha256": "3b3bd3feec7881c3127dcb8313dbe8e6d7b9cabcee583b5c720ca7026435cad4"
+     "sha256": "d0119d2ade40329787b5614c4335e4486bcd1dd42f159533c9c59d1be43f863e"
     },
     {
      "name": "v06b-ru-sub-ru.vtt",
-     "bytes": 4824,
-     "sha256": "09bb2b92479f47a48ac26be8761633f669dcebb0eda1e1ffadac09ea143a8b0c"
+     "bytes": 4834,
+     "sha256": "32b171e5d081f913ccbf0d265f01f50457c1bcc65b83cdefed0d0c281ac5e76d"
     },
     {
      "name": "v06b-ru-sub-en.vtt",
      "bytes": 2893,
-     "sha256": "2c180b7f743c6b170f94cda02f8ef86980a821988f2b8af2b9b84d56505876f1"
+     "sha256": "082102f0820b6b3c99064bede106cdbcf19b1bba8258d7bb0b4153e7667f38b9"
     },
     {
      "name": "v06b-ru-transcript.txt",
-     "bytes": 3886,
-     "sha256": "d0c1d3fb7c058b7447e4b76cd59fd31c5f9c32c6431bc6d2435c9c9a326a432e"
+     "bytes": 3896,
+     "sha256": "d2cdc4a2c4f5d9b4ddc58075cc5298fe93ba46f8d520bcb5d1566848243fa2ab"
     }
    ],
    "bundled": false
@@ -9389,37 +9389,37 @@
    "topic": "t11",
    "lang": "ru",
    "q": "480",
-   "bytes": 2083014,
+   "bytes": 2080212,
    "files": [
     {
      "name": "v11a-ru-480.mp4",
-     "bytes": 1091413,
-     "sha256": "e301e0731fed0e8e1dcb86e5a94556971b2a19c7f00407c830c4968fdcdba0a1"
+     "bytes": 1094197,
+     "sha256": "d0bf7eabad036cffba3eabbdfc0db84124ca5d185ac449556f83cbfb9f8775de"
     },
     {
      "name": "v11a-ru-sub-uz.vtt",
-     "bytes": 2666,
-     "sha256": "16b3bac0fe89acd7f2599795495a31dc4ff4b490f4f24ed9fc56b844ebfb57fb"
+     "bytes": 2674,
+     "sha256": "0cc99f225474fba054e843a53305500fc161208928d8542aa9120addba7eebfc"
     },
     {
      "name": "v11a-ru-sub-ru.vtt",
-     "bytes": 4070,
-     "sha256": "5929fa505ff4517df9a81a481af8ce68792abe977941a965899f60286cb7043e"
+     "bytes": 4099,
+     "sha256": "15eea86c1b2ace3dad3420dd3a88c5ec57b489846d9220ab6455b326f32ffb3a"
     },
     {
      "name": "v11a-ru-sub-en.vtt",
      "bytes": 2432,
-     "sha256": "7fb8c23cf1e2055d5c236d622a0ffd522e622fc632e84a4bc8d049892bccc1d6"
+     "sha256": "c4542ef93e06efc8d1f87e9d87f73e8d5dd2c5aa030cd5d7aab57270adde16d5"
     },
     {
      "name": "v11a-ru-transcript.txt",
-     "bytes": 3295,
-     "sha256": "0e62a59176c1d59fddaeb5a6d4cbe83ac61c6df3ef720d54a29e4c3bf4980dfe"
+     "bytes": 3324,
+     "sha256": "395a8aad71d0d560d57bb4bc334fda1f7e9818b33ddbcebc368009cf3607a35d"
     },
     {
      "name": "v11b-ru-480.mp4",
-     "bytes": 966575,
-     "sha256": "90af14d758090c4525c24d5e9cfacd887c15aafc9287ad7e3ab9c37ecb1bdc1e"
+     "bytes": 960923,
+     "sha256": "b346e575bcde2152fec20bedef5859bd6d44f019813090b321c2c38cde210aff"
     },
     {
      "name": "v11b-ru-sub-uz.vtt",
@@ -9449,37 +9449,37 @@
    "topic": "t11",
    "lang": "ru",
    "q": "720",
-   "bytes": 2510491,
+   "bytes": 2507744,
    "files": [
     {
      "name": "v11a-ru-720.mp4",
-     "bytes": 1354276,
-     "sha256": "4ddba09c60354568dae148f8e3a2fa8a222840267b3a23bd7bd30b8385055059"
+     "bytes": 1357077,
+     "sha256": "0f4e531d271df326fcd429c0268421676d1bf48fd023d5e47f013e79463abafe"
     },
     {
      "name": "v11a-ru-sub-uz.vtt",
-     "bytes": 2666,
-     "sha256": "16b3bac0fe89acd7f2599795495a31dc4ff4b490f4f24ed9fc56b844ebfb57fb"
+     "bytes": 2674,
+     "sha256": "0cc99f225474fba054e843a53305500fc161208928d8542aa9120addba7eebfc"
     },
     {
      "name": "v11a-ru-sub-ru.vtt",
-     "bytes": 4070,
-     "sha256": "5929fa505ff4517df9a81a481af8ce68792abe977941a965899f60286cb7043e"
+     "bytes": 4099,
+     "sha256": "15eea86c1b2ace3dad3420dd3a88c5ec57b489846d9220ab6455b326f32ffb3a"
     },
     {
      "name": "v11a-ru-sub-en.vtt",
      "bytes": 2432,
-     "sha256": "7fb8c23cf1e2055d5c236d622a0ffd522e622fc632e84a4bc8d049892bccc1d6"
+     "sha256": "c4542ef93e06efc8d1f87e9d87f73e8d5dd2c5aa030cd5d7aab57270adde16d5"
     },
     {
      "name": "v11a-ru-transcript.txt",
-     "bytes": 3295,
-     "sha256": "0e62a59176c1d59fddaeb5a6d4cbe83ac61c6df3ef720d54a29e4c3bf4980dfe"
+     "bytes": 3324,
+     "sha256": "395a8aad71d0d560d57bb4bc334fda1f7e9818b33ddbcebc368009cf3607a35d"
     },
     {
      "name": "v11b-ru-720.mp4",
-     "bytes": 1131189,
-     "sha256": "4f02a630eb6be2563c7edc6507683789fa82dd0e22bfaaa990af7a1c2863bf61"
+     "bytes": 1125575,
+     "sha256": "63244f2ba3a263ee20af5687f26ae82c66c6c628ff0d9800d44602c1e2fcb483"
     },
     {
      "name": "v11b-ru-sub-uz.vtt",
@@ -9509,37 +9509,37 @@
    "topic": "t11",
    "lang": "uz",
    "q": "480",
-   "bytes": 2018494,
+   "bytes": 2021279,
    "files": [
     {
      "name": "v11a-uz-480.mp4",
-     "bytes": 1038995,
-     "sha256": "e50c71e9bf6442ad39f3acbcd93b3807fa044e2076506c387ad2a68dd69a76f9"
+     "bytes": 1045227,
+     "sha256": "ed1521c6a8bbb914f053ca071795c94f6d1cae25c6da6e5b4c7bcb9140dd7ae7"
     },
     {
      "name": "v11a-uz-sub-uz.vtt",
-     "bytes": 2666,
-     "sha256": "6ede73a202ad932f3a5d554243037915d26447ec328ab1f54e1083a46bd88be9"
+     "bytes": 2674,
+     "sha256": "b5333bddbae33c5092a2548ab50ca7c7b2c6920f628dda3030ebca922a35bf59"
     },
     {
      "name": "v11a-uz-sub-ru.vtt",
-     "bytes": 4070,
-     "sha256": "7511dab0abdcb0f3f6d35422dcecbfaaf96bd0fd539babdc7e30b0e898e68dcb"
+     "bytes": 4099,
+     "sha256": "51edeab0f505c8540d641f7840f5ab85beff4f691667ffa33710b85e0f91123a"
     },
     {
      "name": "v11a-uz-sub-en.vtt",
      "bytes": 2432,
-     "sha256": "5204485e37ce8963a1840f5711752b9a3d51f221992940733e3e3247a0df9291"
+     "sha256": "b5bfa2ac9091f8a9ede8c5f7be714fdd83a5ac40c2085c8d474e0c59344f09b7"
     },
     {
      "name": "v11a-uz-transcript.txt",
-     "bytes": 1861,
-     "sha256": "293be9885657f551e56472698cc80f80118b1c29d1977c6fbebcdddf26f9252e"
+     "bytes": 1869,
+     "sha256": "45aba7ba90ceca99e12bd3e556db533a50196dea3eb9973e168c1f7af30225c3"
     },
     {
      "name": "v11b-uz-480.mp4",
-     "bytes": 957162,
-     "sha256": "06c26eadf11326c47f201da713469bc201dc8b969b81f1e4ac253ede31a6a481"
+     "bytes": 953670,
+     "sha256": "e99029af39bbbdbfb44ce93726d5bd93e6d3bb1c958accb7ae7321b24cd30e95"
     },
     {
      "name": "v11b-uz-sub-uz.vtt",
@@ -9569,37 +9569,37 @@
    "topic": "t11",
    "lang": "uz",
    "q": "720",
-   "bytes": 2428603,
+   "bytes": 2431706,
    "files": [
     {
      "name": "v11a-uz-720.mp4",
-     "bytes": 1285474,
-     "sha256": "3092527b3eebee1ce6a01ff1409036bb20041b34aade214c5e9f58d80f9b55ec"
+     "bytes": 1292016,
+     "sha256": "0f6ef376c0d172a5bb0bff4bd2dff1b98efad905418ede7d5a66b27a8845a487"
     },
     {
      "name": "v11a-uz-sub-uz.vtt",
-     "bytes": 2666,
-     "sha256": "6ede73a202ad932f3a5d554243037915d26447ec328ab1f54e1083a46bd88be9"
+     "bytes": 2674,
+     "sha256": "b5333bddbae33c5092a2548ab50ca7c7b2c6920f628dda3030ebca922a35bf59"
     },
     {
      "name": "v11a-uz-sub-ru.vtt",
-     "bytes": 4070,
-     "sha256": "7511dab0abdcb0f3f6d35422dcecbfaaf96bd0fd539babdc7e30b0e898e68dcb"
+     "bytes": 4099,
+     "sha256": "51edeab0f505c8540d641f7840f5ab85beff4f691667ffa33710b85e0f91123a"
     },
     {
      "name": "v11a-uz-sub-en.vtt",
      "bytes": 2432,
-     "sha256": "5204485e37ce8963a1840f5711752b9a3d51f221992940733e3e3247a0df9291"
+     "sha256": "b5bfa2ac9091f8a9ede8c5f7be714fdd83a5ac40c2085c8d474e0c59344f09b7"
     },
     {
      "name": "v11a-uz-transcript.txt",
-     "bytes": 1861,
-     "sha256": "293be9885657f551e56472698cc80f80118b1c29d1977c6fbebcdddf26f9252e"
+     "bytes": 1869,
+     "sha256": "45aba7ba90ceca99e12bd3e556db533a50196dea3eb9973e168c1f7af30225c3"
     },
     {
      "name": "v11b-uz-720.mp4",
-     "bytes": 1120792,
-     "sha256": "456cf34fd1b4b8fe5196c95be5308a44170cb54f4cfa323a0e491d8b84e1ad8a"
+     "bytes": 1117308,
+     "sha256": "fcfb0f02d8ac0df43a70d7174dcd69a7626d147ef49bd092b5c61af491842afa"
     },
     {
      "name": "v11b-uz-sub-uz.vtt",
