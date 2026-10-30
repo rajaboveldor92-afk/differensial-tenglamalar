@@ -1,0 +1,72 @@
+name: Voice review
+
+# Transcribes every narration sentence of the stored video packs (branch video-packs) with
+# faster-whisper and compares it with the script; results go to branch voice-review-results.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - claude/voice-review
+    paths:
+      - '.github/workflows/voice-review.yml'
+      - 'tools/video/voice_review.py'
+
+permissions:
+  contents: write
+
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      matrix:
+        lang: [uz, ru, en]
+        shard: [0, 1, 2, 3, 4]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+          python3 -m pip install -q faster-whisper
+      - name: Get video packs
+        run: git clone -q --depth 1 -b video-packs "https://github.com/${GITHUB_REPOSITORY}.git" /tmp/packs
+      - name: Transcribe ${{ matrix.lang }} shard ${{ matrix.shard }}
+        run: |
+          node tools/video/dump.js > /tmp/scripts.json
+          mkdir -p results
+          python3 tools/video/voice_review.py /tmp/packs/video /tmp/scripts.json results/${{ matrix.lang }}-${{ matrix.shard }}.jsonl \
+            --lang ${{ matrix.lang }} --shard ${{ matrix.shard }}/5 --model large-v3-turbo
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voice-${{ matrix.lang }}-${{ matrix.shard }}
+          path: results/
+          retention-days: 3
+
+  store:
+    needs: transcribe
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: voice-*
+          path: /tmp/res
+          merge-multiple: true
+      - name: Push results to branch voice-review-results
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/store && cp /tmp/res/*.jsonl /tmp/store/
+          cd /tmp/store
+          git init -q -b voice-review-results
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898+github-actions[bot]@users.noreply.github.com'
+          git add -A && git commit -q -m "Voice review results for ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" voice-review-results
