@@ -8,7 +8,7 @@ at sentences worth listening to (a skipped or garbled word, wrong language, cut-
 
 Usage: python3 tools/video/voice_review.py <video-dir> <scripts.json> <out.jsonl> --lang uz [--shard 0/4] [--model large-v3-turbo]
 """
-import argparse, difflib, json, os, re, subprocess, sys, tempfile, unicodedata
+import argparse, difflib, json, os, re, subprocess, sys, tempfile, unicodedata, wave
 
 sys.path.insert(0, os.path.dirname(__file__))
 from build import speakable, split_sentences  # noqa: E402
@@ -33,6 +33,8 @@ def main():
     ap.add_argument('--model', default='large-v3-turbo')
     a = ap.parse_args()
     from faster_whisper import WhisperModel
+    global np
+    import numpy as np
     model = WhisperModel(a.model, device='cpu', compute_type='int8')
     M = json.load(open(os.path.join(a.video, 'manifest.json')))
     S = json.load(open(a.scripts))
@@ -51,7 +53,9 @@ def main():
                     wav = os.path.join(tmp, 'c.wav')
                     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', '%.3f' % x, '-t', '%.3f' % d, '-i', mp4,
                                     '-ac', '1', '-ar', '16000', wav], check=True)
-                    segs, _ = model.transcribe(wav, language=a.lang, beam_size=5, vad_filter=False,
+                    with wave.open(wav) as r:
+                        pcm = np.frombuffer(r.readframes(r.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+                    segs, _ = model.transcribe(pcm, language=a.lang, beam_size=5, vad_filter=False,
                                                condition_on_previous_text=False, temperature=0)
                     hyp = ' '.join(s.text.strip() for s in segs).strip()
                     spoken = speakable(sent, a.lang)
