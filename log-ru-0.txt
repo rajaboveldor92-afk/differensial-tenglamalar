@@ -1,0 +1,24 @@
++ sudo apt-get update -qq
++ sudo apt-get install -y -qq ffmpeg
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
++ python3 -m pip install -q faster-whisper
++ git clone -q --depth 1 -b video-packs https://github.com/rajaboveldor92-afk/differensial-tenglamalar.git /tmp/packs
++ node tools/video/dump.js
++ python3 tools/video/voice_review.py /tmp/packs/video /tmp/scripts.json results/ru-0.jsonl --lang ru --shard 0/5 --model large-v3-turbo
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+v01a ru done
+v03b ru done
+v06a ru done
+v08b ru done
+v11a ru done
+v13b ru done
+vLa ru done
